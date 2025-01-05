@@ -1,0 +1,122 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+// main colors
+$color-primary: #f9faf1;
+$color-secondary: #bd9a68;
+$black: #202020;
+$gray: #797978;
+$white: #fff;
+
+// secondary colors
+$green: #00db23;
+$lightGreen: rgba($green, 8%);
+$yellow: #ffd600;
+$lightYellow: rgba($yellow, 8%);
+$red: #ef0000;
+$lightRed: rgba($red, 8%);
+
+// typography
+$text-color: $gray;
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  color: $text-color;
+}
+
+.button {
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 15px 20px;
+  border-radius: 4px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button-primary {
+  background-color: $color-secondary;
+  color: $white;
+
+  &:hover {
+    background-color: #794f13;
+  }
+}
+
+.label {
+  display: inline-flex;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  color: $color-secondary;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid $color-secondary;
+  max-width: fit-content;
+}
+
+.banner-content {
+  max-width: 553px;
+
+  @media screen and (min-width: 900px) {
+    margin-left: 42px;
+  }
+}
+
+.banner-title {
+  font-family: "Roboto Serif", serif;
+  font-size: 62px;
+  font-weight: 500;
+}
+
+.banner-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: $text-color;
+  line-height: 32px;
+}
+
+hr {
+  background-color: #20202033;
+}
+
+.details {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  label {
+    font-weight: 600;
+    font-size: 24px;
+    color: $color-secondary;
+  }
+  h4 {
+    font-family: "Robot serif", "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  label {
+    font-size: 52px;
+    font-weight: 700;
+    color: $color-secondary;
+  }
+}
