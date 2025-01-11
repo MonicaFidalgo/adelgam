@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavBarComponent = () => {
   return (
-    <Navbar>
+    <Navbar fixed="top" expand="md">
       <Container>
         {" "}
         <img src={logo} className="logo" alt="brand" />

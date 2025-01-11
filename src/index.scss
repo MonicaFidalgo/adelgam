@@ -31,6 +31,44 @@ p {
   color: $text-color;
 }
 
+hr {
+  background-color: #20202033;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ELEMENTS */
+
+.heading {
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  font-size: 42px;
+  color: $black;
+}
+
+/* PADDINGS & MARGINS */
+
+.mx-60 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.px-120 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.px-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* BUTTONS, LABELS & BADGES */
+
 .button {
   font-size: 16px;
   text-align: center;
@@ -67,6 +105,34 @@ p {
   max-width: fit-content;
 }
 
+.badge {
+  display: inline-flex;
+  color: $black;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  max-width: fit-content;
+}
+
+.badge-green {
+  background-color: $lightGreen;
+  border: 1px solid $green;
+}
+
+.badge-yellow {
+  background-color: $lightYellow;
+  border: 1px solid $yellow;
+}
+
+.badge-red {
+  background-color: $lightRed;
+  border: 1px solid $red;
+}
+
+/* BANNER */
+
 .banner-content {
   max-width: 553px;
 
@@ -79,6 +145,7 @@ p {
   font-family: "Roboto Serif", serif;
   font-size: 62px;
   font-weight: 500;
+  color: $black;
 }
 
 .banner-subtitle {
@@ -88,9 +155,7 @@ p {
   line-height: 32px;
 }
 
-hr {
-  background-color: #20202033;
-}
+/* DETAILS */
 
 .details {
   margin-top: 60px;
@@ -109,6 +174,8 @@ hr {
   flex-direction: column;
 }
 
+/* NUMBERS */
+
 .numbers {
   text-align: center;
   margin-top: 60px;
@@ -118,5 +185,47 @@ hr {
     font-size: 52px;
     font-weight: 700;
     color: $color-secondary;
+  }
+}
+
+/* PROJECTS */
+
+.project {
+  img {
+    width: 100%;
+  }
+
+  h5 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 500;
+    font-size: 32px;
+    padding: 40px 0 32px;
+  }
+
+  .badge {
+    margin-bottom: 32px;
+  }
+
+  .button {
+    margin-top: 32px;
+  }
+
+  @media screen and (max-width: 991px) {
+    margin-bottom: 42px;
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: $black;
+  color: $white;
+  margin-top: 120px;
+  h6 {
+    color: $color-secondary;
+  }
+
+  .copyright {
+    color: $gray;
   }
 }
