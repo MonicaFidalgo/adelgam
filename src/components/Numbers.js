@@ -6,7 +6,7 @@ const Numbers = ({ data }) => {
     <>
       {data &&
         data?.map((item, key) => (
-          <Col>
+          <Col lg={3}>
             <div key={key} className="numbers">
               <label>{item.label}</label>
               <p>{item.description}</p>
