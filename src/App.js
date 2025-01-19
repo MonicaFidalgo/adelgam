@@ -10,6 +10,8 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
 import About from "./pages/About";
+import ProjectDetail from "./pages/ProjectDetail";
+import ProjectParent from "./pages/ProjectParent";
 
 function App() {
   return (
@@ -23,6 +25,14 @@ function App() {
           <Route path="/empreendimentos" exact element={<Projects />} />
           <Route path="/contactos" exact element={<Contacts />} />
           <Route path="/sobre" exact element={<About />} />
+          <Route
+            path="/empreendimentos/:projectTitle"
+            element={<ProjectParent />}
+          />
+          <Route
+            path="/empreendimentos/:projectTitle/:projectDetailName"
+            element={<ProjectDetail />}
+          />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>

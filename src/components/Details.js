@@ -6,8 +6,8 @@ const Details = ({ data }) => {
     <>
       {data &&
         data?.map((item, key) => (
-          <Col md={3}>
-            <div key={key} className="details">
+          <Col md={3} key={key}>
+            <div className="details">
               <label className="mb-1">{item.label}</label>
               <h4 className="mb-2">{item.title}</h4>
               <p>{item.description}</p>

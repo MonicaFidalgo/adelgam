@@ -17,16 +17,17 @@ const NavBarComponent = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">
-              <i class="fa-solid fa-arrow-right d-lg-none"></i> Home
+              <i className="fa-solid fa-arrow-right d-lg-none"></i> Home
             </Nav.Link>
             <Nav.Link as={Link} to="/empreendimentos">
-              <i class="fa-solid fa-arrow-right d-lg-none"></i> Empreendimentos
+              <i className="fa-solid fa-arrow-right d-lg-none"></i>{" "}
+              Empreendimentos
             </Nav.Link>{" "}
             <Nav.Link as={Link} to="/sobre">
-              <i class="fa-solid fa-arrow-right d-lg-none"></i> A Adelgam
+              <i className="fa-solid fa-arrow-right d-lg-none"></i> A Adelgam
             </Nav.Link>
             <Nav.Link as={Link} to="/contactos">
-              <i class="fa-solid fa-arrow-right d-lg-none"></i> Contacte-nos
+              <i className="fa-solid fa-arrow-right d-lg-none"></i> Contacte-nos
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
