@@ -18,6 +18,8 @@ const ProjectDetail = () => {
     return <h2>Product not found</h2>;
   }
 
+  const imagePath = require(`../assets/${project.image}`);
+
   return (
     <Container className="py-100">
       {!project ? (
@@ -29,11 +31,7 @@ const ProjectDetail = () => {
         <>
           {" "}
           <h1>{project.name}</h1>
-          <img
-            src={project.image}
-            alt={project.name}
-            style={{ width: "300px" }}
-          />
+          <img src={imagePath} alt={project.name} style={{ width: "300px" }} />
           <p>{project.description}</p>
         </>
       )}

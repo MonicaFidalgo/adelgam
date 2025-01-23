@@ -2,18 +2,18 @@
   "lux-terrace": {
     "title": "Lux Terrace",
     "description": "Lux Terrace is a premium residential project offering modern apartments with luxury amenities.",
-    "image": "assets/image-1.png",
+    "image": "project1.png",
     "projects": [
       {
         "name": "Apartment A",
         "link": "apartment-a",
-        "image": "/assets/apartment-a.png",
+        "image": "project1.png",
         "description": "A luxurious apartment."
       },
       {
         "name": "Penthouse B",
         "link": "apartment-b",
-        "image": "/assets/penthouse-b.png",
+        "image": "project1.png",
         "description": "A stunning penthouse."
       }
     ]
@@ -21,24 +21,24 @@
   "varandas-do-montijo": {
     "title": "Varandas do Montijo",
     "description": "Varandas do Montijo is a serene community with top-notch facilities for families.",
-    "image": "/assets/varandas.png",
+    "image": "project2.png",
     "projects": []
   },
   "moradias-sao-francisco": {
     "title": "Moradias São Francisco",
     "description": "Moradias São Francisco offers spacious homes in a quiet neighborhood.",
-    "image": "assets/varandas.png",
+    "image": "project3.png",
     "projects": [
       {
         "name": "Villa A",
         "link": "villa-a",
-        "image": "/assets/villa-a.png",
+        "image": "project3.png",
         "description": "A charming villa."
       },
       {
         "name": "Villa B",
         "link": "villa-b",
-        "image": "/assets/villa-b.png",
+        "image": "project3.png",
         "description": "A beautiful villa."
       }
     ]

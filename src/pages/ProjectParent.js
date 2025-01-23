@@ -22,28 +22,30 @@ const ProjectParent = () => {
 
   const { title, image, description, projects } = projectData;
 
-  let imgSrc = `../${image}`;
+  const imagePath = require(`../assets/${image}`);
 
   return (
     <Container className="py-100">
       <h1>Projecto {title}</h1>
       <p>{description}</p>
-      awui:
-      <img src={imgSrc} alt={title} />
+      <img src={imagePath} alt={title} />
       {projects.length > 0 ? (
         <ul>
-          {projects.map((product, index) => (
-            <li key={index}>
-              <Link to={`/empreendimentos/${projectTitle}/${product.link}`}>
-                <h2>{product.name}</h2>
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  style={{ width: "150px" }}
-                />
-              </Link>
-            </li>
-          ))}
+          {projects.map((product, index) => {
+            const projectImagePath = require(`../assets/${product.image}`);
+            return (
+              <li key={index}>
+                <Link to={`/empreendimentos/${projectTitle}/${product.link}`}>
+                  <h2>{product.name}</h2>
+                  <img
+                    src={projectImagePath}
+                    alt={product.name}
+                    style={{ width: "150px" }}
+                  />
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       ) : (
         <p>No projects are currently available for this category.</p>
