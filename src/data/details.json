@@ -1,25 +1,24 @@
 [
   {
-    "id": 1,
-    "label": "01.",
+    "label": "fa-regular fa-building",
     "title": "Mais de 25 anos de experiência",
     "description": "Com uma larga experiência no sector Imobiliário, continuamos a focar os nossos recursos na melhoria contínua dos nossos projetos."
   },
   {
     "id": 2,
-    "label": "02.",
+    "label": "fa-regular fa-gem",
     "title": "Acabamentos requintados",
     "description": "Conhecidos pelos detalhes excepcionais, é essa a nossa missão, continuar a garantir acabamentos de topo e intemporais."
   },
   {
     "id": 3,
-    "label": "03.",
+    "label": "fa-solid fa-people-group",
     "title": "Compromisso contínuo",
     "description": "Acreditamos que estar atentos ao feedback dos nossos clientes ao longo do tempo é fundamental para o nosso sucesso."
   },
   {
     "id": 4,
-    "label": "04.",
+    "label": "fa-solid fa-location-dot",
     "title": "Localização única",
     "description": "Escolhemos a localização dos nossos empreendimentos com o máximo cuidado de forma a proporcionar uma melhor qualidade de vida."
   }

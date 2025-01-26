@@ -1,9 +1,9 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const Numbers = ({ data }) => {
   return (
-    <>
+    <Row>
       {data &&
         data?.map((item, key) => (
           <Col lg={3} key={key}>
@@ -13,7 +13,7 @@ const Numbers = ({ data }) => {
             </div>
           </Col>
         ))}
-    </>
+    </Row>
   );
 };
 export default Numbers;

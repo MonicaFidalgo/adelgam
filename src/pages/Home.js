@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import Details from "../components/Details";
 import Numbers from "../components/Numbers";
 import Projects from "../components/Projects";
-import Footer from "../components/Footer";
 import bannerImage from "../assets/adelgam-real-state.webp";
 import details from "../data/details.json";
 import numbers from "../data/numbers.json";
@@ -35,14 +34,11 @@ const Home = () => {
         </Row>
       </Container>
       <Container>
-        <Row>
-          <Numbers data={numbers} />
-        </Row>
-        <Row>
-          <hr />
-          <Details data={details} />
-          <hr />
-        </Row>
+        <Numbers data={numbers} />
+
+        <hr />
+        <Details data={details} />
+        <hr />
       </Container>
       <Container>
         <Row className="mx-60">
@@ -111,7 +107,6 @@ const Home = () => {
         <hr />
         <Projects />
       </Container>
-      <Footer />
     </main>
   );
 };

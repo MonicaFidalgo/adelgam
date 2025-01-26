@@ -12,6 +12,7 @@ import Contacts from "./pages/Contacts";
 import About from "./pages/About";
 import ProjectDetail from "./pages/ProjectDetail";
 import ProjectParent from "./pages/ProjectParent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

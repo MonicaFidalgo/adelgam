@@ -23,6 +23,7 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  background-color: $color-primary;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -41,7 +42,30 @@ ul {
   padding: 0;
 }
 
+input,
+textarea {
+  padding: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid $gray;
+}
+
+input {
+  height: 52px;
+}
+
+textarea {
+  height: 156px;
+}
+
 /* ELEMENTS */
+
+.heading-big {
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  font-size: 48px;
+  color: $black;
+}
 
 .heading {
   font-family: "Roboto Serif", serif;
@@ -70,6 +94,18 @@ ul {
 .py-100 {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.mb-4 {
+  margin-bottom: 40px !important;
+}
+
+.mt-4 {
+  margin-top: 40px !important;
 }
 
 /* BUTTONS, LABELS & BADGES */
@@ -163,13 +199,15 @@ ul {
 /* DETAILS */
 
 .details {
+  text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
-  label {
-    font-weight: 600;
-    font-size: 24px;
+
+  i {
+    font-size: 48px;
     color: $color-secondary;
   }
+
   h4 {
     font-family: "Robot serif", "Times New Roman", Times, serif;
     font-size: 18px;
@@ -283,3 +321,54 @@ ul {
 //   -moz-transition: right 0.3s ease-in;
 //   transition: right 0.3s ease-in;
 // }
+
+.form-wrapper {
+  margin-top: 100px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 900px) {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+  }
+}
+
+.contacts-heading {
+  text-align: center;
+  @media screen and (min-width: 900px) {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+  }
+}
+
+.contacts-wrapper {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 900px) {
+    margin: 60px auto;
+    max-width: 800px;
+  }
+
+  h4 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  a {
+    color: $text-color;
+  }
+}
+
+.contacts-map {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: 900px) {
+    margin: 60px auto;
+    max-width: 700px;
+  }
+}
