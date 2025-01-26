@@ -2,12 +2,13 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Form from "../components/Form";
 import ContactsSection from "../components/Contacts";
+import GoogleMap from "../components/Map";
 
 const Contacts = () => {
   return (
     <div>
       <Container className="pt-200">
-        <div className="contacts-heading">
+        <div className="banner-heading">
           <label className="label mb-4">Fale Connosco</label>
           <h2 className="heading-big">
             Estamos aqui para ajudar. Entre em contacto connosco.
@@ -29,6 +30,8 @@ const Contacts = () => {
           <label className="label mb-4">Onde Estamos?</label>
           <h2 className="heading-big">Venha visitar-nos</h2>
         </div>
+
+        <GoogleMap location="Lux Terrace Alcochete" width="100%" height="400" />
       </Container>
     </div>
   );

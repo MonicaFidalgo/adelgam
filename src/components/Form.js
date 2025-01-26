@@ -15,6 +15,8 @@ const Form = () => {
   };
 
   const [formState, setFormState] = useState(initialFormState);
+  const [submitting, setSubmitting] = useState(false);
+  const [formStatus, setFormStatus] = useState("");
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -26,7 +28,10 @@ const Form = () => {
 
   const submitForm = async (event) => {
     event.preventDefault();
+    setSubmitting(true);
+    setFormStatus("");
     await postSubmission();
+    setSubmitting(false);
   };
 
   const postSubmission = async () => {
@@ -35,89 +40,106 @@ const Form = () => {
     };
 
     try {
-      const response = await axios.post(formSparkUrl, payload);
-
-      console.log(response);
+      await axios.post(formSparkUrl, payload);
+      setFormStatus("success");
+      setFormState(initialFormState);
     } catch (error) {
       console.log(error);
+      setFormStatus("error");
     }
   };
 
   return (
-    <form onSubmit={submitForm}>
-      <Row>
-        <Col lg={6}>
-          <input
-            type="text"
-            id="firstName"
-            name="firstName"
-            placeholder="Primeiro Nome *"
-            required
-            value={formState.firstName}
-            onChange={handleChange}
-            className="mb-4"
-          />
-        </Col>
-        <Col lg={6}>
-          <input
-            type="text"
-            id="lastName"
-            name="lastName"
-            placeholder="Último Nome *"
-            required
-            value={formState.lastName}
-            onChange={handleChange}
-            className="mb-4"
-          />
-        </Col>
-      </Row>{" "}
-      <Row>
-        <Col lg={6}>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Email *"
-            required
-            value={formState.email}
-            onChange={handleChange}
-            className="mb-4"
-          />
-        </Col>
-        <Col lg={6}>
-          <input
-            type="tel"
-            id="telephone"
-            name="telephone"
-            placeholder="Telefone (Opcional)"
-            value={formState.telephone}
-            onChange={handleChange}
-            className="mb-4"
-          />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Message"
-            value={formState.message}
-            onChange={handleChange}
-            className="mb-4"
-          ></textarea>{" "}
-        </Col>
-      </Row>
-      <Row>
-        <Col lg={6}></Col>
+    <div>
+      {!!formStatus ? (
+        <div className="mt-3">
+          <p className={formStatus === "success" ? "success" : "error"}>
+            {formStatus === "success"
+              ? "Obrigado pelo seu contacto. Iremos responder assim que possível."
+              : "Não foi possivel submeter a sua questão. Por favor tente de novo ou envie-nos um email. Obrigado"}
+          </p>
+        </div>
+      ) : (
+        <form onSubmit={submitForm}>
+          <Row>
+            <Col lg={6}>
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="Primeiro Nome *"
+                required
+                value={formState.firstName}
+                onChange={handleChange}
+                className="mb-4"
+              />
+            </Col>
+            <Col lg={6}>
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Último Nome *"
+                required
+                value={formState.lastName}
+                onChange={handleChange}
+                className="mb-4"
+              />
+            </Col>
+          </Row>{" "}
+          <Row>
+            <Col lg={6}>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email *"
+                required
+                value={formState.email}
+                onChange={handleChange}
+                className="mb-4"
+              />
+            </Col>
+            <Col lg={6}>
+              <input
+                type="tel"
+                id="telephone"
+                name="telephone"
+                placeholder="Telefone (Opcional)"
+                value={formState.telephone}
+                onChange={handleChange}
+                className="mb-4"
+              />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Escreva a sua mensagem"
+                value={formState.message}
+                onChange={handleChange}
+                className="mb-4"
+              ></textarea>{" "}
+            </Col>
+          </Row>
+          <Row>
+            <Col lg={6}></Col>
 
-        <Col lg={6} className="text-end">
-          <button type="submit" className="button button-primary">
-            Submeter
-          </button>
-        </Col>
-      </Row>
-    </form>
+            <Col lg={6} className="text-end">
+              <button
+                disabled={submitting}
+                type="submit"
+                className="button button-primary"
+              >
+                {submitting ? "..." : "Submeter"}
+              </button>
+            </Col>
+          </Row>
+        </form>
+      )}
+    </div>
   );
 };
 

@@ -10,7 +10,7 @@ const ContactsSection = () => {
       <Row>
         <Col lg={6}>
           <h4 className="mb-4">Contacte-nos</h4>
-          <div className="d-flex gap-2 mb-3">
+          <div className="d-flex gap-2 mb-2">
             <Email /> <a href="mailto:adelgam@adelgam.pt">adelgam@adelgam.pt</a>
           </div>
           <div className="d-flex gap-2">

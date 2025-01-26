@@ -58,16 +58,20 @@ const Projects = () => {
               </label>
               <ul>
                 <li>
-                  Localização: <strong>{project.location}</strong>
+                  <span>Localização:</span>
+                  <strong>{project.location}</strong>
                 </li>
                 <li>
-                  Apartamentos: <strong>{project.apartments}</strong>
+                  <span>Apartamentos:</span>
+                  <strong>{project.apartments}</strong>
                 </li>
                 <li>
-                  Tipologias: <strong>{project.typologies}</strong>
+                  <span>Tipologias:</span>
+                  <strong>{project.typologies}</strong>
                 </li>
                 <li>
-                  Estacionamento: <strong>{project.parking}</strong>
+                  <span>Estacionamento: </span>
+                  <strong>{project.parking}</strong>
                 </li>
               </ul>
               <Link
