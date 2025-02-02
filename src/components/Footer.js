@@ -1,5 +1,10 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
+import { ReactComponent as Instagram } from "../icons/instagram-icon.svg";
+import { ReactComponent as Whatsapp } from "../icons/whatsapp-icon.svg";
+import { ReactComponent as Phone } from "../icons/phone-icon.svg";
+import { ReactComponent as Email } from "../icons/email-icon.svg";
+import { ReactComponent as Location } from "../icons/location-icon.svg";
 
 const Footer = () => {
   return (
@@ -8,12 +13,47 @@ const Footer = () => {
         <Row className="px-120">
           <Col lg={4}>
             <h6>Adelgam - Promoção Imobiliária</h6>
+            <p>
+              A Adelgam é uma empresa que centra a sua atividade na área da
+              Construção Civil e Promoção Imobiliária, a atuar no mercado há
+              mais de 25 anos.
+            </p>
+            <div className="d-flex gap-2 mt-4">
+              <a href="https://www.instagram.com/adelgamlda/" target="_blank">
+                <Instagram />
+              </a>
+              <a
+                href="https://web.whatsapp.com/send?phone=+351913815379"
+                target="_blank"
+              >
+                <Whatsapp />
+              </a>
+            </div>
           </Col>
           <Col lg={4}>
             <h6>Precisa de mais informações?</h6>
+            <p>Entre em contacto connosco.</p>
+            <div className="d-flex gap-3 mt-4">
+              <Email />
+              <a href="mailto:adelgam@adelgam.pt" target="_blank">
+                adelgam@adelgam.pt
+              </a>
+            </div>
+            <div className="d-flex gap-3 mt-3">
+              <Phone />
+              <span>+351 91 38 153 79</span>
+            </div>
           </Col>
           <Col lg={4}>
             <h6>Onde estamos?</h6>
+            <div className="d-flex gap-2">
+              <Location />
+              <address>
+                Rua José Batista Canteiro 83 <br />
+                2890-006 Alcochete <br />
+                PORTUGAL
+              </address>
+            </div>
           </Col>
         </Row>
         <hr />

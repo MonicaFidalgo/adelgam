@@ -281,9 +281,18 @@ textarea {
   margin-top: 120px;
   h6 {
     color: $color-secondary;
+    margin-bottom: 16px;
   }
 
-  .copyright {
+  p,
+  a,
+  span,
+  address {
+    font-size: 14px;
+    color: $white;
+  }
+
+  .copyright p {
     color: $gray;
   }
 }

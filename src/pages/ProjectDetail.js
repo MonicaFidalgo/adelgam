@@ -23,7 +23,7 @@ const ProjectDetail = () => {
   const imagePath = require(`../assets/${project.image}`);
 
   return (
-    <Container className="py-100">
+    <Container className="pt-200">
       {!project ? (
         <>
           <h2>Project Detail not found</h2>
@@ -31,13 +31,16 @@ const ProjectDetail = () => {
         </>
       ) : (
         <>
-          <h1>{t(project.name)}</h1>
+          <div className="banner-heading">
+            <label className="label mb-4">{t(project.label)}</label>
+            <h2 className="heading-big">Projecto {t(project.name)}</h2>
+            <p>{t(project.description)}</p>
+          </div>
           <img
             src={imagePath}
             alt={t(project.name)}
             style={{ width: "300px" }}
           />
-          <p>{t(project.description)}</p>
         </>
       )}
     </Container>

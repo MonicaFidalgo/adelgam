@@ -12,7 +12,7 @@ const ProjectParent = () => {
 
   if (!projectData) {
     return (
-      <Container className="py-100">
+      <Container className="pt-200">
         <h1>Project not found</h1>
         <p>
           The project you are looking for does not exist.{" "}
@@ -22,14 +22,18 @@ const ProjectParent = () => {
     );
   }
 
-  const { title, image, description, projects } = projectData;
+  const { label, title, image, description, projects } = projectData;
 
   const imagePath = require(`../assets/${image}`);
 
   return (
-    <Container className="py-100">
-      <h1>Projecto {t(title)}</h1>
-      <p>{t(description)}</p>
+    <Container className="pt-200">
+      <div className="banner-heading">
+        <label className="label mb-4">{t(label)}</label>
+        <h2 className="heading-big">Projecto {t(title)}</h2>
+        <p>{t(description)}</p>
+      </div>
+
       <img src={imagePath} alt={t(title)} />
       {projects.length > 0 ? (
         <ul>

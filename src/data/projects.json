@@ -1,5 +1,6 @@
 {
   "lux-terrace": {
+    "label": "projects.lux_terrace.label",
     "title": "projects.lux_terrace.title",
     "description": "projects.lux_terrace.description",
     "image": "project1.png",
@@ -19,12 +20,14 @@
     ]
   },
   "varandas-do-montijo": {
+    "label": "projects.varandas_do_montijo.label",
     "title": "projects.varandas_do_montijo.title",
     "description": "projects.varandas_do_montijo.description",
     "image": "project2.png",
     "projects": []
   },
   "moradias-sao-francisco": {
+    "label": "projects.moradias_sao_francisco.label",
     "title": "projects.moradias_sao_francisco.title",
     "description": "projects.moradias_sao_francisco.description",
     "image": "project3.png",
