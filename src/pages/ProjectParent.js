@@ -1,9 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Link, useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import projectsData from "../data/projects.json";
 
 const ProjectParent = () => {
+  const { t } = useTranslation();
   const { projectTitle } = useParams();
 
   const projectData = projectsData[projectTitle];
@@ -26,9 +28,9 @@ const ProjectParent = () => {
 
   return (
     <Container className="py-100">
-      <h1>Projecto {title}</h1>
-      <p>{description}</p>
-      <img src={imagePath} alt={title} />
+      <h1>Projecto {t(title)}</h1>
+      <p>{t(description)}</p>
+      <img src={imagePath} alt={t(title)} />
       {projects.length > 0 ? (
         <ul>
           {projects.map((product, index) => {
@@ -36,10 +38,10 @@ const ProjectParent = () => {
             return (
               <li key={index}>
                 <Link to={`/empreendimentos/${projectTitle}/${product.link}`}>
-                  <h2>{product.name}</h2>
+                  <h2>{t(product.name)}</h2>
                   <img
                     src={projectImagePath}
-                    alt={product.name}
+                    alt={t(product.name)}
                     style={{ width: "150px" }}
                   />
                 </Link>

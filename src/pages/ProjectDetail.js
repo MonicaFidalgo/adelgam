@@ -1,9 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import projectsData from "../data/projects.json";
 
 const ProjectDetail = () => {
+  const { t } = useTranslation();
   const { projectTitle, projectDetailName } = useParams();
 
   // Get the projects for the specific projectTitle
@@ -29,10 +31,13 @@ const ProjectDetail = () => {
         </>
       ) : (
         <>
-          {" "}
-          <h1>{project.name}</h1>
-          <img src={imagePath} alt={project.name} style={{ width: "300px" }} />
-          <p>{project.description}</p>
+          <h1>{t(project.name)}</h1>
+          <img
+            src={imagePath}
+            alt={t(project.name)}
+            style={{ width: "300px" }}
+          />
+          <p>{t(project.description)}</p>
         </>
       )}
     </Container>

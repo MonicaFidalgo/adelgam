@@ -1,5 +1,62 @@
 {
   "home.banner.label": "Porquê a Adelgam",
   "home.banner.description": "Nas margens serenas de Alcochete, com vista panorâmica para a icónica Lisboa, ergue-se uma joia arquitectónica que redefine oluxo e o requinte.",
-  "home.banner.button": "Mais informações"
+  "home.banner.button": "Mais informações",
+  "details": {
+    "title_1": "Mais de 25 anos de experiência",
+    "description_1": "Com uma larga experiência no sector Imobiliário, continuamos a focar os nossos recursos na melhoria contínua dos nossos projetos.",
+
+    "title_2": "Acabamentos requintados",
+    "description_2": "Conhecidos pelos detalhes excepcionais, é essa a nossa missão, continuar a garantir acabamentos de topo e intemporais.",
+
+    "title_3": "Compromisso contínuo",
+    "description_3": "Acreditamos que estar atentos ao feedback dos nossos clientes ao longo do tempo é fundamental para o nosso sucesso.",
+
+    "title_4": "Localização única",
+    "description_4": "Escolhemos a localização dos nossos empreendimentos com o máximo cuidado de forma a proporcionar uma melhor qualidade de vida."
+  },
+  "numbers": {
+    "label_1": "25+",
+    "description_1": "Anos no mercado",
+
+    "label_2": "123,456m²",
+    "description_2": "Em projetos construídos",
+
+    "label_3": "140+",
+    "description_3": "Apartamentos vendidos",
+
+    "label_4": "123+",
+    "description_4": "Famílias satisfeitas"
+  },
+
+  "projects": {
+    "lux_terrace": {
+      "title": "Lux Terrace",
+      "description": "Lux Terrace é um empreendimento residencial premium com apartamentos modernos e comodidades de luxo.",
+      "apartment_a": {
+        "name": "Apartamento A",
+        "description": "Um apartamento luxuoso."
+      },
+      "penthouse_b": {
+        "name": "Penthouse B",
+        "description": "Uma penthouse deslumbrante."
+      }
+    },
+    "varandas_do_montijo": {
+      "title": "Varandas do Montijo",
+      "description": "Varandas do Montijo é uma comunidade serena com instalações de primeira linha para famílias."
+    },
+    "moradias_sao_francisco": {
+      "title": "Moradias São Francisco",
+      "description": "Moradias São Francisco oferece casas espaçosas em um bairro tranquilo.",
+      "villa_a": {
+        "name": "Villa A",
+        "description": "Uma villa encantadora."
+      },
+      "villa_b": {
+        "name": "Villa B",
+        "description": "Uma villa bonita."
+      }
+    }
+  }
 }

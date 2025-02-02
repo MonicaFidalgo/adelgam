@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "label": "25+",
-    "description": "Anos no mercardo"
+    "label": "numbers.label_1",
+    "description": "numbers.description_1"
   },
   {
     "id": 2,
-    "label": "123,456m2",
-    "description": "Em projectos construídos"
+    "label": "numbers.label_2",
+    "description": "numbers.description_2"
   },
   {
     "id": 3,
-    "label": "140+",
-    "description": "Apartamentos vendidos"
+    "label": "numbers.label_3",
+    "description": "numbers.description_3"
   },
   {
     "id": 4,
-    "label": "123+",
-    "description": "Famílias satisfeitas"
+    "label": "numbers.label_4",
+    "description": "numbers.description_4"
   }
 ]

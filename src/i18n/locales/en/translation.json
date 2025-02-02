@@ -1,5 +1,62 @@
 {
   "home.banner.label": "Why Adelgam",
   "home.banner.description": "On the serene banks of Alcochete, with panoramic views of iconic Lisbon, stands an architectural gem that redefines luxury and refinement.",
-  "home.banner.button": "More information"
+  "home.banner.button": "More information",
+  "details": {
+    "title_1": "Over 25 years of experience",
+    "description_1": "With extensive experience in the real estate sector, we continue to focus our resources on continuously improving our projects.",
+
+    "title_2": "Refined finishes",
+    "description_2": "Known for exceptional details, our mission is to continue ensuring top-notch and timeless finishes.",
+
+    "title_3": "Continuous commitment",
+    "description_3": "We believe that listening to customer feedback over time is key to our success.",
+
+    "title_4": "Unique location",
+    "description_4": "We carefully select the location of our developments to provide a better quality of life."
+  },
+  "numbers": {
+    "label_1": "25+",
+    "description_1": "Years in the market",
+
+    "label_2": "123,456m²",
+    "description_2": "In completed projects",
+
+    "label_3": "140+",
+    "description_3": "Apartments sold",
+
+    "label_4": "123+",
+    "description_4": "Happy families"
+  },
+
+  "projects": {
+    "lux_terrace": {
+      "title": "Lux Terrace",
+      "description": "Lux Terrace is a premium residential project offering modern apartments with luxury amenities.",
+      "apartment_a": {
+        "name": "Apartment A",
+        "description": "A luxurious apartment."
+      },
+      "penthouse_b": {
+        "name": "Penthouse B",
+        "description": "A stunning penthouse."
+      }
+    },
+    "varandas_do_montijo": {
+      "title": "Varandas do Montijo",
+      "description": "Varandas do Montijo is a serene community with top-notch facilities for families."
+    },
+    "moradias_sao_francisco": {
+      "title": "Moradias São Francisco",
+      "description": "Moradias São Francisco offers spacious homes in a quiet neighborhood.",
+      "villa_a": {
+        "name": "Villa A",
+        "description": "A charming villa."
+      },
+      "villa_b": {
+        "name": "Villa B",
+        "description": "A beautiful villa."
+      }
+    }
+  }
 }

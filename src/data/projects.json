@@ -1,45 +1,45 @@
 {
   "lux-terrace": {
-    "title": "Lux Terrace",
-    "description": "Lux Terrace is a premium residential project offering modern apartments with luxury amenities.",
+    "title": "projects.lux_terrace.title",
+    "description": "projects.lux_terrace.description",
     "image": "project1.png",
     "projects": [
       {
-        "name": "Apartment A",
+        "name": "projects.lux_terrace.apartment_a.name",
         "link": "apartment-a",
         "image": "project1.png",
-        "description": "A luxurious apartment."
+        "description": "projects.lux_terrace.apartment_a.description"
       },
       {
-        "name": "Penthouse B",
+        "name": "projects.lux_terrace.penthouse_b.name",
         "link": "apartment-b",
         "image": "project1.png",
-        "description": "A stunning penthouse."
+        "description": "projects.lux_terrace.penthouse_b.description"
       }
     ]
   },
   "varandas-do-montijo": {
-    "title": "Varandas do Montijo",
-    "description": "Varandas do Montijo is a serene community with top-notch facilities for families.",
+    "title": "projects.varandas_do_montijo.title",
+    "description": "projects.varandas_do_montijo.description",
     "image": "project2.png",
     "projects": []
   },
   "moradias-sao-francisco": {
-    "title": "Moradias São Francisco",
-    "description": "Moradias São Francisco offers spacious homes in a quiet neighborhood.",
+    "title": "projects.moradias_sao_francisco.title",
+    "description": "projects.moradias_sao_francisco.description",
     "image": "project3.png",
     "projects": [
       {
-        "name": "Villa A",
+        "name": "projects.moradias_sao_francisco.villa_a.name",
         "link": "villa-a",
         "image": "project3.png",
-        "description": "A charming villa."
+        "description": "projects.moradias_sao_francisco.villa_a.description"
       },
       {
-        "name": "Villa B",
+        "name": "projects.moradias_sao_francisco.villa_b.name",
         "link": "villa-b",
         "image": "project3.png",
-        "description": "A beautiful villa."
+        "description": "projects.moradias_sao_francisco.villa_b.description"
       }
     ]
   }
