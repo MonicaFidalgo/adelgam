@@ -295,6 +295,9 @@ textarea {
   width: 100%;
   background-color: white;
   z-index: 1030;
+  .nav-link {
+    color: $black;
+  }
 }
 
 .navbar-component .navbar-toggler:focus {

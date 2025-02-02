@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../adelgam-logo.svg";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import LanguageDropdown from "./LanguageDropdown";
 
 const NavBarComponent = () => {
   const [expanded, setExpanded] = useState(false);
@@ -49,6 +48,7 @@ const NavBarComponent = () => {
             >
               <i className="fa-solid fa-arrow-right d-lg-none"></i> Contacte-nos
             </Nav.Link>
+            <LanguageDropdown />
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -8,23 +8,23 @@ import details from "../data/details.json";
 import numbers from "../data/numbers.json";
 import image1 from "../assets/image-1.png";
 import image2 from "../assets/image-2.png";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <main>
       <Container fluid>
         <Row>
           <Col lg={6} className="d-flex flex-column justify-content-center">
             <div className="banner-content">
-              <label className="label mb-4">Porquê a Adelgam?</label>
+              <label className="label mb-4"> {t("home.banner.label")}?</label>
               <h1 className="banner-title mb-4">Deluxe Penthouse</h1>
               <h2 className="banner-subtitle mb-4">
-                Nas margens serenas de Alcochete, com vista panorâmica para a
-                icónica Lisboa, ergue-se uma joia arquitectónica que redefine o
-                luxo e o requinte.
+                {t("home.banner.description")}
               </h2>
               <button className="button button-primary">
-                Mais informações
+                {t("home.banner.button")}
               </button>
             </div>
           </Col>
