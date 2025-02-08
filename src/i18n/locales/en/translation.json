@@ -38,6 +38,14 @@
         "name": "Apartment A",
         "description": "A luxurious apartment."
       },
+      "apartment_b": {
+        "name": "Apartment B",
+        "description": "A luxurious apartment."
+      },
+      "penthouse_a": {
+        "name": "Penthouse A",
+        "description": "A stunning penthouse."
+      },
       "penthouse_b": {
         "name": "Penthouse B",
         "description": "A stunning penthouse."

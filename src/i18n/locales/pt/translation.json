@@ -33,10 +33,18 @@
     "lux_terrace": {
       "label": "Elegância e Luxo",
       "title": "Lux Terrace",
-      "description": "Lux Terrace é um empreendimento residencial premium com apartamentos modernos e comodidades de luxo.",
+      "description": "Situado na zona nova de Alcochete, este empreendimento composto por cinco prédios, oferece requintados apartamentos com tipologias de T1 a T4 Penthouse. Numa arquitectura de linhas contemporâneas, pensada para as famílias modernas, as suas áreas generosas proporcionam o máximo conforto e são adequadas a qualquer estilo de vida.",
       "apartment_a": {
         "name": "Apartamento A",
         "description": "Um apartamento luxuoso."
+      },
+      "apartment_b": {
+        "name": "Apartamento B",
+        "description": "Um apartamento luxuoso."
+      },
+      "penthouse_a": {
+        "name": "Penthouse A",
+        "description": "Uma penthouse deslumbrante."
       },
       "penthouse_b": {
         "name": "Penthouse B",

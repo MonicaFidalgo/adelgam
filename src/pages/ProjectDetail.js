@@ -13,8 +13,8 @@ const ProjectDetail = () => {
 
   // Find the specific project detail
   const project =
-    projectData &&
-    projectData.projects.find((p) => p.link === projectDetailName);
+    projectData.projects?.find((p) => p.link === projectDetailName) ||
+    projectData.penthouses?.find((p) => p.link === projectDetailName);
 
   if (!project) {
     return <h2>Product not found</h2>;
@@ -32,8 +32,9 @@ const ProjectDetail = () => {
       ) : (
         <>
           <div className="banner-heading">
-            <label className="label mb-4">{t(project.label)}</label>
+            <label className="label mb-4">{project.label}</label>
             <h2 className="heading-big">Projecto {t(project.name)}</h2>
+
             <p>{t(project.description)}</p>
           </div>
           <img

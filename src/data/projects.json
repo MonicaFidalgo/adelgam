@@ -3,17 +3,44 @@
     "label": "projects.lux_terrace.label",
     "title": "projects.lux_terrace.title",
     "description": "projects.lux_terrace.description",
-    "image": "project1.png",
+    "images": [
+      "lux-terrace-alcochete-T1.webp",
+      "lux-terrace-alcochete-T2.webp",
+      "lux-terrace-alcochete-T3.webp",
+      "lux-terrace-alcochete-T3-penthouse.webp",
+      "lux-terrace-alcochete-T4-penthouse.webp",
+      "lux-terrace-alcochete-T4-penthouse-2.webp"
+    ],
+    "badge": "90% vendido",
+    "badgeClass": "badge-yellow",
     "projects": [
       {
+        "label": "Lux Terrace (Alcochete)",
         "name": "projects.lux_terrace.apartment_a.name",
         "link": "apartment-a",
         "image": "project1.png",
         "description": "projects.lux_terrace.apartment_a.description"
       },
       {
-        "name": "projects.lux_terrace.penthouse_b.name",
+        "label": "Lux Terrace (Alcochete)",
+        "name": "projects.lux_terrace.apartment_b.name",
         "link": "apartment-b",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.apartment_b.description"
+      }
+    ],
+    "penthouses": [
+      {
+        "label": "Lux Terrace (Alcochete)",
+        "name": "projects.lux_terrace.penthouse_a.name",
+        "link": "penthouse-a",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.penthouse_a.description"
+      },
+      {
+        "label": "Lux Terrace (Alcochete)",
+        "name": "projects.lux_terrace.penthouse_b.name",
+        "link": "penthouse-b",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_b.description"
       }
@@ -23,14 +50,18 @@
     "label": "projects.varandas_do_montijo.label",
     "title": "projects.varandas_do_montijo.title",
     "description": "projects.varandas_do_montijo.description",
-    "image": "project2.png",
+    "images": ["project1.png", "project1.png", "project1.png"],
+    "badge": "100% vendido",
+    "badgeClass": "badge-red",
     "projects": []
   },
   "moradias-sao-francisco": {
     "label": "projects.moradias_sao_francisco.label",
     "title": "projects.moradias_sao_francisco.title",
     "description": "projects.moradias_sao_francisco.description",
-    "image": "project3.png",
+    "images": ["project1.png", "project1.png", "project1.png"],
+    "badge": "100% vendido",
+    "badgeClass": "badge-red",
     "projects": [
       {
         "name": "projects.moradias_sao_francisco.villa_a.name",

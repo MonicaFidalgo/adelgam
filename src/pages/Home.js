@@ -41,7 +41,7 @@ const Home = () => {
         <hr />
       </Container>
       <Container>
-        <Row className="mx-60">
+        <Row className="my-60">
           <Col lg={6} className="text-center">
             <img src={image1} alt="sala e cozinha" width="100%" />
           </Col>
@@ -71,7 +71,7 @@ const Home = () => {
         <hr />
       </Container>
       <Container>
-        <Row className="mx-60">
+        <Row className="my-60">
           <Col lg={6} className="align-self-center">
             <div>
               <label className="label mb-4">PROJECTO EM DESTAQUE</label>

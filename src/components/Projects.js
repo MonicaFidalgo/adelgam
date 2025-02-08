@@ -47,7 +47,7 @@ const Projects = () => {
 
   return (
     <>
-      <Row className="mx-60">
+      <Row className="my-60">
         {projectData.map((project) => (
           <Col lg={4} key={project.id}>
             <div className="project">

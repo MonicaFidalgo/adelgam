@@ -18,7 +18,7 @@ const About = () => {
         <hr />
         <Numbers data={numbers} />
         <hr />
-        <Row className="mx-60">
+        <Row className="my-60">
           <Col lg={6} className="align-self-center">
             <div>
               <label className="label mb-4">Sobre Nós</label>

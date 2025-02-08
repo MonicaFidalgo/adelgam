@@ -9,7 +9,7 @@ i18n
   .use(LanguageDetector)
   .init({
     fallbackLng: "pt",
-    lng: localStorage.getItem("language") || "en",
+    lng: localStorage.getItem("language") || "pt",
     debug: true,
     resources: {
       pt: { translations: ptTranslations },
