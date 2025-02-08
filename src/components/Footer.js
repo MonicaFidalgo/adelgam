@@ -19,12 +19,17 @@ const Footer = () => {
               mais de 25 anos.
             </p>
             <div className="d-flex gap-2 mt-4">
-              <a href="https://www.instagram.com/adelgamlda/" target="_blank">
+              <a
+                href="https://www.instagram.com/adelgamlda/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Instagram />
               </a>
               <a
                 href="https://web.whatsapp.com/send?phone=+351913815379"
                 target="_blank"
+                rel="noreferrer"
               >
                 <Whatsapp />
               </a>
@@ -35,7 +40,11 @@ const Footer = () => {
             <p>Entre em contacto connosco.</p>
             <div className="d-flex gap-3 mt-4">
               <Email />
-              <a href="mailto:adelgam@adelgam.pt" target="_blank">
+              <a
+                href="mailto:adelgam@adelgam.pt"
+                target="_blank"
+                rel="noreferrer"
+              >
                 adelgam@adelgam.pt
               </a>
             </div>
