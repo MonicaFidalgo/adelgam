@@ -25,8 +25,17 @@ const ProjectParent = () => {
     );
   }
 
-  const { title, images, description, projects, badgeClass, badge } =
-    projectData;
+  const {
+    title,
+    images,
+    description,
+    projects,
+    badgeClass,
+    badge,
+    location,
+    state,
+    typology,
+  } = projectData;
 
   return (
     <Container className="pt-200">
@@ -42,7 +51,7 @@ const ProjectParent = () => {
 
       <hr className="mt-60" />
 
-      <Higlights />
+      <Higlights location={location} state={state} typology={typology} />
 
       <hr className="mb-60" />
 

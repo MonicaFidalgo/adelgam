@@ -54,6 +54,7 @@ const Projects = () => {
               <img src={project.image} alt={project.name} />
               <h5>{project.name}</h5>
               <label className={`badge ${project.badgeClass}`}>
+                <span className="badge-circle"></span>
                 {project.badge}
               </label>
               <ul>

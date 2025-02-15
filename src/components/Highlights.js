@@ -4,28 +4,28 @@ import { ReactComponent as Location } from "../icons/location-big-icon.svg";
 import { ReactComponent as Status } from "../icons/status-icon.svg";
 import { ReactComponent as Home } from "../icons/rooms-icon.svg";
 
-const Higlights = () => {
+const Higlights = ({ typology, state, location }) => {
   return (
     <Row>
       <Col lg={4}>
         <div className="hightlights">
           <Location />
           <label>Localização</label>
-          <span>Alcochete</span>
+          <span>{location}</span>
         </div>
       </Col>
       <Col lg={4}>
         <div className="hightlights">
           <Status />
           <label>Estado</label>
-          <span>Concluído</span>
+          <span>{state}</span>
         </div>
       </Col>
       <Col lg={4}>
         <div className="hightlights">
           <Home />
           <label>Tipologias</label>
-          <span>T1 a T4 Penthouse II</span>
+          <span>{typology}</span>
         </div>
       </Col>
     </Row>

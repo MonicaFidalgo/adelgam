@@ -13,6 +13,9 @@
     ],
     "badge": "90% vendido",
     "badgeClass": "badge-yellow",
+    "location": "Alcochete",
+    "typology": "T1 a T4 Penthose",
+    "state": "Pronto para entrega",
     "projects": [
       {
         "label": "Lux Terrace (Alcochete)",
@@ -307,6 +310,9 @@
     "images": ["project1.png", "project1.png", "project1.png"],
     "badge": "100% vendido",
     "badgeClass": "badge-red",
+    "location": "Montijo",
+    "typology": "T1 a T4",
+    "state": "Vendido",
     "projects": []
   },
   "moradias-sao-francisco": {
@@ -316,6 +322,9 @@
     "images": ["project1.png", "project1.png", "project1.png"],
     "badge": "100% vendido",
     "badgeClass": "badge-red",
+    "location": "São Francisco",
+    "typology": "Moradias",
+    "state": "Vendido",
     "projects": [
       {
         "name": "projects.moradias_sao_francisco.villa_a.name",
