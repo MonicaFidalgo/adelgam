@@ -49,6 +49,7 @@ ul {
     color: $gray;
     display: inline-block;
     min-width: 150px;
+    margin-right: 10px;
   }
 }
 
@@ -171,6 +172,7 @@ textarea {
 
 .badge {
   display: inline-flex;
+  align-items: center;
   color: $black;
   font-weight: 500;
   font-size: 12px;
@@ -180,19 +182,36 @@ textarea {
   max-width: fit-content;
 }
 
+.badge-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
 .badge-green {
   background-color: $lightGreen;
   border: 1px solid $green;
+
+  .badge-circle {
+    background-color: $green;
+  }
 }
 
 .badge-yellow {
   background-color: $lightYellow;
   border: 1px solid $yellow;
+  .badge-circle {
+    background-color: $yellow;
+  }
 }
 
 .badge-red {
   background-color: $lightRed;
   border: 1px solid $red;
+  .badge-circle {
+    background-color: $red;
+  }
 }
 
 /* BANNER */
@@ -217,6 +236,15 @@ textarea {
   font-weight: 400;
   color: $text-color;
   line-height: 32px;
+}
+
+.banner-heading {
+  text-align: center;
+  @media screen and (min-width: 900px) {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px;
+  }
 }
 
 /* DETAILS */
@@ -369,15 +397,6 @@ textarea {
   }
 }
 
-.banner-heading {
-  text-align: center;
-  @media screen and (min-width: 900px) {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 800px;
-  }
-}
-
 .projects-heading {
   text-align: center;
   @media screen and (min-width: 900px) {
@@ -448,19 +467,96 @@ textarea {
   border-spacing: 0 10px;
 
   thead th {
+    font-size: 14px;
     color: $color-secondary;
     background-color: rgba($color-secondary, 0.2);
-    padding: 15px 40px;
+    padding: 20px 40px;
   }
 
   tbody tr td {
     background-color: rgba($color-secondary, 0.08);
-    padding: 15px 40px;
+    padding: 50px 40px;
     border: none; /* Ensure no borders */
   }
 
   td {
-    text-align: center;
     vertical-align: middle;
+  }
+
+  thead tr th:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  thead tr th:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  tbody tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  tbody tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 500;
+  color: $black;
+}
+
+// project details div
+
+.project-details-list {
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.project-details-list-title,
+.project-details-list-description {
+  padding: 15px 40px;
+  border-radius: 4px;
+}
+
+.project-details-list-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color-secondary;
+  background-color: rgba($color-secondary, 0.2);
+  margin-bottom: 10px;
+}
+
+.project-details-list-description {
+  background-color: rgba($color-secondary, 0.08);
+
+  span {
+    color: $black;
+  }
+
+  .bullet-list {
+    list-style-type: disc;
+  }
+}
+
+.project-details-list-images {
+  display: flex;
+  justify-content: center;
+  background-color: rgba($color-secondary, 0.08);
+  padding: 40px 15px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    max-width: 400px;
   }
 }

@@ -1,19 +1,18 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import ProjectComponent from "../components/Projects";
-import image2 from "../assets/image-2.png";
 
 const Projects = () => {
   return (
     <Container className="pt-200">
-      <div className="banner-heading">
-        <label className="label mb-4">Empreendimento em Curso</label>
+      <div className="banner-heading mb-4">
+        <label className="label mb-4">Empreendimentos</label>
         <h2 className="heading-big">
           Explore os nossos projetos e descubra como transformamos visões em
           realidade.
         </h2>
       </div>
-      <Row className="py-100">
+      {/* <Row className="py-100">
         <Col lg={6} className="text-center">
           <img src={image2} alt="sala e cozinha" width="100%" />
         </Col>
@@ -46,7 +45,7 @@ const Projects = () => {
             </ul>
           </div>
         </Col>
-      </Row>
+      </Row> */}
       <hr />
       <div className="projects-heading">
         <label className="label mb-3">Projectos Concluídos</label>

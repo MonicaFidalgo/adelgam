@@ -13,11 +13,13 @@ import About from "./pages/About";
 import ProjectDetail from "./pages/ProjectDetail";
 import ProjectParent from "./pages/ProjectParent";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div>
       <Router>
+        <ScrollToTop />
         <header>
           <NavBarComponent />
         </header>

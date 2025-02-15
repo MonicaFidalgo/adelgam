@@ -75,7 +75,7 @@ const Home = () => {
           <Col lg={6} className="align-self-center">
             <div>
               <label className="label mb-4">PROJECTO EM DESTAQUE</label>
-              <h2 className="heading mb-4">Passeio das Caravelas</h2>
+              <h2 className="heading mb-4">Lux Terrace</h2>
               <p>
                 Numa arquitectura de linhas contemporâneas, pensada para as
                 famílias modernas, as suas áreas generosas proporcionam o máximo
@@ -89,7 +89,7 @@ const Home = () => {
                   Apartamentos: <strong>37 apartamentos e 5 penthouses</strong>
                 </li>
                 <li>
-                  Tipologias: <strong>T2 a T3 Penthouse</strong>
+                  Tipologias: <strong>T1 a T4 Penthouse</strong>
                 </li>
                 <li>
                   Estacionamento: <strong>Box (Para 2 carros)</strong>

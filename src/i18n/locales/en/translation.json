@@ -34,19 +34,19 @@
       "label": "Elegance and Lux",
       "title": "Lux Terrace",
       "description": "Lux Terrace is a premium residential project offering modern apartments with luxury amenities.",
-      "apartment_a": {
+      "apartment_t1": {
         "name": "Apartment A",
         "description": "A luxurious apartment."
       },
-      "apartment_b": {
+      "apartment_t2": {
         "name": "Apartment B",
         "description": "A luxurious apartment."
       },
-      "penthouse_a": {
+      "penthouse_t3": {
         "name": "Penthouse A",
         "description": "A stunning penthouse."
       },
-      "penthouse_b": {
+      "penthouse_t4": {
         "name": "Penthouse B",
         "description": "A stunning penthouse."
       }

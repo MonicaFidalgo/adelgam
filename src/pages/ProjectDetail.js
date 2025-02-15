@@ -2,25 +2,18 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import ImageCarousel from "../components/Carousel";
 import projectsData from "../data/projects.json";
 
 const ProjectDetail = () => {
   const { t } = useTranslation();
   const { projectTitle, projectDetailName } = useParams();
 
-  // Get the projects for the specific projectTitle
   const projectData = projectsData[projectTitle];
 
-  // Find the specific project detail
   const project =
     projectData.projects?.find((p) => p.link === projectDetailName) ||
     projectData.penthouses?.find((p) => p.link === projectDetailName);
-
-  if (!project) {
-    return <h2>Product not found</h2>;
-  }
-
-  const imagePath = require(`../assets/${project.image}`);
 
   return (
     <Container className="pt-200">
@@ -31,17 +24,82 @@ const ProjectDetail = () => {
         </>
       ) : (
         <>
-          <div className="banner-heading">
-            <label className="label mb-4">{project.label}</label>
-            <h2 className="heading-big">Projecto {t(project.name)}</h2>
-
-            <p>{t(project.description)}</p>
+          <div className="banner-heading mb-60">
+            <label className="label mb-3">{project.label}</label>
+            <h2 className="heading-big mb-3">Projecto {t(project.name)}</h2>
+            <label className={`badge ${project.badgeClass} mb-3`}>
+              {project.badge}
+            </label>
+            <p className="mb-3">{t(project.description)}</p>
+            <p className="price mb-3">{project.price} €</p>
+            <a
+              href="mailto:adelgam@adelgam.pt"
+              target="_blank"
+              rel="noreferrer"
+              className="button button-primary"
+            >
+              Quero marcar uma visita
+            </a>
           </div>
-          <img
-            src={imagePath}
-            alt={t(project.name)}
-            style={{ width: "300px" }}
-          />
+
+          <ImageCarousel images={project.images} />
+
+          <div className="project-details-list">
+            <div className="project-details-list-title">Características</div>
+            <div className="project-details-list-description">
+              <ul>
+                <li>
+                  <span>Quartos:</span>
+                  <strong>{project.details.bedrooms}</strong>
+                </li>
+                <li>
+                  <span>WC:</span>
+                  <strong>{project.details.bathrooms}</strong>
+                </li>
+                <li>
+                  <span>Estacionamento:</span>
+                  <strong>{project.details.parking}</strong>
+                </li>
+                <li>
+                  <span>Área: </span>
+                  <strong>{project.details.area} m²</strong>
+                </li>
+                <li>
+                  <span>Certificação Energética: </span>
+                  <strong>{project.details.certification}</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="project-details-list">
+            <div className="project-details-list-title">
+              Acabamentos/ Destaques
+            </div>
+            <div className="project-details-list-description">
+              <ul className="bullet-list">
+                {project?.details?.description.map((item, index) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="project-details-list">
+            <div className="project-details-list-title">Plantas</div>
+            <div className="project-details-list-images">
+              {project?.details?.plants.map((item, index) => {
+                const projectImagePath = require(`../assets/${item.image}`);
+
+                return (
+                  <div key={index}>
+                    <img src={projectImagePath} alt="plants" maxWidth="400px" />
+                    <span>{item.text}</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </>
       )}
     </Container>

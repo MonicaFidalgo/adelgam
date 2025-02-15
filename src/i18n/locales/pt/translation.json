@@ -34,21 +34,33 @@
       "label": "Elegância e Luxo",
       "title": "Lux Terrace",
       "description": "Situado na zona nova de Alcochete, este empreendimento composto por cinco prédios, oferece requintados apartamentos com tipologias de T1 a T4 Penthouse. Numa arquitectura de linhas contemporâneas, pensada para as famílias modernas, as suas áreas generosas proporcionam o máximo conforto e são adequadas a qualquer estilo de vida.",
-      "apartment_a": {
-        "name": "Apartamento A",
-        "description": "Um apartamento luxuoso."
+      "apartment_t1": {
+        "name": "Apartamento T1",
+        "description": "Situado no rés do chão, sendo um primeiro piso no lado da sala e cozinha, este apartamento é composto por uma cozinha open space, Suite com 18 m² e uma casa de banho social."
       },
-      "apartment_b": {
-        "name": "Apartamento B",
-        "description": "Um apartamento luxuoso."
+      "apartment_t2": {
+        "name": "Apartamento T2",
+        "description": "Este apartamento é composto por dois quartos, um deles Suite com 20 m². Uma cozinha open space e uma WC social."
       },
-      "penthouse_a": {
-        "name": "Penthouse A",
-        "description": "Uma penthouse deslumbrante."
+      "apartment_t3": {
+        "name": "Apartamento T3",
+        "description": "Situado no primeiro piso, este apartamento é composto por três quartos, dois deles suites. Uma cozinha open space com 46m2, uma WC social e uma varanda com 36 m². Este apartamento também inclui dois lugares de parqueamento e uma arrecadação."
       },
-      "penthouse_b": {
-        "name": "Penthouse B",
-        "description": "Uma penthouse deslumbrante."
+      "penthouse_t3": {
+        "name": "Penthouse T3",
+        "description": "Esta fabulosa Penthouse tem acesso direto de elevador ao andar de convívio, este situa-se no último piso. Neste último piso encontramos a cozinha em open space, lavandaria, sala de jantar, sala de estar e dois terraços com 40m² . Os três quartos, dois deles Suites, situam-se no piso inferior. Destacamos a espaçosa Master Suite de 37 m²."
+      },
+      "penthouse_t4": {
+        "name": "Penthouse T4",
+        "description": "Esta fabulosa Penthouse tem acesso de elevador ao andar de convívio, este situa-se no último piso. Neste último piso encontramos a cozinha em open space, lavandaria, sala de jantar, sala de estar e um terraço de 80m² que contorna todo o apartamento. Os quatro quartos, dois deles Suites, situam-se no piso inferior. Destacamos a espaçosa Master Suite de 43 m² com uma varanda de 26m²."
+      },
+      "penthouse_t4-II": {
+        "name": "Penthouse T4 II",
+        "description": "Esta fabulosa Penthouse tem acesso de elevador ao andar de convívio, este situa-se no último piso. Neste último piso encontramos a cozinha em open space, lavandaria, sala de jantar, sala de estar e um terraço de 72m² que contorna todo o apartamento. Os quatos, todos eles Suites, situam-se no piso inferior. Destacamos a espaçosa Master Suite de 36 m² com uma varanda de 35m²."
+      },
+      "penthouse_deluxe": {
+        "name": "Deluxe Penthouse",
+        "description": "Descubra o auge do luxo nesta penthouse exclusiva em Alcochete, oferecendo uma vista deslumbrante de Lisboa. Com um interior elegantemente projetado e acabamentos de alta qualidade, este apartamento redefine o conforto e o estilo de vida sofisticado. Desfrute de momentos relaxantes no espaçoso terraço com jacuzzi, e convide amigos para churrascos memoráveis. Com uma acesso privativo de elevador ao piso 3 e 4, garagem privativa, esta penthouse oferece conveniência e segurança. Seja bem-vindo ao seu refúgio de luxo."
       }
     },
     "varandas_do_montijo": {

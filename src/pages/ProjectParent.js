@@ -33,7 +33,10 @@ const ProjectParent = () => {
       <div className="banner-heading">
         <label className="label mb-4">Empreendimento</label>
         <h2 className="heading-big mb-3">{t(title)}</h2>
-        <label className={`badge ${badgeClass} mb-3`}>{badge}</label>
+        <label className={`badge ${badgeClass} mb-3`}>
+          <span className="badge-circle"></span>
+          {badge}
+        </label>
         <p>{t(description)}</p>
       </div>
 
@@ -44,6 +47,7 @@ const ProjectParent = () => {
       <hr className="mb-60" />
 
       <ImageCarousel images={images} />
+
       {!!projects && projects.length > 0 && (
         <>
           <h3 className="heading my-60 text-center">Apartamentos</h3>
@@ -54,7 +58,7 @@ const ProjectParent = () => {
                 <th>TIPOLOGIA</th>
                 <th>ÁREA</th>
                 <th>QUARTOS</th>
-                <th>CASA DE BANHO</th>
+                <th>WC</th>
                 <th>ESTACIONAMENTO</th>
                 <th>PREÇO</th>
                 <th></th>
@@ -66,10 +70,10 @@ const ProjectParent = () => {
                   <td>
                     <strong>{t(project.name)}</strong>
                   </td>
-                  <td>{project.area || "N/A"}</td>
-                  <td>{project.rooms || "N/A"}</td>
-                  <td>{project.bathrooms || "N/A"} WC</td>
-                  <td>{project.parking || "N/A"}</td>
+                  <td>{project.details.area || "N/A"}m²</td>
+                  <td>{project.details.bedrooms || "N/A"}</td>
+                  <td>{project.details.bathrooms || "N/A"}</td>
+                  <td>{project.details.parking || "N/A"}</td>
                   <td>{project.price ? `${project.price}€` : "N/A"}</td>
                   <td>
                     <Link
@@ -96,7 +100,7 @@ const ProjectParent = () => {
                 <th>TIPOLOGIA</th>
                 <th>ÁREA</th>
                 <th>QUARTOS</th>
-                <th>CASA DE BANHO</th>
+                <th>WC</th>
                 <th>ESTACIONAMENTO</th>
                 <th>PREÇO</th>
                 <th></th>
@@ -108,10 +112,10 @@ const ProjectParent = () => {
                   <td>
                     <strong>{t(project.name)}</strong>
                   </td>
-                  <td>{project.area || "N/A"}</td>
-                  <td>{project.rooms || "N/A"}</td>
-                  <td>{project.bathrooms || "N/A"} WC</td>
-                  <td>{project.parking || "N/A"}</td>
+                  <td>{project.details.area || "N/A"}m²</td>
+                  <td>{project.details.bedrooms || "N/A"}</td>
+                  <td>{project.details.bathrooms || "N/A"}</td>
+                  <td>{project.details.parking || "N/A"}</td>
                   <td>{project.price ? `${project.price}€` : "N/A"}</td>
                   <td>
                     <Link

@@ -16,33 +16,287 @@
     "projects": [
       {
         "label": "Lux Terrace (Alcochete)",
-        "name": "projects.lux_terrace.apartment_a.name",
-        "link": "apartment-a",
+        "name": "projects.lux_terrace.apartment_t1.name",
+        "link": "apartment-t1",
         "image": "project1.png",
-        "description": "projects.lux_terrace.apartment_a.description"
+        "description": "projects.lux_terrace.apartment_t1.description",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
+        "price": "310.000,00",
+        "images": [
+          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+        ],
+        "details": {
+          "bedrooms": "1 quarto",
+          "bathrooms": "2",
+          "parking": "1 parqueamento",
+          "area": "80",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 33 m²",
+            "Máquina de lavar e máquina de secar a roupa",
+            "Varanda com 16 m²",
+            "Ar condicionado com sistema Wi-Fi",
+            "Vidros duplos Planitherm",
+            "Piso Radiante",
+            "Parqueamento",
+            "Certificação energética A +"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "text": "Planta Piso 1"
+            },
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "text": "Planta Garagem"
+            }
+          ]
+        }
       },
       {
         "label": "Lux Terrace (Alcochete)",
-        "name": "projects.lux_terrace.apartment_b.name",
-        "link": "apartment-b",
+        "name": "projects.lux_terrace.apartment_t2.name",
+        "link": "apartment-t2",
         "image": "project1.png",
-        "description": "projects.lux_terrace.apartment_b.description"
+        "description": "projects.lux_terrace.apartment_t2.description",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
+        "price": "370.000,00",
+        "images": [
+          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+        ],
+        "details": {
+          "bedrooms": "2 quartos",
+          "bathrooms": "2",
+          "parking": "1 parqueamento",
+          "area": "102",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 40 m²",
+            "Máquina de lavar e máquina de secar a roupa",
+            "Ar condicionado com sistema Wi-Fi",
+            "Vidros duplos Planitherm",
+            "Piso Radiante",
+            "Certificação energética A +"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "text": "Planta Piso 4"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Lux Terrace (Alcochete)",
+        "name": "projects.lux_terrace.apartment_t3.name",
+        "link": "apartment-t3",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.apartment_t3.description",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
+        "price": "470.000,00",
+        "images": [
+          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+        ],
+        "details": {
+          "bedrooms": "3 quartos",
+          "bathrooms": "3",
+          "parking": "2 lugares",
+          "area": "133",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space",
+            "Máquina de lavar e máquina de secar a roupa",
+            "Uma varanda com 18 m²",
+            "Vidros duplos Planitherm",
+            "Piso Radiante",
+            "Domótica",
+            "Certificação energética A +"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "text": "Planta Piso 4"
+            }
+          ]
+        }
       }
     ],
     "penthouses": [
       {
         "label": "Lux Terrace (Alcochete)",
-        "name": "projects.lux_terrace.penthouse_a.name",
-        "link": "penthouse-a",
+        "name": "projects.lux_terrace.penthouse_t3.name",
+        "link": "penthouse-t3",
         "image": "project1.png",
-        "description": "projects.lux_terrace.penthouse_a.description"
+        "description": "projects.lux_terrace.penthouse_t3.description",
+        "badge": "90% vendido",
+        "badgeClass": "badge-yellow",
+        "price": "690.000,00",
+        "images": [
+          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+        ],
+        "details": {
+          "bedrooms": "4 suites",
+          "bathrooms": "5",
+          "parking": "1 Box (2 Carros)",
+          "area": "300",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
+            "Um Terraço de 80m²",
+            "Cave de Vinho da Liebherr",
+            "Piso radiante",
+            "Lavandaria com máquina de lavar e máquina de secar",
+            "Espaçosa Master Suite de 36m² com uma varanda de 35m²"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "text": "Planta Piso 4"
+            }
+          ]
+        }
       },
       {
         "label": "Lux Terrace (Alcochete)",
-        "name": "projects.lux_terrace.penthouse_b.name",
-        "link": "penthouse-b",
+        "name": "projects.lux_terrace.penthouse_t4.name",
+        "link": "penthouse-t4",
         "image": "project1.png",
-        "description": "projects.lux_terrace.penthouse_b.description"
+        "description": "projects.lux_terrace.penthouse_t4.description",
+        "badge": "90% vendido",
+        "badgeClass": "badge-yellow",
+        "price": "690.000,00",
+        "images": [
+          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+        ],
+        "details": {
+          "bedrooms": "4 suites",
+          "bathrooms": "5",
+          "parking": "1 Box (2 Carros)",
+          "area": "300",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
+            "Um Terraço de 80m²",
+            "Cave de Vinho da Liebherr",
+            "Piso radiante",
+            "Lavandaria com máquina de lavar e máquina de secar",
+            "Espaçosa Master Suite de 36m² com uma varanda de 35m²"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "text": "Planta Piso 4"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Lux Terrace (Alcochete)",
+        "name": "projects.lux_terrace.penthouse_t4-II.name",
+        "link": "penthouse-t4-II",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.penthouse_t4-II.description",
+        "badge": "90% vendido",
+        "badgeClass": "badge-yellow",
+        "price": "780.000,00",
+        "images": [
+          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+        ],
+        "details": {
+          "bedrooms": "4 suites",
+          "bathrooms": "5",
+          "parking": "1 Box (2 Carros)",
+          "area": "300",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
+            "Um Terraço de 80m²",
+            "Cave de Vinho da Liebherr",
+            "Piso radiante",
+            "Lavandaria com máquina de lavar e máquina de secar",
+            "Uma Box para dois carros",
+            "Certificação Energética A+"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "text": "Planta Piso 4"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Lux Terrace (Alcochete)",
+        "name": "projects.lux_terrace.penthouse_deluxe.name",
+        "link": "penthouse-deluxe",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.penthouse_deluxe.description",
+        "badge": "90% vendido",
+        "badgeClass": "badge-yellow",
+        "price": "1.700.000,00",
+        "images": [
+          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+        ],
+        "details": {
+          "bedrooms": "4 suites",
+          "bathrooms": "5",
+          "parking": "2 Boxes (4 Carros)",
+          "area": "340",
+          "certification": "A+",
+          "description": [
+            "Acesso privativo de elevador ao 3º e 4º piso",
+            "2 salas e 1 escritório",
+            "Duche estilo hotel, envolto em vidro, na suite principal",
+            "Equipada com Som e Wi-Fi na casa toda",
+            "Piso radiante em todas as áreas",
+            "4 Suites, todas com Walk-in Closets",
+            "Quarto de lavandaria completa",
+            "Duas Boxes para 4 carros",
+            "Área das boxes de 61m²",
+            "Terraço de 190m² com jacuzzi",
+            "Área total de 591m²"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "text": "Planta Piso 4"
+            }
+          ]
+        }
       }
     ]
   },
