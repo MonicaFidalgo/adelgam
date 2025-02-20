@@ -588,7 +588,8 @@ textarea {
 .project-details-list-images {
   display: flex;
   justify-content: center;
-  background-color: rgba($color-secondary, 0.08);
+  background-color: white;
+  // background-color: rgba($color-secondary, 0.08);
   padding: 40px 15px;
 
   div {

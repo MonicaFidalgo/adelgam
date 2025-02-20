@@ -39,7 +39,10 @@ const ImageCarousel = ({ images }) => {
         const projectImagePath = require(`../assets/${image}`);
 
         return (
-          <div key={index} style={{ margin: "0 20px", textAlign: "center" }}>
+          <div
+            key={index}
+            style={{ margin: "0 20px", textAlign: "center", height: "100%" }}
+          >
             <img
               src={projectImagePath}
               alt={`Slide ${index + 1}`}

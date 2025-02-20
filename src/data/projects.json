@@ -27,8 +27,10 @@
         "badgeClass": "badge-red",
         "price": "310.000,00",
         "images": [
-          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
-          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+          "apartment-t1/Lux-Terrace-Alcochete-Exterior-Frente-1920w.webp",
+          "apartment-t1/Lux-Terrace-Alcochete-Suite-1920w.webp",
+          "apartment-t1/Lux-Terrace-Alcochete-T1-Sala-Cozinha-de4bb971-1920w.webp",
+          "apartment-t1/Lux-Terrace-Alcochete-terraço-1920w.webp"
         ],
         "details": {
           "bedrooms": "1 quarto",
@@ -48,11 +50,11 @@
           ],
           "plants": [
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "image": "apartment-t1/plantas/planta-piso1.webp",
               "text": "Planta Piso 1"
             },
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "image": "apartment-t1/plantas/planta-garagem.webp",
               "text": "Planta Garagem"
             }
           ]
@@ -68,8 +70,10 @@
         "badgeClass": "badge-red",
         "price": "370.000,00",
         "images": [
-          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
-          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+          "apartment-t2/Lux-Terrace-Alcochete-Exterior-Frente-1920w-1920w.webp",
+          "apartment-t2/Lux-Terrace-Alcochete-Sala_T2--1920w.webp",
+          "apartment-t2/Lux-Terrace-Alcochete-Sala_T2-1920w.webp",
+          "apartment-t2/Lux-Terrace-Alcochete-Suite-1920w.webp"
         ],
         "details": {
           "bedrooms": "2 quartos",
@@ -87,12 +91,12 @@
           ],
           "plants": [
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
-              "text": "Planta Piso 3"
+              "image": "apartment-t2/plantas/planta-piso1.webp",
+              "text": "Planta Piso 1"
             },
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
-              "text": "Planta Piso 4"
+              "image": "apartment-t2/plantas/planta-garagem.webp",
+              "text": "Planta Garagem"
             }
           ]
         }
@@ -107,8 +111,10 @@
         "badgeClass": "badge-red",
         "price": "470.000,00",
         "images": [
-          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
-          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+          "apartment-t3/Lux-Terrace-Alcochete-Exterior-Frente-1920w.webp",
+          "apartment-t3/Lux-Terrace-Alcochete-Quarto-T3-1920w.webp",
+          "apartment-t3/Lux-Terrace-Alcochete-Varanda-T3-1920w.webp",
+          "apartment-t3/Sala_T3-1920w.webp"
         ],
         "details": {
           "bedrooms": "3 quartos",
@@ -127,12 +133,12 @@
           ],
           "plants": [
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
-              "text": "Planta Piso 3"
+              "image": "apartment-t3/plantas/planta-piso1.webp",
+              "text": "Planta Piso 1"
             },
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
-              "text": "Planta Piso 4"
+              "image": "apartment-t3/plantas/planta-garagem.webp",
+              "text": "Planta Garagem"
             }
           ]
         }
@@ -149,8 +155,10 @@
         "badgeClass": "badge-yellow",
         "price": "690.000,00",
         "images": [
-          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
-          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+          "penthouse-t3/Lux+Terrace++Alcochete+Cozinha-1920w.webp",
+          "penthouse-t3/Lux+Terrace++Alcochete+Suite+Master-1920w.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala-1920w.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha+-1920w.webp"
         ],
         "details": {
           "bedrooms": "4 suites",
@@ -168,11 +176,11 @@
           ],
           "plants": [
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "image": "penthouse-t3/plantas/planta-piso3.webp",
               "text": "Planta Piso 3"
             },
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "image": "penthouse-t3/plantas/planta-piso4.webp",
               "text": "Planta Piso 4"
             }
           ]
@@ -188,8 +196,10 @@
         "badgeClass": "badge-yellow",
         "price": "690.000,00",
         "images": [
-          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
-          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+          "penthouse-t4/Lux-Terrace-Alcocehte-Varanda-T4-1920w.webp",
+          "penthouse-t4/Lux-Terrace-Alcochete-Penthouse-T4-1920w.webp",
+          "penthouse-t4/Lux-Terrace-Alcochete-Varanda-T3-1920w.webp",
+          "penthouse-t4/Penthouse+T4+FRT+ESQ-1920w.webp"
         ],
         "details": {
           "bedrooms": "4 suites",
@@ -207,11 +217,11 @@
           ],
           "plants": [
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "image": "penthouse-t4/plantas/planta-piso3.webp",
               "text": "Planta Piso 3"
             },
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "image": "penthouse-t4/plantas/planta-piso4.webp",
               "text": "Planta Piso 4"
             }
           ]
@@ -227,8 +237,11 @@
         "badgeClass": "badge-yellow",
         "price": "780.000,00",
         "images": [
-          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
-          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+          "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-Sala-T4-1920w.webp",
+          "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-Sala-T4-a71eefba-1920w.webp",
+          "penthouse-t4-2/Lux-Terrace-Alcochete-Quarto-T3-1920w.webp",
+          "penthouse-t4-2/Lux-Terrace-Alcochete-Varanda-T3-1920w.webp",
+          "penthouse-t4-2/Lux+Terrace++Alcochete+Suite+Master-1920w.webp"
         ],
         "details": {
           "bedrooms": "4 suites",
@@ -247,11 +260,11 @@
           ],
           "plants": [
             {
-              "image": "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-T4-2-planta-piso3.svg",
+              "image": "penthouse-t4-2/plantas/planta-piso3.webp",
               "text": "Planta Piso 3"
             },
             {
-              "image": "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-T4-2-planta-piso4.svg",
+              "image": "penthouse-t4-2/plantas/planta-piso4.webp",
               "text": "Planta Piso 4"
             }
           ]
@@ -267,8 +280,21 @@
         "badgeClass": "badge-yellow",
         "price": "1.700.000,00",
         "images": [
-          "penthouse-t3/Lux+Terrace+Alcochete+Cozinha-penthouse-t3.webp",
-          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha-penthouse-t3.webp"
+          "penthouse-deluxe/322_Quarto+VP_A8-1920w.webp",
+          "penthouse-deluxe/Cozinha-1920w.webp",
+          "penthouse-deluxe/Entrada+Sala-1920w.webp",
+          "penthouse-deluxe/Exterior-1920w.webp",
+          "penthouse-deluxe/Exterior+2-1920w.webp",
+
+          "penthouse-deluxe/Master+Suite+1-1920w.webp",
+          "penthouse-deluxe/Master+Suite+2-1920w.webp",
+          "penthouse-deluxe/Master+Suite+2.1-1920w.webp",
+          "penthouse-deluxe/Master+Suite+3-1920w.webp",
+          "penthouse-deluxe/Sala+2-1920w.webp",
+
+          "penthouse-deluxe/Sala+de+Jantar-1920w.webp",
+          "penthouse-deluxe/Terraço+1-1920w.webp",
+          "penthouse-deluxe/Terraço+2-1920w.webp"
         ],
         "details": {
           "bedrooms": "4 suites",
@@ -291,11 +317,11 @@
           ],
           "plants": [
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso3.webp",
+              "image": "penthouse-deluxe/plantas/Penthouse+-+Piso+3-1920w.webp",
               "text": "Planta Piso 3"
             },
             {
-              "image": "penthouse-t3/Lux-Terrace-Alcochete-Penthouse-T3-planta-piso4.webp",
+              "image": "penthouse-deluxe/plantas/Penthouse+-+Piso+4-1920w.webp",
               "text": "Planta Piso 4"
             }
           ]
