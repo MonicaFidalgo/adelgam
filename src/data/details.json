@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "label": "fa-regular fa-building",
+    "icon": "premium",
     "title": "details.title_1",
     "description": "details.description_1"
   },
   {
     "id": 2,
-    "label": "fa-regular fa-gem",
+    "icon": "star",
     "title": "details.title_2",
     "description": "details.description_2"
   },
   {
     "id": 3,
-    "label": "fa-solid fa-people-group",
+    "icon": "people",
     "title": "details.title_3",
     "description": "details.description_3"
   },
   {
     "id": 4,
-    "label": "fa-solid fa-location-dot",
+    "icon": "location",
     "title": "details.title_4",
     "description": "details.description_4"
   }
