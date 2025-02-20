@@ -4,6 +4,7 @@ import App from "./App";
 import "./i18n/config";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "react-image-lightbox/style.css";
 import "./index.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

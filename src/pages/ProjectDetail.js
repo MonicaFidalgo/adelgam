@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Lightbox from "react-image-lightbox";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -14,6 +15,13 @@ const ProjectDetail = () => {
   const project =
     projectData.projects?.find((p) => p.link === projectDetailName) ||
     projectData.penthouses?.find((p) => p.link === projectDetailName);
+
+  const [isOpen, setIsOpen] = useState(false);
+  const [photoIndex, setPhotoIndex] = useState(0);
+
+  const images = project?.details?.plants.map((item) =>
+    require(`../assets/${item.image}`)
+  );
 
   return (
     <Container className="pt-200">
@@ -94,12 +102,42 @@ const ProjectDetail = () => {
 
                 return (
                   <div key={index}>
-                    <img src={projectImagePath} alt="plants" maxWidth="400px" />
+                    <img
+                      src={projectImagePath}
+                      alt="plants"
+                      maxWidth="400px"
+                      onClick={() => {
+                        setPhotoIndex(index);
+                        setIsOpen(true);
+                      }}
+                    />
                     <span>{item.text}</span>
                   </div>
                 );
               })}
             </div>
+
+            {isOpen && images.length > 0 && (
+              <Lightbox
+                mainSrc={images[photoIndex]}
+                onImageLoad={() => {
+                  window.dispatchEvent(new Event("resize"));
+                }}
+                nextSrc={images[(photoIndex + 1) % images.length]}
+                prevSrc={
+                  images[(photoIndex + images.length - 1) % images.length]
+                }
+                onCloseRequest={() => setIsOpen(false)}
+                onMovePrevRequest={() =>
+                  setPhotoIndex(
+                    (photoIndex + images.length - 1) % images.length
+                  )
+                }
+                onMoveNextRequest={() =>
+                  setPhotoIndex((photoIndex + 1) % images.length)
+                }
+              />
+            )}
           </div>
         </>
       )}
