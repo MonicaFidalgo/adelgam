@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -10,6 +10,11 @@ import Table from "react-bootstrap/Table";
 const ProjectParent = () => {
   const { t } = useTranslation();
   const { projectTitle } = useParams();
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleCollapse = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
 
   const projectData = projectsData[projectTitle];
 
@@ -57,10 +62,10 @@ const ProjectParent = () => {
 
       <ImageCarousel images={images} />
 
-      {!!projects && projects.length > 0 && (
-        <>
-          <h3 className="heading my-60 text-center">Apartamentos</h3>
+      <h3 className="heading my-60 text-center">Apartamentos</h3>
 
+      {!!projects && projects.length > 0 && (
+        <div className="d-none d-lg-block">
           <Table>
             <thead>
               <tr>
@@ -96,13 +101,71 @@ const ProjectParent = () => {
               ))}
             </tbody>
           </Table>
-        </>
+        </div>
       )}
 
-      {!!projectData?.penthouses && (
-        <>
-          <h3 className="heading my-60 text-center">Penthouses</h3>
+      {/* Mobile View: projects */}
+      <div className="d-lg-none">
+        {projects?.map((project, index) => (
+          <div key={index} className="card-component mb-3">
+            {/* Collapse Button */}
+            <div className="card-component-header">
+              <button
+                className="btn w-100 text-start"
+                onClick={() => toggleCollapse(`project-${index}`)}
+                data-bs-toggle="collapse"
+                data-bs-target={`#collapse-project-${index}`}
+                aria-expanded={openIndex === `project-${index}`}
+              >
+                <div className="d-flex justify-content-between">
+                  <span>{t(project.name)} </span>
+                  <span> {openIndex === `project-${index}` ? "−" : "+"}</span>
+                </div>
+              </button>
+            </div>
 
+            {/* Collapsible Content */}
+            <div
+              id={`collapse-project-${index}`}
+              className={`collapse ${
+                openIndex === `project-${index}` ? "show" : ""
+              }`}
+            >
+              <div className="card-component-body">
+                <p>
+                  <strong>Área:</strong> {project.details.area || "N/A"}m²
+                </p>
+                <p>
+                  <strong>Quartos:</strong> {project.details.bedrooms || "N/A"}
+                </p>
+                <p>
+                  <strong>WC:</strong> {project.details.bathrooms || "N/A"}
+                </p>
+                <p>
+                  <strong>Estacionamento:</strong>{" "}
+                  {project.details.parking || "N/A"}
+                </p>
+                <p>
+                  <strong>Preço:</strong>{" "}
+                  {project.price ? `${project.price}€` : "N/A"}
+                </p>
+
+                <Link
+                  className="button button-primary"
+                  to={`/empreendimentos/${projectTitle}/${project.link}`}
+                >
+                  Ver mais detalhes
+                </Link>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <h3 className="heading my-60 text-center">Penthouses</h3>
+
+      {!!projectData?.penthouses && (
+        <div className="d-none d-lg-block">
           <Table>
             <thead>
               <tr>
@@ -138,8 +201,66 @@ const ProjectParent = () => {
               ))}
             </tbody>
           </Table>
-        </>
+        </div>
       )}
+
+      {/* Mobile View: penthouses */}
+      <div className="d-lg-none">
+        {projectData?.penthouses?.map((project, index) => (
+          <div key={index} className="card-component mb-3">
+            {/* Collapse Button */}
+            <div className="card-component-header">
+              <button
+                className="btn w-100 text-start"
+                onClick={() => toggleCollapse(`penthouse-${index}`)}
+                data-bs-toggle="collapse"
+                data-bs-target={`#collapse-penthouse-${index}`}
+                aria-expanded={openIndex === `penthouse-${index}`}
+              >
+                <div className="d-flex justify-content-between">
+                  <span>{t(project.name)} </span>
+                  <span>{openIndex === `penthouse-${index}` ? "−" : "+"}</span>
+                </div>
+              </button>
+            </div>
+
+            {/* Collapsible Content */}
+            <div
+              id={`collapse-penthouse-${index}`}
+              className={`collapse ${
+                openIndex === `penthouse-${index}` ? "show" : ""
+              }`}
+            >
+              <div className="card-component-body">
+                <p>
+                  <strong>Área:</strong> {project.details.area || "N/A"}m²
+                </p>
+                <p>
+                  <strong>Quartos:</strong> {project.details.bedrooms || "N/A"}
+                </p>
+                <p>
+                  <strong>WC:</strong> {project.details.bathrooms || "N/A"}
+                </p>
+                <p>
+                  <strong>Estacionamento:</strong>{" "}
+                  {project.details.parking || "N/A"}
+                </p>
+                <p>
+                  <strong>Preço:</strong>{" "}
+                  {project.price ? `${project.price}€` : "N/A"}
+                </p>
+
+                <Link
+                  className="button button-primary"
+                  to={`/empreendimentos/${projectTitle}/${project.link}`}
+                >
+                  Ver mais detalhes
+                </Link>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </Container>
   );
 };
