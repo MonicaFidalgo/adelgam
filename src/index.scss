@@ -386,6 +386,15 @@ textarea {
   .navbar-toggler {
     border: 2px solid $black;
   }
+
+  @media (max-width: 992px) {
+    .navbar-nav {
+      align-items: center;
+      font-size: 18px;
+      padding: 20px 0 20px;
+      line-height: 30px;
+    }
+  }
 }
 
 .navbar-component .navbar-toggler:focus {
@@ -602,4 +611,18 @@ textarea {
     width: 100%;
     max-width: 400px;
   }
+}
+
+.iframe-title {
+  font-family: "Roboto Serif", serif;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }

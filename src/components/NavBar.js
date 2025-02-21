@@ -27,25 +27,25 @@ const NavBarComponent = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>
-              <i className="fa-solid fa-arrow-right d-lg-none"></i> Home
+              Home
             </Nav.Link>
             <Nav.Link
               as={Link}
               to="/empreendimentos"
               onClick={() => setExpanded(false)}
             >
-              <i className="fa-solid fa-arrow-right d-lg-none"></i>{" "}
+              {" "}
               Empreendimentos
             </Nav.Link>{" "}
             <Nav.Link as={Link} to="/sobre" onClick={() => setExpanded(false)}>
-              <i className="fa-solid fa-arrow-right d-lg-none"></i> A Adelgam
+              A Adelgam
             </Nav.Link>
             <Nav.Link
               as={Link}
               to="/contactos"
               onClick={() => setExpanded(false)}
             >
-              <i className="fa-solid fa-arrow-right d-lg-none"></i> Contacte-nos
+              Contacte-nos
             </Nav.Link>
             {/* <LanguageDropdown /> */}
           </Nav>

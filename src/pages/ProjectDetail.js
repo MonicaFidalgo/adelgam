@@ -139,6 +139,27 @@ const ProjectDetail = () => {
               />
             )}
           </div>
+
+          {project.iframeLink && (
+            <>
+              {project.iframeTitle && (
+                <h4 className="iframe-title text-center mt-60 mb-3">
+                  {project.iframeTitle}
+                </h4>
+              )}
+              <div className="iframe-container">
+                <iframe
+                  title="Virtual tour"
+                  src={project.iframeLink}
+                  width="100%"
+                  height="500px"
+                  style={{ border: "none", backgroundColor: "transparent" }}
+                  allowTransparency="true"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </>
+          )}
         </>
       )}
     </Container>

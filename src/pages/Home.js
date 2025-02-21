@@ -9,6 +9,7 @@ import numbers from "../data/numbers.json";
 import image1 from "../assets/image-1.png";
 import image2 from "../assets/image-2.png";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -23,29 +24,38 @@ const Home = () => {
               <h2 className="banner-subtitle mb-3">
                 {t("home.banner.description")}
               </h2>
-              <button className="button button-primary">
+              <Link
+                className="button button-primary"
+                to="/empreendimentos/lux-terrace/penthouse-deluxe"
+              >
                 {t("home.banner.button")}
-              </button>
+              </Link>
             </div>
           </Col>
           <Col lg={6} className="px-0">
             <img src={bannerImage} alt="planeamento" width="100%" />
           </Col>
         </Row>
-        <div className="d-lg-none banner-mobile">
-          <div className="overlay"></div>
-          <div className="banner-content text-center">
-            <label className="label mb-3">{t("home.banner.label")}</label>
-            <h1 className="banner-title mb-3">Deluxe Penthouse</h1>
-            <h2 className="banner-subtitle mb-3">
-              {t("home.banner.description")}
-            </h2>
-            <button className="button button-primary">
-              {t("home.banner.button")}
-            </button>
-          </div>
-        </div>
       </Container>
+
+      <div className="d-lg-none banner-mobile">
+        <div className="overlay"></div>
+        <div className="banner-content text-center">
+          <label className="label mb-3">{t("home.banner.label")}</label>
+          <h1 className="banner-title mb-3">Deluxe Penthouse</h1>
+          <h2 className="banner-subtitle mb-3">
+            {t("home.banner.description")}
+          </h2>
+
+          <Link
+            className="button button-primary"
+            to="/empreendimentos/lux-terrace/penthouse-deluxe"
+          >
+            {t("home.banner.button")}
+          </Link>
+        </div>
+      </div>
+
       <Container>
         <Numbers data={numbers} />
 
@@ -56,7 +66,12 @@ const Home = () => {
       <Container>
         <Row className="my-60">
           <Col lg={6} className="text-center">
-            <img src={image1} alt="sala e cozinha" width="100%" />
+            <img
+              src={image1}
+              alt="sala e cozinha"
+              width="100%"
+              className="mb-4 mb-md-0"
+            />
           </Col>
           <Col lg={6} className="align-self-center">
             <div>
@@ -75,9 +90,10 @@ const Home = () => {
                 durante toda a construção assegurando acabamentos requintados e
                 diferenciadores.
               </p>
-              <button className="button button-primary mt-4">
+
+              <Link className="button button-primary mt-4" to="/sobre">
                 Conheça a Adelgam
-              </button>
+              </Link>
             </div>
           </Col>
         </Row>
@@ -108,13 +124,21 @@ const Home = () => {
                   Estacionamento: <strong>Box (Para 2 carros)</strong>
                 </li>
               </ul>
-              <button className="button button-primary mt-4">
+              <Link
+                className="button button-primary mt-4"
+                to="/empreendimentos/lux-terrace"
+              >
                 Mais informações
-              </button>
+              </Link>
             </div>
           </Col>
           <Col lg={6} className="text-center">
-            <img src={image2} alt="sala e cozinha" width="100%" />
+            <img
+              src={image2}
+              alt="sala e cozinha"
+              width="100%"
+              className="mt-4 mt-md-0"
+            />
           </Col>
         </Row>
         <hr />

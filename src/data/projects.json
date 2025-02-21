@@ -26,6 +26,7 @@
         "badge": "100% vendido",
         "badgeClass": "badge-red",
         "price": "310.000,00",
+        "iframeLink": "https://youriguide.com/embed/Lux-Terrace-Alcochete-T1",
         "images": [
           "apartment-t1/Lux-Terrace-Alcochete-Exterior-Frente-1920w.webp",
           "apartment-t1/Lux-Terrace-Alcochete-Suite-1920w.webp",
@@ -279,19 +280,19 @@
         "badge": "90% vendido",
         "badgeClass": "badge-yellow",
         "price": "1.700.000,00",
+        "iframeTitle": "Tour Virtual: Explore a Elegância da Penthouse de Luxo",
+        "iframeLink": "https://vpva.pt/VRluxterrace/",
         "images": [
           "penthouse-deluxe/322_Quarto+VP_A8-1920w.webp",
           "penthouse-deluxe/Cozinha-1920w.webp",
           "penthouse-deluxe/Entrada+Sala-1920w.webp",
           "penthouse-deluxe/Exterior-1920w.webp",
           "penthouse-deluxe/Exterior+2-1920w.webp",
-
           "penthouse-deluxe/Master+Suite+1-1920w.webp",
           "penthouse-deluxe/Master+Suite+2-1920w.webp",
           "penthouse-deluxe/Master+Suite+2.1-1920w.webp",
           "penthouse-deluxe/Master+Suite+3-1920w.webp",
           "penthouse-deluxe/Sala+2-1920w.webp",
-
           "penthouse-deluxe/Sala+de+Jantar-1920w.webp",
           "penthouse-deluxe/Terraço+1-1920w.webp",
           "penthouse-deluxe/Terraço+2-1920w.webp"
