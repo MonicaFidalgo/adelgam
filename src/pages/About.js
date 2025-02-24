@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Numbers from "../components/Numbers";
 import GoogleMap from "../components/Map";
-import numbers from "../data/numbers.json";
 import image2 from "../assets/image-2.png";
 
 const About = () => {
@@ -15,8 +13,6 @@ const About = () => {
             Há mais de 25 anos, a construir com qualidade e inovação.
           </h2>
         </div>
-        <hr />
-        <Numbers data={numbers} />
         <hr />
         <Row className="my-60">
           <Col lg={6} className="align-self-center">

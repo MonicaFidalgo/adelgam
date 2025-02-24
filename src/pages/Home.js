@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Details from "../components/Details";
-import Numbers from "../components/Numbers";
 import Projects from "../components/Projects";
 import bannerImage from "../assets/adelgam-real-state.webp";
 import details from "../data/details.json";
-import numbers from "../data/numbers.json";
 import image1 from "../assets/image-1.png";
 import image2 from "../assets/image-2.png";
 import { useTranslation } from "react-i18next";
@@ -57,9 +55,6 @@ const Home = () => {
       </div>
 
       <Container>
-        <Numbers data={numbers} />
-
-        <hr />
         <Details data={details} />
         <hr />
       </Container>
