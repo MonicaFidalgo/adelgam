@@ -35,7 +35,7 @@ const Footer = () => {
               </a>
             </div>
           </Col>
-          <Col lg={4} className="mt-4 mt-md-0">
+          <Col lg={4} className="margin-top-4 mt-md-0">
             <h6>Precisa de mais informações?</h6>
             <p>Entre em contacto connosco.</p>
             <div className="d-flex gap-3 mt-3">
@@ -53,7 +53,7 @@ const Footer = () => {
               <span>+351 91 38 153 79</span>
             </div>
           </Col>
-          <Col lg={4} className="mt-4 mt-md-0">
+          <Col lg={4} className="margin-top-4 mt-md-0">
             <h6>Onde estamos?</h6>
             <div className="d-flex gap-2">
               <Location />

@@ -11,7 +11,7 @@
       "lux-terrace-alcochete-T4-penthouse.webp",
       "lux-terrace-alcochete-T4-penthouse-2.webp"
     ],
-    "badge": "90% vendido",
+    "badge": "95% vendido",
     "badgeClass": "badge-yellow",
     "location": "Alcochete",
     "typology": "T1 a T4 Penthose",
@@ -152,7 +152,7 @@
         "link": "penthouse-t3",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t3.description",
-        "badge": "90% vendido",
+        "badge": "95% vendido",
         "badgeClass": "badge-yellow",
         "price": "690.000,00",
         "images": [
@@ -193,7 +193,7 @@
         "link": "penthouse-t4",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t4.description",
-        "badge": "90% vendido",
+        "badge": "95% vendido",
         "badgeClass": "badge-yellow",
         "price": "780.000,00",
         "images": [
@@ -234,7 +234,7 @@
         "link": "penthouse-t4-II",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t4-II.description",
-        "badge": "90% vendido",
+        "badge": "95% vendido",
         "badgeClass": "badge-yellow",
         "price": "780.000,00",
         "images": [
@@ -277,7 +277,7 @@
         "link": "penthouse-deluxe",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_deluxe.description",
-        "badge": "90% vendido",
+        "badge": "95% vendido",
         "badgeClass": "badge-yellow",
         "price": "1.700.000,00",
         "iframeTitle": "Tour Virtual: Explore a Elegância da Penthouse de Luxo",
@@ -352,19 +352,6 @@
     "location": "São Francisco",
     "typology": "Moradias",
     "state": "Vendido",
-    "projects": [
-      {
-        "name": "projects.moradias_sao_francisco.villa_a.name",
-        "link": "villa-a",
-        "image": "project3.png",
-        "description": "projects.moradias_sao_francisco.villa_a.description"
-      },
-      {
-        "name": "projects.moradias_sao_francisco.villa_b.name",
-        "link": "villa-b",
-        "image": "project3.png",
-        "description": "projects.moradias_sao_francisco.villa_b.description"
-      }
-    ]
+    "projects": []
   }
 }

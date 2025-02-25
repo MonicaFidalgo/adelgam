@@ -86,7 +86,7 @@ const Home = () => {
                 diferenciadores.
               </p>
 
-              <Link className="button button-primary mt-4" to="/sobre">
+              <Link className="button button-primary margin-top-4" to="/sobre">
                 Conheça a Adelgam
               </Link>
             </div>
@@ -120,7 +120,7 @@ const Home = () => {
                 </li>
               </ul>
               <Link
-                className="button button-primary mt-4"
+                className="button button-primary margin-top-4"
                 to="/empreendimentos/lux-terrace"
               >
                 Mais informações
@@ -132,7 +132,7 @@ const Home = () => {
               src={image2}
               alt="sala e cozinha"
               width="100%"
-              className="mt-4 mt-md-0"
+              className="margin-top-4 mt-md-0"
             />
           </Col>
         </Row>

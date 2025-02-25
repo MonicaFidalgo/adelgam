@@ -62,7 +62,9 @@ const ProjectParent = () => {
 
       <ImageCarousel images={images} />
 
-      <h3 className="heading my-60 text-center">Apartamentos</h3>
+      {!!projects && projects.length > 0 && (
+        <h3 className="heading my-60 text-center">Apartamentos</h3>
+      )}
 
       {!!projects && projects.length > 0 && (
         <div className="d-none d-lg-block">
@@ -162,7 +164,9 @@ const ProjectParent = () => {
         ))}
       </div>
 
-      <h3 className="heading my-60 text-center">Penthouses</h3>
+      {!!projectData?.penthouses && (
+        <h3 className="heading my-60 text-center">Penthouses</h3>
+      )}
 
       {!!projectData?.penthouses && (
         <div className="d-none d-lg-block">

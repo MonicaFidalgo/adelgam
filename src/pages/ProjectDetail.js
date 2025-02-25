@@ -34,7 +34,7 @@ const ProjectDetail = () => {
         <>
           <div className="banner-heading mb-60">
             <label className="label mb-3">{project.label}</label>
-            <h2 className="heading-big mb-3">Projecto {t(project.name)}</h2>
+            <h2 className="heading-big mb-3">{t(project.name)}</h2>
             <label className={`badge ${project.badgeClass} mb-3`}>
               <span className="badge-circle"></span>
               {project.badge}

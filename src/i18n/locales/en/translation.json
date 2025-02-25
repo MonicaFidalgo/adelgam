@@ -59,15 +59,7 @@
     "moradias_sao_francisco": {
       "label": "Your home",
       "title": "Moradias São Francisco",
-      "description": "Moradias São Francisco offers spacious homes in a quiet neighborhood.",
-      "villa_a": {
-        "name": "Villa A",
-        "description": "A charming villa."
-      },
-      "villa_b": {
-        "name": "Villa B",
-        "description": "A beautiful villa."
-      }
+      "description": "Moradias São Francisco offers spacious homes in a quiet neighborhood."
     }
   }
 }
