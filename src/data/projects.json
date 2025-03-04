@@ -26,7 +26,6 @@
         "badge": "100% vendido",
         "badgeClass": "badge-red",
         "price": "310.000,00",
-        "iframeLink": "https://youriguide.com/embed/Lux-Terrace-Alcochete-T1",
         "images": [
           "apartment-t1/Lux-Terrace-Alcochete-Exterior-Frente-1920w.webp",
           "apartment-t1/Lux-Terrace-Alcochete-Suite-1920w.webp",
@@ -36,7 +35,7 @@
         "details": {
           "bedrooms": "1 quarto",
           "bathrooms": "2",
-          "parking": "1 parqueamento",
+          "parking": "1 lugar",
           "area": "80",
           "certification": "A+",
           "description": [
@@ -79,7 +78,7 @@
         "details": {
           "bedrooms": "2 quartos",
           "bathrooms": "2",
-          "parking": "1 parqueamento",
+          "parking": "1 lugar",
           "area": "102",
           "certification": "A+",
           "description": [
@@ -152,8 +151,8 @@
         "link": "penthouse-t3",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t3.description",
-        "badge": "95% vendido",
-        "badgeClass": "badge-yellow",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
         "price": "690.000,00",
         "images": [
           "penthouse-t3/Lux+Terrace++Alcochete+Cozinha-1920w.webp",
@@ -165,7 +164,7 @@
           "bedrooms": "4 suites",
           "bathrooms": "5",
           "parking": "1 Box (2 Carros)",
-          "area": "300",
+          "area": "217",
           "certification": "A+",
           "description": [
             "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
@@ -193,8 +192,8 @@
         "link": "penthouse-t4",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t4.description",
-        "badge": "95% vendido",
-        "badgeClass": "badge-yellow",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
         "price": "780.000,00",
         "images": [
           "penthouse-t4/Lux-Terrace-Alcocehte-Varanda-T4-1920w.webp",
@@ -206,7 +205,7 @@
           "bedrooms": "4 suites",
           "bathrooms": "5",
           "parking": "1 Box (2 Carros)",
-          "area": "300",
+          "area": "292",
           "certification": "A+",
           "description": [
             "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
@@ -234,8 +233,8 @@
         "link": "penthouse-t4-II",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t4-II.description",
-        "badge": "95% vendido",
-        "badgeClass": "badge-yellow",
+        "badge": "1 disponível",
+        "badgeClass": "badge-green",
         "price": "780.000,00",
         "images": [
           "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-Sala-T4-1920w.webp",
@@ -248,7 +247,7 @@
           "bedrooms": "4 suites",
           "bathrooms": "5",
           "parking": "1 Box (2 Carros)",
-          "area": "300",
+          "area": "286",
           "certification": "A+",
           "description": [
             "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
@@ -277,8 +276,8 @@
         "link": "penthouse-deluxe",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_deluxe.description",
-        "badge": "95% vendido",
-        "badgeClass": "badge-yellow",
+        "badge": "1 disponível",
+        "badgeClass": "badge-green",
         "price": "1.700.000,00",
         "iframeTitle": "Tour Virtual: Explore a Elegância da Penthouse de Luxo",
         "iframeLink": "https://vpva.pt/VRluxterrace/",
@@ -305,16 +304,11 @@
           "certification": "A+",
           "description": [
             "Acesso privativo de elevador ao 3º e 4º piso",
-            "2 salas e 1 escritório",
-            "Duche estilo hotel, envolto em vidro, na suite principal",
-            "Equipada com Som e Wi-Fi na casa toda",
             "Piso radiante em todas as áreas",
             "4 Suites, todas com Walk-in Closets",
             "Quarto de lavandaria completa",
             "Duas Boxes para 4 carros",
-            "Área das boxes de 61m²",
-            "Terraço de 190m² com jacuzzi",
-            "Área total de 591m²"
+            "Terraço de 190m² com jacuzzi"
           ],
           "plants": [
             {
@@ -324,6 +318,10 @@
             {
               "image": "penthouse-deluxe/plantas/Penthouse+-+Piso+4-1920w.webp",
               "text": "Planta Piso 4"
+            },
+            {
+              "image": "penthouse-deluxe/plantas/Penthouse-Garagem.webp",
+              "text": "Garagem"
             }
           ]
         }
@@ -338,7 +336,7 @@
     "badge": "100% vendido",
     "badgeClass": "badge-red",
     "location": "Montijo",
-    "typology": "T1 a T4",
+    "typology": "T2 a T4",
     "state": "Vendido",
     "projects": []
   },

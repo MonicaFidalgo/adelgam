@@ -84,7 +84,13 @@ const ProjectParent = () => {
               {projects?.map((project, index) => (
                 <tr key={index}>
                   <td>
-                    <strong>{t(project.name)}</strong>
+                    <div className="d-flex flex-column">
+                      <strong>{t(project.name)}</strong>
+                      <label className={`badge ${project.badgeClass} mt-1`}>
+                        <span className="badge-circle"></span>
+                        {project.badge}
+                      </label>
+                    </div>
                   </td>
                   <td>{project.details.area || "N/A"}m²</td>
                   <td>{project.details.bedrooms || "N/A"}</td>
@@ -96,7 +102,7 @@ const ProjectParent = () => {
                       to={`/empreendimentos/${projectTitle}/${project.link}`}
                       className="button button-primary"
                     >
-                      Ver mais detalhes
+                      Detalhes
                     </Link>
                   </td>
                 </tr>
@@ -134,6 +140,12 @@ const ProjectParent = () => {
               }`}
             >
               <div className="card-component-body">
+                <div className="d-flex flex-column">
+                  <label className={`badge ${project.badgeClass} mb-3`}>
+                    <span className="badge-circle"></span>
+                    {project.badge}
+                  </label>
+                </div>
                 <p>
                   <strong>Área:</strong> {project.details.area || "N/A"}m²
                 </p>
@@ -156,7 +168,7 @@ const ProjectParent = () => {
                   className="button button-primary"
                   to={`/empreendimentos/${projectTitle}/${project.link}`}
                 >
-                  Ver mais detalhes
+                  Detalhes
                 </Link>
               </div>
             </div>
@@ -177,7 +189,7 @@ const ProjectParent = () => {
                 <th>ÁREA</th>
                 <th>QUARTOS</th>
                 <th>WC</th>
-                <th>ESTACIONAMENTO</th>
+                <th>BOXES</th>
                 <th>PREÇO</th>
                 <th></th>
               </tr>
@@ -186,7 +198,13 @@ const ProjectParent = () => {
               {projectData?.penthouses?.map((project, index) => (
                 <tr key={index}>
                   <td>
-                    <strong>{t(project.name)}</strong>
+                    <div className="d-flex flex-column">
+                      <strong>{t(project.name)}</strong>
+                      <label className={`badge ${project.badgeClass} mt-1`}>
+                        <span className="badge-circle"></span>
+                        {project.badge}
+                      </label>
+                    </div>
                   </td>
                   <td>{project.details.area || "N/A"}m²</td>
                   <td>{project.details.bedrooms || "N/A"}</td>
@@ -198,7 +216,7 @@ const ProjectParent = () => {
                       className="button button-primary"
                       to={`/empreendimentos/${projectTitle}/${project.link}`}
                     >
-                      Ver mais detalhes
+                      Detalhes
                     </Link>
                   </td>
                 </tr>
@@ -236,6 +254,12 @@ const ProjectParent = () => {
               }`}
             >
               <div className="card-component-body">
+                <div className="d-flex flex-column">
+                  <label className={`badge ${project.badgeClass} mb-3`}>
+                    <span className="badge-circle"></span>
+                    {project.badge}
+                  </label>
+                </div>
                 <p>
                   <strong>Área:</strong> {project.details.area || "N/A"}m²
                 </p>
@@ -258,7 +282,7 @@ const ProjectParent = () => {
                   className="button button-primary"
                   to={`/empreendimentos/${projectTitle}/${project.link}`}
                 >
-                  Ver mais detalhes
+                  Detalhes
                 </Link>
               </div>
             </div>

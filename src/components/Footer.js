@@ -60,7 +60,7 @@ const Footer = () => {
               <address>
                 Rua José Batista Canteiro 83 <br />
                 2890-006 Alcochete <br />
-                PORTUGAL
+                Portugal
               </address>
             </div>
           </Col>
@@ -69,7 +69,7 @@ const Footer = () => {
         <Row className="px-60">
           <Col lg={12}>
             <div className="copyright">
-              <p>© Copyright 2024 - Adelgam Promoção Imobiliária</p>
+              <p>© Copyright 2025 - Adelgam Promoção Imobiliária</p>
             </div>
           </Col>
         </Row>

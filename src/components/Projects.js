@@ -26,7 +26,7 @@ const Projects = () => {
       link: "varandas-do-montijo",
       location: "Montijo",
       apartments: "40 apartamentos",
-      typologies: "T1 a T4",
+      typologies: "T2 a T4",
       parking: "Box",
       badge: "100% vendido",
       badgeClass: "badge-red",
