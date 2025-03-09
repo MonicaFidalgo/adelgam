@@ -4,7 +4,10 @@ import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import ImageCarousel from "../components/Carousel";
+import DetailsIcons from "../components/DetailsIcons";
 import projectsData from "../data/projects.json";
+import projectDetails from "../data/project-details.json";
+import projectDetails2 from "../data/project-details2.json";
 
 const ProjectDetail = () => {
   const { t } = useTranslation();
@@ -23,6 +26,7 @@ const ProjectDetail = () => {
     require(`../assets/${item.image}`)
   );
 
+  const hasSecondDescription = project.link === "penthouse-deluxe";
   const isDeluxePenthouse = project.link === "penthouse-deluxe";
 
   return (
@@ -52,8 +56,9 @@ const ProjectDetail = () => {
               Quero marcar uma visita
             </a>
           </div>
-
           <ImageCarousel images={project.images} />
+
+          {isDeluxePenthouse && <DetailsIcons data={projectDetails} />}
 
           <div className="caracteristicas project-details-list">
             <div className="project-details-list-title">Características</div>
@@ -83,7 +88,7 @@ const ProjectDetail = () => {
             </div>
           </div>
 
-          {isDeluxePenthouse && (
+          {hasSecondDescription && (
             <div className="deluxe-description">
               <p>
                 No <strong>terceiro piso</strong>, será recebido por quatro
@@ -115,6 +120,8 @@ const ProjectDetail = () => {
             </div>
           )}
 
+          {isDeluxePenthouse && <DetailsIcons data={projectDetails2} />}
+
           <div className="acabamentos project-details-list">
             <div className="project-details-list-title">Pontos Chave</div>
             <div className="project-details-list-description">
@@ -125,7 +132,6 @@ const ProjectDetail = () => {
               </ul>
             </div>
           </div>
-
           <div className="plantas project-details-list">
             <div className="project-details-list-title">Plantas</div>
             <div className="project-details-list-images">
@@ -171,7 +177,6 @@ const ProjectDetail = () => {
               />
             )}
           </div>
-
           {project.iframeLink && (
             <>
               {project.iframeTitle && (

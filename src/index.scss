@@ -655,3 +655,15 @@ textarea {
 .deluxe-description {
   margin-top: 60px;
 }
+
+.details-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  span {
+    color: $color-secondary;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon": "living-room",
+    "title": "Salas",
+    "description": "2"
+  },
+  {
+    "id": 2,
+    "icon": "dinning-room",
+    "title": "Sala de Jantar",
+    "description": "1"
+  },
+  {
+    "id": 3,
+    "icon": "rooms",
+    "title": "Suites",
+    "description": "4"
+  },
+  {
+    "id": 4,
+    "icon": "office",
+    "title": "Escritório",
+    "description": "1"
+  }
+]

@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { ReactComponent as Location } from "../icons/location-big-icon.svg";
 import { ReactComponent as Status } from "../icons/status-icon.svg";
-import { ReactComponent as Home } from "../icons/rooms-icon.svg";
+import { ReactComponent as Home } from "../icons/house-icon.svg";
 
 const Higlights = ({ typology, state, location }) => {
   return (
