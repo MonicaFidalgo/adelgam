@@ -28,7 +28,7 @@ const DetailsIcons = ({ data }) => {
           const IconComponent = iconMap[item.icon];
 
           return (
-            <Col md={3} key={key}>
+            <Col md={3} xs={6} key={key}>
               <div className="details-icons">
                 {IconComponent && <IconComponent className="icon" />}
                 <p className="mb-1 mt-2">{item.title}</p>

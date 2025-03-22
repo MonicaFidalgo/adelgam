@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import { ReactComponent as ArrowLeft } from "../icons/arrow-left.svg";
 import { ReactComponent as ArrowRight } from "../icons/arrow-right.svg";
 
@@ -11,23 +10,20 @@ const responsive = {
       min: 1024,
     },
     items: 1,
-    partialVisibilityGutter: 40,
   },
   mobile: {
     breakpoint: {
-      max: 464,
-      min: 0,
+      max: 767,
+      min: 464,
     },
     items: 1,
-    partialVisibilityGutter: 30,
   },
   tablet: {
     breakpoint: {
       max: 1024,
-      min: 464,
+      min: 768,
     },
-    items: 2,
-    partialVisibilityGutter: 30,
+    items: 1,
   },
 };
 
@@ -90,10 +86,7 @@ const ImageCarousel = ({ images }) => {
           const projectImagePath = require(`../assets/${image}`);
 
           return (
-            <div
-              key={index}
-              style={{ margin: "0 20px", textAlign: "center", height: "100%" }}
-            >
+            <div key={index} style={{ textAlign: "center", height: "100%" }}>
               <img
                 src={projectImagePath}
                 alt={`Slide ${index + 1}`}

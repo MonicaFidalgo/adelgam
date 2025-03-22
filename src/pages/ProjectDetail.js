@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import Lightbox from "react-image-lightbox";
+import React from "react";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import ImageCarousel from "../components/Carousel";
 import DetailsIcons from "../components/DetailsIcons";
+import ImageGallery from "../components/ImageZoom";
 import projectsData from "../data/projects.json";
 import projectDetails from "../data/project-details.json";
 import projectDetails2 from "../data/project-details2.json";
@@ -18,13 +18,6 @@ const ProjectDetail = () => {
   const project =
     projectData.projects?.find((p) => p.link === projectDetailName) ||
     projectData.penthouses?.find((p) => p.link === projectDetailName);
-
-  const [isOpen, setIsOpen] = useState(false);
-  const [photoIndex, setPhotoIndex] = useState(0);
-
-  const images = project?.details?.plants.map((item) =>
-    require(`../assets/${item.image}`)
-  );
 
   const hasSecondDescription = project.link === "penthouse-deluxe";
   const isDeluxePenthouse = project.link === "penthouse-deluxe";
@@ -57,9 +50,7 @@ const ProjectDetail = () => {
             </a>
           </div>
           <ImageCarousel images={project.images} />
-
           {isDeluxePenthouse && <DetailsIcons data={projectDetails} />}
-
           <div className="caracteristicas project-details-list">
             <div className="project-details-list-title">Características</div>
             <div className="project-details-list-description">
@@ -87,14 +78,13 @@ const ProjectDetail = () => {
               </ul>
             </div>
           </div>
-
           {hasSecondDescription && (
             <div className="deluxe-description">
               <p>
                 No <strong>terceiro piso</strong>, será recebido por quatro
                 suítes majestosas, cada uma desenhada para oferecer o máximo em
                 conforto e privacidade. Os espaçosos walk-in closets permitem
-                uma organização impecável, enquanto as casas de banho revestidos
+                uma organização impecável, enquanto as casas de banho revestidas
                 de cerâmica convidam a momentos de relaxamento e
                 rejuvenescimento. Além disso, neste piso, encontrará também um
                 escritório e uma lavandaria, proporcionando praticidade e
@@ -119,63 +109,25 @@ const ProjectDetail = () => {
               </p>
             </div>
           )}
-
           {isDeluxePenthouse && <DetailsIcons data={projectDetails2} />}
-
           <div className="acabamentos project-details-list">
             <div className="project-details-list-title">Pontos Chave</div>
             <div className="project-details-list-description">
               <ul className="bullet-list">
                 {project?.details?.description.map((item, index) => (
-                  <li>{item}</li>
+                  <li key={index}>{item}</li>
                 ))}
               </ul>
+              <div className="project-details-list-images-wrapper d-none d-md-flex">
+                <ImageGallery images={project?.details?.plants} />
+              </div>
             </div>
           </div>
-          <div className="plantas project-details-list">
+
+          <div className="plantas project-details-list d-md-none">
             <div className="project-details-list-title">Plantas</div>
-            <div className="project-details-list-images">
-              {project?.details?.plants.map((item, index) => {
-                const projectImagePath = require(`../assets/${item.image}`);
 
-                return (
-                  <div key={index}>
-                    <img
-                      src={projectImagePath}
-                      alt="plants"
-                      maxWidth="400px"
-                      onClick={() => {
-                        setPhotoIndex(index);
-                        setIsOpen(true);
-                      }}
-                    />
-                    <span>{item.text}</span>
-                  </div>
-                );
-              })}
-            </div>
-
-            {isOpen && images.length > 0 && (
-              <Lightbox
-                mainSrc={images[photoIndex]}
-                onImageLoad={() => {
-                  window.dispatchEvent(new Event("resize"));
-                }}
-                nextSrc={images[(photoIndex + 1) % images.length]}
-                prevSrc={
-                  images[(photoIndex + images.length - 1) % images.length]
-                }
-                onCloseRequest={() => setIsOpen(false)}
-                onMovePrevRequest={() =>
-                  setPhotoIndex(
-                    (photoIndex + images.length - 1) % images.length
-                  )
-                }
-                onMoveNextRequest={() =>
-                  setPhotoIndex((photoIndex + 1) % images.length)
-                }
-              />
-            )}
+            <ImageGallery images={project?.details?.plants} />
           </div>
           {project.iframeLink && (
             <>
@@ -191,7 +143,6 @@ const ProjectDetail = () => {
                   width="100%"
                   height="500px"
                   style={{ border: "none", backgroundColor: "transparent" }}
-                  allowTransparency="true"
                   allowFullScreen
                 ></iframe>
               </div>
