@@ -11,17 +11,17 @@ const responsive = {
     },
     items: 1,
   },
-  mobile: {
+  tablet: {
     breakpoint: {
-      max: 767,
-      min: 464,
+      max: 1023,
+      min: 768,
     },
     items: 1,
   },
-  tablet: {
+  mobile: {
     breakpoint: {
-      max: 1024,
-      min: 768,
+      max: 767,
+      min: 0,
     },
     items: 1,
   },
