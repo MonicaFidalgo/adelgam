@@ -109,6 +109,16 @@ const Form = () => {
                 value={formState.telephone}
                 onChange={handleChange}
                 className="mb-4"
+                pattern="[0-9+]*"
+                onKeyDown={(e) => {
+                  if (
+                    !/[0-9+]|Backspace|Tab|Enter|Delete|ArrowLeft|ArrowRight/.test(
+                      e.key
+                    )
+                  ) {
+                    e.preventDefault();
+                  }
+                }}
               />
             </Col>
           </Row>

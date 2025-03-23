@@ -10,7 +10,7 @@ const About = () => {
         <div className="banner-heading mb-4">
           <label className="label mb-4">Conheça a Adelgam</label>
           <h2 className="heading-big">
-            Há mais de 25 anos, a construir com qualidade e inovação.
+            Há mais de 25 anos, a construir com qualidade e inovação
           </h2>
         </div>
         <hr />

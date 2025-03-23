@@ -18,7 +18,7 @@
     "state": "Pronto para entrega",
     "projects": [
       {
-        "label": "Lux Terrace (Alcochete)",
+        "label": "Lux Terrace Alcochete",
         "name": "projects.lux_terrace.apartment_t1.name",
         "link": "apartment-t1",
         "image": "project1.png",
@@ -61,7 +61,7 @@
         }
       },
       {
-        "label": "Lux Terrace (Alcochete)",
+        "label": "Lux Terrace Alcochete",
         "name": "projects.lux_terrace.apartment_t2.name",
         "link": "apartment-t2",
         "image": "project1.png",
@@ -102,7 +102,7 @@
         }
       },
       {
-        "label": "Lux Terrace (Alcochete)",
+        "label": "Lux Terrace Alcochete",
         "name": "projects.lux_terrace.apartment_t3.name",
         "link": "apartment-t3",
         "image": "project1.png",
@@ -146,7 +146,7 @@
     ],
     "penthouses": [
       {
-        "label": "Lux Terrace (Alcochete)",
+        "label": "Lux Terrace Alcochete",
         "name": "projects.lux_terrace.penthouse_t3.name",
         "link": "penthouse-t3",
         "image": "project1.png",
@@ -154,6 +154,8 @@
         "badge": "100% vendido",
         "badgeClass": "badge-red",
         "price": "690.000,00",
+        "iframeTitle": "Tour Virtual: Explore a Penthouse T3",
+        "iframeLink": "https://youriguide.com/luxterrace82penthouset3",
         "images": [
           "penthouse-t3/Lux+Terrace++Alcochete+Cozinha-1920w.webp",
           "penthouse-t3/Lux+Terrace++Alcochete+Suite+Master-1920w.webp",
@@ -187,7 +189,7 @@
         }
       },
       {
-        "label": "Lux Terrace (Alcochete)",
+        "label": "Lux Terrace Alcochete",
         "name": "projects.lux_terrace.penthouse_t4.name",
         "link": "penthouse-t4",
         "image": "project1.png",
@@ -195,6 +197,8 @@
         "badge": "100% vendido",
         "badgeClass": "badge-red",
         "price": "780.000,00",
+        "iframeTitle": "Tour Virtual: Explore a Penthouse T4",
+        "iframeLink": "https://youriguide.com/luxterrace82penthouset4",
         "images": [
           "penthouse-t4/Lux-Terrace-Alcocehte-Varanda-T4-1920w.webp",
           "penthouse-t4/Lux-Terrace-Alcochete-Penthouse-T4-1920w.webp",
@@ -228,7 +232,7 @@
         }
       },
       {
-        "label": "Lux Terrace (Alcochete)",
+        "label": "Lux Terrace Alcochete",
         "name": "projects.lux_terrace.penthouse_t4-II.name",
         "link": "penthouse-t4-II",
         "image": "project1.png",
@@ -236,12 +240,13 @@
         "badge": "1 disponível",
         "badgeClass": "badge-green",
         "price": "780.000,00",
+        "iframeTitle": "Tour Virtual: Explore a Penthouse T4",
+        "iframeLink": "https://youriguide.com/luxterrace82penthouset4",
         "images": [
           "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-Sala-T4-1920w.webp",
           "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-Sala-T4-a71eefba-1920w.webp",
           "penthouse-t4-2/Lux-Terrace-Alcochete-Quarto-T3-1920w.webp",
-          "penthouse-t4-2/Lux-Terrace-Alcochete-Varanda-T3-1920w.webp",
-          "penthouse-t4-2/Lux+Terrace++Alcochete+Suite+Master-1920w.webp"
+          "penthouse-t4-2/Lux-Terrace-Alcochete-Varanda-T3-1920w.webp"
         ],
         "details": {
           "bedrooms": "4 suites",
@@ -271,7 +276,7 @@
         }
       },
       {
-        "label": "Lux Terrace (Alcochete)",
+        "label": "Lux Terrace Alcochete",
         "name": "projects.lux_terrace.penthouse_deluxe.name",
         "link": "penthouse-deluxe",
         "image": "project1.png",
@@ -331,8 +336,6 @@
   "varandas-do-montijo": {
     "label": "projects.varandas_do_montijo.label",
     "title": "projects.varandas_do_montijo.title",
-    "description": "projects.varandas_do_montijo.description",
-    "images": ["project1.png", "project1.png", "project1.png"],
     "badge": "100% vendido",
     "badgeClass": "badge-red",
     "location": "Montijo",
@@ -343,8 +346,6 @@
   "moradias-sao-francisco": {
     "label": "projects.moradias_sao_francisco.label",
     "title": "projects.moradias_sao_francisco.title",
-    "description": "projects.moradias_sao_francisco.description",
-    "images": ["project1.png", "project1.png", "project1.png"],
     "badge": "100% vendido",
     "badgeClass": "badge-red",
     "location": "São Francisco",

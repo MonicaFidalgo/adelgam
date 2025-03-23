@@ -55,6 +55,7 @@ const Home = () => {
       </div>
 
       <Container>
+        <hr className="separator-home d-none d-lg-flex" />
         <Details data={details} />
         <hr />
       </Container>

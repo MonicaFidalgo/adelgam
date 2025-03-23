@@ -7,10 +7,13 @@ const Projects = () => {
     <Container className="pt-200">
       <div className="banner-heading mb-4">
         <label className="label mb-4">Empreendimentos</label>
-        <h2 className="heading-big">
-          Explore os nossos projetos e descubra como transformamos visões em
-          realidade.
-        </h2>
+        <h2 className="heading-big">Espaços de conforto e harmonia</h2>
+        <p>
+          Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos
+          proprietários satisfeitos. Cada projecto que realizamos reflecte o
+          nosso compromisso com a qualidade, a inovação e o bem-estar das
+          famílias.
+        </p>
       </div>
       {/* <Row className="py-100">
         <Col lg={6} className="text-center">
@@ -46,17 +49,6 @@ const Projects = () => {
           </div>
         </Col>
       </Row> */}
-      <hr />
-      <div className="projects-heading">
-        <label className="label mb-3">Projectos Concluídos</label>
-        <h2 className="heading mb-3">Espaços de conforto e harmonia</h2>
-        <p>
-          Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos
-          proprietários satisfeitos. Cada projecto que realizamos reflecte o
-          nosso compromisso com a qualidade, a inovação e o bem-estar das
-          famílias.
-        </p>
-      </div>
 
       <ProjectComponent />
     </Container>

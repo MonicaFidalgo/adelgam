@@ -19,7 +19,7 @@ const Contacts = () => {
           <h4>Precisa de mais informações?</h4>
           <p>
             Preencha o formulário abaixo e a nossa equipa entrará em contacto
-            para fornecer os detalhes.
+            para fornecer os detalhes necessários.
           </p>
           <Form />
         </div>

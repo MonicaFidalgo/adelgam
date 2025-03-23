@@ -51,19 +51,22 @@ const ProjectParent = () => {
           <span className="badge-circle"></span>
           {badge}
         </label>
-        <p>{t(description)}</p>
+        {!description && <p>{t(description)}</p>}
       </div>
 
-      <hr className="mt-60" />
-
-      <Higlights location={location} state={state} typology={typology} />
-
-      <hr className="mb-60" />
-
-      <ImageCarousel images={images} />
+      {!!images && images?.length > 0 ? (
+        <>
+          <hr className="mt-60" />
+          <Higlights location={location} state={state} typology={typology} />
+          <hr className="mb-60" />
+          <ImageCarousel images={images} />
+        </>
+      ) : (
+        <h4 className="text-center">🚧 Página em construção 🚧 </h4>
+      )}
 
       {!!projects && projects.length > 0 && (
-        <h3 className="heading my-60 text-center">Apartamentos</h3>
+        <h3 className="heading my-60 text-center">Apartamentos T1 - T3</h3>
       )}
 
       {!!projects && projects.length > 0 && (
