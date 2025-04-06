@@ -75,15 +75,23 @@ textarea {
 .heading-big {
   font-family: "Roboto Serif", serif;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 30px;
   color: $black;
+
+  @media screen and (min-width: 900px) {
+    font-size: 48px;
+  }
 }
 
 .heading {
   font-family: "Roboto Serif", serif;
   font-weight: 500;
-  font-size: 42px;
+  font-size: 28px;
   color: $black;
+
+  @media screen and (min-width: 900px) {
+    font-size: 42px;
+  }
 }
 
 /* PADDINGS & MARGINS */
@@ -227,10 +235,14 @@ textarea {
 
 .banner-title {
   font-family: "Roboto Serif", serif;
-  font-size: 62px;
+  font-size: 42px;
   font-weight: 500;
   color: $black;
   text-transform: uppercase;
+
+  @media screen and (min-width: 900px) {
+    font-size: 62px;
+  }
 }
 
 .banner-subtitle {
@@ -261,7 +273,6 @@ textarea {
   text-align: center;
 
   .banner-title {
-    font-size: 52px;
     color: $white;
   }
 
@@ -325,15 +336,20 @@ textarea {
 
 .project {
   img {
+    object-fit: contain;
     width: 100%;
   }
 
   h5 {
     font-family: "Roboto Serif", serif;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 24px;
     padding: 40px 0 32px;
     margin: 0;
+
+    @media screen and (min-width: 900px) {
+      font-size: 32px;
+    }
   }
 
   .badge {

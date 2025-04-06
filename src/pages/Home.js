@@ -133,7 +133,7 @@ const Home = () => {
               src={image2}
               alt="sala e cozinha"
               width="100%"
-              className="margin-top-4 mt-md-0"
+              className="margin-top-4 mt-lg-0"
             />
           </Col>
         </Row>

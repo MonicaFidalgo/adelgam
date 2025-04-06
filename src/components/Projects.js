@@ -14,7 +14,7 @@ const Projects = () => {
       link: "lux-terrace",
       location: "Alcochete",
       apartments: "37 apartamentos e 5 penthouses",
-      typologies: "T1 a T4 Penthose",
+      typologies: "T1 a T4 Penthouse",
       parking: "Box (Para 2 carros)",
       badge: "95% vendido",
       badgeClass: "badge-yellow",
@@ -52,35 +52,38 @@ const Projects = () => {
           <Col lg={4} key={project.id}>
             <div className="project">
               <img src={project.image} alt={project.name} />
-              <h5>{project.name}</h5>
-              <label className={`badge ${project.badgeClass}`}>
-                <span className="badge-circle"></span>
-                {project.badge}
-              </label>
-              <ul>
-                <li>
-                  <span>Localização:</span>
-                  <strong>{project.location}</strong>
-                </li>
-                <li>
-                  <span>Apartamentos:</span>
-                  <strong>{project.apartments}</strong>
-                </li>
-                <li>
-                  <span>Tipologias:</span>
-                  <strong>{project.typologies}</strong>
-                </li>
-                <li>
-                  <span>Estacionamento: </span>
-                  <strong>{project.parking}</strong>
-                </li>
-              </ul>
-              <Link
-                to={`/empreendimentos/${project.link}`}
-                className="button button-primary"
-              >
-                Mais informações
-              </Link>
+              <div>
+                {" "}
+                <h5>{project.name}</h5>
+                <label className={`badge ${project.badgeClass}`}>
+                  <span className="badge-circle"></span>
+                  {project.badge}
+                </label>
+                <ul>
+                  <li>
+                    <span>Localização:</span>
+                    <strong>{project.location}</strong>
+                  </li>
+                  <li>
+                    <span>Apartamentos:</span>
+                    <strong>{project.apartments}</strong>
+                  </li>
+                  <li>
+                    <span>Tipologias:</span>
+                    <strong>{project.typologies}</strong>
+                  </li>
+                  <li>
+                    <span>Estacionamento: </span>
+                    <strong>{project.parking}</strong>
+                  </li>
+                </ul>
+                <Link
+                  to={`/empreendimentos/${project.link}`}
+                  className="button button-primary"
+                >
+                  Mais informações
+                </Link>
+              </div>
             </div>
           </Col>
         ))}
