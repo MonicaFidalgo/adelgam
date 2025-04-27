@@ -5,6 +5,8 @@ import { useTranslation } from "react-i18next";
 import projectsData from "../data/projects.json";
 import Higlights from "../components/Highlights";
 import ImageCarousel from "../components/Carousel";
+import DetailsIcons from "../components/DetailsIcons";
+import ImageGallery from "../components/ImageZoom";
 import Table from "react-bootstrap/Table";
 
 const ProjectParent = () => {
@@ -51,9 +53,10 @@ const ProjectParent = () => {
           <span className="badge-circle"></span>
           {badge}
         </label>
-        {!description && <p>{t(description)}</p>}
+        {!!description && (
+          <p dangerouslySetInnerHTML={{ __html: t(description) }} />
+        )}
       </div>
-
       {!!images && images?.length > 0 ? (
         <>
           <hr className="mt-60" />
@@ -65,10 +68,49 @@ const ProjectParent = () => {
         <h4 className="text-center">🚧 Página em construção 🚧 </h4>
       )}
 
+      {/* ONLY FOR MORADIAS*/}
+      {!!projectData?.details && <DetailsIcons data={projectData.details} />}
+
+      {!!projectData?.description2 && (
+        <div
+          className="deluxe-description"
+          dangerouslySetInnerHTML={{ __html: t(projectData?.description2) }}
+        />
+      )}
+
+      {!!projectData?.details2 && <DetailsIcons data={projectData.details2} />}
+
+      {projectData?.detailsDescription && (
+        <div className="acabamentos project-details-list">
+          <div className="project-details-list-title">Pontos Chave</div>
+          <div className="project-details-list-description">
+            <ul className="bullet-list">
+              {projectData?.detailsDescription.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+            {!!projectData?.detailsPlants && (
+              <div className="project-details-list-images-wrapper d-none d-md-flex">
+                <ImageGallery images={projectData?.detailsPlants} />
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {!!projectData?.detailsPlants && (
+        <div className="plantas project-details-list d-md-none">
+          <div className="project-details-list-title">Plantas</div>
+
+          <ImageGallery images={projectData?.detailsPlants} />
+        </div>
+      )}
+
+      {/* END OF ONLY FOR MORADIAS*/}
+
       {!!projects && projects.length > 0 && (
         <h3 className="heading my-60 text-center">Apartamentos T1 - T3</h3>
       )}
-
       {!!projects && projects.length > 0 && (
         <div className="d-none d-lg-block">
           <Table>
@@ -114,7 +156,6 @@ const ProjectParent = () => {
           </Table>
         </div>
       )}
-
       {/* Mobile View: projects */}
       <div className="d-lg-none">
         {projects?.map((project, index) => (
@@ -178,11 +219,9 @@ const ProjectParent = () => {
           </div>
         ))}
       </div>
-
       {!!projectData?.penthouses && (
         <h3 className="heading my-60 text-center">Penthouses</h3>
       )}
-
       {!!projectData?.penthouses && (
         <div className="d-none d-lg-block">
           <Table>
@@ -228,7 +267,6 @@ const ProjectParent = () => {
           </Table>
         </div>
       )}
-
       {/* Mobile View: penthouses */}
       <div className="d-lg-none">
         {projectData?.penthouses?.map((project, index) => (

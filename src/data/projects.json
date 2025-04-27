@@ -336,6 +336,13 @@
   "varandas-do-montijo": {
     "label": "projects.varandas_do_montijo.label",
     "title": "projects.varandas_do_montijo.title",
+    "description": "projects.varandas_do_montijo.description",
+    "images": [
+      "varandas-montijo.jpg",
+      "varandas-montijo-entrada.jpg",
+      "varandas-montijo-wc.jpg",
+      "varandas-montijo-cozinha.jpg"
+    ],
     "badge": "100% vendido",
     "badgeClass": "badge-red",
     "location": "Montijo",
@@ -346,6 +353,92 @@
   "moradias-sao-francisco": {
     "label": "projects.moradias_sao_francisco.label",
     "title": "projects.moradias_sao_francisco.title",
+    "description": "projects.moradias_sao_francisco.description",
+    "description2": "projects.moradias_sao_francisco.description2",
+    "images": [
+      "moradia-sao-francisco-alcochete.jpg",
+      "moradia-sao-francisco-alcochete2.jpg",
+      "moradia-sao-francisco-alcochete3.jpg",
+      "moradia-sao-francisco-alcochete4.jpg",
+      "moradia-sao-francisco-alcochete5.jpg"
+    ],
+    "detailsDescription": [
+      "4 Suites",
+      "Piso radiante em todas as áreas",
+      "Quarto de lavandaria completa",
+      "Garagem para 4 carros",
+      "Equipada com Som e Wi-Fi na casa toda"
+    ],
+    "detailsPlants": [
+      {
+        "image": "moradias/plantas/moradia-sao-francisco-piso1.jpg",
+        "text": "Planta R/C"
+      },
+      {
+        "image": "moradias/plantas/moradia-sao-francisco-piso2.jpg",
+        "text": "Planta Piso 1"
+      },
+      {
+        "image": "moradias/plantas/moradia-sao-francisco-piso3.jpg",
+        "text": "Planta Piso 2"
+      },
+      {
+        "image": "moradias/plantas/moradia-sao-francisco-garagem.jpg",
+        "text": "Garagem"
+      }
+    ],
+    "details": [
+      {
+        "id": 1,
+        "icon": "house",
+        "title": "Área Habitável (m²)",
+        "description": "300m²"
+      },
+      {
+        "id": 2,
+        "icon": "outside",
+        "title": "Área Exterior (m²)",
+        "description": "106m²"
+      },
+      {
+        "id": 3,
+        "icon": "parking",
+        "title": "Área Boxes (m²)",
+        "description": "110m²"
+      },
+      {
+        "id": 4,
+        "icon": "total-area",
+        "title": "Área Total (m²)",
+        "description": "516m²"
+      }
+    ],
+    "details2": [
+      {
+        "id": 1,
+        "icon": "living-room",
+        "title": "Salas",
+        "description": "2"
+      },
+      {
+        "id": 2,
+        "icon": "dinning-room",
+        "title": "Sala de Jantar",
+        "description": "1"
+      },
+      {
+        "id": 3,
+        "icon": "rooms",
+        "title": "Suites",
+        "description": "4"
+      },
+      {
+        "id": 4,
+        "icon": "office",
+        "title": "Sala de cinema",
+        "description": "1"
+      }
+    ],
     "badge": "100% vendido",
     "badgeClass": "badge-red",
     "location": "São Francisco",

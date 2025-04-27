@@ -18,6 +18,7 @@ const Projects = () => {
       parking: "Box (Para 2 carros)",
       badge: "95% vendido",
       badgeClass: "badge-yellow",
+      isApartment: true,
     },
     {
       id: 2,
@@ -30,6 +31,7 @@ const Projects = () => {
       parking: "Box",
       badge: "100% vendido",
       badgeClass: "badge-red",
+      isApartment: true,
     },
     {
       id: 3,
@@ -37,11 +39,12 @@ const Projects = () => {
       image: image3,
       link: "moradias-sao-francisco",
       location: "São Francisco",
-      apartments: "Moradia Geminada",
+      apartments: "2 Moradias Geminadas",
       typologies: "T4",
       parking: "Garagem privada",
       badge: "100% vendido",
       badgeClass: "badge-red",
+      isApartment: false,
     },
   ];
 
@@ -51,7 +54,10 @@ const Projects = () => {
         {projectData.map((project) => (
           <Col lg={4} key={project.id}>
             <div className="project">
-              <img src={project.image} alt={project.name} />
+              <Link to={`/empreendimentos/${project.link}`}>
+                <img src={project.image} alt={project.name} />
+              </Link>
+
               <div>
                 {" "}
                 <h5>{project.name}</h5>
@@ -65,7 +71,9 @@ const Projects = () => {
                     <strong>{project.location}</strong>
                   </li>
                   <li>
-                    <span>Apartamentos:</span>
+                    <span>
+                      {project.isApartment ? "Apartamentos" : "Moradias"}:
+                    </span>
                     <strong>{project.apartments}</strong>
                   </li>
                   <li>

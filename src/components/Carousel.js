@@ -90,7 +90,12 @@ const ImageCarousel = ({ images }) => {
               <img
                 src={projectImagePath}
                 alt={`Slide ${index + 1}`}
-                style={{ width: "100%", height: "100%", borderRadius: "4px" }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  borderRadius: "4px",
+                  objectFit: "cover",
+                }}
                 onClick={() => setSelectedIndex(index)}
               />
             </div>

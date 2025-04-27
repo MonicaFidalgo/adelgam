@@ -32,7 +32,7 @@
   "projects": {
     "lux_terrace": {
       "label": "Elegância e Luxo",
-      "title": "Lux Terrace",
+      "title": "Lux Terrace - Alcochete",
       "description": "Situado na zona nova de Alcochete, este empreendimento composto por cinco prédios, oferece requintados apartamentos com tipologias de T1 a T4 Penthouse. Numa arquitectura de linhas contemporâneas, pensada para as famílias modernas, as suas áreas generosas proporcionam o máximo conforto e são adequadas a qualquer estilo de vida.",
       "apartment_t1": {
         "name": "Apartamento T1",
@@ -66,12 +66,13 @@
     "varandas_do_montijo": {
       "label": "Localização previligiada",
       "title": "Varandas do Montijo",
-      "description": ""
+      "description": "Urbanização <strong>Varandas do Montijo</strong>, composta por <strong>4 lotes</strong>, num total de <strong>40 apartamentos</strong>, com ano de construção em <strong>2020</strong>."
     },
     "moradias_sao_francisco": {
       "label": "A vossa moradia perfeita",
       "title": "Moradias São Francisco",
-      "description": "Moradias São Francisco oferece casas espaçosas num bairro tranquilo."
+      "description": "Localizado na tranquila e renovada zona de São Francisco, este exclusivo empreendimento de moradias geminadas combina elegância, conforto e funcionalidade. Com uma arquitetura moderna e espaços amplos, estas moradias foram concebidas para proporcionar um estilo de vida sofisticado e equilibrado, ideal para famílias que valorizam privacidade e qualidade de vida.",
+      "description2": "<p>Descubra o equilíbrio perfeito entre sofisticação e conforto nesta elegante moradia geminada em São Francisco. Com quatro suítes espaçosas, esta residência oferece um ambiente requintado e funcional, pensado ao detalhe para garantir bem-estar e privacidade.</p><p>A área social destaca-se por uma ampla sala de estar e jantar em open space, criando uma atmosfera harmoniosa e convidativa. A cozinha moderna, totalmente equipada, alia design contemporâneo e eficiência, tornando cada refeição uma experiência única.</p><p> Para momentos de lazer exclusivos, a moradia dispõe de uma sofisticada sala de cinema, perfeita para entretenimento em família ou entre amigos. Além disso, uma lavandaria completa proporciona máxima conveniência para o dia a dia.</p><p> A garagem privativa, com capacidade para três carros, garante total comodidade e segurança. Viva com requinte e conforto nesta moradia que redefine o conceito de habitação moderna em São Francisco.</p>"
     }
   }
 }

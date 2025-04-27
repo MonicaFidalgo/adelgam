@@ -605,6 +605,7 @@ textarea {
 
   .project-details-list-images {
     background-color: transparent;
+    max-height: 400px;
   }
 
   .project-details-list-images-wrapper {
@@ -639,8 +640,14 @@ textarea {
   .project-details-list-image {
     width: 100%;
     max-width: 350px;
+    max-height: 100%;
+    margin-bottom: 5px;
     cursor: pointer;
   }
+}
+
+.pswp__img {
+  object-fit: contain;
 }
 
 .iframe-title {
