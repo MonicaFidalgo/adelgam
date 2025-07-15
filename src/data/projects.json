@@ -163,10 +163,10 @@
           "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha+-1920w.webp"
         ],
         "details": {
-          "bedrooms": "4 suites",
-          "bathrooms": "5",
+          "bedrooms": "2 Suites",
+          "bathrooms": "3",
           "parking": "1 Box (2 Carros)",
-          "area": "217",
+          "area": "184",
           "certification": "A+",
           "description": [
             "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
@@ -206,10 +206,10 @@
           "penthouse-t4/Penthouse+T4+FRT+ESQ-1920w.webp"
         ],
         "details": {
-          "bedrooms": "4 suites",
-          "bathrooms": "5",
+          "bedrooms": "3 Suites",
+          "bathrooms": "4",
           "parking": "1 Box (2 Carros)",
-          "area": "292",
+          "area": "224",
           "certification": "A+",
           "description": [
             "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
@@ -237,8 +237,8 @@
         "link": "penthouse-t4-II",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t4-II.description",
-        "badge": "1 disponível",
-        "badgeClass": "badge-green",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
         "price": "780.000,00",
         "iframeTitle": "Tour Virtual: Explore a Penthouse T4",
         "iframeLink": "https://youriguide.com/luxterrace82penthouset4",
@@ -249,10 +249,10 @@
           "penthouse-t4-2/Lux-Terrace-Alcochete-Varanda-T3-1920w.webp"
         ],
         "details": {
-          "bedrooms": "4 suites",
+          "bedrooms": "4 Suites",
           "bathrooms": "5",
           "parking": "1 Box (2 Carros)",
-          "area": "286",
+          "area": "227",
           "certification": "A+",
           "description": [
             "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
@@ -302,7 +302,7 @@
           "penthouse-deluxe/Terraço+2-1920w.webp"
         ],
         "details": {
-          "bedrooms": "4 suites",
+          "bedrooms": "4 Master Suites",
           "bathrooms": "5",
           "parking": "2 Boxes (4 Carros)",
           "area": "340",

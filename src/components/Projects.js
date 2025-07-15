@@ -41,7 +41,7 @@ const Projects = () => {
       location: "São Francisco",
       apartments: "2 Moradias Geminadas",
       typologies: "T4",
-      parking: "Garagem privada",
+      parking: "Garagem para 4 carros",
       badge: "100% vendido",
       badgeClass: "badge-red",
       isApartment: false,
