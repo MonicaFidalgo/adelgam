@@ -367,7 +367,8 @@
       "Piso radiante em todas as áreas",
       "Quarto de lavandaria completa",
       "Garagem para 4 carros",
-      "Equipada com Som e Wi-Fi na casa toda"
+      "Equipada com Som e Wi-Fi na casa toda",
+      "Piscina"
     ],
     "detailsPlants": [
       {
@@ -418,19 +419,19 @@
         "id": 1,
         "icon": "living-room",
         "title": "Salas",
-        "description": "2"
+        "description": "3"
       },
       {
         "id": 2,
-        "icon": "dinning-room",
-        "title": "Sala de Jantar",
-        "description": "1"
-      },
-      {
-        "id": 3,
         "icon": "rooms",
         "title": "Suites",
         "description": "4"
+      },
+      {
+        "id": 3,
+        "icon": "pool",
+        "title": "Piscina",
+        "description": "1"
       },
       {
         "id": 4,
@@ -439,11 +440,11 @@
         "description": "1"
       }
     ],
-    "badge": "100% vendido",
-    "badgeClass": "badge-red",
+    "badge": "90% vendido",
+    "badgeClass": "badge-yellow",
     "location": "São Francisco",
     "typology": "Moradias",
-    "state": "Vendido",
+    "state": "Última moradia em fase de construção",
     "projects": []
   }
 }
