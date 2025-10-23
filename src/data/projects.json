@@ -356,19 +356,22 @@
     "description": "projects.moradias_sao_francisco.description",
     "description2": "projects.moradias_sao_francisco.description2",
     "images": [
-      "moradia-sao-francisco-alcochete.jpg",
-      "moradia-sao-francisco-alcochete2.jpg",
-      "moradia-sao-francisco-alcochete3.jpg",
-      "moradia-sao-francisco-alcochete4.jpg",
-      "moradia-sao-francisco-alcochete5.jpg"
+      "moradias/moradia-alcochete-sao-francisco-sala.webp",
+      "moradias/moradia-alcochete-sao-francisco-cozinha.webp",
+      "moradias/moradia-alcochete-sao-francisco-espaco-exterior.webp",
+      "moradias/moradia-alcochete-sao-francisco-piscina.webp",
+      "moradias/moradia-alcochete-sao-francisco-roupeiro.webp",
+      "moradias/moradia-alcochete-sao-francisco-sala-de-cinema.webp",
+      "moradias/moradia-alcochete-sao-francisco-casa-de-banho.webp"
     ],
     "detailsDescription": [
       "4 Suites",
-      "Piso radiante em todas as áreas",
-      "Quarto de lavandaria completa",
-      "Garagem para 4 carros",
-      "Equipada com Som e Wi-Fi na casa toda",
-      "Piscina"
+      "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 60 m²",
+      "Cave de Vinho da Liebherr",
+      "Lavandaria com máquina de lavar e máquina de secar",
+      "Espaço exterior com churrasqueira e piscina",
+      "Sala de cinema totalmente equipada",
+      "Garagem para 3 carros com 110m2"
     ],
     "detailsPlants": [
       {
@@ -404,7 +407,7 @@
       {
         "id": 3,
         "icon": "parking",
-        "title": "Área Boxes (m²)",
+        "title": "Área de Garagem (m²)",
         "description": "110m²"
       },
       {
