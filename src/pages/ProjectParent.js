@@ -54,7 +54,24 @@ const ProjectParent = () => {
           {badge}
         </label>
         {!!description && (
-          <p dangerouslySetInnerHTML={{ __html: t(description) }} />
+          <p
+            className="mb-3"
+            dangerouslySetInnerHTML={{ __html: t(description) }}
+          />
+        )}
+        {!!projectData.price && (
+          <>
+            {" "}
+            <p className="price mb-3">{projectData.price} €</p>{" "}
+            <a
+              href="mailto:adelgam@adelgam.pt"
+              target="_blank"
+              rel="noreferrer"
+              className="button button-primary"
+            >
+              Quero marcar uma visita
+            </a>
+          </>
         )}
       </div>
       {!!images && images?.length > 0 ? (
@@ -69,6 +86,7 @@ const ProjectParent = () => {
       )}
 
       {/* ONLY FOR MORADIAS*/}
+      {console.log(projectData.price)}
       {!!projectData?.details && <DetailsIcons data={projectData.details} />}
 
       {!!projectData?.description2 && (
