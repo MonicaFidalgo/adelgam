@@ -5,7 +5,7 @@ import Projects from "../components/Projects";
 import bannerImage from "../assets/adelgam-real-state.webp";
 import details from "../data/details.json";
 import image1 from "../assets/image-1.png";
-import image2 from "../assets/image-2.png";
+import image2 from "../assets/image-3.png";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -100,29 +100,51 @@ const Home = () => {
           <Col lg={6} className="align-self-center">
             <div>
               <label className="label mb-3">PROJECTO EM DESTAQUE</label>
-              <h2 className="heading mb-3">Lux Terrace</h2>
+              <h2 className="heading mb-3">Moradias São Francisco</h2>
               <p>
-                Numa arquitectura de linhas contemporâneas, pensada para as
-                famílias modernas, as suas áreas generosas proporcionam o máximo
-                conforto e são adequadas a qualquer estilo de vida.
+                Inserido na tranquila e renovada zona de{" "}
+                <strong>São Francisco</strong>, este exclusivo conjunto de
+                moradias geminadas combina elegância, conforto e funcionalidade.
+                Com uma arquitetura contemporânea e espaços amplos, cada
+                residência foi cuidadosamente projetada para oferecer um estilo
+                de vida sofisticado e equilibrado, ideal para famílias que
+                valorizam privacidade e bem-estar.
               </p>
+
               <ul>
                 <li>
-                  Localização: <strong>Alcochete</strong>
+                  Localização:{" "}
+                  <strong>
+                    São Francisco, zona residencial tranquila e renovada
+                  </strong>
                 </li>
                 <li>
-                  Apartamentos: <strong>37 apartamentos e 5 penthouses</strong>
+                  Estado: <strong>Última moradia em fase de construção</strong>
                 </li>
                 <li>
-                  Tipologias: <strong>T1 a T4 Penthouse</strong>
+                  Tipologia:{" "}
+                  <strong>Moradia geminada T4 com quatro suítes</strong>
                 </li>
                 <li>
-                  Estacionamento: <strong>Box (Para 2 carros)</strong>
+                  Áreas:{" "}
+                  <strong>
+                    516 m² totais (300 m² habitáveis + 106 m² exteriores + 110
+                    m² garagem)
+                  </strong>
+                </li>
+                <li>
+                  Comodidades:{" "}
+                  <strong>
+                    Sala de cinema, piscina privada e garagem para 3 carros
+                  </strong>
+                </li>
+                <li>
+                  Preço: <strong>950.000,00 €</strong>
                 </li>
               </ul>
               <Link
                 className="button button-primary margin-top-4"
-                to="/empreendimentos/lux-terrace"
+                to="/empreendimentos/moradias-sao-francisco"
               >
                 Mais informações
               </Link>
