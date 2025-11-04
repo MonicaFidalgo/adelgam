@@ -97,10 +97,14 @@ const Home = () => {
       </Container>
       <Container>
         <Row className="my-60">
-          <Col lg={6} className="align-self-center">
+          <Col
+            lg={{ span: 6, order: 1 }}
+            xs={{ order: 2 }}
+            className="align-self-center"
+          >
             <div>
               <label className="label mb-3">PROJECTO EM DESTAQUE</label>
-              <h2 className="heading mb-3">Moradias São Francisco</h2>
+              <h2 className="heading mb-3">Moradia</h2>
               <p>
                 Inserido na tranquila e renovada zona de{" "}
                 <strong>São Francisco</strong>, este exclusivo conjunto de
@@ -111,37 +115,6 @@ const Home = () => {
                 valorizam privacidade e bem-estar.
               </p>
 
-              <ul>
-                <li>
-                  Localização:{" "}
-                  <strong>
-                    São Francisco, zona residencial tranquila e renovada
-                  </strong>
-                </li>
-                <li>
-                  Estado: <strong>Última moradia em fase de construção</strong>
-                </li>
-                <li>
-                  Tipologia:{" "}
-                  <strong>Moradia geminada T4 com quatro suítes</strong>
-                </li>
-                <li>
-                  Áreas:{" "}
-                  <strong>
-                    516 m² totais (300 m² habitáveis + 106 m² exteriores + 110
-                    m² garagem)
-                  </strong>
-                </li>
-                <li>
-                  Comodidades:{" "}
-                  <strong>
-                    Sala de cinema, piscina privada e garagem para 3 carros
-                  </strong>
-                </li>
-                <li>
-                  Preço: <strong>950.000,00 €</strong>
-                </li>
-              </ul>
               <Link
                 className="button button-primary margin-top-4"
                 to="/empreendimentos/moradias-sao-francisco"
@@ -150,7 +123,11 @@ const Home = () => {
               </Link>
             </div>
           </Col>
-          <Col lg={6} className="text-center">
+          <Col
+            lg={{ span: 6, order: 2 }}
+            xs={{ order: 1 }}
+            className="text-center mb-4 mb-md-0"
+          >
             <img
               src={image2}
               alt="sala e cozinha"
