@@ -16,7 +16,7 @@ const Projects = () => {
       apartments: "37 apartamentos e 5 penthouses",
       typologies: "T1 a T4 Penthouse",
       parking: "Box (Para 2 carros)",
-      badge: "95% vendido",
+      badge: "90% vendido",
       badgeClass: "badge-yellow",
       isApartment: true,
     },
