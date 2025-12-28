@@ -66,9 +66,11 @@
         "link": "apartment-t2",
         "image": "project1.png",
         "description": "projects.lux_terrace.apartment_t2.description",
-        "badge": "80% vendido",
+        "badge": "90% vendido",
         "badgeClass": "badge-yellow",
         "price": "450.000,00",
+        "iframeTitle": "Tour Virtual: Explore o Apartamento T2",
+        "iframeLink": "https://youriguide.com/83_r_jos_batista_canteiro_acochete_pt_15_pt",
         "images": [
           "apartment-t2/Lux-Terrace-Alcochete-Exterior-Frente-1920w-1920w.webp",
           "apartment-t2/Lux-Terrace-Alcochete-Sala_T2--1920w.webp",
