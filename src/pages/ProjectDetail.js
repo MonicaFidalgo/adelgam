@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import ImageCarousel from "../components/Carousel";
+import ImageCarousel from "../components/ImageCarousel";
+import ImageModal from "../components/ImageModal";
+import ImageCarousel2 from "../components/Carousel";
 import DetailsIcons from "../components/DetailsIcons";
 import ImageGallery from "../components/ImageZoom";
 import projectsData from "../data/projects.json";
@@ -10,6 +12,15 @@ import projectDetails from "../data/penthouse-details.json";
 import projectDetails2 from "../data/penthouse-details2.json";
 
 const ProjectDetail = () => {
+  const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+
+  const handleImageClick = (index) => {
+    setSelectedImageIndex(index);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedImageIndex(null);
+  };
   const { t } = useTranslation();
   const { projectTitle, projectDetailName } = useParams();
 
@@ -49,7 +60,22 @@ const ProjectDetail = () => {
               Quero marcar uma visita
             </a>
           </div>
-          <ImageCarousel images={project.images} />
+
+          <ImageCarousel2 images={project.images} />
+
+          <ImageCarousel
+            images={project.images}
+            onImageClick={handleImageClick}
+          />
+          <ImageModal
+            isOpen={selectedImageIndex !== null}
+            imageUrl={
+              selectedImageIndex !== null
+                ? require(`../assets/${project.images[selectedImageIndex]}`)
+                : ""
+            }
+            onClose={handleCloseModal}
+          />
           {isDeluxePenthouse && <DetailsIcons data={projectDetails} />}
           <div className="caracteristicas project-details-list">
             <div className="project-details-list-title">Características</div>
