@@ -9,6 +9,7 @@
     "i18next": "^24.2.2",
     "i18next-browser-languagedetector": "^8.0.2",
     "lucide-react": "^0.344.0",
+    "packageManager": "yarn@1.22.22",
     "photoswipe": "^5.4.4",
     "postcss": "^8.4.35",
     "prop-types": "^15.8.1",
