@@ -35,7 +35,7 @@ const ImageCarousel = ({ images, onImageClick }) => {
         <div className="flex items-center justify-center h-full gap-4 px-10">
           <button
             onClick={goToPrevious}
-            className="absolute left-8 z-10 bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 transition-colors"
+            className="absolute left-8 z-10 bg-white rounded-full p-3 button-round hover:bg-gray-100 transition-colors"
             aria-label="Previous image"
           >
             <ChevronLeft className="w-6 h-6" />
@@ -78,7 +78,7 @@ const ImageCarousel = ({ images, onImageClick }) => {
 
           <button
             onClick={goToNext}
-            className="absolute right-8 z-10 bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 transition-colors"
+            className="absolute right-8 z-10 bg-white rounded-full p-3 button-round hover:bg-gray-100 transition-colors"
             aria-label="Next image"
           >
             <ChevronRight className="w-6 h-6" />
@@ -103,7 +103,7 @@ const ImageCarousel = ({ images, onImageClick }) => {
         <div className="flex justify-center gap-6 mt-6">
           <button
             onClick={goToPrevious}
-            className="bg-white rounded-full p-4 shadow-lg hover:bg-gray-100 transition-colors"
+            className="bg-white rounded-full p-3 button-round hover:bg-gray-100 transition-colors"
             aria-label="Previous image"
           >
             <ChevronLeft className="w-8 h-8" />
@@ -111,7 +111,7 @@ const ImageCarousel = ({ images, onImageClick }) => {
 
           <button
             onClick={goToNext}
-            className="bg-white rounded-full p-4 shadow-lg hover:bg-gray-100 transition-colors"
+            className="bg-white rounded-full p-3 button-round hover:bg-gray-100 transition-colors"
             aria-label="Next image"
           >
             <ChevronRight className="w-8 h-8" />

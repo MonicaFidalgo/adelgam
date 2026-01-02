@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Container } from "react-bootstrap";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import projectsData from "../data/projects.json";
 import Higlights from "../components/Highlights";
-import ImageCarousel from "../components/Carousel";
+import ImageCarousel from "../components/ImageCarousel";
+import ImageModal from "../components/ImageModal";
 import DetailsIcons from "../components/DetailsIcons";
 import ImageGallery from "../components/ImageZoom";
 import Table from "react-bootstrap/Table";
@@ -13,6 +14,15 @@ const ProjectParent = () => {
   const { t } = useTranslation();
   const { projectTitle } = useParams();
   const [openIndex, setOpenIndex] = useState(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+
+  const handleImageClick = (index) => {
+    setSelectedImageIndex(index);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedImageIndex(null);
+  };
 
   const toggleCollapse = (index) => {
     setOpenIndex(openIndex === index ? null : index);
@@ -79,14 +89,23 @@ const ProjectParent = () => {
           <hr className="mt-60" />
           <Higlights location={location} state={state} typology={typology} />
           <hr className="mb-60" />
-          <ImageCarousel images={images} />
+
+          <ImageCarousel images={images} onImageClick={handleImageClick} />
+          <ImageModal
+            isOpen={selectedImageIndex !== null}
+            imageUrl={
+              selectedImageIndex !== null
+                ? require(`../assets/${images[selectedImageIndex]}`)
+                : ""
+            }
+            onClose={handleCloseModal}
+          />
         </>
       ) : (
         <h4 className="text-center">🚧 Página em construção 🚧 </h4>
       )}
 
       {/* ONLY FOR MORADIAS*/}
-      {console.log(projectData.price)}
       {!!projectData?.details && <DetailsIcons data={projectData.details} />}
 
       {!!projectData?.description2 && (

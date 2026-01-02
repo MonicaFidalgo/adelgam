@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import ImageCarousel from "../components/ImageCarousel";
 import ImageModal from "../components/ImageModal";
-import ImageCarousel2 from "../components/Carousel";
 import DetailsIcons from "../components/DetailsIcons";
 import ImageGallery from "../components/ImageZoom";
 import projectsData from "../data/projects.json";
@@ -60,8 +59,6 @@ const ProjectDetail = () => {
               Quero marcar uma visita
             </a>
           </div>
-
-          <ImageCarousel2 images={project.images} />
 
           <ImageCarousel
             images={project.images}
