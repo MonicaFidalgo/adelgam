@@ -3,25 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@popperjs/core": "^2.11.8",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "i18next": "^24.2.2",
     "i18next-browser-languagedetector": "^8.0.2",
-    "lucide-react": "^0.344.0",
     "photoswipe": "^5.4.4",
-    "postcss": "^8.4.35",
-    "prop-types": "^15.8.1",
-    "react": "^18.2.0",
+    "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
-    "react-dom": "^18.2.0",
+    "react-dom": "^19.0.0",
     "react-i18next": "^15.4.0",
     "react-multi-carousel": "^2.8.5",
     "react-photoswipe-gallery": "^3.1.1",
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
     "sass": "^1.83.1",
-    "tailwindcss": "^3.4.1",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
@@ -47,5 +42,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
