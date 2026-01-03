@@ -1,15 +1,31 @@
+import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 import logo from "../adelgam-logo.svg";
 import { Link } from "react-router-dom";
 // import { useTranslation } from "../contexts/TranslationContext";
 
 const Header = ({ onMenuClick }) => {
+  const [isScrolled, setIsScrolled] = useState(false);
   // const { language, setLanguage } = useTranslation();
   // const [showLangDropdown, setShowLangDropdown] = useState(false);
   //  max-w-7xl
 
+  useEffect(() => {
+    const onScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <header className="header fixed top-0 left-0 right-0">
+    <header
+      className={`
+        header fixed top-0 left-0 right-0 z-40 transition-all duration-300 
+        ${isScrolled ? "scrolled" : ""}
+      `}
+    >
       <div className="container py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
