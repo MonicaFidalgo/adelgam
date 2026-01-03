@@ -66,12 +66,10 @@ const Footer = () => {
           </Col>
         </Row>
         <hr />
-        <Row className="px-60">
-          <Col lg={12}>
-            <div className="copyright">
-              <p>© Copyright 2025 - Adelgam Promoção Imobiliária</p>
-            </div>
-          </Col>
+        <Row className="py-60">
+          <div className="copyright">
+            <p>© Copyright 2025 - Adelgam Promoção Imobiliária</p>
+          </div>
         </Row>
       </Container>
     </div>

@@ -1,33 +1,57 @@
-import React, { useState } from "react";
-import { Dropdown } from "react-bootstrap";
+import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { ReactComponent as Language } from "../icons/language-icon.svg";
+import { Globe } from "lucide-react";
 
-const LanguageDropdown = () => {
+const LANGUAGES = {
+  en: "English",
+  pt: "Português",
+};
+
+export default function LanguageDropdown() {
   const { i18n } = useTranslation();
-  const [language, setLanguage] = useState(i18n.language);
+  const [open, setOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
-    setLanguage(lng);
+    localStorage.setItem("language", lng);
+    setOpen(false);
   };
 
+  // Close on outside click
+  useEffect(() => {
+    const handler = (e) => {
+      if (!dropdownRef.current?.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, []);
+
   return (
-    <Dropdown align="end">
-      <Dropdown.Toggle variant="light" id="language-dropdown">
-        <Language /> {language}
-      </Dropdown.Toggle>
+    <div className="relative inline-block text-left" ref={dropdownRef}>
+      <button
+        onClick={() => setOpen((v) => !v)}
+        className="inline-flex items-center gap-2 rounded-md border px-3 py-2 text-sm font-medium hover:bg-gray-100"
+      >
+        <Globe className="h-4 w-4" />
+        {LANGUAGES[i18n.language]}
+      </button>
 
-      <Dropdown.Menu>
-        <Dropdown.Item onClick={() => changeLanguage("en")}>
-          English
-        </Dropdown.Item>
-        <Dropdown.Item onClick={() => changeLanguage("pt")}>
-          Português
-        </Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
+      {open && (
+        <div className="absolute right-0 z-10 mt-2 w-36 rounded-md border bg-white shadow-lg">
+          {Object.entries(LANGUAGES).map(([code, label]) => (
+            <button
+              key={code}
+              onClick={() => changeLanguage(code)}
+              className="block w-full px-4 py-2 text-left text-sm hover:bg-gray-100"
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
   );
-};
-
-export default LanguageDropdown;
+}

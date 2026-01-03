@@ -1,11 +1,12 @@
-import React from "react";
+import { useState } from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
 } from "react-router-dom";
-import NavBarComponent from "./components/NavBar";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
@@ -16,13 +17,16 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
     <div>
       <Router>
         <ScrollToTop />
-        <header>
-          <NavBarComponent />
-        </header>
+        <Header onMenuClick={() => setIsSidebarOpen(true)} />
+        <Sidebar
+          isOpen={isSidebarOpen}
+          onClose={() => setIsSidebarOpen(false)}
+        />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/empreendimentos" exact element={<Projects />} />

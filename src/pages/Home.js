@@ -15,7 +15,10 @@ const Home = () => {
     <main>
       <Container fluid>
         <Row className="d-none d-lg-flex">
-          <Col lg={6} className="d-flex flex-column justify-content-center">
+          <Col
+            lg={6}
+            className="d-flex flex-column justify-content-center pt-5"
+          >
             <div className="banner-content">
               <label className="label mb-3"> {t("home.banner.label")}</label>
               <h1 className="banner-title mb-3">Deluxe Penthouse</h1>
