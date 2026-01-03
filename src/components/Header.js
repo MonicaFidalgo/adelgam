@@ -9,12 +9,12 @@ const Header = ({ onMenuClick }) => {
   //  max-w-7xl
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-40">
-      <div className="max-w-7xl container mx-auto">
+    <header className="header fixed top-0 left-0 right-0">
+      <div className="container py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src={logo} alt="Brand" className="w-auto" />
+              <img src={logo} alt="Brand" className="header-logo w-auto" />
             </Link>
           </div>
 
@@ -56,10 +56,10 @@ const Header = ({ onMenuClick }) => {
 
             <button
               onClick={onMenuClick}
-              className="p-2 rounded-lg hover:bg-gray-100 transition-colors"
+              className="header-menu p-2 rounded-lg"
               aria-label="Menu"
             >
-              <Menu className="w-6 h-6" />
+              <Menu className="w-8 h-8" />
             </button>
           </div>
         </div>

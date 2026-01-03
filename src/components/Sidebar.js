@@ -27,10 +27,10 @@ export default function Sidebar({ isOpen, onClose }) {
         } w-full md:w-1/2`}
       >
         <div className="flex flex-col h-full">
-          <div className="flex justify-end p-6">
+          <div className="sidebar-open flex justify-end p-6">
             <button
               onClick={onClose}
-              className="text-white hover:text-gray-300 transition-colors"
+              className="sidebar-close rounded-lg p-2 text-white hover:text-gray-300 transition-colors"
               aria-label="Close menu"
             >
               <X className="w-8 h-8" />
@@ -38,13 +38,13 @@ export default function Sidebar({ isOpen, onClose }) {
           </div>
 
           <nav className="flex-1 flex flex-col justify-center px-8 md:px-16">
-            <ul className="space-y-8">
+            <ul className="sidebar-menu-list space-y-8">
               {menuItems.map((item) => (
                 <li key={item.to}>
                   <Link
                     to={item.to}
                     onClick={onClose}
-                    className="text-white text-3xl md:text-4xl font-light hover:text-gray-300 transition-colors block"
+                    className="sidebar-menu-link text-2xl md:text-3xl font-light"
                   >
                     {item.label}
                   </Link>
