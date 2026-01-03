@@ -1,8 +1,14 @@
 import { useState } from "react";
 import { X, ZoomIn, ZoomOut } from "lucide-react";
+import useSwipe from "../hooks/useSwipe";
 
-const ImageModal = ({ isOpen, imageUrl, onClose }) => {
+const ImageModal = ({ isOpen, imageUrl, onClose, onNext, onPrevious }) => {
   const [zoom, setZoom] = useState(1);
+
+  const swipeHandlers = useSwipe({
+    onLeft: zoom === 1 ? onNext : null,
+    onRight: zoom === 1 ? onPrevious : null,
+  });
 
   const handleZoomIn = () => {
     setZoom((prev) => Math.min(prev + 0.5, 3));
@@ -20,7 +26,10 @@ const ImageModal = ({ isOpen, imageUrl, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-95 flex items-center justify-center">
+    <div
+      className="fixed inset-0 z-50 bg-black bg-opacity-95 flex items-center justify-center"
+      {...swipeHandlers}
+    >
       <button
         onClick={handleClose}
         className="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors z-10"
@@ -48,7 +57,7 @@ const ImageModal = ({ isOpen, imageUrl, onClose }) => {
         </button>
       </div>
 
-      <div className="w-full h-full overflow-auto flex items-center justify-center p-4">
+      <div className="w-full h-full overflow-hidden flex items-center justify-center p-4">
         <img
           src={imageUrl}
           alt="Fullscreen view"

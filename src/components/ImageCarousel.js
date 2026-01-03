@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import useSwipe from "../hooks/useSwipe";
 
 const ImageCarousel = ({ images, onImageClick }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,6 +12,11 @@ const ImageCarousel = ({ images, onImageClick }) => {
   const goToNext = () => {
     setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
   };
+
+  const swipeHandlers = useSwipe({
+    onLeft: goToNext,
+    onRight: goToPrevious,
+  });
 
   const getPreviousIndex = () => {
     return currentIndex === 0 ? images.length - 1 : currentIndex - 1;
@@ -86,7 +92,7 @@ const ImageCarousel = ({ images, onImageClick }) => {
         </div>
       </div>
 
-      <div className="md:hidden relative">
+      <div className="md:hidden relative" {...swipeHandlers}>
         <div className="relative h-[400px]">
           <div
             className="w-full h-full cursor-pointer overflow-hidden rounded-lg"

@@ -13,6 +13,18 @@ import projectDetails2 from "../data/penthouse-details2.json";
 const ProjectDetail = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
+  const handleNextImage = () => {
+    setSelectedImageIndex((prev) =>
+      prev === project.images.length - 1 ? 0 : prev + 1
+    );
+  };
+
+  const handlePreviousImage = () => {
+    setSelectedImageIndex((prev) =>
+      prev === 0 ? project.images.length - 1 : prev - 1
+    );
+  };
+
   const handleImageClick = (index) => {
     setSelectedImageIndex(index);
   };
@@ -72,6 +84,8 @@ const ProjectDetail = () => {
                 : ""
             }
             onClose={handleCloseModal}
+            onNext={handleNextImage}
+            onPrevious={handlePreviousImage}
           />
           {isDeluxePenthouse && <DetailsIcons data={projectDetails} />}
           <div className="caracteristicas project-details-list">

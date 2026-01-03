@@ -16,6 +16,18 @@ const ProjectParent = () => {
   const [openIndex, setOpenIndex] = useState(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
+  const handleNextImage = () => {
+    setSelectedImageIndex((prev) => {
+      return prev === images.length - 1 ? 0 : prev + 1;
+    });
+  };
+
+  const handlePreviousImage = () => {
+    setSelectedImageIndex((prev) => {
+      return prev === 0 ? images.length - 1 : prev - 1;
+    });
+  };
+
   const handleImageClick = (index) => {
     setSelectedImageIndex(index);
   };
@@ -99,6 +111,8 @@ const ProjectParent = () => {
                 : ""
             }
             onClose={handleCloseModal}
+            onNext={handleNextImage}
+            onPrevious={handlePreviousImage}
           />
         </>
       ) : (
