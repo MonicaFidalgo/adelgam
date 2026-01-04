@@ -42,8 +42,8 @@ const Projects = () => {
       apartments: "Moradias Geminadas",
       typologies: "T4 com piscina",
       parking: "Garagem para 4 carros",
-      badge: "90% vendido",
-      badgeClass: "badge-yellow",
+      badge: "1 disponível",
+      badgeClass: "badge-green",
       isApartment: false,
     },
   ];

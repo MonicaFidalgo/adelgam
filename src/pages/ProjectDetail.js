@@ -41,7 +41,6 @@ const ProjectDetail = () => {
     projectData.projects?.find((p) => p.link === projectDetailName) ||
     projectData.penthouses?.find((p) => p.link === projectDetailName);
 
-  const hasSecondDescription = project.link === "penthouse-deluxe";
   const isDeluxePenthouse = project.link === "penthouse-deluxe";
 
   return (
@@ -71,7 +70,6 @@ const ProjectDetail = () => {
               Quero marcar uma visita
             </a>
           </div>
-
           <ImageCarousel
             images={project.images}
             onImageClick={handleImageClick}
@@ -88,34 +86,37 @@ const ProjectDetail = () => {
             onPrevious={handlePreviousImage}
           />
           {isDeluxePenthouse && <DetailsIcons data={projectDetails} />}
-          <div className="caracteristicas project-details-list">
-            <div className="project-details-list-title">Características</div>
-            <div className="project-details-list-description">
-              <ul>
-                <li>
-                  <span>Quartos:</span>
-                  <strong>{project.details.bedrooms}</strong>
-                </li>
-                <li>
-                  <span>WC:</span>
-                  <strong>{project.details.bathrooms}</strong>
-                </li>
-                <li>
-                  <span>Estacionamento:</span>
-                  <strong>{project.details.parking}</strong>
-                </li>
-                <li>
-                  <span>Área: </span>
-                  <strong>{project.details.area} m²</strong>
-                </li>
-                <li>
-                  <span>Certificação Energética: </span>
-                  <strong>{project.details.certification}</strong>
-                </li>
-              </ul>
+
+          {!isDeluxePenthouse && (
+            <div className="caracteristicas project-details-list">
+              <div className="project-details-list-title">Características</div>
+              <div className="project-details-list-description">
+                <ul>
+                  <li>
+                    <span>Quartos:</span>
+                    <strong>{project.details.bedrooms}</strong>
+                  </li>
+                  <li>
+                    <span>WC:</span>
+                    <strong>{project.details.bathrooms}</strong>
+                  </li>
+                  <li>
+                    <span>Estacionamento:</span>
+                    <strong>{project.details.parking}</strong>
+                  </li>
+                  <li>
+                    <span>Área: </span>
+                    <strong>{project.details.area} m²</strong>
+                  </li>
+                  <li>
+                    <span>Certificação Energética: </span>
+                    <strong>{project.details.certification}</strong>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          {hasSecondDescription && (
+          )}
+          {isDeluxePenthouse && (
             <div className="deluxe-description">
               <p>
                 No <strong>terceiro piso</strong>, será recebido por quatro
@@ -127,6 +128,7 @@ const ProjectDetail = () => {
                 escritório e uma lavandaria, proporcionando praticidade e
                 funcionalidade ao seu dia a dia.
               </p>
+              <br />
               <p>
                 Destaca-se a suite principal, onde um duche estilo hotel,
                 envolto em vidro, proporciona uma experiência sensorial única,
@@ -147,25 +149,6 @@ const ProjectDetail = () => {
             </div>
           )}
           {isDeluxePenthouse && <DetailsIcons data={projectDetails2} />}
-          <div className="acabamentos project-details-list">
-            <div className="project-details-list-title">Pontos Chave</div>
-            <div className="project-details-list-description">
-              <ul className="bullet-list">
-                {project?.details?.description.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-              <div className="project-details-list-images-wrapper d-none d-md-flex">
-                <ImageGallery images={project?.details?.plants} />
-              </div>
-            </div>
-          </div>
-
-          <div className="plantas project-details-list d-md-none">
-            <div className="project-details-list-title">Plantas</div>
-
-            <ImageGallery images={project?.details?.plants} />
-          </div>
           {project.iframeLink && (
             <>
               {project.iframeTitle && (
@@ -185,6 +168,24 @@ const ProjectDetail = () => {
               </div>
             </>
           )}
+          <div className="acabamentos project-details-list">
+            <div className="project-details-list-title">Pontos Chave</div>
+            <div className="project-details-list-description">
+              <ul className="bullet-list">
+                {project?.details?.description.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+              <div className="project-details-list-images-wrapper d-none d-md-flex">
+                <ImageGallery images={project?.details?.plants} />
+              </div>
+            </div>
+          </div>
+          <div className="plantas project-details-list d-md-none">
+            <div className="project-details-list-title">Plantas</div>
+
+            <ImageGallery images={project?.details?.plants} />
+          </div>
         </>
       )}
     </Container>

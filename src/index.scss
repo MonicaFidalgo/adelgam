@@ -453,8 +453,8 @@ textarea {
 
 .projects-heading {
   text-align: center;
+  margin: 60px auto;
   @media screen and (min-width: 900px) {
-    margin: 60px auto;
     max-width: 800px;
   }
 }
@@ -638,6 +638,8 @@ textarea {
 
 .iframe-title {
   font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .iframe-container {

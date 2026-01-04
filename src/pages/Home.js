@@ -77,7 +77,7 @@ const Home = () => {
               <label className="label mb-3">PORQUÊ A ADELGAM?</label>
               <h2 className="heading mb-3">
                 Oferecemos o mais alto nível de especialização, serviço e
-                integridade.
+                integridade
               </h2>
               <p>
                 Ao longo dos anos, a Adelgam acompanhou as técnicas de
@@ -109,13 +109,13 @@ const Home = () => {
               <label className="label mb-3">PROJECTO EM DESTAQUE</label>
               <h2 className="heading mb-3">Moradia</h2>
               <p>
-                Inserido na tranquila e renovada zona de{" "}
-                <strong>São Francisco</strong>, este exclusivo conjunto de
-                moradias geminadas combina elegância, conforto e funcionalidade.
-                Com uma arquitetura contemporânea e espaços amplos, cada
-                residência foi cuidadosamente projetada para oferecer um estilo
-                de vida sofisticado e equilibrado, ideal para famílias que
-                valorizam privacidade e bem-estar.
+                Inserida na tranquila zona de São Francisco, esta moradia
+                distingue-se pelo seu caráter exclusivo e contemporâneo. Dispõe
+                de <strong>4 suites</strong>, <strong>piscina privativa</strong>
+                , <strong>sala de cinema</strong>,{" "}
+                <strong>vista sobre Lisboa</strong> e{" "}
+                <strong>garagem para 3 viaturas</strong>, oferecendo conforto,
+                privacidade e um estilo de vida premium.
               </p>
 
               <Link

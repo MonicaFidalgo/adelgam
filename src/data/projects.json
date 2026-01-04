@@ -66,8 +66,8 @@
         "link": "apartment-t2",
         "image": "project1.png",
         "description": "projects.lux_terrace.apartment_t2.description",
-        "badge": "90% vendido",
-        "badgeClass": "badge-yellow",
+        "badge": "1 disponível",
+        "badgeClass": "badge-green",
         "price": "450.000,00",
         "iframeTitle": "Tour Virtual: Explore o Apartamento T2",
         "iframeLink": "https://youriguide.com/83_r_jos_batista_canteiro_acochete_pt_15_pt",
@@ -307,7 +307,7 @@
           "bedrooms": "4 Master Suites",
           "bathrooms": "5",
           "parking": "2 Boxes (4 Carros)",
-          "area": "340",
+          "area": "591",
           "certification": "A+",
           "description": [
             "Acesso privativo de elevador ao 3º e 4º piso",
@@ -368,6 +368,7 @@
     ],
     "detailsDescription": [
       "4 Suites",
+      "Piscina",
       "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 60 m²",
       "Cave de Vinho da Liebherr",
       "Lavandaria com máquina de lavar e máquina de secar",
@@ -445,8 +446,8 @@
         "description": "1"
       }
     ],
-    "badge": "90% vendido",
-    "badgeClass": "badge-yellow",
+    "badge": "1 disponível",
+    "badgeClass": "badge-green",
     "price": "950.000,00",
     "location": "São Francisco",
     "typology": "Moradias",
