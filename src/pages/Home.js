@@ -21,13 +21,13 @@ const Home = () => {
           >
             <div className="banner-content">
               <label className="label mb-3"> {t("home.banner.label")}</label>
-              <h1 className="banner-title mb-3">Deluxe Penthouse</h1>
+              <h1 className="banner-title mb-3">Portas do Tejo</h1>
               <h2 className="banner-subtitle mb-3">
                 {t("home.banner.description")}
               </h2>
               <Link
                 className="button button-primary"
-                to="/empreendimentos/lux-terrace/penthouse-deluxe"
+                to="/empreendimentos/portas-do-tejo"
               >
                 {t("home.banner.button")}
               </Link>
