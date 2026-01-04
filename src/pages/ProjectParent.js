@@ -42,6 +42,8 @@ const ProjectParent = () => {
 
   const projectData = projectsData[projectTitle];
 
+  const isMoreInfoSoon = projectData.isMoreInfoSoon;
+
   if (!projectData) {
     return (
       <Container className="pt-200">
@@ -117,6 +119,12 @@ const ProjectParent = () => {
         </>
       ) : (
         <h4 className="text-center">🚧 Página em construção 🚧 </h4>
+      )}
+
+      {isMoreInfoSoon && (
+        <h4 className="text-center text-2xl mt-5">
+          📌 Mais informações em breve 📌{" "}
+        </h4>
       )}
 
       {/* ONLY FOR MORADIAS*/}
