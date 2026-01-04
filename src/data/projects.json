@@ -333,7 +333,8 @@
           ]
         }
       }
-    ]
+    ],
+    "isMoreInfoSoon": false
   },
   "varandas-do-montijo": {
     "label": "projects.varandas_do_montijo.label",
@@ -350,7 +351,8 @@
     "location": "Montijo",
     "typology": "T2 a T4",
     "state": "Vendido",
-    "projects": []
+    "projects": [],
+    "isMoreInfoSoon": false
   },
   "moradias-sao-francisco": {
     "label": "projects.moradias_sao_francisco.label",
@@ -452,6 +454,25 @@
     "location": "São Francisco",
     "typology": "Moradias",
     "state": "Pronto para entrega: Fevereiro 2026",
-    "projects": []
+    "projects": [],
+    "isMoreInfoSoon": false
+  },
+  "portas-do-tejo": {
+    "label": "projects.portas_do_tejo.label",
+    "title": "projects.portas_do_tejo.title",
+    "description": "projects.portas_do_tejo.description",
+    "images": [
+      "portas-do-tejo/T3_cozinha.webp",
+      "portas-do-tejo/T3_quarto.webp",
+      "portas-do-tejo/T3_sala.webp",
+      "portas-do-tejo/T3_varanda.webp"
+    ],
+    "badge": "10% vendido",
+    "badgeClass": "badge-green",
+    "location": "Montijo",
+    "typology": "T1 a T3 Duplex",
+    "state": "Primeira fase em construção",
+    "projects": [],
+    "isMoreInfoSoon": true
   }
 }

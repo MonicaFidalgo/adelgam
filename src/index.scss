@@ -343,6 +343,9 @@ textarea {
 /* PROJECTS */
 
 .project {
+  @media screen and (min-width: 900px) {
+    padding: 0 48px 0;
+  }
   img {
     object-fit: contain;
     width: 100%;

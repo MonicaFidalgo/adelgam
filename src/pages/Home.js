@@ -21,13 +21,13 @@ const Home = () => {
           >
             <div className="banner-content">
               <label className="label mb-3"> {t("home.banner.label")}</label>
-              <h1 className="banner-title mb-3">Deluxe Penthouse</h1>
+              <h1 className="banner-title mb-3">Portas do Tejo</h1>
               <h2 className="banner-subtitle mb-3">
                 {t("home.banner.description")}
               </h2>
               <Link
                 className="button button-primary"
-                to="/empreendimentos/lux-terrace/penthouse-deluxe"
+                to="/empreendimentos/portas-do-tejo"
               >
                 {t("home.banner.button")}
               </Link>
@@ -141,7 +141,7 @@ const Home = () => {
         </Row>
         <hr />
         <div className="projects-heading">
-          <label className="label mb-3">Projectos Concluídos</label>
+          <label className="label mb-3">Projectos</label>
           <h2 className="heading mb-3">Espaços de conforto e harmonia</h2>
           <p>
             Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos
