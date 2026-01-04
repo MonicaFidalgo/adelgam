@@ -141,7 +141,7 @@ const Home = () => {
         </Row>
         <hr />
         <div className="projects-heading">
-          <label className="label mb-3">Projectos Concluídos</label>
+          <label className="label mb-3">Projectos</label>
           <h2 className="heading mb-3">Espaços de conforto e harmonia</h2>
           <p>
             Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos
