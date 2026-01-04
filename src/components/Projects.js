@@ -12,7 +12,7 @@ const Projects = () => {
       id: 1,
       name: "Moradias São Francisco",
       image: image3,
-      link: "moradias-sao-francisco",
+      link: "moradias",
       location: "São Francisco",
       apartments: "Moradias Geminadas",
       typologies: "T4 com piscina",

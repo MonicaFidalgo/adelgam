@@ -120,7 +120,7 @@ const Home = () => {
 
               <Link
                 className="button button-primary margin-top-4"
-                to="/empreendimentos/moradias-sao-francisco"
+                to="/empreendimentos/moradias"
               >
                 Mais informações
               </Link>
