@@ -453,5 +453,22 @@
     "typology": "Moradias",
     "state": "Pronto para entrega: Fevereiro 2026",
     "projects": []
+  },
+  "portas-do-tejo": {
+    "label": "projects.portas_do_tejo.label",
+    "title": "projects.portas_do_tejo.title",
+    "description": "projects.portas_do_tejo.description",
+    "images": [
+      "portas-do-tejo/T3_cozinha.webp",
+      "portas-do-tejo/T3_quarto.webp",
+      "portas-do-tejo/T3_sala.webp",
+      "portas-do-tejo/T3_varanda.webp"
+    ],
+    "badge": "10% vendido",
+    "badgeClass": "badge-green",
+    "location": "Montijo",
+    "typology": "T1 a T3 Duplex",
+    "state": "Disponível",
+    "projects": []
   }
 }
