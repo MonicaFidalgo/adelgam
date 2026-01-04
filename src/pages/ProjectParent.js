@@ -122,9 +122,7 @@ const ProjectParent = () => {
       )}
 
       {isMoreInfoSoon && (
-        <h4 className="text-center text-2xl mt-5">
-          📌 Mais informações em breve 📌{" "}
-        </h4>
+        <h4 className="text-center text-2xl mt-5">Mais informações em breve</h4>
       )}
 
       {/* ONLY FOR MORADIAS*/}
