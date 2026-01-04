@@ -27,7 +27,7 @@ const Projects = () => {
       image: image4,
       link: "portas-do-tejo",
       location: "Montijo",
-      apartments: "Moradias Geminadas",
+      apartments: "39 apartamentos",
       typologies: "T1 a T3 Duplex",
       parking: "Box",
       badge: "10% vendido",
