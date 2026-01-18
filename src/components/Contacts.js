@@ -24,8 +24,10 @@ const ContactsSection = () => {
           <div className="d-flex gap-2">
             <Location />
             <address>
-              Rua José Batista Canteiro 83 <br />
-              2890-006 Alcochete <br />
+              Augusto Dias da Silva
+              <br />
+              2870-437 Montijo
+              <br />
               PORTUGAL
             </address>
           </div>
