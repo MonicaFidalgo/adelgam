@@ -27,7 +27,7 @@ const About = () => {
               <p>
                 Procuramos sempre diferenciar-nos na qualidade e inovação
                 durante toda a construção assegurando acabamentos requintados e
-                diferenciadores.s
+                diferenciadores.
               </p>
               <p>
                 Ao longo dos anos, a Adelgam acompanhou as técnicas de
