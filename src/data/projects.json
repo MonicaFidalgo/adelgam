@@ -462,10 +462,12 @@
     "title": "projects.portas_do_tejo.title",
     "description": "projects.portas_do_tejo.description",
     "images": [
-      "portas-do-tejo/T3_cozinha.webp",
-      "portas-do-tejo/T3_quarto.webp",
-      "portas-do-tejo/T3_sala.webp",
-      "portas-do-tejo/T3_varanda.webp"
+      "portas-do-tejo/apartamento-T3-cozinha.webp",
+      "portas-do-tejo/apartamento-T3-quarto.webp",
+      "portas-do-tejo/apartamento-T3-sala.webp",
+      "portas-do-tejo/apartamento-T3-varanda.webp",
+      "portas-do-tejo/portas-do-tejo-apartamentos-3.webp",
+      "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
     ],
     "badge": "10% vendido",
     "badgeClass": "badge-green",
