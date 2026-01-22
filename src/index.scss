@@ -35,6 +35,7 @@ body {
 p {
   color: $text-color;
   line-height: 32px;
+  margin-bottom: 1rem;
 }
 
 hr {
@@ -705,4 +706,8 @@ textarea {
 
 .separator-home {
   margin-top: 60px;
+}
+
+.collapse.show {
+  visibility: visible;
 }
