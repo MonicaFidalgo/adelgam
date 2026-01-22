@@ -1,0 +1,742 @@
+{
+  "lux-terrace": {
+    "label": "projects.lux_terrace.label",
+    "title": "projects.lux_terrace.title",
+    "description": "projects.lux_terrace.description",
+    "images": [
+      "lux-terrace-alcochete-T1.webp",
+      "lux-terrace-alcochete-T2.webp",
+      "lux-terrace-alcochete-T3.webp",
+      "lux-terrace-alcochete-T3-penthouse.webp",
+      "lux-terrace-alcochete-T4-penthouse.webp",
+      "lux-terrace-alcochete-T4-penthouse-2.webp"
+    ],
+    "badge": "90% vendido",
+    "badgeClass": "badge-yellow",
+    "location": "Alcochete",
+    "typology": "T1 a T4 Penthouse",
+    "state": "Pronto para entrega",
+    "projects": [
+      {
+        "label": "Lux Terrace Alcochete",
+        "name": "projects.lux_terrace.apartment_t1.name",
+        "link": "apartment-t1",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.apartment_t1.description",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
+        "price": "310.000,00",
+        "images": [
+          "apartment-t1/Lux-Terrace-Alcochete-Exterior-Frente-1920w.webp",
+          "apartment-t1/Lux-Terrace-Alcochete-Suite-1920w.webp",
+          "apartment-t1/Lux-Terrace-Alcochete-T1-Sala-Cozinha-de4bb971-1920w.webp",
+          "apartment-t1/Lux-Terrace-Alcochete-terraço-1920w.webp"
+        ],
+        "details": {
+          "bedrooms": "1 quarto",
+          "bathrooms": "2",
+          "parking": "1 lugar",
+          "area": "80",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 33 m²",
+            "Máquina de lavar e máquina de secar a roupa",
+            "Varanda com 16 m²",
+            "Ar condicionado com sistema Wi-Fi",
+            "Vidros duplos Planitherm",
+            "Piso Radiante",
+            "Parqueamento",
+            "Certificação energética A +"
+          ],
+          "plants": [
+            {
+              "image": "apartment-t1/plantas/planta-piso1.webp",
+              "text": "Planta Piso 1"
+            },
+            {
+              "image": "apartment-t1/plantas/planta-garagem.webp",
+              "text": "Planta Garagem"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Lux Terrace Alcochete",
+        "name": "projects.lux_terrace.apartment_t2.name",
+        "link": "apartment-t2",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.apartment_t2.description",
+        "badge": "1 disponível",
+        "badgeClass": "badge-green",
+        "price": "450.000,00",
+        "iframeTitle": "Tour Virtual: Explore o Apartamento T2",
+        "iframeLink": "https://youriguide.com/83_r_jos_batista_canteiro_acochete_pt_15_pt",
+        "images": [
+          "apartment-t2/Lux-Terrace-Alcochete-Exterior-Frente-1920w-1920w.webp",
+          "apartment-t2/Lux-Terrace-Alcochete-Sala_T2--1920w.webp",
+          "apartment-t2/Lux-Terrace-Alcochete-Sala_T2-1920w.webp",
+          "apartment-t2/Lux-Terrace-Alcochete-Suite-1920w.webp"
+        ],
+        "details": {
+          "bedrooms": "2 quartos",
+          "bathrooms": "2",
+          "parking": "1 lugar",
+          "area": "102",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 40 m²",
+            "Máquina de lavar e máquina de secar a roupa",
+            "Ar condicionado com sistema Wi-Fi",
+            "Vidros duplos Planitherm",
+            "Piso Radiante",
+            "Certificação energética A +"
+          ],
+          "plants": [
+            {
+              "image": "apartment-t2/plantas/planta-piso1.webp",
+              "text": "Planta Piso 1"
+            },
+            {
+              "image": "apartment-t2/plantas/planta-garagem.webp",
+              "text": "Planta Garagem"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Lux Terrace Alcochete",
+        "name": "projects.lux_terrace.apartment_t3.name",
+        "link": "apartment-t3",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.apartment_t3.description",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
+        "price": "520.000,00",
+        "images": [
+          "apartment-t3/Lux-Terrace-Alcochete-Exterior-Frente-1920w.webp",
+          "apartment-t3/Lux-Terrace-Alcochete-Quarto-T3-1920w.webp",
+          "apartment-t3/Lux-Terrace-Alcochete-Varanda-T3-1920w.webp",
+          "apartment-t3/Sala_T3-1920w.webp"
+        ],
+        "details": {
+          "bedrooms": "3 quartos",
+          "bathrooms": "3",
+          "parking": "2 lugares",
+          "area": "133",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space",
+            "Máquina de lavar e máquina de secar a roupa",
+            "Uma varanda com 18 m²",
+            "Vidros duplos Planitherm",
+            "Piso Radiante",
+            "Domótica",
+            "Certificação energética A +"
+          ],
+          "plants": [
+            {
+              "image": "apartment-t3/plantas/planta-piso1.webp",
+              "text": "Planta Piso 1"
+            },
+            {
+              "image": "apartment-t3/plantas/planta-garagem.webp",
+              "text": "Planta Garagem"
+            }
+          ]
+        }
+      }
+    ],
+    "penthouses": [
+      {
+        "label": "Lux Terrace Alcochete",
+        "name": "projects.lux_terrace.penthouse_t3.name",
+        "link": "penthouse-t3",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.penthouse_t3.description",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
+        "price": "690.000,00",
+        "iframeTitle": "Tour Virtual: Explore a Penthouse T3",
+        "iframeLink": "https://youriguide.com/luxterrace82penthouset3",
+        "images": [
+          "penthouse-t3/Lux+Terrace++Alcochete+Cozinha-1920w.webp",
+          "penthouse-t3/Lux+Terrace++Alcochete+Suite+Master-1920w.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala-1920w.webp",
+          "penthouse-t3/Lux+Terrace+Penthouse+Sala+Cozinha+-1920w.webp"
+        ],
+        "details": {
+          "bedrooms": "2 Suites",
+          "bathrooms": "3",
+          "parking": "1 Box (2 Carros)",
+          "area": "184",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
+            "Um Terraço de 80m²",
+            "Cave de Vinho da Liebherr",
+            "Piso radiante",
+            "Lavandaria com máquina de lavar e máquina de secar",
+            "Espaçosa Master Suite de 36m² com uma varanda de 35m²"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t3/plantas/planta-piso3.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-t3/plantas/planta-piso4.webp",
+              "text": "Planta Piso 4"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Lux Terrace Alcochete",
+        "name": "projects.lux_terrace.penthouse_t4.name",
+        "link": "penthouse-t4",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.penthouse_t4.description",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
+        "price": "780.000,00",
+        "iframeTitle": "Tour Virtual: Explore a Penthouse T4",
+        "iframeLink": "https://youriguide.com/luxterrace82penthouset4",
+        "images": [
+          "penthouse-t4/Lux-Terrace-Alcocehte-Varanda-T4-1920w.webp",
+          "penthouse-t4/Lux-Terrace-Alcochete-Penthouse-T4-1920w.webp",
+          "penthouse-t4/Lux-Terrace-Alcochete-Varanda-T3-1920w.webp",
+          "penthouse-t4/Penthouse+T4+FRT+ESQ-1920w.webp"
+        ],
+        "details": {
+          "bedrooms": "3 Suites",
+          "bathrooms": "4",
+          "parking": "1 Box (2 Carros)",
+          "area": "224",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
+            "Um Terraço de 80m²",
+            "Cave de Vinho da Liebherr",
+            "Piso radiante",
+            "Lavandaria com máquina de lavar e máquina de secar",
+            "Espaçosa Master Suite de 36m² com uma varanda de 35m²"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t4/plantas/planta-piso3.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-t4/plantas/planta-piso4.webp",
+              "text": "Planta Piso 4"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Lux Terrace Alcochete",
+        "name": "projects.lux_terrace.penthouse_t4-II.name",
+        "link": "penthouse-t4-II",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.penthouse_t4-II.description",
+        "badge": "100% vendido",
+        "badgeClass": "badge-red",
+        "price": "780.000,00",
+        "iframeTitle": "Tour Virtual: Explore a Penthouse T4",
+        "iframeLink": "https://youriguide.com/luxterrace82penthouset4",
+        "images": [
+          "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-Sala-T4-1920w.webp",
+          "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-Sala-T4-a71eefba-1920w.webp",
+          "penthouse-t4-2/Lux-Terrace-Alcochete-Quarto-T3-1920w.webp",
+          "penthouse-t4-2/Lux-Terrace-Alcochete-Varanda-T3-1920w.webp"
+        ],
+        "details": {
+          "bedrooms": "4 Suites",
+          "bathrooms": "5",
+          "parking": "1 Box (2 Carros)",
+          "area": "227",
+          "certification": "A+",
+          "description": [
+            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
+            "Um Terraço de 80m²",
+            "Cave de Vinho da Liebherr",
+            "Piso radiante",
+            "Lavandaria com máquina de lavar e máquina de secar",
+            "Uma Box para dois carros",
+            "Certificação Energética A+"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-t4-2/plantas/planta-piso3.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-t4-2/plantas/planta-piso4.webp",
+              "text": "Planta Piso 4"
+            }
+          ]
+        }
+      },
+      {
+        "label": "Lux Terrace Alcochete",
+        "name": "projects.lux_terrace.penthouse_deluxe.name",
+        "link": "penthouse-deluxe",
+        "image": "project1.png",
+        "description": "projects.lux_terrace.penthouse_deluxe.description",
+        "badge": "1 disponível",
+        "badgeClass": "badge-green",
+        "price": "1.700.000,00",
+        "iframeTitle": "Tour Virtual: Explore a Elegância da Penthouse de Luxo",
+        "iframeLink": "https://vpva.pt/VRluxterrace/",
+        "images": [
+          "penthouse-deluxe/322_Quarto+VP_A8-1920w.webp",
+          "penthouse-deluxe/Cozinha-1920w.webp",
+          "penthouse-deluxe/Entrada+Sala-1920w.webp",
+          "penthouse-deluxe/Exterior-1920w.webp",
+          "penthouse-deluxe/Exterior+2-1920w.webp",
+          "penthouse-deluxe/Master+Suite+1-1920w.webp",
+          "penthouse-deluxe/Master+Suite+2-1920w.webp",
+          "penthouse-deluxe/Master+Suite+2.1-1920w.webp",
+          "penthouse-deluxe/Master+Suite+3-1920w.webp",
+          "penthouse-deluxe/Sala+2-1920w.webp",
+          "penthouse-deluxe/Sala+de+Jantar-1920w.webp",
+          "penthouse-deluxe/Terraço+1-1920w.webp",
+          "penthouse-deluxe/Terraço+2-1920w.webp"
+        ],
+        "details": {
+          "bedrooms": "4 Master Suites",
+          "bathrooms": "5",
+          "parking": "2 Boxes (4 Carros)",
+          "area": "591",
+          "certification": "A+",
+          "description": [
+            "Acesso privativo de elevador ao 3º e 4º piso",
+            "Piso radiante em todas as áreas",
+            "4 Suites, todas com Walk-in Closets",
+            "Quarto de lavandaria completa",
+            "Duas Boxes para 4 carros",
+            "Terraço de 190m² com jacuzzi"
+          ],
+          "plants": [
+            {
+              "image": "penthouse-deluxe/plantas/Penthouse+-+Piso+3-1920w.webp",
+              "text": "Planta Piso 3"
+            },
+            {
+              "image": "penthouse-deluxe/plantas/Penthouse+-+Piso+4-1920w.webp",
+              "text": "Planta Piso 4"
+            },
+            {
+              "image": "penthouse-deluxe/plantas/Penthouse-Garagem.webp",
+              "text": "Garagem"
+            }
+          ]
+        }
+      }
+    ],
+    "isMoreInfoSoon": false
+  },
+  "varandas-do-montijo": {
+    "label": "projects.varandas_do_montijo.label",
+    "title": "projects.varandas_do_montijo.title",
+    "description": "projects.varandas_do_montijo.description",
+    "images": [
+      "varandas-montijo.jpg",
+      "varandas-montijo-entrada.jpg",
+      "varandas-montijo-wc.jpg",
+      "varandas-montijo-cozinha.jpg"
+    ],
+    "badge": "100% vendido",
+    "badgeClass": "badge-red",
+    "location": "Montijo",
+    "typology": "T2 a T4",
+    "state": "Vendido",
+    "projectGroups": [],
+    "isMoreInfoSoon": false
+  },
+  "moradias": {
+    "label": "projects.moradias_sao_francisco.label",
+    "title": "projects.moradias_sao_francisco.title",
+    "description": "projects.moradias_sao_francisco.description",
+    "description2": "projects.moradias_sao_francisco.description2",
+    "images": [
+      "moradias/moradia-alcochete-sao-francisco-sala.webp",
+      "moradias/moradia-alcochete-sao-francisco-cozinha.webp",
+      "moradias/moradia-alcochete-sao-francisco-espaco-exterior.webp",
+      "moradias/moradia-alcochete-sao-francisco-piscina.webp",
+      "moradias/moradia-alcochete-sao-francisco-roupeiro.webp",
+      "moradias/moradia-alcochete-sao-francisco-sala-de-cinema.webp",
+      "moradias/moradia-alcochete-sao-francisco-casa-de-banho.webp"
+    ],
+    "detailsDescription": [
+      "4 Suites",
+      "Piscina",
+      "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 60 m²",
+      "Cave de Vinho da Liebherr",
+      "Lavandaria com máquina de lavar e máquina de secar",
+      "Espaço exterior com churrasqueira e piscina",
+      "Sala de cinema totalmente equipada",
+      "Garagem para 3 carros com 110m2"
+    ],
+    "detailsPlants": [
+      {
+        "image": "moradias/plantas/moradia-sao-francisco-piso1.jpeg",
+        "text": "Planta R/C"
+      },
+      {
+        "image": "moradias/plantas/moradia-sao-francisco-piso2.jpeg",
+        "text": "Planta Piso 1"
+      },
+      {
+        "image": "moradias/plantas/moradia-sao-francisco-piso3.jpeg",
+        "text": "Planta Piso 2"
+      },
+      {
+        "image": "moradias/plantas/moradia-sao-francisco-garagem.jpeg",
+        "text": "Garagem"
+      }
+    ],
+    "details": [
+      {
+        "id": 1,
+        "icon": "house",
+        "title": "Área Habitável (m²)",
+        "description": "300m²"
+      },
+      {
+        "id": 2,
+        "icon": "outside",
+        "title": "Área Exterior (m²)",
+        "description": "106m²"
+      },
+      {
+        "id": 3,
+        "icon": "parking",
+        "title": "Área de Garagem (m²)",
+        "description": "110m²"
+      },
+      {
+        "id": 4,
+        "icon": "total-area",
+        "title": "Área Total (m²)",
+        "description": "516m²"
+      }
+    ],
+    "details2": [
+      {
+        "id": 1,
+        "icon": "living-room",
+        "title": "Salas",
+        "description": "3"
+      },
+      {
+        "id": 2,
+        "icon": "rooms",
+        "title": "Suites",
+        "description": "4"
+      },
+      {
+        "id": 3,
+        "icon": "pool",
+        "title": "Piscina",
+        "description": "1"
+      },
+      {
+        "id": 4,
+        "icon": "office",
+        "title": "Sala de cinema",
+        "description": "1"
+      }
+    ],
+    "badge": "1 disponível",
+    "badgeClass": "badge-green",
+    "price": "950.000,00",
+    "location": "São Francisco",
+    "typology": "Moradias",
+    "state": "Pronto para entrega: Fevereiro 2026",
+    "projectGroups": [],
+    "isMoreInfoSoon": false
+  },
+  "portas-do-tejo": {
+    "label": "projects.portas_do_tejo.label",
+    "title": "projects.portas_do_tejo.title",
+    "description": "projects.portas_do_tejo.description",
+    "images": [
+      "portas-do-tejo/apartamento-T3-cozinha.webp",
+      "portas-do-tejo/apartamento-T3-quarto.webp",
+      "portas-do-tejo/apartamento-T3-sala.webp",
+      "portas-do-tejo/apartamento-T3-varanda.webp",
+      "portas-do-tejo/portas-do-tejo-apartamentos-3.webp",
+      "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
+    ],
+    "badge": "10% vendido",
+    "badgeClass": "badge-green",
+    "location": "Montijo",
+    "typology": "T1 a T3 Duplex",
+    "state": "Primeira fase em construção",
+    "projectGroups": [
+      {
+        "typology": "Apartamento T1",
+        "apartments": [
+          {
+            "name": "Apartamento T1",
+            "link": "apartment-t1",
+            "badge": null,
+            "badgeClass": null,
+            "price": "310.000,00",
+            "description": "T1 moderno com amplo terraço privativo, ideal para quem valoriza espaço exterior no dia a dia. Zona social funcional, cozinha integrada e quarto confortável, com ligação direta ao exterior. Excelente opção para habitação própria ou investimento.",
+            "details": {
+              "area": "52,98",
+              "bedrooms": "1",
+              "bathrooms": "1",
+              "parking": "—",
+              "terrace": "53,98",
+              "floor": "—"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Apartamento T2",
+        "apartments": [
+          {
+            "name": "Apartamento T2 - R/C",
+            "link": "apartment-t2-rc",
+            "badge": null,
+            "badgeClass": null,
+            "price": "410.000,00",
+            "description": "T2 com terraço generoso, perfeito para refeições ao ar livre e momentos de lazer. Sala e cozinha em open space, dois quartos bem dimensionados e ótima relação entre espaço interior e exterior.",
+            "details": {
+              "area": "86,60",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "—",
+              "storage": "Sim",
+              "terrace": "56,87",
+              "floor": "R/C"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 1º Piso",
+            "link": "apartment-t2-p1",
+            "badge": null,
+            "badgeClass": null,
+            "price": "390.000,00",
+            "description": "Apartamento equilibrado e funcional, com varandas amplas que prolongam a zona social. Boa separação entre área privada e social, pensado para conforto e vivência diária.",
+            "details": {
+              "area": "91,30",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "—",
+              "storage": "Sim",
+              "balconies": "38,56",
+              "floor": "1"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 1º Piso - Terraço 100m²",
+            "link": "apartment-t2-p1-terrace",
+            "badge": "Destaque",
+            "badgeClass": "badge-green",
+            "price": "420.000,00",
+            "description": "Destaque absoluto para o terraço excecional, ideal para lazer, convívio e vida exterior. Interior moderno, bem distribuído e com excelente luminosidade natural. Uma das frações mais diferenciadas do edifício.",
+            "details": {
+              "area": "90,51",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "—",
+              "storage": "Sim",
+              "terrace": "103,48",
+              "floor": "1"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 2º Piso",
+            "link": "apartment-t2-p2-sold",
+            "badge": "Vendido",
+            "badgeClass": "badge-red",
+            "price": "390.000,00",
+            "description": "Apartamento vendido.",
+            "details": {
+              "area": "91,30",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "—",
+              "storage": "Sim",
+              "balcony": "38,56",
+              "floor": "2"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 2º Piso",
+            "link": "apartment-t2-p2",
+            "badge": null,
+            "badgeClass": null,
+            "price": "390.000,00",
+            "description": "Apartamento funcional e bem organizado, com varanda ideal para o quotidiano. Uma solução prática que alia conforto, espaço exterior e comodidade.",
+            "details": {
+              "area": "90,51",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "—",
+              "storage": "Sim",
+              "balcony": "15,00",
+              "floor": "2"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 3º Piso",
+            "link": "apartment-t2-p3-sold",
+            "badge": "Vendido",
+            "badgeClass": "badge-red",
+            "price": "390.000,00",
+            "description": "Apartamento vendido.",
+            "details": {
+              "area": "91,30",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "—",
+              "storage": "Sim",
+              "balcony": "38,56",
+              "floor": "3"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 3º Piso",
+            "link": "apartment-t2-p3",
+            "badge": null,
+            "badgeClass": null,
+            "price": "390.000,00",
+            "description": "T2 moderno num piso elevado, com áreas equilibradas e boa exposição solar. Solução prática para quem procura qualidade e funcionalidade.",
+            "details": {
+              "area": "90,51",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "—",
+              "storage": "Sim",
+              "balcony": "15,00",
+              "floor": "3"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Apartamento T3",
+        "apartments": [
+          {
+            "name": "Apartamento T3 - 1º Piso",
+            "link": "apartment-t3-p1",
+            "badge": null,
+            "badgeClass": null,
+            "price": "490.000,00",
+            "description": "Apartamento de gama superior, com áreas generosas, boa exposição solar e estacionamento em box. Ideal para famílias que valorizam espaço e conforto.",
+            "details": {
+              "area": "135,56",
+              "bedrooms": "3",
+              "bathrooms": "2",
+              "parking": "Box (1 lugar)",
+              "balconies": "21,95",
+              "floor": "1"
+            }
+          },
+          {
+            "name": "Apartamento T3 - 2º Piso",
+            "link": "apartment-t3-p2",
+            "badge": null,
+            "badgeClass": null,
+            "price": "490.000,00",
+            "description": "Apartamento de gama superior, com áreas generosas, boa exposição solar e estacionamento em box. Ideal para famílias que valorizam espaço e conforto.",
+            "details": {
+              "area": "135,56",
+              "bedrooms": "3",
+              "bathrooms": "2",
+              "parking": "Box (1 lugar)",
+              "balconies": "21,95",
+              "floor": "2"
+            }
+          },
+          {
+            "name": "Apartamento T3 - 3º Piso",
+            "link": "apartment-t3-p3",
+            "badge": null,
+            "badgeClass": null,
+            "price": "490.000,00",
+            "description": "T3 com vistas mais elevadas e excelente luminosidade. Layout pensado para uma vivência familiar confortável e funcional.",
+            "details": {
+              "area": "135,56",
+              "bedrooms": "3",
+              "bathrooms": "2",
+              "parking": "Box (1 lugar)",
+              "balconies": "21,95",
+              "floor": "3"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Duplex T3+2",
+        "apartments": [
+          {
+            "name": "Duplex T3+2",
+            "link": "duplex-t3-2",
+            "badge": "Exclusivo",
+            "badgeClass": "badge-green",
+            "price": "650.000,00",
+            "description": "Duplex exclusivo com terraços amplos, áreas interiores muito generosas e distribuição em dois pisos. Um apartamento distinto, ideal para quem procura espaço, privacidade e uma forte ligação ao exterior.",
+            "details": {
+              "area": "201,36",
+              "bedrooms": "4",
+              "bathrooms": "4",
+              "parking": "Box (2 lugares)",
+              "terraces": "65,53",
+              "floor": "4"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Duplex T1+1",
+        "apartments": [
+          {
+            "name": "Duplex T1+1",
+            "link": "duplex-t1-1",
+            "badge": null,
+            "badgeClass": null,
+            "price": "470.000,00",
+            "description": "Duplex moderno com terraço privativo, perfeito para lazer e convívio. Layout versátil, ideal para quem procura algo diferenciado, com espaço exterior e Box privativa.",
+            "details": {
+              "area": "109,40",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "Box (2 lugares)",
+              "terrace": "54,41",
+              "floor": "4"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Duplex T1+2",
+        "apartments": [
+          {
+            "name": "Duplex T1+2",
+            "link": "duplex-t1-2",
+            "badge": null,
+            "badgeClass": null,
+            "price": "520.000,00",
+            "description": "Duplex com terraços de grandes dimensões, pensados para uma vivência exterior de excelência. Combina exclusividade, conforto e um layout flexível.",
+            "details": {
+              "area": "127,44",
+              "bedrooms": "2",
+              "bathrooms": "3",
+              "parking": "Box (2 lugares)",
+              "terraces": "83,30",
+              "floor": "4"
+            }
+          }
+        ]
+      }
+    ],
+    "isMoreInfoSoon": false
+  }
+}
