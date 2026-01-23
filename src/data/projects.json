@@ -351,7 +351,7 @@
     "location": "Montijo",
     "typology": "T2 a T4",
     "state": "Vendido",
-    "projects": [],
+    "projectGroups": [],
     "isMoreInfoSoon": false
   },
   "moradias": {
@@ -454,7 +454,7 @@
     "location": "São Francisco",
     "typology": "Moradias",
     "state": "Pronto para entrega: Fevereiro 2026",
-    "projects": [],
+    "projectGroups": [],
     "isMoreInfoSoon": false
   },
   "portas-do-tejo": {
@@ -474,7 +474,270 @@
     "location": "Montijo",
     "typology": "T1 a T3 Duplex",
     "state": "Primeira fase em construção",
-    "projects": [],
-    "isMoreInfoSoon": true
+    "projectGroups": [
+      {
+        "typology": "Apartamento T1",
+        "apartments": [
+          {
+            "name": "Apartamento T1",
+            "link": "apartment-t1",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "310.000,00",
+            "description": "T1 moderno com amplo terraço privativo, ideal para quem valoriza espaço exterior no dia a dia. Zona social funcional, cozinha integrada e quarto confortável, com ligação direta ao exterior. Excelente opção para habitação própria ou investimento.",
+            "details": {
+              "area": "52,98",
+              "bedrooms": "1",
+              "bathrooms": "1",
+              "parking": "",
+              "storage": false,
+              "terrace": "53,98",
+              "floor": "R/C"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Apartamento T2",
+        "apartments": [
+          {
+            "name": "Apartamento T2 - R/C",
+            "link": "apartment-t2-rc",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "410.000,00",
+            "description": "T2 com terraço generoso, perfeito para refeições ao ar livre e momentos de lazer. Sala e cozinha em open space, dois quartos bem dimensionados e ótima relação entre espaço interior e exterior.",
+            "details": {
+              "area": "86,60",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "56,87",
+              "floor": "R/C"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 1º Piso",
+            "link": "apartment-t2-p1",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "390.000,00",
+            "description": "Apartamento equilibrado e funcional, com varandas amplas que prolongam a zona social. Boa separação entre área privada e social, pensado para conforto e vivência diária.",
+            "details": {
+              "area": "91,30",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "38,56",
+              "floor": "1"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 1º Piso",
+            "link": "apartment-t2-p1-terrace",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "420.000,00",
+            "description": "Destaque absoluto para o terraço excecional, ideal para lazer, convívio e vida exterior. Interior moderno, bem distribuído e com excelente luminosidade natural. Uma das frações mais diferenciadas do edifício.",
+            "details": {
+              "area": "90,51",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "103,48",
+              "floor": "1"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 2º Piso",
+            "link": "apartment-t2-p2-sold",
+            "badge": "Vendido",
+            "badgeClass": "badge-red",
+            "price": "390.000,00",
+            "description": "Apartamento vendido.",
+            "details": {
+              "area": "91,30",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "storage": false,
+              "terrace": "38,56",
+              "floor": "2"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 2º Piso",
+            "link": "apartment-t2-p2",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "390.000,00",
+            "description": "Apartamento funcional e bem organizado, com varanda ideal para o quotidiano. Uma solução prática que alia conforto, espaço exterior e comodidade.",
+            "details": {
+              "area": "90,51",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "15,00",
+              "floor": "2"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 3º Piso",
+            "link": "apartment-t2-p3-sold",
+            "badge": "Vendido",
+            "badgeClass": "badge-red",
+            "price": "390.000,00",
+            "description": "Apartamento vendido.",
+            "details": {
+              "area": "91,30",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "storage": false,
+              "terrace": "38,56",
+              "floor": "3"
+            }
+          },
+          {
+            "name": "Apartamento T2 - 3º Piso",
+            "link": "apartment-t2-p3",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "390.000,00",
+            "description": "T2 moderno num piso elevado, com áreas equilibradas e boa exposição solar. Solução prática para quem procura qualidade e funcionalidade.",
+            "details": {
+              "area": "90,51",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "15,00",
+              "floor": "3"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Apartamento T3",
+        "apartments": [
+          {
+            "name": "Apartamento T3 - 1º Piso",
+            "link": "apartment-t3-p1",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "490.000,00",
+            "description": "Apartamento de gama superior, com áreas generosas, boa exposição solar e estacionamento em box. Ideal para famílias que valorizam espaço e conforto.",
+            "details": {
+              "area": "135,56",
+              "bedrooms": "3",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "terrace": "21,95",
+              "floor": "1"
+            }
+          },
+          {
+            "name": "Apartamento T3 - 2º Piso",
+            "link": "apartment-t3-p2",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "490.000,00",
+            "description": "Apartamento de gama superior, com áreas generosas, boa exposição solar e estacionamento em box. Ideal para famílias que valorizam espaço e conforto.",
+            "details": {
+              "area": "135,56",
+              "bedrooms": "3",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "terrace": "21,95",
+              "floor": "2"
+            }
+          },
+          {
+            "name": "Apartamento T3 - 3º Piso",
+            "link": "apartment-t3-p3",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "490.000,00",
+            "description": "T3 com vistas mais elevadas e excelente luminosidade. Layout pensado para uma vivência familiar confortável e funcional.",
+            "details": {
+              "area": "135,56",
+              "bedrooms": "3",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "terrace": "21,95",
+              "floor": "3"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Duplex T3+2",
+        "apartments": [
+          {
+            "name": "Duplex T3+2",
+            "link": "duplex-t3-2",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "650.000,00",
+            "description": "Duplex exclusivo com terraços amplos, áreas interiores muito generosas e distribuição em dois pisos. Um apartamento distinto, ideal para quem procura espaço, privacidade e uma forte ligação ao exterior.",
+            "details": {
+              "area": "201,36",
+              "bedrooms": "4",
+              "bathrooms": "4",
+              "parking": "Box 2",
+              "terrace": "65,53",
+              "floor": "4"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Duplex T1+1",
+        "apartments": [
+          {
+            "name": "Duplex T1+1",
+            "link": "duplex-t1-1",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "470.000,00",
+            "description": "Duplex moderno com terraço privativo, perfeito para lazer e convívio. Layout versátil, ideal para quem procura algo diferenciado, com espaço exterior e Box privativa.",
+            "details": {
+              "area": "109,40",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "Box 2",
+              "terrace": "54,41",
+              "floor": "4"
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Duplex T1+2",
+        "apartments": [
+          {
+            "name": "Duplex T1+2",
+            "link": "duplex-t1-2",
+            "badge": "Disponível",
+            "badgeClass": "badge-green",
+            "price": "520.000,00",
+            "description": "Duplex com terraços de grandes dimensões, pensados para uma vivência exterior de excelência. Combina exclusividade, conforto e um layout flexível.",
+            "details": {
+              "area": "127,44",
+              "bedrooms": "2",
+              "bathrooms": "3",
+              "parking": "Box 2",
+              "terrace": "83,30",
+              "floor": "4"
+            }
+          }
+        ]
+      }
+    ],
+    "isMoreInfoSoon": false
   }
 }

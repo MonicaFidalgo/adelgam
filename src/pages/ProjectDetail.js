@@ -6,7 +6,7 @@ import ImageCarousel from "../components/ImageCarousel";
 import ImageModal from "../components/ImageModal";
 import DetailsIcons from "../components/DetailsIcons";
 import ImageGallery from "../components/ImageZoom";
-import projectsData from "../data/projects2.json";
+import projectsData from "../data/projects.json";
 import projectDetails from "../data/penthouse-details.json";
 import projectDetails2 from "../data/penthouse-details2.json";
 
