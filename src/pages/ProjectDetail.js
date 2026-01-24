@@ -97,7 +97,10 @@ const ProjectDetail = () => {
               </label>
             )}
             {project.description && (
-              <p className="mb-3">{t(project.description)}</p>
+              <p
+                className="mb-3"
+                dangerouslySetInnerHTML={{ __html: t(project.description) }}
+              />
             )}
             {project.price && <p className="price mb-3">{project.price} €</p>}
             <a
@@ -155,10 +158,27 @@ const ProjectDetail = () => {
                       <strong>{project.details.parking}</strong>
                     </li>
                   )}
+                  {project.details.storage && (
+                    <li>
+                      <span>Arrecadação:</span>
+                      <strong>Sim</strong>
+                    </li>
+                  )}
                   {project.details.area && (
                     <li>
                       <span>Área: </span>
                       <strong>{project.details.area} m²</strong>
+                    </li>
+                  )}
+
+                  {project.details.terrace && (
+                    <li>
+                      <span>
+                        {project.details.hasTerrace
+                          ? "Terraço:"
+                          : "Varandas:"}{" "}
+                      </span>
+                      <strong>{project.details.terrace} m²</strong>
                     </li>
                   )}
                   {project.details.certification && (

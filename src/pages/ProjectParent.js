@@ -7,6 +7,8 @@ import ImageCarousel from "../components/ImageCarousel";
 import ImageModal from "../components/ImageModal";
 import ProjectGroupsTable from "../components/ProjectGroupsTable";
 import ProjectSimpleTable from "../components/ProjectSimpleTable";
+import DetailsIcons from "../components/DetailsIcons";
+import ImageGallery from "../components/ImageZoom";
 
 const ProjectParent = () => {
   const { t } = useTranslation();
@@ -151,6 +153,46 @@ const ProjectParent = () => {
       {isMoreInfoSoon && (
         <h4 className="text-center text-2xl mt-5">Mais informações em breve</h4>
       )}
+
+      {/* ONLY FOR MORADIAS*/}
+      {!!projectData?.details && <DetailsIcons data={projectData.details} />}
+
+      {!!projectData?.description2 && (
+        <div
+          className="deluxe-description"
+          dangerouslySetInnerHTML={{ __html: t(projectData?.description2) }}
+        />
+      )}
+
+      {!!projectData?.details2 && <DetailsIcons data={projectData.details2} />}
+
+      {projectData?.detailsDescription && (
+        <div className="acabamentos project-details-list">
+          <div className="project-details-list-title">Pontos Chave</div>
+          <div className="project-details-list-description">
+            <ul className="bullet-list">
+              {projectData?.detailsDescription.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+            {!!projectData?.detailsPlants && (
+              <div className="project-details-list-images-wrapper d-none d-md-flex">
+                <ImageGallery images={projectData?.detailsPlants} />
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {!!projectData?.detailsPlants && (
+        <div className="plantas project-details-list d-md-none">
+          <div className="project-details-list-title">Plantas</div>
+
+          <ImageGallery images={projectData?.detailsPlants} />
+        </div>
+      )}
+
+      {/* END OF ONLY FOR MORADIAS*/}
 
       {/* APARTAMENTS - new structure (with dropdowns) */}
       {hasNewStructure && (

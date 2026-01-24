@@ -63,7 +63,7 @@ const ProjectGroupsTable = ({
                           <strong
                             style={{ color: "#bd9a68", fontSize: "16px" }}
                           >
-                            {t(group.typology)}
+                            {group.typology}
                           </strong>
                           <label
                             className={`badge ${dynamicBadge.class}`}
@@ -158,7 +158,7 @@ const ProjectGroupsTable = ({
                 >
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center gap-3">
-                      <strong>{t(group.typology)}</strong>
+                      <strong>{group.typology}</strong>
                       <label
                         className={`badge ${dynamicBadge.class}`}
                         style={{ marginBottom: 0 }}
