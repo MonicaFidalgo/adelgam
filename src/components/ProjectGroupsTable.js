@@ -59,7 +59,7 @@ const ProjectGroupsTable = ({
                           marginBottom: "10px",
                         }}
                       >
-                        <div className="d-flex align-items-center gap-3">
+                        <div className="collapse-header">
                           <strong
                             style={{ color: "#bd9a68", fontSize: "16px" }}
                           >
@@ -157,7 +157,7 @@ const ProjectGroupsTable = ({
                   }}
                 >
                   <div className="d-flex justify-content-between align-items-center">
-                    <div className="d-flex align-items-center gap-3">
+                    <div className="collapse-header">
                       <strong>{group.typology}</strong>
                       <label
                         className={`badge ${dynamicBadge.class}`}

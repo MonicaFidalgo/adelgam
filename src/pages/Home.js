@@ -109,7 +109,8 @@ const Home = () => {
               <label className="label mb-3">PROJECTO EM DESTAQUE</label>
               <h2 className="heading mb-3">Moradia</h2>
               <p>
-                Inserida na tranquila zona de São Francisco, esta moradia
+                Inserida na tranquila zona de São Francisco, no Concelho de
+                Alcochete e a poucos minutos de Lisboa, esta moradia
                 distingue-se pelo seu caráter exclusivo e contemporâneo. Dispõe
                 de <strong>4 suites</strong>, <strong>piscina privativa</strong>
                 , <strong>sala de cinema</strong>,{" "}

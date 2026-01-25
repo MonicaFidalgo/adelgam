@@ -71,7 +71,7 @@ const ProjectSimpleTable = ({ items, projectTitle, isPenthouse = false }) => {
               style={{ cursor: "pointer" }}
             >
               <div className="d-flex justify-content-between align-items-center">
-                <div className="d-flex align-items-center gap-3">
+                <div className="collapse-header">
                   <strong>{t(item.name)}</strong>
                   <label
                     className={`badge ${item.badgeClass}`}

@@ -409,6 +409,7 @@ textarea {
 }
 
 .header-menu {
+  background-color: transparent;
   border: 2px solid $black;
 }
 
@@ -434,10 +435,12 @@ textarea {
 }
 
 .sidebar-close {
+  background-color: transparent;
   border: 2px solid $color-primary;
 }
 
 .sidebar-menu-link {
+  text-decoration: none;
   color: $color-primary;
   &:hover {
     color: $color-secondary;
@@ -710,4 +713,12 @@ textarea {
 
 .collapse.show {
   visibility: visible;
+}
+
+.collapse-header {
+  display: flex;
+  align-items: center;
+  strong {
+    width: 130px;
+  }
 }

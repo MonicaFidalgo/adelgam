@@ -481,8 +481,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t1.name",
             "link": "apartment-t1",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "310.000,00",
             "description": "projects.portas_do_tejo.apartment_t1.description",
             "details": {
@@ -504,8 +504,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.rc.name",
             "link": "apartment-t2-rc",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "410.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.rc.description",
             "details": {
@@ -522,8 +522,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p1.name",
             "link": "apartment-t2-p1",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "390.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p1.description",
             "details": {
@@ -540,8 +540,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p1_terrace.name",
             "link": "apartment-t2-p1-terrace",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "420.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p1_terrace.description",
             "details": {
@@ -576,8 +576,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p2.name",
             "link": "apartment-t2-p2",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "390.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p2.description",
             "details": {
@@ -612,8 +612,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p3.name",
             "link": "apartment-t2-p3",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "390.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p3.description",
             "details": {
@@ -635,8 +635,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t3.p1.name",
             "link": "apartment-t3-p1",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "490.000,00",
             "description": "projects.portas_do_tejo.apartment_t3.p1.description",
             "details": {
@@ -652,8 +652,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t3.p2.name",
             "link": "apartment-t3-p2",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "490.000,00",
             "description": "projects.portas_do_tejo.apartment_t3.p2.description",
             "details": {
@@ -669,8 +669,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t3.p3.name",
             "link": "apartment-t3-p3",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "490.000,00",
             "description": "projects.portas_do_tejo.apartment_t3.p3.description",
             "details": {
@@ -691,8 +691,8 @@
           {
             "name": "projects.portas_do_tejo.duplex_t3_2.name",
             "link": "duplex-t3-2",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "650.000,00",
             "description": "projects.portas_do_tejo.duplex_t3_2.description",
             "details": {
@@ -713,8 +713,8 @@
           {
             "name": "projects.portas_do_tejo.duplex_t1_1.name",
             "link": "duplex-t1-1",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "470.000,00",
             "description": "projects.portas_do_tejo.duplex_t1_1.description",
             "details": {
@@ -735,8 +735,8 @@
           {
             "name": "projects.portas_do_tejo.duplex_t1_2.name",
             "link": "duplex-t1-2",
-            "badge": "Disponível",
-            "badgeClass": "badge-green",
+            "badge": "",
+            "badgeClass": "",
             "price": "520.000,00",
             "description": "projects.portas_do_tejo.duplex_t1_2.description",
             "details": {
