@@ -87,15 +87,6 @@ const ProjectGroupsTable = ({
                         <td>
                           <div className="d-flex flex-column">
                             <strong>{t(item.name)}</strong>
-                            {item.badge && (
-                              <label
-                                className={`badge ${item.badgeClass} mt-1`}
-                                style={{ marginBottom: 0 }}
-                              >
-                                <span className="badge-circle"></span>
-                                {item.badge}
-                              </label>
-                            )}
                           </div>
                         </td>
                         <td>{item.details.area || "N/A"}m²</td>

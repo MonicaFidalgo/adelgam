@@ -560,7 +560,7 @@
             "link": "apartment-t2-p2-sold",
             "badge": "Vendido",
             "badgeClass": "badge-red",
-            "price": "390.000,00",
+            "price": "420.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p2_sold.description",
             "details": {
               "area": "91,30",
@@ -596,7 +596,7 @@
             "link": "apartment-t2-p3-sold",
             "badge": "Vendido",
             "badgeClass": "badge-red",
-            "price": "390.000,00",
+            "price": "420.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p3_sold.description",
             "details": {
               "area": "91,30",
