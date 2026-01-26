@@ -77,7 +77,67 @@
     "portas_do_tejo": {
       "label": "A vossa moradia perfeita",
       "title": "Portas do Tejo",
-      "description": "A poucos minutos de Lisboa, o Portas do Tejo combina conforto, modernidade e uma localização privilegiada. Apartamentos T1 a T3 Duplex com acabamentos de excelência, amplas varandas e garagem privativa."
+      "description": "A poucos minutos de Lisboa, o Portas do Tejo combina conforto, modernidade e uma localização privilegiada. Apartamentos T1 a T3 Duplex com acabamentos de excelência, amplas varandas e garagem privativa.",
+      "apartment_t1": {
+        "name": "Apartamento T1",
+        "description": "T1 moderno com <b>amplo terraço privativo</b>, ideal para quem valoriza espaço exterior no dia a dia. Zona social funcional, cozinha integrada e quarto confortável, com ligação direta ao exterior. Excelente opção para habitação própria ou investimento."
+      },
+      "apartment_t2": {
+        "rc": {
+          "name": "Apartamento T2 - R/C",
+          "description": "T2 com <b>terraço generoso</b>, perfeito para refeições ao ar livre e momentos de lazer. Sala e cozinha em open space, dois quartos bem dimensionados e ótima relação entre espaço interior e exterior."
+        },
+        "p1": {
+          "name": "Apartamento T2 - 1º Piso",
+          "description": "Apartamento equilibrado e funcional, com varandas amplas que prolongam a zona social. Boa separação entre área privada e social, pensado para conforto e vivência diária."
+        },
+        "p1_terrace": {
+          "name": "Apartamento T2 - 1º Piso",
+          "description": "Destaque absoluto para o <b>terraço excecional</b>, ideal para lazer, convívio e vida exterior. Interior moderno, bem distribuído e com excelente luminosidade natural. Uma das frações mais diferenciadas do edifício."
+        },
+        "p2": {
+          "name": "Apartamento T2 - 2º Piso",
+          "description": "Apartamento funcional e bem organizado, com varanda ideal para o quotidiano. Uma solução prática que alia conforto, espaço exterior e comodidade."
+        },
+        "p2_sold": {
+          "name": "Apartamento T2 - 2º Piso",
+          "description": "Apartamento vendido."
+        },
+        "p3": {
+          "name": "Apartamento T2 - 3º Piso",
+          "description": "T2 moderno num piso elevado, com áreas equilibradas e boa exposição solar. Solução prática para quem procura qualidade e funcionalidade."
+        },
+        "p3_sold": {
+          "name": "Apartamento T2 - 3º Piso",
+          "description": "Apartamento vendido."
+        }
+      },
+      "apartment_t3": {
+        "p1": {
+          "name": "Apartamento T3 - 1º Piso",
+          "description": "Apartamento de gama superior, com áreas generosas, boa exposição solar e estacionamento em box. Ideal para famílias que valorizam espaço e conforto."
+        },
+        "p2": {
+          "name": "Apartamento T3 - 2º Piso",
+          "description": "Apartamento de gama superior, com áreas generosas, boa exposição solar e estacionamento em box. Ideal para famílias que valorizam espaço e conforto."
+        },
+        "p3": {
+          "name": "Apartamento T3 - 3º Piso",
+          "description": "T3 com vistas mais elevadas e excelente luminosidade. Layout pensado para uma vivência familiar confortável e funcional."
+        }
+      },
+      "duplex_t3_2": {
+        "name": "Duplex T3+2",
+        "description": "Duplex exclusivo com <b>terraços amplos</b>, áreas interiores muito generosas e distribuição em dois pisos. Um apartamento distinto, ideal para quem procura espaço, privacidade e uma forte ligação ao exterior."
+      },
+      "duplex_t1_1": {
+        "name": "Duplex T1+1",
+        "description": "Duplex moderno com <b>terraço privativo</b>, perfeito para lazer e convívio. Layout versátil, ideal para quem procura algo diferenciado, com espaço exterior e Box privativa."
+      },
+      "duplex_t1_2": {
+        "name": "Duplex T1+2",
+        "description": "Duplex com <b>terraços de grandes dimensões</b>, pensados para uma vivência exterior de excelência. Combina exclusividade, conforto e um layout flexível."
+      }
     }
   }
 }

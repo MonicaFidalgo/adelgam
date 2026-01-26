@@ -1,6 +1,6 @@
 {
-  "home.banner.label": "Why Adelgam",
-  "home.banner.description": "On the serene banks of Alcochete, with panoramic views of iconic Lisbon, stands an architectural gem that redefines luxury and refinement.",
+  "home.banner.label": "First phase under construction",
+  "home.banner.description": "Just minutes from Lisbon, Portas do Tejo combines comfort, modernity, and a prime location.",
   "home.banner.button": "More information",
   "details": {
     "title_1": "Over 25 years of experience",
@@ -31,35 +31,113 @@
 
   "projects": {
     "lux_terrace": {
-      "label": "Elegance and Lux",
-      "title": "Lux Terrace",
-      "description": "Lux Terrace is a premium residential project offering modern apartments with luxury amenities.",
+      "label": "Elegance and Luxury",
+      "title": "Lux Terrace - Alcochete",
+      "description": "Located in the new area of Alcochete, this development consists of five buildings offering refined apartments with typologies from T1 to T4 Penthouse. With contemporary architectural lines designed for modern families, its generous areas provide maximum comfort and are suitable for any lifestyle.",
       "apartment_t1": {
-        "name": "Apartment A",
-        "description": "A luxurious apartment."
+        "name": "T1 Apartment",
+        "description": "Located on the ground floor, being a first floor on the living room and kitchen side, this apartment consists of an open space kitchen, suite with 18 m² and a guest bathroom."
       },
       "apartment_t2": {
-        "name": "Apartment B",
-        "description": "A luxurious apartment."
+        "name": "T2 Apartment",
+        "description": "This apartment consists of two bedrooms, one of them a suite with 20 m². An open space kitchen and a guest bathroom."
+      },
+      "apartment_t3": {
+        "name": "T3 Apartment",
+        "description": "Located on the first floor, this apartment consists of three bedrooms, two of them suites. An open space kitchen with 46m², a guest bathroom and a balcony with 36 m². This apartment also includes two parking spaces and a storage room."
       },
       "penthouse_t3": {
-        "name": "Penthouse A",
-        "description": "A stunning penthouse."
+        "name": "T3 Penthouse",
+        "description": "This fabulous Penthouse has direct elevator access to the social floor, located on the top floor. On this top floor we find the open space kitchen, laundry room, dining room, living room and two terraces with 40m². The three bedrooms, two of them suites, are located on the lower floor. We highlight the spacious Master Suite of 37 m²."
       },
       "penthouse_t4": {
-        "name": "Penthouse B",
-        "description": "A stunning penthouse."
+        "name": "T4 Penthouse",
+        "description": "This fabulous Penthouse has elevator access to the social floor, located on the top floor. On this top floor we find the open space kitchen, laundry room, dining room, living room and an 80m² terrace that surrounds the entire apartment. The four bedrooms, two of them suites, are located on the lower floor. We highlight the spacious Master Suite of 43 m² with a 26m² balcony."
+      },
+      "penthouse_t4-II": {
+        "name": "T4 Penthouse II",
+        "description": "This fabulous Penthouse has elevator access to the social floor, located on the top floor. On this top floor we find the open space kitchen, laundry room, dining room, living room and a 72m² terrace that surrounds the entire apartment. All bedrooms are suites, located on the lower floor. We highlight the spacious Master Suite of 36 m² with a 35m² balcony."
+      },
+      "penthouse_deluxe": {
+        "name": "Deluxe Penthouse",
+        "description": "Discover the pinnacle of luxury in this exclusive penthouse in Alcochete, offering stunning views of Lisbon. With an elegantly designed interior and high-quality finishes, this apartment redefines comfort and sophisticated lifestyle. Enjoy relaxing moments on the spacious terrace with jacuzzi, and invite friends for memorable barbecues. With private elevator access to floors 3 and 4, private garage, this penthouse offers convenience and security. Welcome to your luxury refuge."
       }
     },
     "varandas_do_montijo": {
       "label": "Prime location",
       "title": "Varandas do Montijo",
-      "description": "Urbanização <strong>Varandas do Montijo</strong>, composta por <strong>4 lotes</strong>, num total de <strong>40 apartamentos</strong>, com ano de construção em <strong>2020</strong>."
+      "description": "Urbanization <strong>Varandas do Montijo</strong>, consisting of <strong>4 lots</strong>, totaling <strong>40 apartments</strong>, with construction year in <strong>2020</strong>."
     },
     "moradias_sao_francisco": {
-      "label": "Your home",
-      "title": "Moradias São Francisco",
-      "description": "Moradias São Francisco offers spacious homes in a quiet neighborhood."
+      "label": "Your perfect home",
+      "title": "São Francisco Villas",
+      "description": "Located in the quiet and renovated area of São Francisco, this exclusive development of semi-detached villas combines elegance, comfort and functionality. With modern architecture and spacious areas, these villas were designed to provide a sophisticated and balanced lifestyle, ideal for families who value privacy and quality of life.",
+      "description2": "<p>Discover the perfect balance between sophistication and comfort in this elegant semi-detached villa in São Francisco. With four spacious suites, this residence offers a refined and functional environment, thoughtfully designed to ensure well-being and privacy.</p><p>The social area stands out for its large open space living and dining room, creating a harmonious and inviting atmosphere. The modern, fully equipped kitchen combines contemporary design and efficiency, making every meal a unique experience.</p><p>For exclusive leisure moments, the villa has a sophisticated cinema room, perfect for family or friends' entertainment. Additionally, a complete laundry room provides maximum convenience for everyday life.</p><p>The private garage, with capacity for three cars, ensures total comfort and security. Live with refinement and comfort in this villa that redefines the concept of modern housing in São Francisco.</p>"
+    },
+    "portas_do_tejo": {
+      "label": "Your perfect home",
+      "title": "Portas do Tejo",
+      "description": "Just minutes from Lisbon, Portas do Tejo combines comfort, modernity, and a prime location. T1 to T3 Duplex apartments with excellent finishes, large balconies and private garage.",
+      "apartment_t1": {
+        "name": "T1 Apartment",
+        "description": "Modern T1 with <b>large private terrace</b>, ideal for those who value outdoor space in daily life. Functional social area, integrated kitchen and comfortable bedroom, with direct connection to the outside. Excellent option for own housing or investment."
+      },
+      "apartment_t2": {
+        "rc": {
+          "name": "T2 Apartment - Ground Floor",
+          "description": "T2 with <b>generous terrace</b>, perfect for outdoor dining and leisure moments. Living room and kitchen in open space, two well-sized bedrooms and excellent relationship between indoor and outdoor space."
+        },
+        "p1": {
+          "name": "T2 Apartment - 1st Floor",
+          "description": "Balanced and functional apartment, with large balconies that extend the social area. Good separation between private and social area, designed for comfort and daily living."
+        },
+        "p1_terrace": {
+          "name": "T2 Apartment - 1st Floor",
+          "description": "Absolute highlight for the <b>exceptional terrace</b>, ideal for leisure, socializing and outdoor living. Modern interior, well distributed and with excellent natural light. One of the building's most distinctive units."
+        },
+        "p2": {
+          "name": "T2 Apartment - 2nd Floor",
+          "description": "Functional and well-organized apartment, with balcony ideal for everyday life. A practical solution that combines comfort, outdoor space and convenience."
+        },
+        "p2_sold": {
+          "name": "T2 Apartment - 2nd Floor",
+          "description": "Apartment sold."
+        },
+        "p3": {
+          "name": "T2 Apartment - 3rd Floor",
+          "description": "Modern T2 on an elevated floor, with balanced areas and good sun exposure. Practical solution for those looking for quality and functionality."
+        },
+        "p3_sold": {
+          "name": "T2 Apartment - 3rd Floor",
+          "description": "Apartment sold."
+        }
+      },
+      "apartment_t3": {
+        "p1": {
+          "name": "T3 Apartment - 1st Floor",
+          "description": "High-end apartment, with generous areas, good sun exposure and box parking. Ideal for families who value space and comfort."
+        },
+        "p2": {
+          "name": "T3 Apartment - 2nd Floor",
+          "description": "High-end apartment, with generous areas, good sun exposure and box parking. Ideal for families who value space and comfort."
+        },
+        "p3": {
+          "name": "T3 Apartment - 3rd Floor",
+          "description": "T3 with higher views and excellent natural light. Layout designed for comfortable and functional family living."
+        }
+      },
+      "duplex_t3_2": {
+        "name": "Duplex T3+2",
+        "description": "Exclusive duplex with <b>large terraces</b>, very generous interior areas and two-floor distribution. A distinctive apartment, ideal for those seeking space, privacy and a strong connection to the outdoors."
+      },
+      "duplex_t1_1": {
+        "name": "Duplex T1+1",
+        "description": "Modern duplex with private terrace, perfect for leisure and socializing. Versatile layout, ideal for those looking for something distinctive, with outdoor space and private box."
+      },
+      "duplex_t1_2": {
+        "name": "Duplex T1+2",
+        "description": "Duplex with large terraces, designed for excellent outdoor living. Combines exclusivity, comfort and a flexible layout."
+      }
     }
   }
 }

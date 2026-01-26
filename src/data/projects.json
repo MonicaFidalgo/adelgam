@@ -351,7 +351,7 @@
     "location": "Montijo",
     "typology": "T2 a T4",
     "state": "Vendido",
-    "projects": [],
+    "projectGroups": [],
     "isMoreInfoSoon": false
   },
   "moradias": {
@@ -454,7 +454,7 @@
     "location": "São Francisco",
     "typology": "Moradias",
     "state": "Pronto para entrega: Fevereiro 2026",
-    "projects": [],
+    "projectGroups": [],
     "isMoreInfoSoon": false
   },
   "portas-do-tejo": {
@@ -475,7 +475,284 @@
     "location": "Montijo",
     "typology": "T1 a T3 Duplex",
     "state": "Primeira fase em construção",
-    "projects": [],
-    "isMoreInfoSoon": true
+    "projectGroups": [
+      {
+        "typology": "Apartamento T1",
+        "apartments": [
+          {
+            "name": "projects.portas_do_tejo.apartment_t1.name",
+            "link": "apartment-t1",
+            "badge": "",
+            "badgeClass": "",
+            "price": "310.000,00",
+            "description": "projects.portas_do_tejo.apartment_t1.description",
+            "details": {
+              "area": "52,98",
+              "bedrooms": "1",
+              "bathrooms": "1",
+              "parking": "",
+              "storage": false,
+              "terrace": "53,98",
+              "floor": "R/C",
+              "hasTerrace": true
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Apartamento T2",
+        "apartments": [
+          {
+            "name": "projects.portas_do_tejo.apartment_t2.rc.name",
+            "link": "apartment-t2-rc",
+            "badge": "",
+            "badgeClass": "",
+            "price": "410.000,00",
+            "description": "projects.portas_do_tejo.apartment_t2.rc.description",
+            "details": {
+              "area": "86,60",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "56,87",
+              "floor": "R/C",
+              "hasTerrace": true
+            }
+          },
+          {
+            "name": "projects.portas_do_tejo.apartment_t2.p1.name",
+            "link": "apartment-t2-p1",
+            "badge": "",
+            "badgeClass": "",
+            "price": "390.000,00",
+            "description": "projects.portas_do_tejo.apartment_t2.p1.description",
+            "details": {
+              "area": "91,30",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "38,56",
+              "floor": "1",
+              "hasTerrace": false
+            }
+          },
+          {
+            "name": "projects.portas_do_tejo.apartment_t2.p1_terrace.name",
+            "link": "apartment-t2-p1-terrace",
+            "badge": "",
+            "badgeClass": "",
+            "price": "420.000,00",
+            "description": "projects.portas_do_tejo.apartment_t2.p1_terrace.description",
+            "details": {
+              "area": "90,51",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "103,48",
+              "floor": "1",
+              "hasTerrace": true
+            }
+          },
+          {
+            "name": "projects.portas_do_tejo.apartment_t2.p2_sold.name",
+            "link": "apartment-t2-p2-sold",
+            "badge": "Vendido",
+            "badgeClass": "badge-red",
+            "price": "420.000,00",
+            "description": "projects.portas_do_tejo.apartment_t2.p2_sold.description",
+            "details": {
+              "area": "91,30",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "storage": false,
+              "terrace": "38,56",
+              "floor": "2",
+              "hasTerrace": false
+            }
+          },
+          {
+            "name": "projects.portas_do_tejo.apartment_t2.p2.name",
+            "link": "apartment-t2-p2",
+            "badge": "",
+            "badgeClass": "",
+            "price": "390.000,00",
+            "description": "projects.portas_do_tejo.apartment_t2.p2.description",
+            "details": {
+              "area": "90,51",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "15,00",
+              "floor": "2",
+              "hasTerrace": false
+            }
+          },
+          {
+            "name": "projects.portas_do_tejo.apartment_t2.p3_sold.name",
+            "link": "apartment-t2-p3-sold",
+            "badge": "Vendido",
+            "badgeClass": "badge-red",
+            "price": "420.000,00",
+            "description": "projects.portas_do_tejo.apartment_t2.p3_sold.description",
+            "details": {
+              "area": "91,30",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "storage": false,
+              "terrace": "38,56",
+              "floor": "3",
+              "hasTerrace": false
+            }
+          },
+          {
+            "name": "projects.portas_do_tejo.apartment_t2.p3.name",
+            "link": "apartment-t2-p3",
+            "badge": "",
+            "badgeClass": "",
+            "price": "390.000,00",
+            "description": "projects.portas_do_tejo.apartment_t2.p3.description",
+            "details": {
+              "area": "90,51",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "",
+              "storage": true,
+              "terrace": "15,00",
+              "floor": "3",
+              "hasTerrace": false
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Apartamento T3",
+        "apartments": [
+          {
+            "name": "projects.portas_do_tejo.apartment_t3.p1.name",
+            "link": "apartment-t3-p1",
+            "badge": "",
+            "badgeClass": "",
+            "price": "490.000,00",
+            "description": "projects.portas_do_tejo.apartment_t3.p1.description",
+            "details": {
+              "area": "135,56",
+              "bedrooms": "3",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "terrace": "21,95",
+              "floor": "1",
+              "hasTerrace": false
+            }
+          },
+          {
+            "name": "projects.portas_do_tejo.apartment_t3.p2.name",
+            "link": "apartment-t3-p2",
+            "badge": "",
+            "badgeClass": "",
+            "price": "490.000,00",
+            "description": "projects.portas_do_tejo.apartment_t3.p2.description",
+            "details": {
+              "area": "135,56",
+              "bedrooms": "3",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "terrace": "21,95",
+              "floor": "2",
+              "hasTerrace": false
+            }
+          },
+          {
+            "name": "projects.portas_do_tejo.apartment_t3.p3.name",
+            "link": "apartment-t3-p3",
+            "badge": "",
+            "badgeClass": "",
+            "price": "490.000,00",
+            "description": "projects.portas_do_tejo.apartment_t3.p3.description",
+            "details": {
+              "area": "135,56",
+              "bedrooms": "3",
+              "bathrooms": "2",
+              "parking": "Box 1",
+              "terrace": "21,95",
+              "floor": "3",
+              "hasTerrace": false
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Duplex T3+2",
+        "apartments": [
+          {
+            "name": "projects.portas_do_tejo.duplex_t3_2.name",
+            "link": "duplex-t3-2",
+            "badge": "",
+            "badgeClass": "",
+            "price": "650.000,00",
+            "description": "projects.portas_do_tejo.duplex_t3_2.description",
+            "details": {
+              "area": "201,36",
+              "bedrooms": "4",
+              "bathrooms": "4",
+              "parking": "Box 2",
+              "terrace": "65,53",
+              "floor": "4",
+              "hasTerrace": true
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Duplex T1+1",
+        "apartments": [
+          {
+            "name": "projects.portas_do_tejo.duplex_t1_1.name",
+            "link": "duplex-t1-1",
+            "badge": "",
+            "badgeClass": "",
+            "price": "470.000,00",
+            "description": "projects.portas_do_tejo.duplex_t1_1.description",
+            "details": {
+              "area": "109,40",
+              "bedrooms": "2",
+              "bathrooms": "2",
+              "parking": "Box 2",
+              "terrace": "54,41",
+              "floor": "4",
+              "hasTerrace": true
+            }
+          }
+        ]
+      },
+      {
+        "typology": "Duplex T1+2",
+        "apartments": [
+          {
+            "name": "projects.portas_do_tejo.duplex_t1_2.name",
+            "link": "duplex-t1-2",
+            "badge": "",
+            "badgeClass": "",
+            "price": "520.000,00",
+            "description": "projects.portas_do_tejo.duplex_t1_2.description",
+            "details": {
+              "area": "127,44",
+              "bedrooms": "2",
+              "bathrooms": "3",
+              "parking": "Box 2",
+              "terrace": "83,30",
+              "floor": "4",
+              "hasTerrace": true
+            }
+          }
+        ]
+      }
+    ],
+    "isMoreInfoSoon": false
   }
 }

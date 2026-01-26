@@ -70,7 +70,7 @@ const Footer = () => {
         <hr />
         <Row className="py-60">
           <div className="copyright">
-            <p>© Copyright 2025 - Adelgam Promoção Imobiliária</p>
+            <p>© Copyright 2026 - Adelgam Promoção Imobiliária</p>
           </div>
         </Row>
       </Container>

@@ -10,19 +10,6 @@ const Projects = () => {
   const projectData = [
     {
       id: 1,
-      name: "Moradias São Francisco",
-      image: image3,
-      link: "moradias",
-      location: "São Francisco",
-      apartments: "Moradias Geminadas",
-      typologies: "T4 com piscina",
-      parking: "Garagem para 4 carros",
-      badge: "1 disponível",
-      badgeClass: "badge-green",
-      isApartment: false,
-    },
-    {
-      id: 2,
       name: "Portas do Tejo",
       image: image4,
       link: "portas-do-tejo",
@@ -35,8 +22,22 @@ const Projects = () => {
       isApartment: true,
     },
     {
+      id: 2,
+      name: "Moradias São Francisco",
+      image: image3,
+      link: "moradias",
+      location: "São Francisco",
+      apartments: "Moradias Geminadas",
+      typologies: "T4 com piscina",
+      parking: "Garagem para 4 carros",
+      badge: "1 disponível",
+      badgeClass: "badge-green",
+      isApartment: false,
+    },
+
+    {
       id: 3,
-      name: "Lux Terrace",
+      name: "Lux Terrace Alcochete",
       image: image1,
       link: "lux-terrace",
       location: "Alcochete",
