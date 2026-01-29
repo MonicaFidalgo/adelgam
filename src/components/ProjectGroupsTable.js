@@ -185,17 +185,6 @@ const ProjectGroupsTable = ({
                           <strong style={{ fontSize: "16px" }}>
                             {t(item.name)}
                           </strong>
-                          {item.badge && (
-                            <div className="mt-2">
-                              <label
-                                className={`badge ${item.badgeClass}`}
-                                style={{ marginBottom: 0 }}
-                              >
-                                <span className="badge-circle"></span>
-                                {item.badge}
-                              </label>
-                            </div>
-                          )}
                         </div>
                         <div className="price" style={{ fontSize: "18px" }}>
                           {item.price ? `${item.price}€` : "N/A"}

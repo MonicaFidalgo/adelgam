@@ -32,7 +32,9 @@ const DetailsIcons = ({ data }) => {
           return (
             <Col md={3} xs={6} key={key}>
               <div className="details-icons">
-                {IconComponent && <IconComponent className="icon" />}
+                <div className="details-icons-icon">
+                  {IconComponent && <IconComponent className="icon" />}
+                </div>
                 <p className="mb-1 mt-2">{item.title}</p>
                 <span>{item.description}</span>
               </div>
