@@ -144,6 +144,8 @@ const ProjectParent = () => {
             onClose={handleCloseModal}
             onNext={handleNextImage}
             onPrevious={handlePreviousImage}
+            currentIndex={selectedImageIndex !== null ? selectedImageIndex : 0}
+            totalImages={images.length}
           />
         </>
       ) : (
