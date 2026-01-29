@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import ImageCarousel from "../components/ImageCarousel";
-import ImageModal from "../components/ImageModal";
+import ImageCarousel from "../components/ImageCarouselNew";
+import ImageModal from "../components/ImageModalNew";
 import DetailsIcons from "../components/DetailsIcons";
 import ImageGallery from "../components/ImageZoom";
 import projectsData from "../data/projects.json";
@@ -129,6 +129,10 @@ const ProjectDetail = () => {
                 onClose={handleCloseModal}
                 onNext={handleNextImage}
                 onPrevious={handlePreviousImage}
+                currentIndex={
+                  selectedImageIndex !== null ? selectedImageIndex : 0
+                }
+                totalImages={project.images.length}
               />
             </>
           )}
