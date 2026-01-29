@@ -129,6 +129,10 @@ const ProjectDetail = () => {
                 onClose={handleCloseModal}
                 onNext={handleNextImage}
                 onPrevious={handlePreviousImage}
+                currentIndex={
+                  selectedImageIndex !== null ? selectedImageIndex : 0
+                }
+                totalImages={project.images.length}
               />
             </>
           )}
@@ -240,6 +244,7 @@ const ProjectDetail = () => {
                   height="500px"
                   style={{ border: "none", backgroundColor: "transparent" }}
                   allowFullScreen
+                  allow="accelerometer; gyroscope; magnetometer; xr-spatial-tracking"
                 ></iframe>
               </div>
             </>

@@ -144,6 +144,8 @@ const ProjectParent = () => {
             onClose={handleCloseModal}
             onNext={handleNextImage}
             onPrevious={handlePreviousImage}
+            currentIndex={selectedImageIndex !== null ? selectedImageIndex : 0}
+            totalImages={images.length}
           />
         </>
       ) : (
@@ -197,7 +199,9 @@ const ProjectParent = () => {
       {/* APARTAMENTS - new structure (with dropdowns) */}
       {hasNewStructure && (
         <div className="my-60">
-          <h3 className="heading text-center mb-60">Apartamentos T1 - T3</h3>
+          <h3 className="heading-secondary text-center mb-60">
+            Apartamentos T1 - T3
+          </h3>
           <ProjectGroupsTable
             groups={projectGroups}
             projectTitle={projectTitle}
@@ -212,7 +216,9 @@ const ProjectParent = () => {
       {/* APARTAMENTS - Old structure (simple table) */}
       {hasOldStructure && !hasNewStructure && (
         <div className="my-60">
-          <h3 className="heading text-center mb-60">Apartamentos T1 - T3</h3>
+          <h3 className="heading-secondary text-center mb-60">
+            Apartamentos T1 - T3
+          </h3>
           <ProjectSimpleTable
             items={projects}
             projectTitle={projectTitle}
@@ -224,7 +230,7 @@ const ProjectParent = () => {
       {/* PENTHOUSES - Old structure (simple table) */}
       {hasPenthousesOld && (
         <div className="my-60">
-          <h3 className="heading text-center mb-60">Penthouses</h3>
+          <h3 className="heading-secondary text-center mb-60">Penthouses</h3>
           <ProjectSimpleTable
             items={penthouses}
             projectTitle={projectTitle}
