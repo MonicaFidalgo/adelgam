@@ -88,15 +88,23 @@ textarea {
   }
 }
 
-.heading {
+.heading,
+.heading-secondary {
   font-family: "Roboto Serif", serif;
   font-weight: 500;
   font-size: 28px;
-  color: $black;
 
   @media screen and (min-width: 900px) {
     font-size: 42px;
   }
+}
+
+.heading {
+  color: black;
+}
+
+.heading-secondary {
+  color: $color-secondary;
 }
 
 /* PADDINGS & MARGINS */
@@ -647,6 +655,7 @@ textarea {
   font-family: "Roboto Serif", serif;
   font-weight: 500;
   font-size: 24px;
+  color: $color-secondary;
 }
 
 .iframe-container {
@@ -721,4 +730,8 @@ textarea {
   strong {
     width: 130px;
   }
+}
+
+.carousel-pagination-text {
+  color: $color-secondary;
 }

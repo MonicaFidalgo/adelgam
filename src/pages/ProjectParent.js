@@ -3,8 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import projectsData from "../data/projects.json";
 import Higlights from "../components/Highlights";
-import ImageCarousel from "../components/ImageCarouselNew";
-import ImageModal from "../components/ImageModalNew";
+import ImageCarousel from "../components/ImageCarousel";
+import ImageModal from "../components/ImageModal";
 import ProjectGroupsTable from "../components/ProjectGroupsTable";
 import ProjectSimpleTable from "../components/ProjectSimpleTable";
 import DetailsIcons from "../components/DetailsIcons";
@@ -199,7 +199,9 @@ const ProjectParent = () => {
       {/* APARTAMENTS - new structure (with dropdowns) */}
       {hasNewStructure && (
         <div className="my-60">
-          <h3 className="heading text-center mb-60">Apartamentos T1 - T3</h3>
+          <h3 className="heading-secondary text-center mb-60">
+            Apartamentos T1 - T3
+          </h3>
           <ProjectGroupsTable
             groups={projectGroups}
             projectTitle={projectTitle}
@@ -214,7 +216,9 @@ const ProjectParent = () => {
       {/* APARTAMENTS - Old structure (simple table) */}
       {hasOldStructure && !hasNewStructure && (
         <div className="my-60">
-          <h3 className="heading text-center mb-60">Apartamentos T1 - T3</h3>
+          <h3 className="heading-secondary text-center mb-60">
+            Apartamentos T1 - T3
+          </h3>
           <ProjectSimpleTable
             items={projects}
             projectTitle={projectTitle}
@@ -226,7 +230,7 @@ const ProjectParent = () => {
       {/* PENTHOUSES - Old structure (simple table) */}
       {hasPenthousesOld && (
         <div className="my-60">
-          <h3 className="heading text-center mb-60">Penthouses</h3>
+          <h3 className="heading-secondary text-center mb-60">Penthouses</h3>
           <ProjectSimpleTable
             items={penthouses}
             projectTitle={projectTitle}

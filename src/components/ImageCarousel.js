@@ -1,129 +1,242 @@
-import { useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import useSwipe from "../hooks/useSwipe";
+import { useState, useRef } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 const ImageCarousel = ({ images, onImageClick }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const goToPrevious = () => {
-    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
-  };
-
-  const goToNext = () => {
-    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
-  };
-
-  const swipeHandlers = useSwipe({
-    onLeft: goToNext,
-    onRight: goToPrevious,
-  });
-
-  const getPreviousIndex = () => {
-    return currentIndex === 0 ? images.length - 1 : currentIndex - 1;
-  };
-
-  const getNextIndex = () => {
-    return currentIndex === images.length - 1 ? 0 : currentIndex + 1;
-  };
+  const swiperRef = useRef(null);
 
   const getImagePath = (imageName) => {
     try {
       return require(`../assets/${imageName}`);
     } catch (err) {
       console.error("Image not found:", imageName);
-      return ""; // Fallback
+      return null;
     }
   };
 
   return (
-    <div className="relative w-full">
-      <div className="hidden md:block relative h-[600px]">
-        <div className="flex items-center justify-center h-full gap-4 px-10">
-          <button
-            onClick={goToPrevious}
-            className="absolute left-8 z-10 bg-white rounded-full p-3 button-round hover:bg-gray-100 transition-colors"
-            aria-label="Previous image"
+    <div className="image-carousel-container">
+      {/* Desktop Version - 3 columns with autoplay */}
+      <div className="d-none d-md-block">
+        <div className="position-relative" style={{ height: "600px" }}>
+          <Swiper
+            ref={swiperRef}
+            modules={[Navigation, Pagination, Autoplay]}
+            spaceBetween={40}
+            slidesPerView={1}
+            centeredSlides={false}
+            loop={images.length >= 3}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
+            speed={800}
+            navigation={{
+              prevEl: ".swiper-button-prev-custom",
+              nextEl: ".swiper-button-next-custom",
+            }}
+            pagination={{
+              clickable: true,
+              dynamicBullets: true,
+            }}
+            onSlideChange={(swiper) => setCurrentIndex(swiper.realIndex)}
+            slidesPerGroup={1}
+            className="h-100"
           >
-            <ChevronLeft className="w-6 h-6" />
+            {images.map((image, index) => {
+              const imagePath = getImagePath(image);
+
+              return (
+                <SwiperSlide key={`desktop-${index}`}>
+                  {({ isActive }) => (
+                    <div
+                      className={`position-relative h-100 rounded-3 overflow-hidden cursor-pointer transition-all ${
+                        isActive ? "shadow-lg" : "opacity-75"
+                      }`}
+                      onClick={() => imagePath && onImageClick(index)}
+                      style={{
+                        transform: isActive ? "scale(1)" : "scale(0.92)",
+                        transition: "all 0.5s ease",
+                      }}
+                    >
+                      {imagePath ? (
+                        <img
+                          src={imagePath}
+                          alt={`Slide ${index + 1}`}
+                          className="w-100 h-100 object-fit-cover"
+                          style={{
+                            filter: isActive
+                              ? "brightness(1)"
+                              : "brightness(0.7)",
+                            transition: "filter 0.5s ease",
+                          }}
+                          loading="lazy"
+                        />
+                      ) : (
+                        <div className="w-100 h-100 d-flex align-items-center justify-content-center bg-secondary bg-opacity-10">
+                          <span className="text-muted">
+                            Imagem não disponível
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
+
+          {/* Custom Navigation Buttons */}
+          <button
+            className="swiper-button-prev-custom position-absolute top-50 start-0 translate-middle-y bg-white rounded-circle p-3 border-0 ms-3 button-round"
+            style={{
+              zIndex: 10,
+              transition: "all 0.3s ease",
+            }}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.transform = "translateY(-50%) scale(1.1)")
+            }
+            onMouseLeave={(e) =>
+              (e.currentTarget.style.transform = "translateY(-50%) scale(1)")
+            }
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
           </button>
 
-          <div className="flex items-center justify-center gap-4 h-full w-full max-w-7xl">
-            <div
-              className="w-1/4 h-full flex-shrink-0 cursor-pointer overflow-hidden rounded-lg"
-              onClick={() => onImageClick(getPreviousIndex())}
-            >
-              <img
-                src={getImagePath(images[getPreviousIndex()])}
-                alt={`Previous ${getPreviousIndex()}`}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-
-            <div
-              className="w-1/2 h-full flex-shrink-0 cursor-pointer overflow-hidden rounded-lg shadow-2xl"
-              onClick={() => onImageClick(currentIndex)}
-            >
-              <img
-                src={getImagePath(images[currentIndex])}
-                alt={`Current ${currentIndex}`}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-
-            <div
-              className="w-1/4 h-full flex-shrink-0 cursor-pointer overflow-hidden rounded-lg"
-              onClick={() => onImageClick(getNextIndex())}
-            >
-              <img
-                src={getImagePath(images[getNextIndex()])}
-                alt={`Next ${getNextIndex()}`}
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-              />
-            </div>
-          </div>
-
           <button
-            onClick={goToNext}
-            className="absolute right-8 z-10 bg-white rounded-full p-3 button-round hover:bg-gray-100 transition-colors"
-            aria-label="Next image"
+            className="swiper-button-next-custom position-absolute top-50 end-0 translate-middle-y bg-white rounded-circle p-3 border-0 me-3 button-round"
+            style={{
+              zIndex: 10,
+              transition: "all 0.3s ease",
+            }}
+            onMouseEnter={(e) =>
+              (e.currentTarget.style.transform = "translateY(-50%) scale(1.1)")
+            }
+            onMouseLeave={(e) =>
+              (e.currentTarget.style.transform = "translateY(-50%) scale(1)")
+            }
           >
-            <ChevronRight className="w-6 h-6" />
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
           </button>
+        </div>
+
+        {/* Image Counter */}
+        <div className="text-center mt-3">
+          <span className="carousel-pagination-text">
+            {currentIndex + 1} / {images.length}
+          </span>
         </div>
       </div>
 
-      <div className="md:hidden relative" {...swipeHandlers}>
-        <div className="relative h-[400px]">
-          <div
-            className="w-full h-full cursor-pointer overflow-hidden rounded-lg"
-            onClick={() => onImageClick(currentIndex)}
+      {/* Mobile Version - Simple swipe with zoom capability */}
+      <div className="d-md-none">
+        <div className="position-relative" style={{ height: "400px" }}>
+          <Swiper
+            modules={[Pagination]}
+            spaceBetween={0}
+            slidesPerView={1}
+            loop={images.length > 1}
+            pagination={{
+              clickable: true,
+              dynamicBullets: true,
+            }}
+            onSlideChange={(swiper) => setCurrentIndex(swiper.realIndex)}
+            className="h-100"
           >
-            <img
-              src={getImagePath(images[currentIndex])}
-              alt={`${currentIndex}`}
-              className="w-full h-full object-cover"
-            />
-          </div>
+            {images.map((image, index) => {
+              const imagePath = getImagePath(image);
+
+              return (
+                <SwiperSlide key={`mobile-${index}`}>
+                  <div
+                    className="position-relative h-100 rounded-3 overflow-hidden"
+                    onClick={() => imagePath && onImageClick(index)}
+                  >
+                    {imagePath ? (
+                      <img
+                        src={imagePath}
+                        alt={`Slide ${index + 1}`}
+                        className="w-100 h-100 object-fit-cover"
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div className="w-100 h-100 d-flex align-items-center justify-content-center bg-secondary bg-opacity-10">
+                        <span className="text-muted">
+                          Imagem não disponível
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
         </div>
 
-        <div className="flex justify-center gap-6 mt-6">
-          <button
-            onClick={goToPrevious}
-            className="bg-white rounded-full p-3 button-round hover:bg-gray-100 transition-colors"
-            aria-label="Previous image"
-          >
-            <ChevronLeft className="w-8 h-8" />
-          </button>
-
-          <button
-            onClick={goToNext}
-            className="bg-white rounded-full p-3 button-round hover:bg-gray-100 transition-colors"
-            aria-label="Next image"
-          >
-            <ChevronRight className="w-8 h-8" />
-          </button>
+        {/* Image Counter Mobile */}
+        <div className="text-center mt-3">
+          <span className="carousel-pagination-text">
+            {currentIndex + 1} / {images.length}
+          </span>
         </div>
       </div>
+
+      <style>{`
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+            transform: scale(0.9);
+          }
+          to {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
+
+        .cursor-pointer {
+          cursor: pointer;
+        }
+
+        .swiper-button-prev-custom:hover,
+        .swiper-button-next-custom:hover {
+          background: #bd9a68 !important;
+          color: white;
+        }
+
+        .swiper-pagination-bullet {
+          background: #bd9a68 !important;
+          opacity: 0.5;
+        }
+
+        .swiper-pagination-bullet-active {
+          opacity: 1 !important;
+        }
+      `}</style>
     </div>
   );
 };
