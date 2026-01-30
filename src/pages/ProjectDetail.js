@@ -75,6 +75,7 @@ const ProjectDetail = () => {
     project.details.description.length > 0;
   const hasPlants =
     hasDetails && project.details.plants && project.details.plants.length > 0;
+  const isPortasDoTejo = projectTitle === "portas-do-tejo";
 
   return (
     <Container className="pt-200">
@@ -192,9 +193,17 @@ const ProjectDetail = () => {
                     </li>
                   )}
                 </ul>
+
+                {/* Plantas em Desktop - APENAS para Portas do Tejo */}
+                {hasPlants && isPortasDoTejo && (
+                  <div className="project-details-list-images-wrapper d-none d-md-flex mt-4 portas">
+                    <ImageGallery images={project.details.plants} />
+                  </div>
+                )}
               </div>
             </div>
           )}
+
           {isDeluxePenthouse && (
             <div className="deluxe-description">
               <p>
@@ -240,16 +249,22 @@ const ProjectDetail = () => {
                 <iframe
                   title="Virtual tour"
                   src={project.iframeLink}
-                  width="100%"
-                  height="500px"
-                  style={{ border: "none", backgroundColor: "transparent" }}
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                    border: "none",
+                  }}
                   allowFullScreen
                   allow="accelerometer; gyroscope; magnetometer; xr-spatial-tracking"
-                ></iframe>
+                />
               </div>
             </>
           )}
 
+          {/* Pontos Chave - Só aparece se houver description */}
           {hasDescription && (
             <div className="acabamentos project-details-list">
               <div className="project-details-list-title">Pontos Chave</div>
@@ -259,7 +274,9 @@ const ProjectDetail = () => {
                     <li key={index}>{item}</li>
                   ))}
                 </ul>
-                {hasPlants && (
+
+                {/* Plantas em Desktop - Para projetos COM Pontos Chave (Lux Terrace, etc) */}
+                {hasPlants && !isPortasDoTejo && (
                   <div className="project-details-list-images-wrapper d-none d-md-flex">
                     <ImageGallery images={project.details.plants} />
                   </div>
@@ -268,6 +285,7 @@ const ProjectDetail = () => {
             </div>
           )}
 
+          {/* Plantas em Mobile - Separado */}
           {hasPlants && (
             <div className="plantas project-details-list d-md-none">
               <div className="project-details-list-title">Plantas</div>
