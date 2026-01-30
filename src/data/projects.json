@@ -494,7 +494,13 @@
               "storage": false,
               "terrace": "53,98",
               "floor": "R/C",
-              "hasTerrace": true
+              "hasTerrace": true,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/t1/planta-t1.png",
+                  "text": "Planta Apartamento T1"
+                }
+              ]
             }
           }
         ]
