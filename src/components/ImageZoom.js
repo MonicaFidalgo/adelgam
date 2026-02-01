@@ -12,8 +12,8 @@ export default function ImageGallery({ images }) {
               key={index}
               original={projectImagePath}
               thumbnail={projectImagePath}
-              width="1600"
-              height="1600"
+              width={item?.width ?? "1600"}
+              height={item?.height ?? "1600"}
             >
               {({ ref, open }) => (
                 <div>
@@ -41,8 +41,8 @@ export default function ImageGallery({ images }) {
             key={index + 2}
             original={projectImagePath}
             thumbnail={projectImagePath}
-            width="1600"
-            height="1600"
+            width={item?.width ?? "1600"}
+            height={item?.height ?? "1600"}
           >
             {({ ref }) => <div ref={ref} style={{ display: "none" }} />}
           </Item>

@@ -144,7 +144,7 @@ const ProjectDetail = () => {
             <div className="caracteristicas project-details-list">
               <div className="project-details-list-title">Características</div>
               <div className="project-details-list-description">
-                <ul>
+                <ul className="details-list">
                   {project.details.bedrooms && (
                     <li>
                       <span>Quartos:</span>
@@ -196,7 +196,7 @@ const ProjectDetail = () => {
 
                 {/* Plantas em Desktop - APENAS para Portas do Tejo */}
                 {hasPlants && isPortasDoTejo && (
-                  <div className="project-details-list-images-wrapper d-none d-md-flex mt-4 portas">
+                  <div className="project-details-list-images-wrapper d-none d-md-flex mt-4 mt-md-0 portas">
                     <ImageGallery images={project.details.plants} />
                   </div>
                 )}
