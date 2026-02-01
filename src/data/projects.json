@@ -495,7 +495,11 @@
               "terrace": "53,98",
               "floor": "R/C",
               "hasTerrace": true
-            }
+            },
+            "images": [
+              "portas-do-tejo/t2rc/apartamento-T2-RC-quarto.webp",
+              "portas-do-tejo/t2rc/apartamento-T2-RC-exterior.webp"
+            ]
           }
         ]
       },
@@ -746,7 +750,12 @@
               "terrace": "65,53",
               "floor": "4",
               "hasTerrace": true
-            }
+            },
+            "images": [
+              "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
+              "portas-do-tejo/t3/apartamento-T3-quarto.webp",
+              "portas-do-tejo/t3/apartamento-T3-sala.webp"
+            ]
           }
         ]
       },
@@ -768,7 +777,12 @@
               "terrace": "54,41",
               "floor": "4",
               "hasTerrace": true
-            }
+            },
+            "images": [
+              "portas-do-tejo/portas-do-tejo-apartamentos.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
+            ]
           }
         ]
       },
@@ -790,7 +804,12 @@
               "terrace": "83,30",
               "floor": "4",
               "hasTerrace": true
-            }
+            },
+            "images": [
+              "portas-do-tejo/portas-do-tejo-apartamentos.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
+            ]
           }
         ]
       }
