@@ -498,12 +498,37 @@
               "plants": [
                 {
                   "image": "portas-do-tejo/plantas/predio1/t1/planta-t1-rc-esq.webp",
-                  "text": "Planta Apartamento T1",
                   "width": 1240,
                   "height": 1754
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "52,98m²"
+              },
+              {
+                "id": 2,
+                "icon": "outside",
+                "title": "Terraço (m²)",
+                "description": "53,98m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "1"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "1"
+              }
+            ],
             "images": [
               "portas-do-tejo/t2rc/apartamento-T2-RC-quarto.webp",
               "portas-do-tejo/t2rc/apartamento-T2-RC-exterior.webp"

@@ -25,7 +25,7 @@ export default function ImageGallery({ images }) {
                     onClick={open}
                     width="100%"
                   />
-                  <span>{item.text}</span>
+                  {item?.text && <span>{item.text}</span>}
                 </div>
               )}
             </Item>

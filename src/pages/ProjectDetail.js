@@ -76,6 +76,7 @@ const ProjectDetail = () => {
   const hasPlants =
     hasDetails && project.details.plants && project.details.plants.length > 0;
   const isPortasDoTejo = projectTitle === "portas-do-tejo";
+  const hasDetailsSection = project?.detailsSection;
 
   return (
     <Container className="pt-200">
@@ -140,7 +141,9 @@ const ProjectDetail = () => {
 
           {isDeluxePenthouse && <DetailsIcons data={projectDetails} />}
 
-          {!isDeluxePenthouse && hasDetails && (
+          {hasDetailsSection && <DetailsIcons data={project?.detailsSection} />}
+
+          {!isDeluxePenthouse && hasDetails && !hasDetailsSection && (
             <div className="caracteristicas project-details-list">
               <div className="project-details-list-title">Características</div>
               <div className="project-details-list-description">
@@ -193,14 +196,15 @@ const ProjectDetail = () => {
                     </li>
                   )}
                 </ul>
-
-                {/* Plantas em Desktop - APENAS para Portas do Tejo */}
-                {hasPlants && isPortasDoTejo && (
-                  <div className="project-details-list-images-wrapper d-none d-md-flex mt-4 mt-md-0 portas">
-                    <ImageGallery images={project.details.plants} />
-                  </div>
-                )}
               </div>
+            </div>
+          )}
+
+          {/* Plantas em Desktop - APENAS para Portas do Tejo */}
+          {hasPlants && isPortasDoTejo && (
+            <div className="project-details-list-images-wrapper d-none d-md-block mt-60">
+              <div className="project-details-list-title">Plantas</div>
+              <ImageGallery images={project.details.plants} />
             </div>
           )}
 
