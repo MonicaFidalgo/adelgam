@@ -462,10 +462,10 @@
     "title": "projects.portas_do_tejo.title",
     "description": "projects.portas_do_tejo.description",
     "images": [
-      "portas-do-tejo/apartamento-T3-cozinha.webp",
-      "portas-do-tejo/apartamento-T3-quarto.webp",
-      "portas-do-tejo/apartamento-T3-sala.webp",
-      "portas-do-tejo/apartamento-T3-varanda.webp",
+      "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
+      "portas-do-tejo/t3/apartamento-T3-quarto.webp",
+      "portas-do-tejo/t3/apartamento-T3-sala.webp",
+      "portas-do-tejo/t3/apartamento-T3-varanda.webp",
       "portas-do-tejo/portas-do-tejo-apartamentos.webp",
       "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
       "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
@@ -518,7 +518,12 @@
               "terrace": "56,87",
               "floor": "R/C",
               "hasTerrace": true
-            }
+            },
+            "images": [
+              "portas-do-tejo/t2rc/apartamento-T2-RC-exterior.webp",
+              "portas-do-tejo/t2rc/apartamento-T2-RC-quarto.webp",
+              "portas-do-tejo/t2rc/apartamento-T2-RC-sala.webp"
+            ]
           },
           {
             "name": "projects.portas_do_tejo.apartment_t2.p1.name",
@@ -536,7 +541,11 @@
               "terrace": "38,56",
               "floor": "1",
               "hasTerrace": false
-            }
+            },
+            "images": [
+              "portas-do-tejo/t2/apartamento-T2-sala.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
+            ]
           },
           {
             "name": "projects.portas_do_tejo.apartment_t2.p1_terrace.name",
@@ -554,7 +563,11 @@
               "terrace": "103,48",
               "floor": "1",
               "hasTerrace": true
-            }
+            },
+            "images": [
+              "portas-do-tejo/t2/apartamento-T2-sala.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
+            ]
           },
           {
             "name": "projects.portas_do_tejo.apartment_t2.p2_sold.name",
@@ -590,7 +603,11 @@
               "terrace": "15,00",
               "floor": "2",
               "hasTerrace": false
-            }
+            },
+            "images": [
+              "portas-do-tejo/t2/apartamento-T2-sala.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
+            ]
           },
           {
             "name": "projects.portas_do_tejo.apartment_t2.p3_sold.name",
@@ -626,7 +643,11 @@
               "terrace": "15,00",
               "floor": "3",
               "hasTerrace": false
-            }
+            },
+            "images": [
+              "portas-do-tejo/t2/apartamento-T2-sala.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
+            ]
           }
         ]
       },
@@ -648,7 +669,16 @@
               "terrace": "21,95",
               "floor": "1",
               "hasTerrace": false
-            }
+            },
+            "images": [
+              "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
+              "portas-do-tejo/t3/apartamento-T3-quarto.webp",
+              "portas-do-tejo/t3/apartamento-T3-sala.webp",
+              "portas-do-tejo/t3/apartamento-T3-varanda.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
+              "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
+            ]
           },
           {
             "name": "projects.portas_do_tejo.apartment_t3.p2.name",
@@ -665,7 +695,13 @@
               "terrace": "21,95",
               "floor": "2",
               "hasTerrace": false
-            }
+            },
+            "images": [
+              "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
+              "portas-do-tejo/t3/apartamento-T3-quarto.webp",
+              "portas-do-tejo/t3/apartamento-T3-sala.webp",
+              "portas-do-tejo/t3/apartamento-T3-varanda.webp"
+            ]
           },
           {
             "name": "projects.portas_do_tejo.apartment_t3.p3.name",
@@ -682,7 +718,13 @@
               "terrace": "21,95",
               "floor": "3",
               "hasTerrace": false
-            }
+            },
+            "images": [
+              "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
+              "portas-do-tejo/t3/apartamento-T3-quarto.webp",
+              "portas-do-tejo/t3/apartamento-T3-sala.webp",
+              "portas-do-tejo/t3/apartamento-T3-varanda.webp"
+            ]
           }
         ]
       },
