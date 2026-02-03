@@ -586,7 +586,7 @@
                 "id": 4,
                 "icon": "shower",
                 "title": "Casa de banho",
-                "description": "2"
+                "description": "1"
               }
             ],
             "images": [
@@ -893,6 +893,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "135,56m²"
+              },
+              {
+                "id": 2,
+                "icon": "balcony",
+                "title": "Varandas (m²)",
+                "description": "21,95m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "3"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "2"
+              }
+            ],
             "images": [
               "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
               "portas-do-tejo/t3/apartamento-T3-quarto.webp",
@@ -926,6 +952,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "135,56m²"
+              },
+              {
+                "id": 2,
+                "icon": "balcony",
+                "title": "Varandas (m²)",
+                "description": "21,95m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "3"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "2"
+              }
+            ],
             "images": [
               "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
               "portas-do-tejo/t3/apartamento-T3-quarto.webp",
@@ -956,6 +1008,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "135,56m²"
+              },
+              {
+                "id": 2,
+                "icon": "balcony",
+                "title": "Varandas (m²)",
+                "description": "21,95m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "3"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "2"
+              }
+            ],
             "images": [
               "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
               "portas-do-tejo/t3/apartamento-T3-quarto.webp",
@@ -996,6 +1074,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "201,36m²"
+              },
+              {
+                "id": 2,
+                "icon": "outside",
+                "title": "Terraço (m²)",
+                "description": "65,53m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "4"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "4"
+              }
+            ],
             "images": [
               "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
               "portas-do-tejo/t3/apartamento-T3-quarto.webp",
@@ -1035,6 +1139,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "109,40m²"
+              },
+              {
+                "id": 2,
+                "icon": "outside",
+                "title": "Terraço (m²)",
+                "description": "54,41m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "2"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "2"
+              }
+            ],
             "images": [
               "portas-do-tejo/portas-do-tejo-apartamentos.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
@@ -1074,6 +1204,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "127,44m²"
+              },
+              {
+                "id": 2,
+                "icon": "outside",
+                "title": "Terraço (m²)",
+                "description": "83,30m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "2"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "3"
+              }
+            ],
             "images": [
               "portas-do-tejo/portas-do-tejo-apartamentos.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
