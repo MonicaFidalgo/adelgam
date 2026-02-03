@@ -852,7 +852,19 @@
               "parking": "Box 2",
               "terrace": "65,53",
               "floor": "4",
-              "hasTerrace": true
+              "hasTerrace": true,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/duplex/planta-t3+2-4-drt.webp",
+                  "width": 1240,
+                  "height": 1754
+                },
+                {
+                  "image": "portas-do-tejo/plantas/predio1/duplex/planta-t3+2-4-drt-2.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             },
             "images": [
               "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
@@ -879,7 +891,19 @@
               "parking": "Box 2",
               "terrace": "54,41",
               "floor": "4",
-              "hasTerrace": true
+              "hasTerrace": true,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/duplex/planta-t1+1-4-esq.webp",
+                  "width": 1240,
+                  "height": 1754
+                },
+                {
+                  "image": "portas-do-tejo/plantas/predio1/duplex/planta-t1+1-4-esq-2.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             },
             "images": [
               "portas-do-tejo/portas-do-tejo-apartamentos.webp",
@@ -906,7 +930,19 @@
               "parking": "Box 2",
               "terrace": "83,30",
               "floor": "4",
-              "hasTerrace": true
+              "hasTerrace": true,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/duplex/planta-t1+2-4-frt.webp",
+                  "width": 1240,
+                  "height": 1754
+                },
+                {
+                  "image": "portas-do-tejo/plantas/predio1/duplex/planta-t1+2-4-frt-2.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             },
             "images": [
               "portas-do-tejo/portas-do-tejo-apartamentos.webp",
