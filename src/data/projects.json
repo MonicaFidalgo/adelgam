@@ -554,7 +554,14 @@
               "storage": true,
               "terrace": "56,87",
               "floor": "R/C",
-              "hasTerrace": true
+              "hasTerrace": true,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/t2/planta-t2-rc-drt.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             },
             "images": [
               "portas-do-tejo/t2rc/apartamento-T2-RC-exterior.webp",
@@ -577,7 +584,14 @@
               "storage": true,
               "terrace": "38,56",
               "floor": "1",
-              "hasTerrace": false
+              "hasTerrace": false,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/t2/planta-t2-1-esq.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             },
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
@@ -599,7 +613,14 @@
               "storage": true,
               "terrace": "103,48",
               "floor": "1",
-              "hasTerrace": true
+              "hasTerrace": true,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/t2/planta-t2-1-frt.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             },
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
@@ -621,7 +642,14 @@
               "storage": false,
               "terrace": "38,56",
               "floor": "2",
-              "hasTerrace": false
+              "hasTerrace": false,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/t2/planta-t2-2-esq.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             }
           },
           {
@@ -639,7 +667,14 @@
               "storage": true,
               "terrace": "15,00",
               "floor": "2",
-              "hasTerrace": false
+              "hasTerrace": false,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/t2/planta-t2-2-frt.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             },
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
@@ -661,7 +696,14 @@
               "storage": false,
               "terrace": "38,56",
               "floor": "3",
-              "hasTerrace": false
+              "hasTerrace": false,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/t2/planta-t2-3-esq.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             }
           },
           {
@@ -679,7 +721,14 @@
               "storage": true,
               "terrace": "15,00",
               "floor": "3",
-              "hasTerrace": false
+              "hasTerrace": false,
+              "plants": [
+                {
+                  "image": "portas-do-tejo/plantas/predio1/t2/planta-t2-3-frt.webp",
+                  "width": 1240,
+                  "height": 1754
+                }
+              ]
             },
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
