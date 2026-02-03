@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="d-flex gap-2">
               <Location />
               <address>
-                Augusto Dias da Silva
+                Rua de Maputo
                 <br />
                 2870-437 Montijo
                 <br />

@@ -9,7 +9,7 @@ const ContactsSection = () => {
     <div className="contacts-wrapper">
       <Row>
         <Col lg={6}>
-          <h4 className="mb-4">Contacte-nos</h4>
+          <h4 className="mb-3">Contacte-nos</h4>
           <div className="d-flex gap-2 mb-2">
             <Email /> <a href="mailto:adelgam@adelgam.pt">adelgam@adelgam.pt</a>
           </div>
@@ -19,16 +19,16 @@ const ContactsSection = () => {
           </div>
         </Col>
         <Col lg={6}>
-          <h4 className="mb-4">Onde estamos?</h4>
+          <h4 className="mb-3 mt-4 mt-md-0">Onde estamos?</h4>
 
           <div className="d-flex gap-2">
             <Location />
             <address>
-              Augusto Dias da Silva
+              Rua de Maputo
               <br />
               2870-437 Montijo
               <br />
-              PORTUGAL
+              Portugal
             </address>
           </div>
         </Col>

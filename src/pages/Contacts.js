@@ -31,7 +31,7 @@ const Contacts = () => {
           <h2 className="heading-big">Venha visitar-nos</h2>
         </div>
 
-        <GoogleMap location="Lux Terrace Alcochete" width="100%" height="400" />
+        <GoogleMap location="Adelgam" width="100%" height="400" />
       </Container>
     </div>
   );
