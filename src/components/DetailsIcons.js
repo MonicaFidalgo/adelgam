@@ -10,6 +10,7 @@ import { ReactComponent as Pool } from "../icons/pool-icon.svg";
 import { ReactComponent as Office } from "../icons/office-icon.svg";
 import { ReactComponent as Rooms } from "../icons/rooms-icon.svg";
 import { ReactComponent as Shower } from "../icons/shower-icon.svg";
+import { ReactComponent as Balcony } from "../icons/balcony-icon.svg";
 
 const iconMap = {
   house: House,
@@ -22,6 +23,7 @@ const iconMap = {
   "dinning-room": DinningRoom,
   pool: Pool,
   shower: Shower,
+  balcony: Balcony,
 };
 
 const DetailsIcons = ({ data }) => {

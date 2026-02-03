@@ -563,6 +563,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "86,60m²"
+              },
+              {
+                "id": 2,
+                "icon": "outside",
+                "title": "Terraço (m²)",
+                "description": "56,87m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "2"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "2"
+              }
+            ],
             "images": [
               "portas-do-tejo/t2rc/apartamento-T2-RC-exterior.webp",
               "portas-do-tejo/t2rc/apartamento-T2-RC-quarto.webp",
@@ -593,6 +619,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "91,30m²"
+              },
+              {
+                "id": 2,
+                "icon": "balcony",
+                "title": "Varandas (m²)",
+                "description": "38,56m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "2"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "2"
+              }
+            ],
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
@@ -622,6 +674,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "90,51m²"
+              },
+              {
+                "id": 2,
+                "icon": "outside",
+                "title": "Terraço (m²)",
+                "description": "103,48m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "2"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "2"
+              }
+            ],
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
@@ -676,6 +754,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "90,51m²"
+              },
+              {
+                "id": 2,
+                "icon": "balcony",
+                "title": "Varandas (m²)",
+                "description": "15,00m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "2"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "2"
+              }
+            ],
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
@@ -730,6 +834,32 @@
                 }
               ]
             },
+            "detailsSection": [
+              {
+                "id": 1,
+                "icon": "house",
+                "title": "Área Habitável (m²)",
+                "description": "90,51m²"
+              },
+              {
+                "id": 2,
+                "icon": "balcony",
+                "title": "Varandas (m²)",
+                "description": "15,00m²"
+              },
+              {
+                "id": 3,
+                "icon": "rooms",
+                "title": "Quartos",
+                "description": "2"
+              },
+              {
+                "id": 4,
+                "icon": "shower",
+                "title": "Casa de banho",
+                "description": "2"
+              }
+            ],
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
