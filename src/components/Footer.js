@@ -27,7 +27,7 @@ const Footer = () => {
                 <Instagram />
               </a>
               <a
-                href="https://web.whatsapp.com/send?phone=+351913815379"
+                href="https://wa.me/351913815379?text=Olá,%20gostaria%20de%20marcar%20uma%20visita!"
                 target="_blank"
                 rel="noreferrer"
               >
