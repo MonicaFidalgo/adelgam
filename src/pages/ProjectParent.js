@@ -9,6 +9,7 @@ import ProjectGroupsTable from "../components/ProjectGroupsTable";
 import ProjectSimpleTable from "../components/ProjectSimpleTable";
 import DetailsIcons from "../components/DetailsIcons";
 import ImageGallery from "../components/ImageZoom";
+import GoogleMap from "../components/Map";
 
 const ProjectParent = () => {
   const { t } = useTranslation();
@@ -88,7 +89,7 @@ const ProjectParent = () => {
     location,
     state,
     typology,
-    isMoreInfoSoon,
+    hasMap,
   } = projectData;
 
   const hasNewStructure = projectGroups && projectGroups.length > 0;
@@ -150,10 +151,6 @@ const ProjectParent = () => {
         </>
       ) : (
         <h4 className="text-center">🚧 Página em construção 🚧</h4>
-      )}
-
-      {isMoreInfoSoon && (
-        <h4 className="text-center text-2xl mt-5">Mais informações em breve</h4>
       )}
 
       {/* ONLY FOR MORADIAS*/}
@@ -237,6 +234,17 @@ const ProjectParent = () => {
             isPenthouse={true}
           />
         </div>
+      )}
+
+      {hasMap && (
+        <>
+          <hr />
+          <div className="contacts-map">
+            <label className="label mb-4">Localização do Portas do Tejo</label>
+            <h2 className="heading-secondary">Conheça onde fica o projecto</h2>
+          </div>
+          <GoogleMap location="Portas to Tejo" width="100%" height="400" />
+        </>
       )}
     </div>
   );

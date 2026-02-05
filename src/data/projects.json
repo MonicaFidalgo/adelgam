@@ -334,7 +334,7 @@
         }
       }
     ],
-    "isMoreInfoSoon": false
+    "hasMap": false
   },
   "varandas-do-montijo": {
     "label": "projects.varandas_do_montijo.label",
@@ -352,7 +352,7 @@
     "typology": "T2 a T4",
     "state": "Vendido",
     "projectGroups": [],
-    "isMoreInfoSoon": false
+    "hasMap": false
   },
   "moradias": {
     "label": "projects.moradias_sao_francisco.label",
@@ -455,7 +455,7 @@
     "typology": "Moradias",
     "state": "Pronto para entrega: Março 2026",
     "projectGroups": [],
-    "isMoreInfoSoon": false
+    "hasMap": false
   },
   "portas-do-tejo": {
     "label": "projects.portas_do_tejo.label",
@@ -1239,6 +1239,6 @@
         ]
       }
     ],
-    "isMoreInfoSoon": false
+    "hasMap": true
   }
 }
