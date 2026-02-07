@@ -463,7 +463,6 @@
     "description": "projects.portas_do_tejo.description",
     "images": [
       "portas-do-tejo/portas-do-tejo-apartamentos.webp",
-      "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
       "portas-do-tejo/portas-do-tejo-apartamentos-4.webp",
       "portas-do-tejo/t3/apartamento-T3-cozinha.webp",
       "portas-do-tejo/t3/apartamento-T3-sala.webp",
@@ -647,7 +646,7 @@
             ],
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
-              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
+              "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
             ]
           },
           {
@@ -702,7 +701,7 @@
             ],
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
-              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
+              "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
             ]
           },
           {
@@ -782,7 +781,7 @@
             ],
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
-              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
+              "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
             ]
           },
           {
@@ -862,7 +861,7 @@
             ],
             "images": [
               "portas-do-tejo/t2/apartamento-T2-sala.webp",
-              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp"
+              "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
             ]
           }
         ]
@@ -925,7 +924,6 @@
               "portas-do-tejo/t3/apartamento-T3-sala.webp",
               "portas-do-tejo/t3/apartamento-T3-varanda.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos.webp",
-              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
             ]
           },
@@ -1167,7 +1165,6 @@
             ],
             "images": [
               "portas-do-tejo/portas-do-tejo-apartamentos.webp",
-              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
             ]
           }
@@ -1232,7 +1229,6 @@
             ],
             "images": [
               "portas-do-tejo/portas-do-tejo-apartamentos.webp",
-              "portas-do-tejo/portas-do-tejo-apartamentos-2.webp",
               "portas-do-tejo/portas-do-tejo-apartamentos-4.webp"
             ]
           }
