@@ -3,32 +3,29 @@ import { Container } from "react-bootstrap";
 import Form from "../components/Form";
 import ContactsSection from "../components/Contacts";
 import GoogleMap from "../components/Map";
+import { useTranslation } from "react-i18next";
 
 const Contacts = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <Container className="pt-200">
         <div className="banner-heading">
-          <label className="label mb-4">Fale Connosco</label>
-          <h2 className="heading-big">
-            Estamos aqui para ajudar. Entre em contacto connosco.
-          </h2>
+          <label className="label mb-4">{t("contacts.talk_to_us")}</label>
+          <h2 className="heading-big">{t("contacts.description")}</h2>
         </div>
 
         <div className="form-wrapper mx-auto">
-          <h4>Precisa de mais informações?</h4>
-          <p>
-            Preencha o formulário abaixo e a nossa equipa entrará em contacto
-            para fornecer os detalhes necessários.
-          </p>
+          <h4>{t("contacts.form.title")}</h4>
+          <p>{t("contacts.form.description")}</p>
           <Form />
         </div>
         <hr />
         <ContactsSection />
         <hr />
         <div className="contacts-map">
-          <label className="label mb-4">Onde Estamos?</label>
-          <h2 className="heading-big">Venha visitar-nos</h2>
+          <label className="label mb-4">{t("contacts.location")}</label>
+          <h2 className="heading-big">{t("contacts.visit_us")}</h2>
         </div>
 
         <GoogleMap location="Adelgam" width="100%" height="400" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Row, Col } from "react-bootstrap";
 import image1 from "../assets/project1.png";
 import image2 from "../assets/project2.png";
@@ -7,6 +8,7 @@ import image4 from "../assets/project4.png";
 import { Link } from "react-router-dom";
 
 const Projects = () => {
+  const { t } = useTranslation();
   const projectData = [
     {
       id: 1,
@@ -104,7 +106,7 @@ const Projects = () => {
                   to={`/empreendimentos/${project.link}`}
                   className="button button-primary"
                 >
-                  Mais informações
+                  {t("common.more_details")}
                 </Link>
               </div>
             </div>
@@ -150,7 +152,7 @@ const Projects = () => {
                   to={`/empreendimentos/${project.link}`}
                   className="button button-primary"
                 >
-                  Mais informações
+                  {t("common.more_details")}
                 </Link>
               </div>
             </div>

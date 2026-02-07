@@ -1,34 +1,59 @@
 {
-  "home.banner.label": "Primeira fase em construção",
-  "home.banner.description": "A poucos minutos de Lisboa, o Portas do Tejo combina conforto, modernidade e uma localização privilegiada.",
-  "home.banner.button": "Mais informações",
+  "home": {
+    "banner.label": "Primeira fase em construção",
+    "banner.description": "A poucos minutos de Lisboa, o Portas do Tejo combina conforto, modernidade e uma localização privilegiada.",
+    "banner.button": "Mais informações",
+    "adelgam.why": "PORQUÊ A ADELGAM",
+    "adelgam.subtitle": "Oferecemos o mais alto nível de especialização, serviço e integridade",
+    "adelgam.paragraph_1": "Ao longo dos anos, a Adelgam acompanhou as técnicas de construção e os estudos dos novos materiais a colocar, com o intuito de efetuar sempre um trabalho de referência.",
+    "adelgam.paragraph_2": "Procuramos sempre diferenciar-nos na qualidade e inovação durante toda a construção assegurando acabamentos requintados e diferenciadores.",
+    "adelgam.know": "Conheça a Adelgam",
+    "projects.subtitle": "Espaços de conforto e harmonia",
+    "projects.description": " Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos proprietários satisfeitos. Cada projecto que realizamos reflecte o nosso compromisso com a qualidade, a inovação e o bem-estar das famílias.",
+    "highlight.description": "Inserida na tranquila zona de São Francisco, no Concelho de Alcochete e a poucos minutos de Lisboa, esta moradia distingue-se pelo seu caráter exclusivo e contemporâneo. Dispõe de <strong>4 suites</strong>, <strong>piscina privativa</strong>, <strong>sala de cinema</strong>, <strong>vista sobre Lisboa</strong> e <strong>garagem para 3 viaturas</strong>, oferecendo conforto, privacidade e um estilo de vida premium."
+  },
   "details": {
     "title_1": "Mais de 25 anos de experiência",
     "description_1": "Com uma larga experiência no sector Imobiliário, continuamos a focar os nossos recursos na melhoria contínua dos nossos projetos.",
-
     "title_2": "Acabamentos requintados",
     "description_2": "Conhecidos pelos detalhes excepcionais, é essa a nossa missão, continuar a garantir acabamentos de topo e intemporais.",
-
     "title_3": "Compromisso contínuo",
     "description_3": "Acreditamos que estar atentos ao feedback dos nossos clientes ao longo do tempo é fundamental para o nosso sucesso.",
-
     "title_4": "Localização única",
     "description_4": "Escolhemos a localização dos nossos empreendimentos com o máximo cuidado de forma a proporcionar uma melhor qualidade de vida."
   },
   "numbers": {
     "label_1": "25+",
     "description_1": "Anos no mercado",
-
     "label_2": "123,456m²",
     "description_2": "Em projetos construídos",
-
     "label_3": "140+",
     "description_3": "Apartamentos vendidos",
-
     "label_4": "123+",
     "description_4": "Famílias satisfeitas"
   },
-
+  "contacts": {
+    "adelgam.description": "A Adelgam é uma empresa que centra a sua atividade na área da Construção Civil e Promoção Imobiliária, a atuar no mercado há mais de 25 anos.",
+    "more_info": "Precisa de mais informações",
+    "contact_us": "Entre em contacto connosco",
+    "contact_us.2": "Contacte-nos",
+    "talk_to_us": "Fale connosco",
+    "visit_us": "Venha visitar-nos",
+    "description": "Estamos aqui para ajudar. Entre em contacto connosco.",
+    "form.title": "Precisa de mais informações?",
+    "form.description": "Preencha o formulário abaixo e a nossa equipa entrará em contacto para fornecer os detalhes necessários.",
+    "location": "Onde estamos?"
+  },
+  "about": {
+    "banner_label": "Conheça a Adelgam",
+    "banner_heading": "Há mais de 25 anos, a construir com qualidade e inovação",
+    "section_label": "Sobre Nós",
+    "section_heading": "A nossa história e compromisso",
+    "paragraph_1": "<strong>Adelgam Promoção Imobiliária</strong> é uma empresa que centra a sua atividade na área da Construção Civil e Promoção Imobiliária, a atuar no mercado há mais de 25 anos.",
+    "paragraph_2": "Procuramos sempre diferenciar-nos na qualidade e inovação durante toda a construção assegurando acabamentos requintados e diferenciadores.",
+    "paragraph_3": "Ao longo dos anos, a Adelgam acompanhou as técnicas de construção e os estudos dos novos materiais a colocar, com o intuito de efetuar sempre um trabalho de referência.",
+    "paragraph_4": "Contamos sempre com a ajuda de bons profissionais tornando a Adelgam uma empresa credível e reconhecida no mercado."
+  },
   "common": {
     "area_habitable": "Área Habitável (m²)",
     "area_terrace": "Terraço (m²)",
@@ -49,9 +74,16 @@
     "storage": "Arrecadação",
     "certification": "Certificação Energética",
     "terrace": "Terraço",
-    "balconies": "Varandas"
+    "balconies": "Varandas",
+    "book_a_visit": "Quero marcar uma visita",
+    "building": "Empreendimento",
+    "buildings": "Empreendimentos",
+    "localization_portas": "Localização do Portas do Tejo",
+    "localization_project": "Conheça onde fica o projecto",
+    "moradia": "Moradia",
+    "more_details": "Mais informações",
+    "projects": "Projectos"
   },
-
   "features": {
     "kitchen_siemens_33": "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 33 m²",
     "kitchen_siemens_40": "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 40 m²",
@@ -86,7 +118,6 @@
     "garage_3_cars_110": "Garagem para 3 carros com 110m2",
     "4_suites": "4 Suites"
   },
-
   "projects": {
     "lux_terrace": {
       "label": "Elegância e Luxo",
@@ -118,7 +149,10 @@
       },
       "penthouse_deluxe": {
         "name": "Deluxe Penthouse",
-        "description": "Descubra o auge do luxo nesta penthouse exclusiva em Alcochete, oferecendo uma vista deslumbrante de Lisboa. Com um interior elegantemente projetado e acabamentos de alta qualidade, este apartamento redefine o conforto e o estilo de vida sofisticado. Desfrute de momentos relaxantes no espaçoso terraço com jacuzzi, e convide amigos para churrascos memoráveis. Com uma acesso privativo de elevador ao piso 3 e 4, garagem privativa, esta penthouse oferece conveniência e segurança. Seja bem-vindo ao seu refúgio de luxo."
+        "description": "Descubra o auge do luxo nesta penthouse exclusiva em Alcochete, oferecendo uma vista deslumbrante de Lisboa. Com um interior elegantemente projetado e acabamentos de alta qualidade, este apartamento redefine o conforto e o estilo de vida sofisticado. Desfrute de momentos relaxantes no espaçoso terraço com jacuzzi, e convide amigos para churrascos memoráveis. Com uma acesso privativo de elevador ao piso 3 e 4, garagem privativa, esta penthouse oferece conveniência e segurança. Seja bem-vindo ao seu refúgio de luxo.",
+        "paragraph_1": "No <strong>terceiro piso</strong>, será recebido por quatro suítes majestosas, cada uma desenhada para oferecer o máximo em conforto e privacidade. Os espaçosos walk-in closets permitem uma organização impecável, enquanto as casas de banho revestidas de cerâmica convidam a momentos de relaxamento e rejuvenescimento. Além disso, neste piso, encontrará também um escritório e uma lavandaria, proporcionando praticidade e funcionalidade ao seu dia a dia.",
+        "paragraph_2": "Destaca-se a suite principal, onde um duche estilo hotel, envolto em vidro, proporciona uma experiência sensorial única, com vista para o quarto e uma luxuosa banheira. Além disso, três suítes desfrutam de varandas privativas, conectando-te à paisagem deslumbrante ao redor.",
+        "paragraph_3": "No <strong>quarto piso</strong>, o luxo prossegue com uma sala de jantar requintada, perfeita para refeições memoráveis, e duas salas, uma das quais em open space com a cozinha, criando um ambiente acolhedor e contemporâneo. Além disso, desfruta de um terraço deslumbrante com um jacuzzi e cozinha exterior para momentos de lazer e entretenimento ao ar livre. Acompanhando o luxo, uma garagem espaçosa para quatro carros proporciona conveniência e segurança."
       }
     },
     "varandas_do_montijo": {

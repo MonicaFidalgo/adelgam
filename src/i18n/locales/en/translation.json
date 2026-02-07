@@ -1,32 +1,58 @@
 {
-  "home.banner.label": "First phase under construction",
-  "home.banner.description": "Just minutes from Lisbon, Portas do Tejo combines comfort, modernity, and a prime location.",
-  "home.banner.button": "More information",
+  "home": {
+    "banner.label": "First phase under construction",
+    "banner.description": "Just minutes from Lisbon, Portas do Tejo combines comfort, modernity, and a prime location.",
+    "banner.button": "More information",
+    "adelgam.why": "WHY ADELGAM",
+    "adelgam.subtitle": "We offer the highest level of expertise, service and integrity",
+    "adelgam.paragraph_1": "Over the years, Adelgam has followed construction techniques and studies of new materials to be placed, with the aim of always carrying out reference work.",
+    "adelgam.paragraph_2": "We always seek to differentiate ourselves in quality and innovation throughout the construction, ensuring refined and distinctive finishes.",
+    "adelgam.know": "Meet Adelgam",
+    "projects.subtitle": "Spaces of comfort and harmony",
+    "projects.description": "At Adelgam, we are proud to have delivered countless keys to satisfied new owners. Each project we undertake reflects our commitment to quality, innovation and family well-being.",
+    "highlight.description": "Located in the quiet area of São Francisco, in the Municipality of Alcochete and just minutes from Lisbon, this villa stands out for its exclusive and contemporary character. It features <strong>4 suites</strong>, <strong>private pool</strong>, <strong>cinema room</strong>, <strong>views over Lisbon</strong> and <strong>garage for 3 cars</strong>, offering comfort, privacy and a premium lifestyle."
+  },
   "details": {
     "title_1": "Over 25 years of experience",
     "description_1": "With extensive experience in the real estate sector, we continue to focus our resources on continuously improving our projects.",
-
     "title_2": "Refined finishes",
     "description_2": "Known for exceptional details, our mission is to continue ensuring top-notch and timeless finishes.",
-
     "title_3": "Continuous commitment",
     "description_3": "We believe that listening to customer feedback over time is key to our success.",
-
     "title_4": "Unique location",
     "description_4": "We carefully select the location of our developments to provide a better quality of life."
   },
   "numbers": {
     "label_1": "25+",
     "description_1": "Years in the market",
-
     "label_2": "123,456m²",
     "description_2": "In completed projects",
-
     "label_3": "140+",
     "description_3": "Apartments sold",
-
     "label_4": "123+",
     "description_4": "Happy families"
+  },
+  "contacts": {
+    "adelgam.description": "Adelgam is a company that focuses its activity in the area of Civil Construction and Real Estate Development, operating in the market for over 25 years.",
+    "more_info": "Need more information",
+    "contact_us": "Contact us",
+    "contact_us.2": "Contact us",
+    "talk_to_us": "Talk to us",
+    "visit_us": "Come visit us",
+    "description": "We are here to help. Contact us.",
+    "form.title": "Need more information?",
+    "form.description": "Fill out the form below and our team will get in touch to provide the necessary details.",
+    "location": "Where are we?"
+  },
+  "about": {
+    "banner_label": "Meet Adelgam",
+    "banner_heading": "For over 25 years, building with quality and innovation",
+    "section_label": "About Us",
+    "section_heading": "Our history and commitment",
+    "paragraph_1": "<strong>Adelgam Real Estate Development</strong> is a company that focuses its activity in the area of Civil Construction and Real Estate Development, operating in the market for over 25 years.",
+    "paragraph_2": "We always seek to differentiate ourselves in quality and innovation throughout the construction, ensuring refined and distinctive finishes.",
+    "paragraph_3": "Over the years, Adelgam has followed construction techniques and studies of new materials to be placed, with the aim of always carrying out reference work.",
+    "paragraph_4": "We always count on the help of good professionals, making Adelgam a credible and recognized company in the market."
   },
   "common": {
     "area_habitable": "Living Area (m²)",
@@ -48,9 +74,16 @@
     "storage": "Storage",
     "certification": "Energy Certification",
     "terrace": "Terrace",
-    "balconies": "Balconies"
+    "balconies": "Balconies",
+    "book_a_visit": "Book a visit",
+    "building": "Development",
+    "buildings": "Developments",
+    "localization_portas": "Portas do Tejo Location",
+    "localization_project": "Discover where the project is located",
+    "moradia": "Villa",
+    "more_details": "More information",
+    "projects": "Projects"
   },
-
   "features": {
     "kitchen_siemens_33": "Fully equipped kitchen with Siemens appliances in open space with 33 m²",
     "kitchen_siemens_40": "Fully equipped kitchen with Siemens appliances in open space with 40 m²",
@@ -85,7 +118,6 @@
     "garage_3_cars_110": "Garage for 3 cars with 110m2",
     "4_suites": "4 Suites"
   },
-
   "projects": {
     "lux_terrace": {
       "label": "Elegance and Luxury",
@@ -117,7 +149,10 @@
       },
       "penthouse_deluxe": {
         "name": "Deluxe Penthouse",
-        "description": "Discover the pinnacle of luxury in this exclusive penthouse in Alcochete, offering stunning views of Lisbon. With an elegantly designed interior and high-quality finishes, this apartment redefines comfort and sophisticated lifestyle. Enjoy relaxing moments on the spacious terrace with jacuzzi, and invite friends for memorable barbecues. With private elevator access to floors 3 and 4, private garage, this penthouse offers convenience and security. Welcome to your luxury refuge."
+        "description": "Discover the pinnacle of luxury in this exclusive penthouse in Alcochete, offering stunning views of Lisbon. With an elegantly designed interior and high-quality finishes, this apartment redefines comfort and sophisticated lifestyle. Enjoy relaxing moments on the spacious terrace with jacuzzi, and invite friends for memorable barbecues. With private elevator access to floors 3 and 4, private garage, this penthouse offers convenience and security. Welcome to your luxury refuge.",
+        "paragraph_1": "On the <strong>third floor</strong>, you will be welcomed by four majestic suites, each designed to offer maximum comfort and privacy. The spacious walk-in closets allow for impeccable organization, while the ceramic-lined bathrooms invite moments of relaxation and rejuvenation. In addition, on this floor, you will also find an office and a laundry room, providing practicality and functionality for your daily life.",
+        "paragraph_2": "The master suite stands out, where a hotel-style shower, enclosed in glass, provides a unique sensory experience, overlooking the bedroom and a luxurious bathtub. Furthermore, three suites enjoy private balconies, connecting you to the stunning landscape around.",
+        "paragraph_3": "On the <strong>fourth floor</strong>, luxury continues with a refined dining room, perfect for memorable meals, and two living rooms, one of which is open space with the kitchen, creating a cozy and contemporary environment. In addition, enjoy a stunning terrace with a jacuzzi and outdoor kitchen for leisure and entertainment outdoors. Accompanying the luxury, a spacious garage for four cars provides convenience and security."
       }
     },
     "varandas_do_montijo": {

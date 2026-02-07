@@ -39,14 +39,14 @@
           "area": "80",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 33 m²",
-            "Máquina de lavar e máquina de secar a roupa",
-            "Varanda com 16 m²",
-            "Ar condicionado com sistema Wi-Fi",
-            "Vidros duplos Planitherm",
-            "Piso Radiante",
-            "Parqueamento",
-            "Certificação energética A +"
+            "features.kitchen_siemens_33",
+            "features.washing_drying",
+            "features.balcony_16",
+            "features.ac_wifi",
+            "features.double_glass",
+            "features.radiant_floor",
+            "features.parking_spot",
+            "features.certification_a_plus"
           ],
           "plants": [
             {
@@ -84,12 +84,12 @@
           "area": "102",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 40 m²",
-            "Máquina de lavar e máquina de secar a roupa",
-            "Ar condicionado com sistema Wi-Fi",
-            "Vidros duplos Planitherm",
-            "Piso Radiante",
-            "Certificação energética A +"
+            "features.kitchen_siemens_40",
+            "features.washing_drying",
+            "features.ac_wifi",
+            "features.radiant_floor",
+            "features.radiant_floor",
+            "features.certification_a_plus"
           ],
           "plants": [
             {
@@ -125,13 +125,13 @@
           "area": "133",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space",
-            "Máquina de lavar e máquina de secar a roupa",
-            "Uma varanda com 18 m²",
-            "Vidros duplos Planitherm",
-            "Piso Radiante",
-            "Domótica",
-            "Certificação energética A +"
+            "features.kitchen_siemens_open",
+            "features.washing_drying",
+            "features.balcony_18",
+            "features.radiant_floor",
+            "features.radiant_floor",
+            "features.domotics",
+            "features.certification_a_plus"
           ],
           "plants": [
             {
@@ -171,12 +171,12 @@
           "area": "184",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
-            "Um Terraço de 80m²",
-            "Cave de Vinho da Liebherr",
-            "Piso radiante",
-            "Lavandaria com máquina de lavar e máquina de secar",
-            "Espaçosa Master Suite de 36m² com uma varanda de 35m²"
+            "features.kitchen_siemens_65",
+            "features.terrace_80",
+            "features.wine_cellar",
+            "features.radiant_floor",
+            "features.laundry_washing_drying",
+            "features.master_suite_36_balcony"
           ],
           "plants": [
             {
@@ -214,12 +214,12 @@
           "area": "224",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
-            "Um Terraço de 80m²",
-            "Cave de Vinho da Liebherr",
-            "Piso radiante",
-            "Lavandaria com máquina de lavar e máquina de secar",
-            "Espaçosa Master Suite de 36m² com uma varanda de 35m²"
+            "features.kitchen_siemens_65",
+            "features.terrace_80",
+            "features.wine_cellar",
+            "features.radiant_floor",
+            "features.laundry_washing_drying",
+            "features.master_suite_36_balcony"
           ],
           "plants": [
             {
@@ -257,13 +257,13 @@
           "area": "227",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
-            "Um Terraço de 80m²",
-            "Cave de Vinho da Liebherr",
-            "Piso radiante",
-            "Lavandaria com máquina de lavar e máquina de secar",
-            "Uma Box para dois carros",
-            "Certificação Energética A+"
+            "features.kitchen_siemens_65",
+            "features.terrace_80",
+            "features.wine_cellar",
+            "features.radiant_floor",
+            "features.laundry_washing_drying",
+            "features.box_2_cars",
+            "features.certification_a_plus"
           ],
           "plants": [
             {
@@ -310,12 +310,12 @@
           "area": "591",
           "certification": "A+",
           "description": [
-            "Acesso privativo de elevador ao 3º e 4º piso",
-            "Piso radiante em todas as áreas",
-            "4 Suites, todas com Walk-in Closets",
-            "Quarto de lavandaria completa",
-            "Duas Boxes para 4 carros",
-            "Terraço de 190m² com jacuzzi"
+            "features.private_elevator",
+            "features.radiant_floor_all",
+            "features.walk_in_closets",
+            "features.laundry_complete",
+            "features.two_boxes_4_cars",
+            "features.terrace_190_jacuzzi"
           ],
           "plants": [
             {
@@ -369,14 +369,14 @@
       "moradias/moradia-alcochete-sao-francisco-casa-de-banho.webp"
     ],
     "detailsDescription": [
-      "4 Suites",
-      "Piscina",
-      "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 60 m²",
-      "Cave de Vinho da Liebherr",
-      "Lavandaria com máquina de lavar e máquina de secar",
-      "Espaço exterior com churrasqueira e piscina",
-      "Sala de cinema totalmente equipada",
-      "Garagem para 3 carros com 110m2"
+      "features.4_suites",
+      "common.pool",
+      "features.kitchen_siemens_60",
+      "features.wine_cellar",
+      "features.laundry_washing_drying",
+      "features.outdoor_space_bbq_pool",
+      "features.cinema_room_equipped",
+      "features.garage_3_cars_110"
     ],
     "detailsPlants": [
       {
@@ -406,19 +406,19 @@
       {
         "id": 2,
         "icon": "outside",
-        "title": "Área Exterior (m²)",
+        "title": "common.area_exterior",
         "description": "106m²"
       },
       {
         "id": 3,
         "icon": "parking",
-        "title": "Área de Garagem (m²)",
+        "title": "common.area_garage",
         "description": "110m²"
       },
       {
         "id": 4,
         "icon": "total-area",
-        "title": "Área Total (m²)",
+        "title": "common.area_total",
         "description": "516m²"
       }
     ],
@@ -426,25 +426,25 @@
       {
         "id": 1,
         "icon": "living-room",
-        "title": "Salas",
+        "title": "common.rooms",
         "description": "3"
       },
       {
         "id": 2,
         "icon": "rooms",
-        "title": "Suites",
+        "title": "common.suites",
         "description": "4"
       },
       {
         "id": 3,
         "icon": "pool",
-        "title": "Piscina",
+        "title": "common.pool",
         "description": "1"
       },
       {
         "id": 4,
         "icon": "office",
-        "title": "Sala de cinema",
+        "title": "common.cinema_room",
         "description": "1"
       }
     ],

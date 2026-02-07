@@ -11,7 +11,9 @@ import projectDetails from "../data/penthouse-details.json";
 import projectDetails2 from "../data/penthouse-details2.json";
 
 const ProjectDetail = () => {
+  const { t } = useTranslation();
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+  const { projectTitle, projectDetailName } = useParams();
 
   const handleNextImage = () => {
     setSelectedImageIndex((prev) =>
@@ -32,9 +34,6 @@ const ProjectDetail = () => {
   const handleCloseModal = () => {
     setSelectedImageIndex(null);
   };
-
-  const { t } = useTranslation();
-  const { projectTitle, projectDetailName } = useParams();
 
   const projectData = projectsData[projectTitle];
 
@@ -111,7 +110,7 @@ const ProjectDetail = () => {
               rel="noreferrer"
               className="button button-primary"
             >
-              Quero marcar uma visita
+              {t("common.book_a_visit")}
             </a>
           </div>
 
@@ -145,7 +144,9 @@ const ProjectDetail = () => {
 
           {!isDeluxePenthouse && hasDetails && !hasDetailsSection && (
             <div className="caracteristicas project-details-list">
-              <div className="project-details-list-title">Características</div>
+              <div className="project-details-list-title">
+                {t("common.characteristics")}
+              </div>
               <div className="project-details-list-description">
                 <ul className="details-list">
                   {project.details.bedrooms && (
@@ -183,15 +184,15 @@ const ProjectDetail = () => {
                     <li>
                       <span>
                         {project.details.hasTerrace
-                          ? "Terraço:"
-                          : "Varandas:"}{" "}
+                          ? t("common.terrace")
+                          : t("common.balconies")}
                       </span>
-                      <strong>{project.details.terrace} m²</strong>
+                      :<strong>{project.details.terrace} m²</strong>
                     </li>
                   )}
                   {project.details.certification && (
                     <li>
-                      <span>Certificação Energética: </span>
+                      <span>{t("common.certification")}</span>
                       <strong>{project.details.certification}</strong>
                     </li>
                   )}
@@ -203,41 +204,37 @@ const ProjectDetail = () => {
           {/* Plantas em Desktop - APENAS para Portas do Tejo */}
           {hasPlants && isPortasDoTejo && (
             <div className="project-details-list-images-wrapper d-none d-md-block mt-60">
-              <div className="project-details-list-title">Plantas</div>
+              <div className="project-details-list-title">
+                {t("common.plants")}
+              </div>
               <ImageGallery images={project.details.plants} />
             </div>
           )}
 
           {isDeluxePenthouse && (
             <div className="deluxe-description">
-              <p>
-                No <strong>terceiro piso</strong>, será recebido por quatro
-                suítes majestosas, cada uma desenhada para oferecer o máximo em
-                conforto e privacidade. Os espaçosos walk-in closets permitem
-                uma organização impecável, enquanto as casas de banho revestidas
-                de cerâmica convidam a momentos de relaxamento e
-                rejuvenescimento. Além disso, neste piso, encontrará também um
-                escritório e uma lavandaria, proporcionando praticidade e
-                funcionalidade ao seu dia a dia.
-              </p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t(
+                    "projects.lux_terrace.penthouse_deluxe.paragraph_1",
+                  ),
+                }}
+              />
               <br />
-              <p>
-                Destaca-se a suite principal, onde um duche estilo hotel,
-                envolto em vidro, proporciona uma experiência sensorial única,
-                com vista para o quarto e uma luxuosa banheira. Além disso, três
-                suítes desfrutam de varandas privativas, conectando-te à
-                paisagem deslumbrante ao redor.
-              </p>
-              <p>
-                No <strong>quarto piso</strong>, o luxo prossegue com uma sala
-                de jantar requintada, perfeita para refeições memoráveis, e duas
-                salas, uma das quais em open space com a cozinha, criando um
-                ambiente acolhedor e contemporâneo. Além disso, desfruta de um
-                terraço deslumbrante com um jacuzzi e cozinha exterior para
-                momentos de lazer e entretenimento ao ar livre. Acompanhando o
-                luxo, uma garagem espaçosa para quatro carros proporciona
-                conveniência e segurança.{" "}
-              </p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t(
+                    "projects.lux_terrace.penthouse_deluxe.paragraph_2",
+                  ),
+                }}
+              />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t(
+                    "projects.lux_terrace.penthouse_deluxe.paragraph_3",
+                  ),
+                }}
+              />
             </div>
           )}
           {isDeluxePenthouse && <DetailsIcons data={projectDetails2} />}
@@ -271,11 +268,13 @@ const ProjectDetail = () => {
           {/* Pontos Chave - Só aparece se houver description */}
           {hasDescription && (
             <div className="acabamentos project-details-list">
-              <div className="project-details-list-title">Pontos Chave</div>
+              <div className="project-details-list-title">
+                {t("common.key_points")}
+              </div>
               <div className="project-details-list-description">
                 <ul className="bullet-list">
                   {project.details.description.map((item, index) => (
-                    <li key={index}>{item}</li>
+                    <li key={index}>{t(item)}</li>
                   ))}
                 </ul>
 
@@ -292,7 +291,9 @@ const ProjectDetail = () => {
           {/* Plantas em Mobile - Separado */}
           {hasPlants && (
             <div className="plantas project-details-list d-md-none">
-              <div className="project-details-list-title">Plantas</div>
+              <div className="project-details-list-title">
+                {t("common.plants")}
+              </div>
               <ImageGallery images={project.details.plants} />
             </div>
           )}

@@ -1,12 +1,14 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import ProjectComponent from "../components/Projects";
 
 const Projects = () => {
+  const { t } = useTranslation();
   return (
     <Container className="pt-200">
       <div className="banner-heading mb-4">
-        <label className="label mb-4">Empreendimentos</label>
+        <label className="label mb-4">{t("common.buildings")}</label>
         <h2 className="heading-big">Espaços de conforto e harmonia</h2>
         <p>
           Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos

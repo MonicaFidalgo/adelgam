@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Row, Col, Container } from "react-bootstrap";
 import { ReactComponent as Instagram } from "../icons/instagram-icon.svg";
 import { ReactComponent as Whatsapp } from "../icons/whatsapp-icon.svg";
@@ -7,17 +8,14 @@ import { ReactComponent as Email } from "../icons/email-icon.svg";
 import { ReactComponent as Location } from "../icons/location-icon.svg";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <div className="footer">
       <Container>
         <Row className="px-120">
           <Col lg={6}>
             <h6>Adelgam - Promoção Imobiliária</h6>
-            <p>
-              A Adelgam é uma empresa que centra a sua atividade na área da
-              Construção Civil e Promoção Imobiliária, a atuar no mercado há
-              mais de 25 anos.
-            </p>
+            <p>{t("contacts.adelgam.description")}</p>
             <div className="d-flex gap-2 mt-3">
               <a
                 href="https://www.instagram.com/adelgamlda/"
@@ -36,8 +34,8 @@ const Footer = () => {
             </div>
           </Col>
           <Col lg={3} className="margin-top-4 mt-lg-0">
-            <h6>Precisa de mais informações?</h6>
-            <p>Entre em contacto connosco.</p>
+            <h6>{t("contacts.more_info")}?</h6>
+            <p>{t("contacts.contact_us")}.</p>
             <div className="d-flex gap-3 mt-3">
               <Email />
               <a
@@ -54,7 +52,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col lg={3} className="margin-top-4 mt-lg-0">
-            <h6>Onde estamos?</h6>
+            <h6>{t("contacts.location")}?</h6>
             <div className="d-flex gap-2">
               <Location />
               <address>

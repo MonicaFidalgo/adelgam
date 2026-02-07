@@ -20,7 +20,7 @@
   {
     "id": 4,
     "icon": "total-area",
-    "title": "Área Total (m²)",
+    "title": "common.area_total",
     "description": "591m²"
   }
 ]

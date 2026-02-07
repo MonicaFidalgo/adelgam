@@ -100,7 +100,7 @@ const ProjectParent = () => {
     <div className="container pt-200">
       {/* Banner Section */}
       <div className="banner-heading">
-        <label className="label mb-4">Empreendimento</label>
+        <label className="label mb-4">{t("common.building")}</label>
         <h2 className="heading-big mb-3">{t(title)}</h2>
         <label className={`badge ${badgeClass} mb-3`}>
           <span className="badge-circle"></span>
@@ -121,7 +121,7 @@ const ProjectParent = () => {
               rel="noreferrer"
               className="button button-primary"
             >
-              Quero marcar uma visita
+              {t("common.book_a_visit")}
             </a>
           </>
         )}
@@ -167,11 +167,13 @@ const ProjectParent = () => {
 
       {projectData?.detailsDescription && (
         <div className="acabamentos project-details-list">
-          <div className="project-details-list-title">Pontos Chave</div>
+          <div className="project-details-list-title">
+            {t("common.key_points")}
+          </div>
           <div className="project-details-list-description">
             <ul className="bullet-list">
               {projectData?.detailsDescription.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index}>{t(item)}</li>
               ))}
             </ul>
             {!!projectData?.detailsPlants && (
@@ -185,7 +187,7 @@ const ProjectParent = () => {
 
       {!!projectData?.detailsPlants && (
         <div className="plantas project-details-list d-md-none">
-          <div className="project-details-list-title">Plantas</div>
+          <div className="project-details-list-title">{t("common.plants")}</div>
 
           <ImageGallery images={projectData?.detailsPlants} />
         </div>
@@ -240,8 +242,12 @@ const ProjectParent = () => {
         <>
           <hr />
           <div className="contacts-map">
-            <label className="label mb-4">Localização do Portas do Tejo</label>
-            <h2 className="heading-secondary">Conheça onde fica o projecto</h2>
+            <label className="label mb-4">
+              {t("common.localization_portas")}
+            </label>
+            <h2 className="heading-secondary">
+              {t("common.localization_project")}
+            </h2>
           </div>
           <GoogleMap location="Portas to Tejo" width="100%" height="400" />
         </>
