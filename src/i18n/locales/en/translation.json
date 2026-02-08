@@ -86,7 +86,21 @@
     "tipologias": "Typologies",
     "apartments": "Apartments",
     "moradias": "Houses",
-    "location": "Location"
+    "location": "Location",
+    "sold": "Sold",
+    "submit": "Submit",
+    "apartments_t1_t3": "Apartamentos T1 - T3",
+    "estado": "Status",
+    "ready": "Ready for delivery",
+    "ready_march": "Ready for delivery: March 2026"
+  },
+  "form": {
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone": "Telephone (optional)",
+    "message": "Leave your message",
+    "sent.success": "Thank you for your contact. We will reply as soon as possible.",
+    "sent.failed": "It was not possible to submit your question. Please try again or send us an email. Thank you."
   },
   "features": {
     "kitchen_siemens_33": "Fully equipped kitchen with Siemens appliances in open space with 33 m²",

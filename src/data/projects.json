@@ -15,7 +15,7 @@
     "badgeClass": "badge-yellow",
     "location": "Alcochete",
     "typology": "T1 a T4 Penthouse",
-    "state": "Pronto para entrega",
+    "state": "common.ready",
     "projects": [
       {
         "label": "Lux Terrace Alcochete",
@@ -453,7 +453,7 @@
     "price": "950.000,00",
     "location": "São Francisco",
     "typology": "Moradias",
-    "state": "Pronto para entrega: Março 2026",
+    "state": "common.ready_march",
     "projectGroups": [],
     "hasMap": false
   },

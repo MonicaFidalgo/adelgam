@@ -92,14 +92,14 @@ const ProjectDetail = () => {
             )}
             <h2 className="heading-big mb-3">{t(project.name)}</h2>
             {project.badge && (
-              <label className={`badge ${project.badgeClass} mb-3`}>
+              <label className={`badge ${project.badgeClass}`}>
                 <span className="badge-circle"></span>
                 {project.badge}
               </label>
             )}
             {project.description && (
               <p
-                className="mb-3"
+                className="mb-3 mt-3"
                 dangerouslySetInnerHTML={{ __html: t(project.description) }}
               />
             )}

@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import axios from "axios";
 import { Col, Row } from "react-bootstrap";
 
 const Form = () => {
+  const { t } = useTranslation();
   const formId = process.env.REACT_APP_FORM_ID;
   const formSparkUrl = `https://submit-form.com/${formId}`;
 
@@ -55,8 +57,8 @@ const Form = () => {
         <div className="mt-3">
           <p className={formStatus === "success" ? "success" : "error"}>
             {formStatus === "success"
-              ? "Obrigado pelo seu contacto. Iremos responder assim que possível."
-              : "Não foi possivel submeter a sua questão. Por favor tente de novo ou envie-nos um email. Obrigado"}
+              ? t("form.sent.success")
+              : t("form.sent.failed")}
           </p>
         </div>
       ) : (
@@ -67,7 +69,7 @@ const Form = () => {
                 type="text"
                 id="firstName"
                 name="firstName"
-                placeholder="Primeiro Nome *"
+                placeholder={`${t("form.first_name")} *`}
                 required
                 value={formState.firstName}
                 onChange={handleChange}
@@ -79,7 +81,7 @@ const Form = () => {
                 type="text"
                 id="lastName"
                 name="lastName"
-                placeholder="Último Nome *"
+                placeholder={`${t("form.last_name")} *`}
                 required
                 value={formState.lastName}
                 onChange={handleChange}
@@ -105,7 +107,7 @@ const Form = () => {
                 type="tel"
                 id="telephone"
                 name="telephone"
-                placeholder="Telefone (Opcional)"
+                placeholder={t("form.phone")}
                 value={formState.telephone}
                 onChange={handleChange}
                 className="mb-4"
@@ -113,7 +115,7 @@ const Form = () => {
                 onKeyDown={(e) => {
                   if (
                     !/[0-9+]|Backspace|Tab|Enter|Delete|ArrowLeft|ArrowRight/.test(
-                      e.key
+                      e.key,
                     )
                   ) {
                     e.preventDefault();
@@ -127,7 +129,7 @@ const Form = () => {
               <textarea
                 id="message"
                 name="message"
-                placeholder="Escreva a sua mensagem"
+                placeholder={t("form.message")}
                 value={formState.message}
                 onChange={handleChange}
                 className="mb-4"
@@ -143,7 +145,7 @@ const Form = () => {
                 type="submit"
                 className="button button-primary"
               >
-                {submitting ? "..." : "Submeter"}
+                {submitting ? "..." : t("common.submit")}
               </button>
             </Col>
           </Row>

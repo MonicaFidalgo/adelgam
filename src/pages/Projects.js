@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="banner-heading mb-4">
         <label className="label mb-4">{t("common.buildings")}</label>
         <h2 className="heading-big">{t("home.projects.subtitle")}</h2>
-        <p>{t("home.projects.description")}</p>
+        <p className="mt-3 mb-3">{t("home.projects.description")}</p>
       </div>
 
       <ProjectComponent />

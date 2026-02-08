@@ -87,7 +87,20 @@
     "apartments": "Apartamentos",
     "moradias": "Moradias",
     "location": "Localização",
-    "sold": "Vendido"
+    "sold": "Vendido",
+    "submit": "Submeter",
+    "apartments_t1_t3": "Apartamentos T1 - T3",
+    "estado": "Estado",
+    "ready": "Pronto para entrega",
+    "ready_march": "Pronto para entrega: Março 2026"
+  },
+  "form": {
+    "first_name": "Primeiro Nome",
+    "last_name": "Último Nome",
+    "phone": "Telefone (opcional)",
+    "message": "Escreva a sua mensagem",
+    "sent.success": "Obrigado pelo seu contacto. Iremos responder assim que possível.",
+    "sent.failed": "Não foi possivel submeter a sua questão. Por favor tente de novo ou envie-nos um email. Obrigado"
   },
   "projects_list": {
     "portas_do_tejo": {

@@ -108,7 +108,7 @@ const ProjectGroupsTable = ({
                                 opacity: 0.6,
                               }}
                             >
-                              Vendido
+                              {t("common.sold")}
                             </span>
                           ) : (
                             <Link
