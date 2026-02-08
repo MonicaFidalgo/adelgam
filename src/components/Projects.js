@@ -84,21 +84,24 @@ const Projects = () => {
                 </label>
                 <ul>
                   <li>
-                    <span>Localização:</span>
+                    <span>{t("common.location")}:</span>
                     <strong>{project.location}</strong>
                   </li>
                   <li>
                     <span>
-                      {project.isApartment ? "Apartamentos" : "Moradias"}:
+                      {project.isApartment
+                        ? t("common.apartments")
+                        : t("common.moradias")}
+                      :
                     </span>
                     <strong>{project.apartments}</strong>
                   </li>
                   <li>
-                    <span>Tipologias:</span>
+                    <span>{t("common.tipologias")}:</span>
                     <strong>{project.typologies}</strong>
                   </li>
                   <li>
-                    <span>Estacionamento: </span>
+                    <span>{t("common.parking")}: </span>
                     <strong>{project.parking}</strong>
                   </li>
                 </ul>
@@ -130,21 +133,24 @@ const Projects = () => {
                 </label>
                 <ul>
                   <li>
-                    <span>Localização:</span>
+                    <span>{t("common.location")}:</span>
                     <strong>{project.location}</strong>
                   </li>
                   <li>
                     <span>
-                      {project.isApartment ? "Apartamentos" : "Moradias"}:
+                      {project.isApartment
+                        ? t("common.apartments")
+                        : t("common.moradias")}
+                      :
                     </span>
                     <strong>{project.apartments}</strong>
                   </li>
                   <li>
-                    <span>Tipologias:</span>
+                    <span>{t("common.tipologias")}:</span>
                     <strong>{project.typologies}</strong>
                   </li>
                   <li>
-                    <span>Estacionamento: </span>
+                    <span>{t("common.parking")}: </span>
                     <strong>{project.parking}</strong>
                   </li>
                 </ul>

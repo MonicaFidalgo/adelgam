@@ -82,7 +82,11 @@
     "localization_project": "Conheça onde fica o projecto",
     "moradia": "Moradia",
     "more_details": "Mais informações",
-    "projects": "Projectos"
+    "projects": "Projectos",
+    "tipologias": "Tipologias",
+    "apartments": "Apartamentos",
+    "moradias": "Moradias",
+    "location": "Localização"
   },
   "features": {
     "kitchen_siemens_33": "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 33 m²",

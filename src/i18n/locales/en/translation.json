@@ -81,8 +81,12 @@
     "localization_portas": "Portas do Tejo Location",
     "localization_project": "Discover where the project is located",
     "moradia": "Villa",
-    "more_details": "More information",
-    "projects": "Projects"
+    "more_details": "More details",
+    "projects": "Projects",
+    "tipologias": "Typologies",
+    "apartments": "Apartments",
+    "moradias": "Houses",
+    "location": "Location"
   },
   "features": {
     "kitchen_siemens_33": "Fully equipped kitchen with Siemens appliances in open space with 33 m²",

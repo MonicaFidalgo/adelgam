@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </Col>
           <Col lg={3} className="margin-top-4 mt-lg-0">
-            <h6>{t("contacts.location")}?</h6>
+            <h6>{t("contacts.location")}</h6>
             <div className="d-flex gap-2">
               <Location />
               <address>
