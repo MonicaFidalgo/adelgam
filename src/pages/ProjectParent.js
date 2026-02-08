@@ -243,7 +243,7 @@ const ProjectParent = () => {
             <label className="label mb-4">Localização do Portas do Tejo</label>
             <h2 className="heading-secondary">Conheça onde fica o projecto</h2>
           </div>
-          <GoogleMap location="Portas to Tejo" width="100%" height="400" />
+          <GoogleMap name="Portas do Tejo" lat={38.6989538} lng={-8.9464582} />
         </>
       )}
     </div>

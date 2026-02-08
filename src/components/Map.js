@@ -1,19 +1,22 @@
 import React from "react";
 
-const GoogleMap = ({ location, width = "100%", height = "300", zoom = 15 }) => {
-  const mapSrc = `https://maps.google.com/maps?width=${width}&height=${height}&hl=en&q=${encodeURIComponent(
-    location
-  )}&t=&z=${zoom}&ie=UTF8&iwloc=B&output=embed`;
+const GoogleMap = ({
+  name,
+  lat,
+  lng,
+  width = "100%",
+  height = "400",
+  zoom = 15,
+}) => {
+  const query = encodeURIComponent(`${name} ${lat},${lng}`);
+  const mapSrc = `https://maps.google.com/maps?q=${query}&z=15&output=embed`;
 
   return (
     <iframe
       width={width}
       height={height}
-      frameBorder="0"
-      scrolling="no"
-      marginHeight="0"
-      marginWidth="0"
       src={mapSrc}
+      loading="lazy"
       title="Google Map"
     ></iframe>
   );
