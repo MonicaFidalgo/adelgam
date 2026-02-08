@@ -9,7 +9,7 @@
     "adelgam.paragraph_2": "Procuramos sempre diferenciar-nos na qualidade e inovação durante toda a construção assegurando acabamentos requintados e diferenciadores.",
     "adelgam.know": "Conheça a Adelgam",
     "projects.subtitle": "Espaços de conforto e harmonia",
-    "projects.description": " Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos proprietários satisfeitos. Cada projecto que realizamos reflecte o nosso compromisso com a qualidade, a inovação e o bem-estar das famílias.",
+    "projects.description": "Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos proprietários satisfeitos. Cada projecto que realizamos reflecte o nosso compromisso com a qualidade, a inovação e o bem-estar das famílias.",
     "highlight.description": "Inserida na tranquila zona de São Francisco, no Concelho de Alcochete e a poucos minutos de Lisboa, esta moradia distingue-se pelo seu caráter exclusivo e contemporâneo. Dispõe de <strong>4 suites</strong>, <strong>piscina privativa</strong>, <strong>sala de cinema</strong>, <strong>vista sobre Lisboa</strong> e <strong>garagem para 3 viaturas</strong>, oferecendo conforto, privacidade e um estilo de vida premium."
   },
   "details": {
@@ -86,7 +86,34 @@
     "tipologias": "Tipologias",
     "apartments": "Apartamentos",
     "moradias": "Moradias",
-    "location": "Localização"
+    "location": "Localização",
+    "sold": "Vendido"
+  },
+  "projects_list": {
+    "portas_do_tejo": {
+      "apartments": "39 apartamentos",
+      "typologies": "T1 a T3 Duplex",
+      "parking": "Box",
+      "badge": "10% vendido"
+    },
+    "moradias_sao_francisco": {
+      "apartments": "Moradias Geminadas",
+      "typologies": "T4 com piscina",
+      "parking": "Garagem para 4 carros",
+      "badge": "1 disponível"
+    },
+    "lux_terrace": {
+      "apartments": "37 apartamentos e 5 penthouses",
+      "typologies": "T1 a T4 Penthouse",
+      "parking": "Box (Para 2 carros)",
+      "badge": "90% vendido"
+    },
+    "varandas_do_montijo": {
+      "apartments": "40 apartamentos",
+      "typologies": "T2 a T4",
+      "parking": "Box",
+      "badge": "100% vendido"
+    }
   },
   "features": {
     "kitchen_siemens_33": "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 33 m²",

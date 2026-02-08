@@ -235,5 +235,39 @@
         "description": "Duplex with large terraces, designed for excellent outdoor living. Combines exclusivity, comfort and a flexible layout."
       }
     }
+  },
+  "projects_list": {
+    "portas_do_tejo": {
+      "name": "Portas do Tejo",
+      "location": "Montijo",
+      "apartments": "39 apartments",
+      "typologies": "T1 to T3 Duplex",
+      "parking": "Box",
+      "badge": "10% sold"
+    },
+    "moradias_sao_francisco": {
+      "name": "São Francisco Villas",
+      "location": "São Francisco",
+      "apartments": "Semi-detached Villas",
+      "typologies": "T4 with pool",
+      "parking": "Garage for 4 cars",
+      "badge": "1 available"
+    },
+    "lux_terrace": {
+      "name": "Lux Terrace Alcochete",
+      "location": "Alcochete",
+      "apartments": "37 apartments and 5 penthouses",
+      "typologies": "T1 to T4 Penthouse",
+      "parking": "Box (For 2 cars)",
+      "badge": "90% sold"
+    },
+    "varandas_do_montijo": {
+      "name": "Varandas do Montijo",
+      "location": "Montijo",
+      "apartments": "40 apartments",
+      "typologies": "T2 to T4",
+      "parking": "Box",
+      "badge": "100% sold"
+    }
   }
 }

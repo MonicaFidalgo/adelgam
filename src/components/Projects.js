@@ -16,10 +16,10 @@ const Projects = () => {
       image: image4,
       link: "portas-do-tejo",
       location: "Montijo",
-      apartments: "39 apartamentos",
-      typologies: "T1 a T3 Duplex",
-      parking: "Box",
-      badge: "10% vendido",
+      apartments: "projects_list.portas_do_tejo.apartments",
+      typologies: "projects_list.portas_do_tejo.typologies",
+      parking: "projects_list.portas_do_tejo.parking",
+      badge: "projects_list.portas_do_tejo.badge",
       badgeClass: "badge-green",
       isApartment: true,
     },
@@ -29,10 +29,10 @@ const Projects = () => {
       image: image3,
       link: "moradias",
       location: "São Francisco",
-      apartments: "Moradias Geminadas",
-      typologies: "T4 com piscina",
-      parking: "Garagem para 4 carros",
-      badge: "1 disponível",
+      apartments: "projects_list.moradias_sao_francisco.apartments",
+      typologies: "projects_list.moradias_sao_francisco.typologies",
+      parking: "projects_list.moradias_sao_francisco.parking",
+      badge: "projects_list.moradias_sao_francisco.badge",
       badgeClass: "badge-green",
       isApartment: false,
     },
@@ -43,10 +43,10 @@ const Projects = () => {
       image: image1,
       link: "lux-terrace",
       location: "Alcochete",
-      apartments: "37 apartamentos e 5 penthouses",
-      typologies: "T1 a T4 Penthouse",
-      parking: "Box (Para 2 carros)",
-      badge: "90% vendido",
+      apartments: "projects_list.lux_terrace.apartments",
+      typologies: "projects_list.lux_terrace.typologies",
+      parking: "projects_list.lux_terrace.parking",
+      badge: "projects_list.lux_terrace.badge",
       badgeClass: "badge-yellow",
       isApartment: true,
     },
@@ -56,10 +56,10 @@ const Projects = () => {
       image: image2,
       link: "varandas-do-montijo",
       location: "Montijo",
-      apartments: "40 apartamentos",
-      typologies: "T2 a T4",
-      parking: "Box",
-      badge: "100% vendido",
+      apartments: "projects_list.varandas_do_montijo.apartments",
+      typologies: "projects_list.varandas_do_montijo.typologies",
+      parking: "projects_list.varandas_do_montijo.parking",
+      badge: "projects_list.varandas_do_montijo.badge",
       badgeClass: "badge-red",
       isApartment: true,
     },
@@ -80,7 +80,7 @@ const Projects = () => {
                 <h5>{project.name}</h5>
                 <label className={`badge ${project.badgeClass}`}>
                   <span className="badge-circle"></span>
-                  {project.badge}
+                  {t(project.badge)}
                 </label>
                 <ul>
                   <li>
@@ -94,15 +94,15 @@ const Projects = () => {
                         : t("common.moradias")}
                       :
                     </span>
-                    <strong>{project.apartments}</strong>
+                    <strong>{t(project.apartments)}</strong>
                   </li>
                   <li>
                     <span>{t("common.tipologias")}:</span>
-                    <strong>{project.typologies}</strong>
+                    <strong>{t(project.typologies)}</strong>
                   </li>
                   <li>
                     <span>{t("common.parking")}: </span>
-                    <strong>{project.parking}</strong>
+                    <strong>{t(project.parking)}</strong>
                   </li>
                 </ul>
                 <Link
@@ -129,12 +129,12 @@ const Projects = () => {
                 <h5>{project.name}</h5>
                 <label className={`badge ${project.badgeClass}`}>
                   <span className="badge-circle"></span>
-                  {project.badge}
+                  {t(project.badge)}
                 </label>
                 <ul>
                   <li>
                     <span>{t("common.location")}:</span>
-                    <strong>{project.location}</strong>
+                    <strong>{t(project.location)}</strong>
                   </li>
                   <li>
                     <span>
@@ -143,15 +143,15 @@ const Projects = () => {
                         : t("common.moradias")}
                       :
                     </span>
-                    <strong>{project.apartments}</strong>
+                    <strong>{t(project.apartments)}</strong>
                   </li>
                   <li>
                     <span>{t("common.tipologias")}:</span>
-                    <strong>{project.typologies}</strong>
+                    <strong>{t(project.typologies)}</strong>
                   </li>
                   <li>
                     <span>{t("common.parking")}: </span>
-                    <strong>{project.parking}</strong>
+                    <strong>{t(project.parking)}</strong>
                   </li>
                 </ul>
                 <Link
