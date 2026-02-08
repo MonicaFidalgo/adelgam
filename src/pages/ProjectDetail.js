@@ -94,7 +94,7 @@ const ProjectDetail = () => {
             {project.badge && (
               <label className={`badge ${project.badgeClass}`}>
                 <span className="badge-circle"></span>
-                {project.badge}
+                {t(project.badge)}
               </label>
             )}
             {project.description && (
@@ -151,8 +151,8 @@ const ProjectDetail = () => {
                 <ul className="details-list">
                   {project.details.bedrooms && (
                     <li>
-                      <span>Quartos:</span>
-                      <strong>{project.details.bedrooms}</strong>
+                      <span>{t("common.bedrooms")}:</span>
+                      <strong>{t(project.details.bedrooms)}</strong>
                     </li>
                   )}
                   {project.details.bathrooms && (
@@ -163,19 +163,19 @@ const ProjectDetail = () => {
                   )}
                   {project.details.parking && (
                     <li>
-                      <span>Estacionamento:</span>
-                      <strong>{project.details.parking}</strong>
+                      <span>{t("common.parking")}:</span>
+                      <strong>{t(project.details.parking)}</strong>
                     </li>
                   )}
                   {project.details.storage && (
                     <li>
-                      <span>Arrecadação:</span>
-                      <strong>Sim</strong>
+                      <span>{t("common.storage")}:</span>
+                      <strong>{t("common.yes")}</strong>
                     </li>
                   )}
                   {project.details.area && (
                     <li>
-                      <span>Área: </span>
+                      <span>{t("common.area")}: </span>
                       <strong>{project.details.area} m²</strong>
                     </li>
                   )}
@@ -243,7 +243,7 @@ const ProjectDetail = () => {
             <>
               {project.iframeTitle && (
                 <h4 className="iframe-title text-center mt-60 mb-3">
-                  {project.iframeTitle}
+                  {t(project.iframeTitle)}
                 </h4>
               )}
               <div className="iframe-container">

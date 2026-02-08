@@ -2,19 +2,19 @@
   {
     "id": 1,
     "icon": "house",
-    "title": "Área Habitável (m²)",
+    "title": "common.area_habitable",
     "description": "340m²"
   },
   {
     "id": 2,
     "icon": "outside",
-    "title": "Área Exterior (m²)",
+    "title": "common.area_exterior",
     "description": "190m²"
   },
   {
     "id": 3,
     "icon": "parking",
-    "title": "Área Boxes (m²)",
+    "title": "common.area_boxes",
     "description": "61m²"
   },
   {

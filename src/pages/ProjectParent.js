@@ -57,9 +57,12 @@ const ProjectParent = () => {
     if (sold === total) {
       return { text: "100% vendido", class: "badge-red" };
     } else if (available === 1) {
-      return { text: "1 disponível", class: "badge-green" };
+      return { text: `1 ${t("common.available")}`, class: "badge-green" };
     } else {
-      return { text: `${available} disponíveis`, class: "badge-green" };
+      return {
+        text: `${available} ${t("common.availables")}`,
+        class: "badge-green",
+      };
     }
   };
 
@@ -104,7 +107,7 @@ const ProjectParent = () => {
         <h2 className="heading-big mb-3">{t(title)}</h2>
         <label className={`badge ${badgeClass}`}>
           <span className="badge-circle"></span>
-          {badge}
+          {t(badge)}
         </label>
         {!!description && (
           <p

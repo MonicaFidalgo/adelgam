@@ -19,12 +19,12 @@ const ProjectGroupsTable = ({
         <Table style={{ tableLayout: "fixed", width: "100%" }}>
           <thead>
             <tr>
-              <th style={{ width: "22%" }}>TIPOLOGIA</th>
-              <th style={{ width: "12%" }}>ÁREA</th>
-              <th style={{ width: "12%" }}>Varandas</th>
-              <th style={{ width: "10%" }}>Piso</th>
-              <th style={{ width: "13%" }}>Box/Arrec</th>
-              <th style={{ width: "15%" }}>PREÇO</th>
+              <th style={{ width: "22%" }}>{t("common.typology")}</th>
+              <th style={{ width: "12%" }}>{t("common.area")}</th>
+              <th style={{ width: "12%" }}>{t("common.balconies")}</th>
+              <th style={{ width: "10%" }}>{t("common.floor")}</th>
+              <th style={{ width: "13%" }}>{t("common.box_arrec")}</th>
+              <th style={{ width: "15%" }}>{t("common.price")}</th>
               <th style={{ width: "16%" }}></th>
             </tr>
           </thead>
@@ -63,7 +63,7 @@ const ProjectGroupsTable = ({
                           <strong
                             style={{ color: "#bd9a68", fontSize: "16px" }}
                           >
-                            {group.typology}
+                            {t(group.typology)}
                           </strong>
                           <label
                             className={`badge ${dynamicBadge.class}`}
@@ -94,7 +94,9 @@ const ProjectGroupsTable = ({
                         <td>{item.details.floor || "N/A"}</td>
                         <td>
                           {item.details.parking ||
-                            (item.details.storage ? "Arrec." : "—")}
+                            (item.details.storage
+                              ? t("common.storage_short")
+                              : "—")}
                         </td>
                         <td>{item.price ? `${item.price}€` : "N/A"}</td>
                         <td>
@@ -115,7 +117,7 @@ const ProjectGroupsTable = ({
                               to={`/empreendimentos/${projectTitle}/${item.link}`}
                               className="button button-primary"
                             >
-                              Detalhes
+                              {t("common.details")}
                             </Link>
                           )}
                         </td>
@@ -149,7 +151,7 @@ const ProjectGroupsTable = ({
                 >
                   <div className="d-flex justify-content-between align-items-center">
                     <div className="collapse-header">
-                      <strong>{group.typology}</strong>
+                      <strong>{t(group.typology)}</strong>
                       <label
                         className={`badge ${dynamicBadge.class}`}
                         style={{ marginBottom: 0 }}
@@ -193,13 +195,17 @@ const ProjectGroupsTable = ({
 
                       <div className="row mb-3" style={{ fontSize: "14px" }}>
                         <div className="col-6 mb-2">
-                          <span style={{ color: "#797978" }}>Área:</span>
+                          <span style={{ color: "#797978" }}>
+                            {t("common.area")}:
+                          </span>
                           <strong className="ms-1">
                             {item.details.area || "N/A"}m²
                           </strong>
                         </div>
                         <div className="col-6 mb-2">
-                          <span style={{ color: "#797978" }}>Quartos:</span>
+                          <span style={{ color: "#797978" }}>
+                            {t("common.bedrooms")}:
+                          </span>
                           <strong className="ms-1">
                             {item.details.bedrooms || "N/A"}
                           </strong>
@@ -211,7 +217,9 @@ const ProjectGroupsTable = ({
                           </strong>
                         </div>
                         <div className="col-6 mb-2">
-                          <span style={{ color: "#797978" }}>Estacion.:</span>
+                          <span style={{ color: "#797978" }}>
+                            {t("common.parking_short")}:
+                          </span>
                           <strong className="ms-1">
                             {item.details.parking || "N/A"}
                           </strong>
@@ -229,14 +237,14 @@ const ProjectGroupsTable = ({
                             opacity: 0.6,
                           }}
                         >
-                          Vendido
+                          {t("common.sold")}
                         </button>
                       ) : (
                         <Link
                           to={`/empreendimentos/${projectTitle}/${item.link}`}
                           className="button button-primary w-100"
                         >
-                          Ver Detalhes
+                          {t("common.details")}
                         </Link>
                       )}
                     </div>

@@ -61,6 +61,7 @@
     "area_exterior": "Área Exterior (m²)",
     "area_garage": "Área de Garagem (m²)",
     "area_total": "Área Total (m²)",
+    "area_boxes": "Área Boxes (m²)",
     "bedrooms": "Quartos",
     "bathrooms": "Casa de banho",
     "suites": "Suites",
@@ -92,7 +93,30 @@
     "apartments_t1_t3": "Apartamentos T1 - T3",
     "estado": "Estado",
     "ready": "Pronto para entrega",
-    "ready_march": "Pronto para entrega: Março 2026"
+    "ready_march": "Pronto para entrega: Março 2026",
+    "first_phase_construction": "Primeira fase em construção",
+    "yes": "Sim",
+    "area": "Área",
+    "typology": "Tipologia",
+    "price": "Preço",
+    "details": "Detalhes",
+    "floor": "Piso",
+    "box_arrec": "Box/Arrec",
+    "apartment_t1": "Apartamento T1",
+    "apartment_t2": "Apartamento T2",
+    "apartment_t3": "Apartamento T3",
+    "available": "disponível",
+    "availables": "disponíveis",
+    "storage_short": "Arrec",
+    "parking_short": "Estacion.",
+    "bedrooms_1": "1 quarto",
+    "bedrooms_2": "2 quartos",
+    "bedrooms_3": "3 quartos",
+    "parking_1": "1 lugar",
+    "parking_2": "2 lugares",
+    "all_sold": "100% vendido",
+    "office": "Escritório",
+    "dinning_room": "Sala de Jantar"
   },
   "form": {
     "first_name": "Primeiro Nome",
@@ -160,7 +184,9 @@
     "outdoor_space_bbq_pool": "Espaço exterior com churrasqueira e piscina",
     "cinema_room_equipped": "Sala de cinema totalmente equipada",
     "garage_3_cars_110": "Garagem para 3 carros com 110m2",
-    "4_suites": "4 Suites"
+    "4_suites": "4 Suites",
+    "virtual_tour.penthouse": "Tour Virtual: Explore a Elegância da Penthouse de Luxo",
+    "virtual_tour": "Virtual Tour"
   },
   "projects": {
     "lux_terrace": {
@@ -193,6 +219,7 @@
       },
       "penthouse_deluxe": {
         "name": "Deluxe Penthouse",
+        "badge": "1 disponível",
         "description": "Descubra o auge do luxo nesta penthouse exclusiva em Alcochete, oferecendo uma vista deslumbrante de Lisboa. Com um interior elegantemente projetado e acabamentos de alta qualidade, este apartamento redefine o conforto e o estilo de vida sofisticado. Desfrute de momentos relaxantes no espaçoso terraço com jacuzzi, e convide amigos para churrascos memoráveis. Com uma acesso privativo de elevador ao piso 3 e 4, garagem privativa, esta penthouse oferece conveniência e segurança. Seja bem-vindo ao seu refúgio de luxo.",
         "paragraph_1": "No <strong>terceiro piso</strong>, será recebido por quatro suítes majestosas, cada uma desenhada para oferecer o máximo em conforto e privacidade. Os espaçosos walk-in closets permitem uma organização impecável, enquanto as casas de banho revestidas de cerâmica convidam a momentos de relaxamento e rejuvenescimento. Além disso, neste piso, encontrará também um escritório e uma lavandaria, proporcionando praticidade e funcionalidade ao seu dia a dia.",
         "paragraph_2": "Destaca-se a suite principal, onde um duche estilo hotel, envolto em vidro, proporciona uma experiência sensorial única, com vista para o quarto e uma luxuosa banheira. Além disso, três suítes desfrutam de varandas privativas, conectando-te à paisagem deslumbrante ao redor.",

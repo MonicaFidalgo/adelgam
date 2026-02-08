@@ -134,7 +134,7 @@ const Projects = () => {
                 <ul>
                   <li>
                     <span>{t("common.location")}:</span>
-                    <strong>{t(project.location)}</strong>
+                    <strong>{project.location}</strong>
                   </li>
                   <li>
                     <span>
