@@ -1,15 +1,17 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Row, Col } from "react-bootstrap";
 import { ReactComponent as Location } from "../icons/location-icon.svg";
 import { ReactComponent as Phone } from "../icons/phone-icon.svg";
 import { ReactComponent as Email } from "../icons/email-icon.svg";
 
 const ContactsSection = () => {
+  const { t } = useTranslation();
   return (
     <div className="contacts-wrapper">
       <Row>
         <Col lg={6}>
-          <h4 className="mb-3">Contacte-nos</h4>
+          <h4 className="mb-3">{t("contacts.contact_us.2")}</h4>
           <div className="d-flex gap-2 mb-2">
             <Email /> <a href="mailto:adelgam@adelgam.pt">adelgam@adelgam.pt</a>
           </div>
@@ -19,7 +21,7 @@ const ContactsSection = () => {
           </div>
         </Col>
         <Col lg={6}>
-          <h4 className="mb-3 mt-4 mt-md-0">Onde estamos?</h4>
+          <h4 className="mb-3 mt-4 mt-md-0">{t("contacts.location")}</h4>
 
           <div className="d-flex gap-2">
             <Location />

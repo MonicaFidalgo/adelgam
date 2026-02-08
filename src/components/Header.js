@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 import logo from "../adelgam-logo.svg";
 import { Link } from "react-router-dom";
-// import LanguageDropdown from "./LanguageDropdown";
+import LanguageDropdown from "./LanguageDropdown";
 
 const Header = ({ onMenuClick }) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +32,9 @@ const Header = ({ onMenuClick }) => {
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="relative">{/*<LanguageDropdown />*/}</div>
+            <div className="relative">
+              <LanguageDropdown />
+            </div>
 
             <button
               onClick={onMenuClick}

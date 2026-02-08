@@ -57,9 +57,12 @@ const ProjectParent = () => {
     if (sold === total) {
       return { text: "100% vendido", class: "badge-red" };
     } else if (available === 1) {
-      return { text: "1 disponível", class: "badge-green" };
+      return { text: `1 ${t("common.available")}`, class: "badge-green" };
     } else {
-      return { text: `${available} disponíveis`, class: "badge-green" };
+      return {
+        text: `${available} ${t("common.availables")}`,
+        class: "badge-green",
+      };
     }
   };
 
@@ -100,15 +103,15 @@ const ProjectParent = () => {
     <div className="container pt-200">
       {/* Banner Section */}
       <div className="banner-heading">
-        <label className="label mb-4">Empreendimento</label>
+        <label className="label mb-4">{t("common.building")}</label>
         <h2 className="heading-big mb-3">{t(title)}</h2>
-        <label className={`badge ${badgeClass} mb-3`}>
+        <label className={`badge ${badgeClass}`}>
           <span className="badge-circle"></span>
-          {badge}
+          {t(badge)}
         </label>
         {!!description && (
           <p
-            className="mb-3"
+            className="mb-3 mt-3"
             dangerouslySetInnerHTML={{ __html: t(description) }}
           />
         )}
@@ -121,7 +124,7 @@ const ProjectParent = () => {
               rel="noreferrer"
               className="button button-primary"
             >
-              Quero marcar uma visita
+              {t("common.book_a_visit")}
             </a>
           </>
         )}
@@ -167,11 +170,13 @@ const ProjectParent = () => {
 
       {projectData?.detailsDescription && (
         <div className="acabamentos project-details-list">
-          <div className="project-details-list-title">Pontos Chave</div>
+          <div className="project-details-list-title">
+            {t("common.key_points")}
+          </div>
           <div className="project-details-list-description">
             <ul className="bullet-list">
               {projectData?.detailsDescription.map((item, index) => (
-                <li key={index}>{item}</li>
+                <li key={index}>{t(item)}</li>
               ))}
             </ul>
             {!!projectData?.detailsPlants && (
@@ -185,7 +190,7 @@ const ProjectParent = () => {
 
       {!!projectData?.detailsPlants && (
         <div className="plantas project-details-list d-md-none">
-          <div className="project-details-list-title">Plantas</div>
+          <div className="project-details-list-title">{t("common.plants")}</div>
 
           <ImageGallery images={projectData?.detailsPlants} />
         </div>
@@ -197,7 +202,7 @@ const ProjectParent = () => {
       {hasNewStructure && (
         <div className="my-60">
           <h3 className="heading-secondary text-center mb-60">
-            Apartamentos T1 - T3
+            {t("common.apartments_t1_t3")}
           </h3>
           <ProjectGroupsTable
             groups={projectGroups}
@@ -214,7 +219,7 @@ const ProjectParent = () => {
       {hasOldStructure && !hasNewStructure && (
         <div className="my-60">
           <h3 className="heading-secondary text-center mb-60">
-            Apartamentos T1 - T3
+            {t("common.apartments_t1_t3")}
           </h3>
           <ProjectSimpleTable
             items={projects}
@@ -240,8 +245,12 @@ const ProjectParent = () => {
         <>
           <hr />
           <div className="contacts-map">
-            <label className="label mb-4">Localização do Portas do Tejo</label>
-            <h2 className="heading-secondary">Conheça onde fica o projecto</h2>
+            <label className="label mb-4">
+              {t("common.localization_portas")}
+            </label>
+            <h2 className="heading-secondary">
+              {t("common.localization_project")}
+            </h2>
           </div>
           <GoogleMap name="Portas do Tejo" lat={38.6989538} lng={-8.9464582} />
         </>

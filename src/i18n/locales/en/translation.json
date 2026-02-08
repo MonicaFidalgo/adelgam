@@ -1,34 +1,193 @@
 {
-  "home.banner.label": "First phase under construction",
-  "home.banner.description": "Just minutes from Lisbon, Portas do Tejo combines comfort, modernity, and a prime location.",
-  "home.banner.button": "More information",
+  "home": {
+    "banner.label": "First phase under construction",
+    "banner.description": "Just minutes from Lisbon, Portas do Tejo combines comfort, modernity, and a prime location.",
+    "banner.button": "More information",
+    "adelgam.why": "WHY ADELGAM",
+    "adelgam.subtitle": "We offer the highest level of expertise, service and integrity",
+    "adelgam.paragraph_1": "Over the years, Adelgam has followed construction techniques and studies of new materials to be placed, with the aim of always carrying out reference work.",
+    "adelgam.paragraph_2": "We always seek to differentiate ourselves in quality and innovation throughout the construction, ensuring refined and distinctive finishes.",
+    "adelgam.know": "Meet Adelgam",
+    "projects.subtitle": "Spaces of comfort and harmony",
+    "projects.description": "At Adelgam, we are proud to have delivered countless keys to satisfied new owners. Each project we undertake reflects our commitment to quality, innovation and family well-being.",
+    "highlight.description": "Located in the quiet area of São Francisco, in the Municipality of Alcochete and just minutes from Lisbon, this villa stands out for its exclusive and contemporary character. It features <strong>4 suites</strong>, <strong>private pool</strong>, <strong>cinema room</strong>, <strong>views over Lisbon</strong> and <strong>garage for 3 cars</strong>, offering comfort, privacy and a premium lifestyle."
+  },
   "details": {
     "title_1": "Over 25 years of experience",
     "description_1": "With extensive experience in the real estate sector, we continue to focus our resources on continuously improving our projects.",
-
     "title_2": "Refined finishes",
     "description_2": "Known for exceptional details, our mission is to continue ensuring top-notch and timeless finishes.",
-
     "title_3": "Continuous commitment",
     "description_3": "We believe that listening to customer feedback over time is key to our success.",
-
     "title_4": "Unique location",
     "description_4": "We carefully select the location of our developments to provide a better quality of life."
   },
   "numbers": {
     "label_1": "25+",
     "description_1": "Years in the market",
-
     "label_2": "123,456m²",
     "description_2": "In completed projects",
-
     "label_3": "140+",
     "description_3": "Apartments sold",
-
     "label_4": "123+",
     "description_4": "Happy families"
   },
-
+  "contacts": {
+    "adelgam.description": "Adelgam is a company that focuses its activity in the area of Civil Construction and Real Estate Development, operating in the market for over 25 years.",
+    "more_info": "Need more information",
+    "contact_us": "Contact us",
+    "contact_us.2": "Contact us",
+    "talk_to_us": "Talk to us",
+    "visit_us": "Come visit us",
+    "description": "We are here to help. Contact us.",
+    "form.title": "Need more information?",
+    "form.description": "Fill out the form below and our team will get in touch to provide the necessary details.",
+    "location": "Where are we?"
+  },
+  "about": {
+    "banner_label": "Meet Adelgam",
+    "banner_heading": "For over 25 years, building with quality and innovation",
+    "section_label": "About Us",
+    "section_heading": "Our history and commitment",
+    "paragraph_1": "<strong>Adelgam Real Estate Development</strong> is a company that focuses its activity in the area of Civil Construction and Real Estate Development, operating in the market for over 25 years.",
+    "paragraph_2": "We always seek to differentiate ourselves in quality and innovation throughout the construction, ensuring refined and distinctive finishes.",
+    "paragraph_3": "Over the years, Adelgam has followed construction techniques and studies of new materials to be placed, with the aim of always carrying out reference work.",
+    "paragraph_4": "We always count on the help of good professionals, making Adelgam a credible and recognized company in the market."
+  },
+  "common": {
+    "area_habitable": "Living Area (m²)",
+    "area_terrace": "Terrace (m²)",
+    "area_balconies": "Balconies (m²)",
+    "area_exterior": "Exterior Area (m²)",
+    "area_garage": "Garage Area (m²)",
+    "area_total": "Total Area (m²)",
+    "area_boxes": "Box Area (m²)",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathroom",
+    "suites": "Suites",
+    "rooms": "Living Rooms",
+    "pool": "Pool",
+    "cinema_room": "Cinema room",
+    "plants": "Floor Plans",
+    "characteristics": "Characteristics",
+    "key_points": "Key Points",
+    "parking": "Parking",
+    "storage": "Storage",
+    "certification": "Energy Certification",
+    "terrace": "Terrace",
+    "balconies": "Balconies",
+    "book_a_visit": "Book a visit",
+    "building": "Development",
+    "buildings": "Developments",
+    "localization_portas": "Portas do Tejo Location",
+    "localization_project": "Discover where the project is located",
+    "moradia": "Villa",
+    "more_details": "More details",
+    "projects": "Projects",
+    "tipologias": "Typologies",
+    "apartments": "Apartments",
+    "moradias": "Houses",
+    "location": "Location",
+    "sold": "Sold",
+    "submit": "Submit",
+    "apartments_t1_t3": "Apartments T1 - T3",
+    "estado": "Status",
+    "ready": "Ready for delivery",
+    "ready_march": "Ready for delivery: March 2026",
+    "first_phase_construction": "First phase under construction",
+    "yes": "Yes",
+    "area": "Area",
+    "typology": "Typology",
+    "price": "Price",
+    "details": "Details",
+    "floor": "Floor",
+    "box_arrec": "Box/Storage",
+    "apartment_t1": "Apartament T1",
+    "apartment_t2": "Apartament T2",
+    "apartment_t3": "Apartament T3",
+    "available": "available",
+    "availables": "availables",
+    "storage_short": "Storage",
+    "parking_short": "Parking",
+    "bedrooms_1": "1 bedroom",
+    "bedrooms_2": "2 bedrooms",
+    "bedrooms_3": "3 bedrooms",
+    "parking_1": "1 spot",
+    "parking_2": "2 spots",
+    "all_sold": "100% sold"
+  },
+  "form": {
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone": "Telephone (optional)",
+    "message": "Leave your message",
+    "sent.success": "Thank you for your contact. We will reply as soon as possible.",
+    "sent.failed": "It was not possible to submit your question. Please try again or send us an email. Thank you."
+  },
+  "projects_list": {
+    "portas_do_tejo": {
+      "apartments": "39 apartments",
+      "typologies": "T1 to T3 Duplex",
+      "parking": "Box",
+      "badge": "10% sold"
+    },
+    "moradias_sao_francisco": {
+      "apartments": "Semi-detached Villas",
+      "typologies": "T4 with pool",
+      "parking": "Garage for 4 cars",
+      "badge": "1 available"
+    },
+    "lux_terrace": {
+      "apartments": "37 apartments and 5 penthouses",
+      "typologies": "T1 to T4 Penthouse",
+      "parking": "Box (For 2 cars)",
+      "badge": "90% sold"
+    },
+    "varandas_do_montijo": {
+      "apartments": "40 apartments",
+      "typologies": "T2 to T4",
+      "parking": "Box",
+      "badge": "100% sold"
+    }
+  },
+  "features": {
+    "kitchen_siemens_33": "Fully equipped kitchen with Siemens appliances in open space with 33 m²",
+    "kitchen_siemens_40": "Fully equipped kitchen with Siemens appliances in open space with 40 m²",
+    "kitchen_siemens_46": "Fully equipped kitchen with Siemens appliances in open space with 46m²",
+    "kitchen_siemens_60": "Fully equipped kitchen with Siemens appliances in open space with 60 m²",
+    "kitchen_siemens_65": "Fully equipped kitchen with Siemens appliances in open space with 65m²",
+    "kitchen_siemens_open": "Fully equipped kitchen with Siemens appliances in open space",
+    "washing_drying": "Washing machine and dryer",
+    "balcony_16": "Balcony with 16 m²",
+    "balcony_18": "A balcony with 18 m²",
+    "balcony_36": "A balcony with 36 m²",
+    "terrace_80": "A terrace of 80m²",
+    "terrace_190_jacuzzi": "Terrace of 190m² with jacuzzi",
+    "ac_wifi": "Air conditioning with Wi-Fi system",
+    "double_glass": "Planitherm double glazing",
+    "radiant_floor": "Radiant Floor",
+    "radiant_floor_all": "Radiant floor in all areas",
+    "parking_spot": "Parking",
+    "certification_a_plus": "Energy certification A+",
+    "wine_cellar": "Liebherr Wine Cellar",
+    "laundry_washing_drying": "Laundry room with washing machine and dryer",
+    "laundry_complete": "Complete laundry room",
+    "master_suite_37": "Spacious 37 m² Master Suite",
+    "master_suite_36_balcony": "Spacious 36m² Master Suite with a 35m² balcony",
+    "domotics": "Home automation",
+    "private_elevator": "Private elevator access to 3rd and 4th floor",
+    "walk_in_closets": "4 Suites, all with Walk-in Closets",
+    "two_boxes_4_cars": "Two Boxes for 4 cars",
+    "box_2_cars": "A Box for two cars",
+    "outdoor_space_bbq_pool": "Outdoor space with barbecue and pool",
+    "cinema_room_equipped": "Fully equipped cinema room",
+    "garage_3_cars_110": "Garage for 3 cars with 110m2",
+    "4_suites": "4 Suites",
+    "virtual_tour.penthouse": "Virtual Tour: Explore the Elegance of the Luxury Penthouse",
+    "virtual_tour": "Tour Virtual",
+    "office": "Office",
+    "dinning_room": "Dinning Room"
+  },
   "projects": {
     "lux_terrace": {
       "label": "Elegance and Luxury",
@@ -60,7 +219,11 @@
       },
       "penthouse_deluxe": {
         "name": "Deluxe Penthouse",
-        "description": "Discover the pinnacle of luxury in this exclusive penthouse in Alcochete, offering stunning views of Lisbon. With an elegantly designed interior and high-quality finishes, this apartment redefines comfort and sophisticated lifestyle. Enjoy relaxing moments on the spacious terrace with jacuzzi, and invite friends for memorable barbecues. With private elevator access to floors 3 and 4, private garage, this penthouse offers convenience and security. Welcome to your luxury refuge."
+        "badge": "1 available",
+        "description": "Discover the pinnacle of luxury in this exclusive penthouse in Alcochete, offering stunning views of Lisbon. With an elegantly designed interior and high-quality finishes, this apartment redefines comfort and sophisticated lifestyle. Enjoy relaxing moments on the spacious terrace with jacuzzi, and invite friends for memorable barbecues. With private elevator access to floors 3 and 4, private garage, this penthouse offers convenience and security. Welcome to your luxury refuge.",
+        "paragraph_1": "On the <strong>third floor</strong>, you will be welcomed by four majestic suites, each designed to offer maximum comfort and privacy. The spacious walk-in closets allow for impeccable organization, while the ceramic-lined bathrooms invite moments of relaxation and rejuvenation. In addition, on this floor, you will also find an office and a laundry room, providing practicality and functionality for your daily life.",
+        "paragraph_2": "The master suite stands out, where a hotel-style shower, enclosed in glass, provides a unique sensory experience, overlooking the bedroom and a luxurious bathtub. Furthermore, three suites enjoy private balconies, connecting you to the stunning landscape around.",
+        "paragraph_3": "On the <strong>fourth floor</strong>, luxury continues with a refined dining room, perfect for memorable meals, and two living rooms, one of which is open space with the kitchen, creating a cozy and contemporary environment. In addition, enjoy a stunning terrace with a jacuzzi and outdoor kitchen for leisure and entertainment outdoors. Accompanying the luxury, a spacious garage for four cars provides convenience and security."
       }
     },
     "varandas_do_montijo": {

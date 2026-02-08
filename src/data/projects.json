@@ -11,11 +11,11 @@
       "lux-terrace-alcochete-T4-penthouse.webp",
       "lux-terrace-alcochete-T4-penthouse-2.webp"
     ],
-    "badge": "90% vendido",
+    "badge": "projects_list.lux_terrace.badge",
     "badgeClass": "badge-yellow",
     "location": "Alcochete",
     "typology": "T1 a T4 Penthouse",
-    "state": "Pronto para entrega",
+    "state": "common.ready",
     "projects": [
       {
         "label": "Lux Terrace Alcochete",
@@ -23,7 +23,7 @@
         "link": "apartment-t1",
         "image": "project1.png",
         "description": "projects.lux_terrace.apartment_t1.description",
-        "badge": "100% vendido",
+        "badge": "common.all_sold",
         "badgeClass": "badge-red",
         "price": "310.000,00",
         "images": [
@@ -33,20 +33,20 @@
           "apartment-t1/Lux-Terrace-Alcochete-terraço-1920w.webp"
         ],
         "details": {
-          "bedrooms": "1 quarto",
+          "bedrooms": "common.bedrooms_1",
           "bathrooms": "2",
-          "parking": "1 lugar",
+          "parking": "common.parking_1",
           "area": "80",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 33 m²",
-            "Máquina de lavar e máquina de secar a roupa",
-            "Varanda com 16 m²",
-            "Ar condicionado com sistema Wi-Fi",
-            "Vidros duplos Planitherm",
-            "Piso Radiante",
-            "Parqueamento",
-            "Certificação energética A +"
+            "features.kitchen_siemens_33",
+            "features.washing_drying",
+            "features.balcony_16",
+            "features.ac_wifi",
+            "features.double_glass",
+            "features.radiant_floor",
+            "features.parking_spot",
+            "features.certification_a_plus"
           ],
           "plants": [
             {
@@ -66,10 +66,10 @@
         "link": "apartment-t2",
         "image": "project1.png",
         "description": "projects.lux_terrace.apartment_t2.description",
-        "badge": "1 disponível",
-        "badgeClass": "badge-green",
+        "badge": "common.all_sold",
+        "badgeClass": "badge-red",
         "price": "450.000,00",
-        "iframeTitle": "Tour Virtual: Explore o Apartamento T2",
+        "iframeTitle": "features.virtual_tour",
         "iframeLink": "https://youriguide.com/83_r_jos_batista_canteiro_acochete_pt_15_pt",
         "images": [
           "apartment-t2/Lux-Terrace-Alcochete-Exterior-Frente-1920w-1920w.webp",
@@ -78,18 +78,18 @@
           "apartment-t2/Lux-Terrace-Alcochete-Suite-1920w.webp"
         ],
         "details": {
-          "bedrooms": "2 quartos",
+          "bedrooms": "common.bedrooms_2",
           "bathrooms": "2",
-          "parking": "1 lugar",
+          "parking": "common.parking_1",
           "area": "102",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 40 m²",
-            "Máquina de lavar e máquina de secar a roupa",
-            "Ar condicionado com sistema Wi-Fi",
-            "Vidros duplos Planitherm",
-            "Piso Radiante",
-            "Certificação energética A +"
+            "features.kitchen_siemens_40",
+            "features.washing_drying",
+            "features.ac_wifi",
+            "features.radiant_floor",
+            "features.radiant_floor",
+            "features.certification_a_plus"
           ],
           "plants": [
             {
@@ -109,7 +109,7 @@
         "link": "apartment-t3",
         "image": "project1.png",
         "description": "projects.lux_terrace.apartment_t3.description",
-        "badge": "100% vendido",
+        "badge": "common.all_sold",
         "badgeClass": "badge-red",
         "price": "520.000,00",
         "images": [
@@ -119,19 +119,19 @@
           "apartment-t3/Sala_T3-1920w.webp"
         ],
         "details": {
-          "bedrooms": "3 quartos",
+          "bedrooms": "common.bedrooms_3",
           "bathrooms": "3",
-          "parking": "2 lugares",
+          "parking": "common.parking_2",
           "area": "133",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space",
-            "Máquina de lavar e máquina de secar a roupa",
-            "Uma varanda com 18 m²",
-            "Vidros duplos Planitherm",
-            "Piso Radiante",
-            "Domótica",
-            "Certificação energética A +"
+            "features.kitchen_siemens_open",
+            "features.washing_drying",
+            "features.balcony_18",
+            "features.radiant_floor",
+            "features.radiant_floor",
+            "features.domotics",
+            "features.certification_a_plus"
           ],
           "plants": [
             {
@@ -153,10 +153,10 @@
         "link": "penthouse-t3",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t3.description",
-        "badge": "100% vendido",
+        "badge": "common.all_sold",
         "badgeClass": "badge-red",
         "price": "690.000,00",
-        "iframeTitle": "Tour Virtual: Explore a Penthouse T3",
+        "iframeTitle": "features.virtual_tour",
         "iframeLink": "https://youriguide.com/luxterrace82penthouset3",
         "images": [
           "penthouse-t3/Lux+Terrace++Alcochete+Cozinha-1920w.webp",
@@ -167,16 +167,16 @@
         "details": {
           "bedrooms": "2 Suites",
           "bathrooms": "3",
-          "parking": "1 Box (2 Carros)",
+          "parking": "Box 2",
           "area": "184",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
-            "Um Terraço de 80m²",
-            "Cave de Vinho da Liebherr",
-            "Piso radiante",
-            "Lavandaria com máquina de lavar e máquina de secar",
-            "Espaçosa Master Suite de 36m² com uma varanda de 35m²"
+            "features.kitchen_siemens_65",
+            "features.terrace_80",
+            "features.wine_cellar",
+            "features.radiant_floor",
+            "features.laundry_washing_drying",
+            "features.master_suite_36_balcony"
           ],
           "plants": [
             {
@@ -196,10 +196,10 @@
         "link": "penthouse-t4",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t4.description",
-        "badge": "100% vendido",
+        "badge": "common.all_sold",
         "badgeClass": "badge-red",
         "price": "780.000,00",
-        "iframeTitle": "Tour Virtual: Explore a Penthouse T4",
+        "iframeTitle": "features.virtual_tour",
         "iframeLink": "https://youriguide.com/luxterrace82penthouset4",
         "images": [
           "penthouse-t4/Lux-Terrace-Alcocehte-Varanda-T4-1920w.webp",
@@ -210,16 +210,16 @@
         "details": {
           "bedrooms": "3 Suites",
           "bathrooms": "4",
-          "parking": "1 Box (2 Carros)",
+          "parking": "Box 2",
           "area": "224",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
-            "Um Terraço de 80m²",
-            "Cave de Vinho da Liebherr",
-            "Piso radiante",
-            "Lavandaria com máquina de lavar e máquina de secar",
-            "Espaçosa Master Suite de 36m² com uma varanda de 35m²"
+            "features.kitchen_siemens_65",
+            "features.terrace_80",
+            "features.wine_cellar",
+            "features.radiant_floor",
+            "features.laundry_washing_drying",
+            "features.master_suite_36_balcony"
           ],
           "plants": [
             {
@@ -239,10 +239,10 @@
         "link": "penthouse-t4-II",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_t4-II.description",
-        "badge": "100% vendido",
+        "badge": "common.all_sold",
         "badgeClass": "badge-red",
         "price": "780.000,00",
-        "iframeTitle": "Tour Virtual: Explore a Penthouse T4",
+        "iframeTitle": "features.virtual_tour",
         "iframeLink": "https://youriguide.com/luxterrace82penthouset4",
         "images": [
           "penthouse-t4-2/Lux-Terrace-Alcochete-Penthouse-Sala-T4-1920w.webp",
@@ -253,17 +253,17 @@
         "details": {
           "bedrooms": "4 Suites",
           "bathrooms": "5",
-          "parking": "1 Box (2 Carros)",
+          "parking": "Box 2",
           "area": "227",
           "certification": "A+",
           "description": [
-            "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 65m²",
-            "Um Terraço de 80m²",
-            "Cave de Vinho da Liebherr",
-            "Piso radiante",
-            "Lavandaria com máquina de lavar e máquina de secar",
-            "Uma Box para dois carros",
-            "Certificação Energética A+"
+            "features.kitchen_siemens_65",
+            "features.terrace_80",
+            "features.wine_cellar",
+            "features.radiant_floor",
+            "features.laundry_washing_drying",
+            "features.box_2_cars",
+            "features.certification_a_plus"
           ],
           "plants": [
             {
@@ -283,10 +283,10 @@
         "link": "penthouse-deluxe",
         "image": "project1.png",
         "description": "projects.lux_terrace.penthouse_deluxe.description",
-        "badge": "1 disponível",
+        "badge": "projects.lux_terrace.penthouse_deluxe.badge",
         "badgeClass": "badge-green",
         "price": "1.700.000,00",
-        "iframeTitle": "Tour Virtual: Explore a Elegância da Penthouse de Luxo",
+        "iframeTitle": "features.virtual_tour.penthouse",
         "iframeLink": "https://vpva.pt/VRluxterrace/",
         "images": [
           "penthouse-deluxe/322_Quarto+VP_A8-1920w.webp",
@@ -306,16 +306,16 @@
         "details": {
           "bedrooms": "4 Master Suites",
           "bathrooms": "5",
-          "parking": "2 Boxes (4 Carros)",
+          "parking": "Boxes 4",
           "area": "591",
           "certification": "A+",
           "description": [
-            "Acesso privativo de elevador ao 3º e 4º piso",
-            "Piso radiante em todas as áreas",
-            "4 Suites, todas com Walk-in Closets",
-            "Quarto de lavandaria completa",
-            "Duas Boxes para 4 carros",
-            "Terraço de 190m² com jacuzzi"
+            "features.private_elevator",
+            "features.radiant_floor_all",
+            "features.walk_in_closets",
+            "features.laundry_complete",
+            "features.two_boxes_4_cars",
+            "features.terrace_190_jacuzzi"
           ],
           "plants": [
             {
@@ -346,11 +346,11 @@
       "varandas-montijo-wc.jpg",
       "varandas-montijo-cozinha.jpg"
     ],
-    "badge": "100% vendido",
+    "badge": "projects_list.varandas_do_montijo.badge",
     "badgeClass": "badge-red",
     "location": "Montijo",
     "typology": "T2 a T4",
-    "state": "Vendido",
+    "state": "common.sold",
     "projectGroups": [],
     "hasMap": false
   },
@@ -369,14 +369,14 @@
       "moradias/moradia-alcochete-sao-francisco-casa-de-banho.webp"
     ],
     "detailsDescription": [
-      "4 Suites",
-      "Piscina",
-      "Cozinha totalmente equipada com eletrodomésticos da Siemens em open space com 60 m²",
-      "Cave de Vinho da Liebherr",
-      "Lavandaria com máquina de lavar e máquina de secar",
-      "Espaço exterior com churrasqueira e piscina",
-      "Sala de cinema totalmente equipada",
-      "Garagem para 3 carros com 110m2"
+      "features.4_suites",
+      "common.pool",
+      "features.kitchen_siemens_60",
+      "features.wine_cellar",
+      "features.laundry_washing_drying",
+      "features.outdoor_space_bbq_pool",
+      "features.cinema_room_equipped",
+      "features.garage_3_cars_110"
     ],
     "detailsPlants": [
       {
@@ -400,25 +400,25 @@
       {
         "id": 1,
         "icon": "house",
-        "title": "Área Habitável (m²)",
+        "title": "common.area_habitable",
         "description": "300m²"
       },
       {
         "id": 2,
         "icon": "outside",
-        "title": "Área Exterior (m²)",
+        "title": "common.area_exterior",
         "description": "106m²"
       },
       {
         "id": 3,
         "icon": "parking",
-        "title": "Área de Garagem (m²)",
+        "title": "common.area_garage",
         "description": "110m²"
       },
       {
         "id": 4,
         "icon": "total-area",
-        "title": "Área Total (m²)",
+        "title": "common.area_total",
         "description": "516m²"
       }
     ],
@@ -426,34 +426,34 @@
       {
         "id": 1,
         "icon": "living-room",
-        "title": "Salas",
+        "title": "common.rooms",
         "description": "3"
       },
       {
         "id": 2,
         "icon": "rooms",
-        "title": "Suites",
+        "title": "common.suites",
         "description": "4"
       },
       {
         "id": 3,
         "icon": "pool",
-        "title": "Piscina",
+        "title": "common.pool",
         "description": "1"
       },
       {
         "id": 4,
         "icon": "office",
-        "title": "Sala de cinema",
+        "title": "common.cinema_room",
         "description": "1"
       }
     ],
-    "badge": "1 disponível",
+    "badge": "projects_list.moradias_sao_francisco.badge",
     "badgeClass": "badge-green",
     "price": "950.000,00",
     "location": "São Francisco",
     "typology": "Moradias",
-    "state": "Pronto para entrega: Março 2026",
+    "state": "common.ready_march",
     "projectGroups": [],
     "hasMap": false
   },
@@ -469,14 +469,14 @@
       "portas-do-tejo/t3/apartamento-T3-quarto.webp",
       "portas-do-tejo/t3/apartamento-T3-varanda.webp"
     ],
-    "badge": "10% vendido",
+    "badge": "projects_list.portas_do_tejo.badge",
     "badgeClass": "badge-green",
     "location": "Montijo",
     "typology": "T1 a T3 Duplex",
-    "state": "Primeira fase em construção",
+    "state": "common.first_phase_construction",
     "projectGroups": [
       {
-        "typology": "Apartamento T1",
+        "typology": "common.apartment_t1",
         "apartments": [
           {
             "name": "projects.portas_do_tejo.apartment_t1.name",
@@ -506,25 +506,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "52,98m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
-                "title": "Terraço (m²)",
+                "title": "common.area_terrace",
                 "description": "53,98m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "1"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "1"
               }
             ],
@@ -536,7 +536,7 @@
         ]
       },
       {
-        "typology": "Apartamento T2",
+        "typology": "common.apartment_t2",
         "apartments": [
           {
             "name": "projects.portas_do_tejo.apartment_t2.rc.name",
@@ -566,25 +566,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "86,60m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
-                "title": "Terraço (m²)",
+                "title": "common.area_terrace",
                 "description": "56,87m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "2"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "1"
               }
             ],
@@ -622,25 +622,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "91,30m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
-                "title": "Varandas (m²)",
+                "title": "common.balconies",
                 "description": "38,56m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "2"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "2"
               }
             ],
@@ -677,25 +677,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "90,51m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
-                "title": "Terraço (m²)",
+                "title": "common.area_terrace",
                 "description": "103,48m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "2"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "2"
               }
             ],
@@ -707,7 +707,7 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p2_sold.name",
             "link": "apartment-t2-p2-sold",
-            "badge": "Vendido",
+            "badge": "common.sold",
             "badgeClass": "badge-red",
             "price": "420.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p2_sold.description",
@@ -757,25 +757,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "90,51m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
-                "title": "Varandas (m²)",
+                "title": "common.balconies",
                 "description": "15,00m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "2"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "2"
               }
             ],
@@ -787,7 +787,7 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p3_sold.name",
             "link": "apartment-t2-p3-sold",
-            "badge": "Vendido",
+            "badge": "common.sold",
             "badgeClass": "badge-red",
             "price": "420.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p3_sold.description",
@@ -837,25 +837,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "90,51m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
-                "title": "Varandas (m²)",
+                "title": "common.balconies",
                 "description": "15,00m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "2"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "2"
               }
             ],
@@ -867,7 +867,7 @@
         ]
       },
       {
-        "typology": "Apartamento T3",
+        "typology": "common.apartment_t3",
         "apartments": [
           {
             "name": "projects.portas_do_tejo.apartment_t3.p1.name",
@@ -896,25 +896,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "135,56m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
-                "title": "Varandas (m²)",
+                "title": "common.balconies",
                 "description": "21,95m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "3"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "2"
               }
             ],
@@ -954,25 +954,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "135,56m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
-                "title": "Varandas (m²)",
+                "title": "common.balconies",
                 "description": "21,95m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "3"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "2"
               }
             ],
@@ -1010,25 +1010,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "135,56m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
-                "title": "Varandas (m²)",
+                "title": "common.balconies",
                 "description": "21,95m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "3"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "2"
               }
             ],
@@ -1076,25 +1076,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "201,36m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
-                "title": "Terraço (m²)",
+                "title": "common.area_terrace",
                 "description": "65,53m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "4"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "4"
               }
             ],
@@ -1141,25 +1141,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "109,40m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
-                "title": "Terraço (m²)",
+                "title": "common.area_terrace",
                 "description": "54,41m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "2"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "2"
               }
             ],
@@ -1205,25 +1205,25 @@
               {
                 "id": 1,
                 "icon": "house",
-                "title": "Área Habitável (m²)",
+                "title": "common.area_habitable",
                 "description": "127,44m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
-                "title": "Terraço (m²)",
+                "title": "common.area_terrace",
                 "description": "83,30m²"
               },
               {
                 "id": 3,
                 "icon": "rooms",
-                "title": "Quartos",
+                "title": "common.bedrooms",
                 "description": "2"
               },
               {
                 "id": 4,
                 "icon": "shower",
-                "title": "Casa de banho",
+                "title": "common.bathrooms",
                 "description": "3"
               }
             ],

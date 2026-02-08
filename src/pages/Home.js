@@ -74,24 +74,13 @@ const Home = () => {
           </Col>
           <Col lg={6} className="align-self-center">
             <div>
-              <label className="label mb-3">PORQUÊ A ADELGAM?</label>
-              <h2 className="heading mb-3">
-                Oferecemos o mais alto nível de especialização, serviço e
-                integridade
-              </h2>
-              <p>
-                Ao longo dos anos, a Adelgam acompanhou as técnicas de
-                construção e os estudos dos novos materiais a colocar, com o
-                intuito de efetuar sempre um trabalho de referência.
-              </p>
-              <p>
-                Procuramos sempre diferenciar-nos na qualidade e inovação
-                durante toda a construção assegurando acabamentos requintados e
-                diferenciadores.
-              </p>
+              <label className="label mb-3">{t("home.adelgam.why")}</label>
+              <h2 className="heading mb-3">{t("home.adelgam.subtitle")}</h2>
+              <p>{t("home.adelgam.paragraph_1")}</p>
+              <p>{t("home.adelgam.paragraph_2")}</p>
 
               <Link className="button button-primary margin-top-4" to="/sobre">
-                Conheça a Adelgam
+                {t("home.adelgam.know")}
               </Link>
             </div>
           </Col>
@@ -107,23 +96,18 @@ const Home = () => {
           >
             <div>
               <label className="label mb-3">PROJECTO EM DESTAQUE</label>
-              <h2 className="heading mb-3">Moradia</h2>
-              <p>
-                Inserida na tranquila zona de São Francisco, no Concelho de
-                Alcochete e a poucos minutos de Lisboa, esta moradia
-                distingue-se pelo seu caráter exclusivo e contemporâneo. Dispõe
-                de <strong>4 suites</strong>, <strong>piscina privativa</strong>
-                , <strong>sala de cinema</strong>,{" "}
-                <strong>vista sobre Lisboa</strong> e{" "}
-                <strong>garagem para 3 viaturas</strong>, oferecendo conforto,
-                privacidade e um estilo de vida premium.
-              </p>
+              <h2 className="heading mb-3">{t("common.moradia")}</h2>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: t("home.highlight.description"),
+                }}
+              />
 
               <Link
                 className="button button-primary margin-top-4"
                 to="/empreendimentos/moradias"
               >
-                Mais informações
+                {t("common.more_details")}
               </Link>
             </div>
           </Col>
@@ -142,14 +126,9 @@ const Home = () => {
         </Row>
         <hr />
         <div className="projects-heading">
-          <label className="label mb-3">Projectos</label>
-          <h2 className="heading mb-3">Espaços de conforto e harmonia</h2>
-          <p>
-            Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos
-            proprietários satisfeitos. Cada projecto que realizamos reflecte o
-            nosso compromisso com a qualidade, a inovação e o bem-estar das
-            famílias.
-          </p>
+          <label className="label mb-3">{t("common.projects")}</label>
+          <h2 className="heading mb-3">{t("home.projects.subtitle")}</h2>
+          <p>{t("home.projects.description")}</p>
         </div>
         <Projects />
       </Container>

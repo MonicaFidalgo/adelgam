@@ -21,12 +21,12 @@ const ProjectSimpleTable = ({ items, projectTitle, isPenthouse = false }) => {
         <Table>
           <thead>
             <tr>
-              <th>TIPOLOGIA</th>
-              <th>ÁREA</th>
-              <th>QUARTOS</th>
+              <th>{t("common.typology")}</th>
+              <th>{t("common.area")}</th>
+              <th>{t("common.bedrooms")}</th>
               <th>WC</th>
-              <th>{isPenthouse ? "BOXES" : "ESTACIONAMENTO"}</th>
-              <th>PREÇO</th>
+              <th>{isPenthouse ? "BOXES" : t("common.parking")}</th>
+              <th>{t("common.price")}</th>
               <th></th>
             </tr>
           </thead>
@@ -38,21 +38,21 @@ const ProjectSimpleTable = ({ items, projectTitle, isPenthouse = false }) => {
                     <strong>{t(item.name)}</strong>
                     <label className={`badge ${item.badgeClass} mt-1`}>
                       <span className="badge-circle"></span>
-                      {item.badge}
+                      {t(item.badge)}
                     </label>
                   </div>
                 </td>
                 <td>{item.details.area || "N/A"}m²</td>
-                <td>{item.details.bedrooms || "N/A"}</td>
+                <td>{t(item.details.bedrooms) || "N/A"}</td>
                 <td>{item.details.bathrooms || "N/A"}</td>
-                <td>{item.details.parking || "N/A"}</td>
+                <td>{t(item.details.parking) || "N/A"}</td>
                 <td>{item.price ? `${item.price}€` : "N/A"}</td>
                 <td>
                   <Link
                     to={`/empreendimentos/${projectTitle}/${item.link}`}
                     className="button button-primary"
                   >
-                    Detalhes
+                    {t("common.details")}
                   </Link>
                 </td>
               </tr>
@@ -78,7 +78,7 @@ const ProjectSimpleTable = ({ items, projectTitle, isPenthouse = false }) => {
                     style={{ marginBottom: 0 }}
                   >
                     <span className="badge-circle"></span>
-                    {item.badge}
+                    {t(item.badge)}
                   </label>
                 </div>
                 <span style={{ fontSize: "20px" }}>
@@ -101,15 +101,19 @@ const ProjectSimpleTable = ({ items, projectTitle, isPenthouse = false }) => {
 
                 <div className="row mb-3" style={{ fontSize: "14px" }}>
                   <div className="col-6 mb-2">
-                    <span style={{ color: "#797978" }}>Área:</span>
+                    <span style={{ color: "#797978" }}>
+                      {t("common.area")}:
+                    </span>
                     <strong className="ms-1">
                       {item.details.area || "N/A"}m²
                     </strong>
                   </div>
                   <div className="col-6 mb-2">
-                    <span style={{ color: "#797978" }}>Quartos:</span>
+                    <span style={{ color: "#797978" }}>
+                      {t("common.bedrooms")}:
+                    </span>
                     <strong className="ms-1">
-                      {item.details.bedrooms || "N/A"}
+                      {t(item.details.bedrooms) || "N/A"}
                     </strong>
                   </div>
                   <div className="col-6 mb-2">
@@ -120,10 +124,10 @@ const ProjectSimpleTable = ({ items, projectTitle, isPenthouse = false }) => {
                   </div>
                   <div className="col-6 mb-2">
                     <span style={{ color: "#797978" }}>
-                      {isPenthouse ? "Boxes" : "Estacion."}:
+                      {isPenthouse ? "Boxes" : t("common.parking_short")}:
                     </span>
                     <strong className="ms-1">
-                      {item.details.parking || "N/A"}
+                      {t(item.details.parking) || "N/A"}
                     </strong>
                   </div>
                 </div>
@@ -132,7 +136,7 @@ const ProjectSimpleTable = ({ items, projectTitle, isPenthouse = false }) => {
                   className="button button-primary w-100"
                   to={`/empreendimentos/${projectTitle}/${item.link}`}
                 >
-                  Ver Detalhes
+                  {t("common.details")}
                 </Link>
               </div>
             )}

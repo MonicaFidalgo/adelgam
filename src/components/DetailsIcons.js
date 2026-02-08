@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import { ReactComponent as House } from "../icons/house-icon.svg";
 import { ReactComponent as Outside } from "../icons/outside-icon.svg";
 import { ReactComponent as Parking } from "../icons/parking-icon.svg";
@@ -27,6 +28,7 @@ const iconMap = {
 };
 
 const DetailsIcons = ({ data }) => {
+  const { t } = useTranslation();
   return (
     <Row>
       {data &&
@@ -39,7 +41,7 @@ const DetailsIcons = ({ data }) => {
                 <div className="details-icons-icon">
                   {IconComponent && <IconComponent className="icon" />}
                 </div>
-                <p className="mb-1 mt-2">{item.title}</p>
+                <p className="mb-1 mt-2">{t(item.title)}</p>
                 <span>{item.description}</span>
               </div>
             </Col>

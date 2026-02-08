@@ -2,25 +2,25 @@
   {
     "id": 1,
     "icon": "living-room",
-    "title": "Salas",
+    "title": "common.rooms",
     "description": "2"
   },
   {
     "id": 2,
     "icon": "dinning-room",
-    "title": "Sala de Jantar",
+    "title": "features.dinning_room",
     "description": "1"
   },
   {
     "id": 3,
     "icon": "rooms",
-    "title": "Suites",
+    "title": "common.suites",
     "description": "4"
   },
   {
     "id": 4,
     "icon": "office",
-    "title": "Escritório",
+    "title": "features.office",
     "description": "1"
   }
 ]
