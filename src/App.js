@@ -15,34 +15,44 @@ import ProjectDetail from "./pages/ProjectDetail";
 import ProjectParent from "./pages/ProjectParent";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import usePageTracking from "./hooks/usePageTracking";
 
-function App() {
+// 🎯 NOVO: Componente que fica DENTRO do Router
+function AppContent() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  usePageTracking(); // ✅ Agora está dentro do Router!
+
+  return (
+    <>
+      <ScrollToTop />
+      <Header onMenuClick={() => setIsSidebarOpen(true)} />
+      <Sidebar isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} />
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/empreendimentos" exact element={<Projects />} />
+        <Route path="/contactos" exact element={<Contacts />} />
+        <Route path="/sobre" exact element={<About />} />
+        <Route
+          path="/empreendimentos/:projectTitle"
+          element={<ProjectParent />}
+        />
+        <Route
+          path="/empreendimentos/:projectTitle/:projectDetailName"
+          element={<ProjectDetail />}
+        />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+      <Footer />
+    </>
+  );
+}
+
+// 🎯 App principal só tem o Router
+function App() {
   return (
     <div>
       <Router>
-        <ScrollToTop />
-        <Header onMenuClick={() => setIsSidebarOpen(true)} />
-        <Sidebar
-          isOpen={isSidebarOpen}
-          onClose={() => setIsSidebarOpen(false)}
-        />
-        <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/empreendimentos" exact element={<Projects />} />
-          <Route path="/contactos" exact element={<Contacts />} />
-          <Route path="/sobre" exact element={<About />} />
-          <Route
-            path="/empreendimentos/:projectTitle"
-            element={<ProjectParent />}
-          />
-          <Route
-            path="/empreendimentos/:projectTitle/:projectDetailName"
-            element={<ProjectDetail />}
-          />
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
-        <Footer />
+        <AppContent /> {/* ← Tudo dentro deste componente */}
       </Router>
     </div>
   );
