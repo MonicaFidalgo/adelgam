@@ -8,7 +8,7 @@
   {
     "id": 2,
     "icon": "dinning-room",
-    "title": "common.dinning_room",
+    "title": "features.dinning_room",
     "description": "1"
   },
   {
@@ -20,7 +20,7 @@
   {
     "id": 4,
     "icon": "office",
-    "title": "common.office",
+    "title": "features.office",
     "description": "1"
   }
 ]

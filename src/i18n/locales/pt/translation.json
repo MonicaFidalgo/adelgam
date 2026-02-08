@@ -114,9 +114,7 @@
     "bedrooms_3": "3 quartos",
     "parking_1": "1 lugar",
     "parking_2": "2 lugares",
-    "all_sold": "100% vendido",
-    "office": "Escritório",
-    "dinning_room": "Sala de Jantar"
+    "all_sold": "100% vendido"
   },
   "form": {
     "first_name": "Primeiro Nome",
@@ -186,7 +184,9 @@
     "garage_3_cars_110": "Garagem para 3 carros com 110m2",
     "4_suites": "4 Suites",
     "virtual_tour.penthouse": "Tour Virtual: Explore a Elegância da Penthouse de Luxo",
-    "virtual_tour": "Virtual Tour"
+    "virtual_tour": "Virtual Tour",
+    "office": "Office",
+    "dinning_room": "Dinning Room"
   },
   "projects": {
     "lux_terrace": {
