@@ -50,7 +50,7 @@ const ProjectParent = () => {
   const calculateGroupBadge = (items) => {
     const total = items.length;
     const sold = items.filter(
-      (item) => item.badge && item.badge.toLowerCase().includes("vendido"),
+      (item) => item.badge && item.badge === "common.sold",
     ).length;
     const available = total - sold;
 

@@ -100,7 +100,7 @@ const ProjectGroupsTable = ({
                         </td>
                         <td>{item.price ? `${item.price}€` : "N/A"}</td>
                         <td>
-                          {item.badge === "Vendido" ? (
+                          {item.badge === "common.sold" ? (
                             <span
                               className="button"
                               style={{
@@ -226,7 +226,7 @@ const ProjectGroupsTable = ({
                         </div>
                       </div>
 
-                      {item.badge === "Vendido" ? (
+                      {item.badge === "common.sold" ? (
                         <button
                           disabled
                           className="button w-100"
