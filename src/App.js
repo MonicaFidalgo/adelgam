@@ -41,6 +41,26 @@ function AppContent() {
           element={<ProjectDetail />}
         />
         <Route path="*" element={<Navigate to="/" replace />} />
+        <Route
+          path="/luxterrace-alcochete"
+          element={<Navigate to="/empreendimentos/lux-terrace" replace />}
+        />
+        <Route
+          path="/varandas-montijo"
+          element={
+            <Navigate to="/empreendimentos/varandas-do-montijo" replace />
+          }
+        />
+        <Route
+          path="/lux-terrace-apartamento-t2"
+          element={
+            <Navigate to="/empreendimentos/lux-terrace/apartment-t2" replace />
+          }
+        />
+        <Route
+          path="/moradias-de-sao-francisco"
+          element={<Navigate to="/empreendimentos/moradias" replace />}
+        />
       </Routes>
       <Footer />
     </>
