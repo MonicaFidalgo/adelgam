@@ -597,8 +597,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p1.name",
             "link": "apartment-t2-p1",
-            "badge": "",
-            "badgeClass": "",
+            "badge": "common.sold",
+            "badgeClass": "badge-red",
             "price": "390.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p1.description",
             "details": {
