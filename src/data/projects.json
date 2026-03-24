@@ -481,8 +481,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t1.name",
             "link": "apartment-t1",
-            "badge": "",
-            "badgeClass": "",
+            "badge": "common.sold",
+            "badgeClass": "badge-red",
             "price": "310.000,00",
             "description": "projects.portas_do_tejo.apartment_t1.description",
             "details": {
@@ -872,8 +872,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t3.p1.name",
             "link": "apartment-t3-p1",
-            "badge": "",
-            "badgeClass": "",
+            "badge": "common.sold",
+            "badgeClass": "badge-red",
             "price": "490.000,00",
             "description": "projects.portas_do_tejo.apartment_t3.p1.description",
             "details": {
@@ -930,8 +930,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t3.p2.name",
             "link": "apartment-t3-p2",
-            "badge": "",
-            "badgeClass": "",
+            "badge": "common.sold",
+            "badgeClass": "badge-red",
             "price": "490.000,00",
             "description": "projects.portas_do_tejo.apartment_t3.p2.description",
             "details": {
