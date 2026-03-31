@@ -874,7 +874,7 @@
             "link": "apartment-t3-p1",
             "badge": "common.sold",
             "badgeClass": "badge-red",
-            "price": "490.000,00",
+            "price": "550.000,00",
             "description": "projects.portas_do_tejo.apartment_t3.p1.description",
             "details": {
               "area": "135,56",
@@ -932,7 +932,7 @@
             "link": "apartment-t3-p2",
             "badge": "common.sold",
             "badgeClass": "badge-red",
-            "price": "490.000,00",
+            "price": "550.000,00",
             "description": "projects.portas_do_tejo.apartment_t3.p2.description",
             "details": {
               "area": "135,56",
@@ -988,7 +988,7 @@
             "link": "apartment-t3-p3",
             "badge": "common.sold",
             "badgeClass": "badge-red",
-            "price": "490.000,00",
+            "price": "550.000,00",
             "description": "projects.portas_do_tejo.apartment_t3.p3.description",
             "details": {
               "area": "135,56",
@@ -1112,8 +1112,8 @@
           {
             "name": "projects.portas_do_tejo.duplex_t1_1.name",
             "link": "duplex-t1-1",
-            "badge": "",
-            "badgeClass": "",
+            "badge": "common.sold",
+            "badgeClass": "badge-red",
             "price": "470.000,00",
             "description": "projects.portas_do_tejo.duplex_t1_1.description",
             "details": {
