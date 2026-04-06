@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import projectsData from "../data/projects.json";
@@ -36,6 +36,22 @@ const ProjectParent = () => {
   const handleCloseModal = () => {
     setSelectedImageIndex(null);
   };
+
+  useEffect(() => {
+    const raw = sessionStorage.getItem('adelgam_scroll_restore');
+    if (!raw) return;
+    sessionStorage.removeItem('adelgam_scroll_restore');
+    const { scrollId, groupIndex, sectionName } = JSON.parse(raw);
+    setOpenDropdowns({
+      [sectionName]: { [groupIndex]: true },
+      [`${sectionName}-mobile`]: { [groupIndex]: true },
+    });
+    setTimeout(() => {
+      const elements = document.querySelectorAll(`[data-scroll-id="${scrollId}"]`);
+      const el = Array.from(elements).find(el => el.offsetParent !== null);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }, 150);
+  }, []);
 
   const toggleDropdown = (section, groupIndex) => {
     setOpenDropdowns((prev) => ({

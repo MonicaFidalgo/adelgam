@@ -83,7 +83,7 @@ const ProjectGroupsTable = ({
                   {/* Group Items */}
                   {openDropdowns[sectionName]?.[groupIndex] &&
                     items.map((item, itemIndex) => (
-                      <tr key={`item-${groupIndex}-${itemIndex}`}>
+                      <tr key={`item-${groupIndex}-${itemIndex}`} data-scroll-id={item.link}>
                         <td>
                           <div className="d-flex flex-column">
                             <strong>{t(item.name)}</strong>
@@ -116,6 +116,13 @@ const ProjectGroupsTable = ({
                             <Link
                               to={`/empreendimentos/${projectTitle}/${item.link}`}
                               className="button button-primary"
+                              onClick={() => {
+                                sessionStorage.setItem(
+                                  'adelgam_scroll_restore',
+                                  JSON.stringify({ scrollId: item.link, groupIndex, sectionName })
+                                );
+                                sessionStorage.setItem('adelgam_navigating_forward', '1');
+                              }}
                             >
                               {t("common.details")}
                             </Link>
@@ -174,6 +181,7 @@ const ProjectGroupsTable = ({
                   {items.map((item, itemIndex) => (
                     <div
                       key={itemIndex}
+                      data-scroll-id={item.link}
                       className="card-component-body"
                       style={{
                         borderTop:
@@ -243,6 +251,13 @@ const ProjectGroupsTable = ({
                         <Link
                           to={`/empreendimentos/${projectTitle}/${item.link}`}
                           className="button button-primary w-100"
+                          onClick={() => {
+                            sessionStorage.setItem(
+                              'adelgam_scroll_restore',
+                              JSON.stringify({ scrollId: item.link, groupIndex, sectionName })
+                            );
+                            sessionStorage.setItem('adelgam_navigating_forward', '1');
+                          }}
                         >
                           {t("common.details")}
                         </Link>
