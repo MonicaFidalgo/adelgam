@@ -1047,8 +1047,8 @@
           {
             "name": "projects.portas_do_tejo.duplex_t3_2.name",
             "link": "duplex-t3-2",
-            "badge": "",
-            "badgeClass": "",
+            "badge": "common.sold",
+            "badgeClass": "badge-red",
             "price": "650.000,00",
             "description": "projects.portas_do_tejo.duplex_t3_2.description",
             "details": {
