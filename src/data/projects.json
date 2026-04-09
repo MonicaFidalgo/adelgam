@@ -450,10 +450,10 @@
     ],
     "badge": "projects_list.moradias_sao_francisco.badge",
     "badgeClass": "badge-green",
-    "price": "950.000,00",
+    "price": "1.100.000,00",
     "location": "São Francisco",
     "typology": "Moradias",
-    "state": "common.ready_march",
+    "state": "common.ready",
     "projectGroups": [],
     "hasMap": false
   },
