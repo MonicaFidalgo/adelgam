@@ -448,12 +448,12 @@
         "description": "1"
       }
     ],
-    "badge": "projects_list.moradias_sao_francisco.badge",
-    "badgeClass": "badge-green",
+    "badge": "common.sold",
+    "badgeClass": "badge-red",
     "price": "1.100.000,00",
     "location": "São Francisco",
     "typology": "Moradias",
-    "state": "common.ready",
+    "state": "common.sold",
     "projectGroups": [],
     "hasMap": false
   },

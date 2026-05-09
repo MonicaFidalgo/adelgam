@@ -32,8 +32,8 @@ const Projects = () => {
       apartments: "projects_list.moradias_sao_francisco.apartments",
       typologies: "projects_list.moradias_sao_francisco.typologies",
       parking: "projects_list.moradias_sao_francisco.parking",
-      badge: "projects_list.moradias_sao_francisco.badge",
-      badgeClass: "badge-green",
+      badge: "common.sold",
+      badgeClass: "badge-red",
       isApartment: false,
     },
 
