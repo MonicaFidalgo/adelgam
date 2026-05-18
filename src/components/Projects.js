@@ -47,7 +47,7 @@ const Projects = () => {
       typologies: "projects_list.lux_terrace.typologies",
       parking: "projects_list.lux_terrace.parking",
       badge: "projects_list.lux_terrace.badge",
-      badgeClass: "badge-yellow",
+      badgeClass: "badge-green",
       isApartment: true,
     },
     {

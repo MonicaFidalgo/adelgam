@@ -12,7 +12,7 @@
       "lux-terrace-alcochete-T4-penthouse-2.webp"
     ],
     "badge": "projects_list.lux_terrace.badge",
-    "badgeClass": "badge-yellow",
+    "badgeClass": "badge-green",
     "location": "Alcochete",
     "typology": "T1 a T4 Penthouse",
     "state": "common.ready",
@@ -450,7 +450,7 @@
     ],
     "badge": "common.sold",
     "badgeClass": "badge-red",
-    "price": "1.100.000,00",
+    "price": "",
     "location": "São Francisco",
     "typology": "Moradias",
     "state": "common.sold",
@@ -812,8 +812,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p3.name",
             "link": "apartment-t2-p3",
-            "badge": "",
-            "badgeClass": "",
+            "badge": "common.sold",
+            "badgeClass": "badge-red",
             "price": "390.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p3.description",
             "details": {
