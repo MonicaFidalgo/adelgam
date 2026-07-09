@@ -1176,9 +1176,8 @@
           {
             "name": "projects.portas_do_tejo.duplex_t1_2.name",
             "link": "duplex-t1-2",
-            "badge": "",
-            "badgeClass": "",
-            "price": "520.000,00",
+            "badge": "common.sold",
+            "badgeClass": "badge-red",
             "description": "projects.portas_do_tejo.duplex_t1_2.description",
             "details": {
               "area": "127,44",
