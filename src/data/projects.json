@@ -599,7 +599,7 @@
             "link": "apartment-t2-p1",
             "badge": "common.sold",
             "badgeClass": "badge-red",
-            "price": "390.000,00",
+            "price": "410.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p1.description",
             "details": {
               "area": "91,30",
@@ -652,8 +652,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p1_terrace.name",
             "link": "apartment-t2-p1-terrace",
-            "badge": "",
-            "badgeClass": "",
+            "badge": "Reservado",
+            "badgeClass": "badge-yellow",
             "price": "420.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p1_terrace.description",
             "details": {
@@ -734,7 +734,7 @@
             "link": "apartment-t2-p2",
             "badge": "",
             "badgeClass": "",
-            "price": "390.000,00",
+            "price": "410.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p2.description",
             "details": {
               "area": "90,51",
@@ -814,7 +814,7 @@
             "link": "apartment-t2-p3",
             "badge": "common.sold",
             "badgeClass": "badge-red",
-            "price": "390.000,00",
+            "price": "410.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p3.description",
             "details": {
               "area": "90,51",
