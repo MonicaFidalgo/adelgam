@@ -652,8 +652,8 @@
           {
             "name": "projects.portas_do_tejo.apartment_t2.p1_terrace.name",
             "link": "apartment-t2-p1-terrace",
-            "badge": "Reservado",
-            "badgeClass": "badge-yellow",
+            "badge": "common.sold",
+            "badgeClass": "badge-red",
             "price": "420.000,00",
             "description": "projects.portas_do_tejo.apartment_t2.p1_terrace.description",
             "details": {

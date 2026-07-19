@@ -112,17 +112,6 @@ const ProjectGroupsTable = ({
                             >
                               {t("common.sold")}
                             </span>
-                          ) : item.badge === "Reservado" ? (
-                            <span
-                              className="button"
-                              style={{
-                                backgroundColor: "#c9a84c",
-                                color: "#fff",
-                                cursor: "not-allowed",
-                              }}
-                            >
-                              Reservado
-                            </span>
                           ) : (
                             <Link
                               to={`/empreendimentos/${projectTitle}/${item.link}`}
@@ -257,18 +246,6 @@ const ProjectGroupsTable = ({
                           }}
                         >
                           {t("common.sold")}
-                        </button>
-                      ) : item.badge === "Reservado" ? (
-                        <button
-                          disabled
-                          className="button w-100"
-                          style={{
-                            backgroundColor: "#c9a84c",
-                            color: "#fff",
-                            cursor: "not-allowed",
-                          }}
-                        >
-                          Reservado
                         </button>
                       ) : (
                         <Link
