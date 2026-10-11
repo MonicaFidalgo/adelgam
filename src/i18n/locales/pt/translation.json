@@ -244,7 +244,7 @@
     "lux_terrace": {
       "label": "Elegância e Luxo",
       "title": "Lux Terrace - Alcochete",
-      "description": "Situado na zona nova de Alcochete, este empreendimento composto por cinco prédios, oferece requintados apartamentos com tipologias de T1 a T4 Penthouse. Numa arquitetura de linhas contemporâneas, pensada para as famílias modernas, as suas áreas generosas proporcionam o máximo conforto e são adequadas a qualquer estilo de vida.",
+      "description": "O Lux Terrace fica na zona nova de Alcochete. São cinco prédios com 37 apartamentos e 5 penthouses, de T1 a T4. A obra está entregue e resta uma penthouse à venda.",
       "apartment_t1": {
         "name": "Apartamento T1",
         "description": "Situado no rés do chão, sendo um primeiro piso no lado da sala e cozinha, este apartamento é composto por uma cozinha open space, Suite com 18 m² e uma casa de banho social."
@@ -281,7 +281,7 @@
       "last_penthouse": {
         "title": "A última penthouse",
         "description": "Penthouse T4 duplex com elevador privativo e terraço com piscina e jacuzzi.",
-        "button": "Penthouse disponível"
+        "button": "Ver a Penthouse"
       }
     },
     "varandas_do_montijo": {
