@@ -141,10 +141,10 @@ const MosaicTile = ({ project, index }) => {
         style={{ objectPosition: project.position }}
       />
       <div className="mosaic-caption">
-        <label className="badge badge-neutral">
+        <span className="badge badge-neutral">
           <span className="badge-circle"></span>
           {t("common.delivered")}
-        </label>
+        </span>
         <h3>{project.name}</h3>
         <p>
           {project.location} · {t(project.summary)}

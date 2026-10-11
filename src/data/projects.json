@@ -352,7 +352,7 @@
     "badgeClass": "badge-neutral",
     "location": "Montijo",
     "typology": "T2 a T4",
-    "state": "common.sold",
+    "state": "projects.lux_terrace.state",
     "projectGroups": [],
     "hasMap": false
   },
@@ -455,7 +455,7 @@
     "price": "",
     "location": "São Francisco",
     "typology": "Moradias",
-    "state": "common.sold",
+    "state": "projects.lux_terrace.state",
     "projectGroups": [],
     "hasMap": false
   },
