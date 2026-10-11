@@ -74,7 +74,7 @@ const deliveredProjects = [
   },
   {
     id: 2,
-    name: "Moradias São Francisco",
+    name: "projects.moradias_sao_francisco.title",
     location: "São Francisco, Alcochete",
     image: imageMoradias,
     position: "50% 55%",
@@ -100,7 +100,7 @@ const ShowcaseCard = ({ project, reverse }) => {
               {t("common.for_sale")}
             </label>
             <p className="showcase-location">{project.location}</p>
-            <h3>{project.name}</h3>
+            <h3>{t(project.name)}</h3>
             <ul>
               {project.facts.map((fact) => (
                 <li
@@ -131,7 +131,7 @@ const MosaicTile = ({ project, index }) => {
     >
       <img
         src={project.image}
-        alt={project.name}
+        alt={t(project.name)}
         loading="lazy"
         style={{ objectPosition: project.position }}
       />
@@ -140,7 +140,7 @@ const MosaicTile = ({ project, index }) => {
           <span className="badge-circle"></span>
           {t("common.delivered")}
         </span>
-        <h3>{project.name}</h3>
+        <h3>{t(project.name)}</h3>
         <p>
           {project.location} · {t(project.summary)}
         </p>

@@ -16,7 +16,7 @@ const Footer = () => {
       <Container>
         <Row className="px-120">
           <Col lg={6}>
-            <h6>Adelgam - Promoção Imobiliária</h6>
+            <h6>{t("footer.title")}</h6>
             <p>{t("contacts.adelgam.description")}</p>
             <div className="d-flex gap-2 mt-3">
               <a
