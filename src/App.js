@@ -1,4 +1,4 @@
-import { useState, useLayoutEffect } from "react";
+import { useState, useLayoutEffect, useCallback } from "react";
 import { useTranslation } from "react-i18next";
 import {
   BrowserRouter as Router,
@@ -34,13 +34,16 @@ function useDocumentLanguage() {
 // 🎯 NOVO: Componente que fica DENTRO do Router
 function AppContent() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  // Funcoes estaveis: o menu usa-as em efeitos (foco, scroll, Esc).
+  const openSidebar = useCallback(() => setIsSidebarOpen(true), []);
+  const closeSidebar = useCallback(() => setIsSidebarOpen(false), []);
   useDocumentLanguage();
 
   return (
     <>
       <ScrollToTop />
-      <Header onMenuClick={() => setIsSidebarOpen(true)} />
-      <Sidebar isOpen={isSidebarOpen} onClose={() => setIsSidebarOpen(false)} />
+      <Header onMenuClick={openSidebar} isMenuOpen={isSidebarOpen} />
+      <Sidebar isOpen={isSidebarOpen} onClose={closeSidebar} />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/empreendimentos" exact element={<Projects />} />

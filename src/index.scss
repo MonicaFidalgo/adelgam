@@ -507,21 +507,234 @@ textarea {
   }
 }
 
-.sidebar-open {
-  padding-top: 40px;
-}
+/* MENU (painel lateral, todos os tamanhos) */
 
-.sidebar-close {
-  background-color: transparent;
-  border: 2px solid $color-primary;
-}
+.site-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  visibility: hidden;
+  // ao fechar, so esconde depois de a animacao acabar
+  transition: visibility 0s linear 0.35s;
 
-.sidebar-menu-link {
-  text-decoration: none;
-  color: $color-primary;
-  &:hover {
-    color: $color-secondary;
+  &.is-open {
+    pointer-events: auto;
+    visibility: visible;
+    transition: visibility 0s linear 0s;
   }
+}
+
+.site-menu-backdrop {
+  position: absolute;
+  inset: 0;
+  background-color: rgba($black, 0.45);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+
+  .is-open & {
+    opacity: 1;
+  }
+}
+
+.site-menu-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  // no telemovel fica uma faixa da pagina a vista, para tocar fora e fechar
+  width: min(440px, calc(100% - 48px));
+  display: flex;
+  flex-direction: column;
+  padding: 20px 28px calc(24px + env(safe-area-inset-bottom));
+  background-color: $color-primary;
+  color: $black;
+  box-shadow: -12px 0 40px rgba(0, 0, 0, 0.18);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  .is-open & {
+    transform: translateX(0);
+  }
+
+  a,
+  button {
+    &:focus-visible {
+      outline: 2px solid $gold-button;
+      outline-offset: 3px;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-menu,
+  .site-menu.is-open,
+  .site-menu-backdrop,
+  .site-menu-panel {
+    transition: none;
+  }
+}
+
+.site-menu-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 56px;
+}
+
+.site-menu-logo img {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+
+.site-menu-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-right: -12px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: $black;
+  transition: color 0.2s;
+
+  svg {
+    width: 26px;
+    height: 26px;
+    stroke-width: 1.5;
+  }
+
+  &:hover {
+    color: $gold-dark;
+  }
+}
+
+.site-menu-nav {
+  margin-top: 36px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  > ul > li + li {
+    margin-top: 6px;
+  }
+}
+
+.site-menu-link {
+  display: block;
+  padding: 8px 0 8px 16px;
+  margin-left: -16px;
+  border-left: 3px solid transparent;
+  font-family: "Roboto Serif", serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.25;
+  color: $black;
+  text-decoration: none;
+  transition: color 0.2s, border-color 0.2s;
+
+  &:hover {
+    color: $gold-dark;
+  }
+
+  &.is-active {
+    border-left-color: $gold-button;
+    color: $gold-on-tint;
+    font-weight: 500;
+  }
+}
+
+.site-menu-sub {
+  margin: 2px 0 6px !important;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 40px;
+    font-size: 16px;
+    color: #5c5c5a; // mais escuro que o cinzento do texto: contraste 4.5:1 no creme
+    text-decoration: none;
+    transition: color 0.2s;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    &:hover {
+      color: $gold-dark;
+    }
+  }
+}
+
+.site-menu-lang {
+  display: flex;
+  gap: 8px;
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid rgba($black, 0.12);
+
+  button {
+    min-width: 48px;
+    min-height: 40px;
+    padding: 0 12px;
+    border: 1px solid rgba($black, 0.25);
+    border-radius: 4px;
+    background: transparent;
+    color: $black;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+
+    &.is-active {
+      border-color: $black;
+      background-color: $black;
+      color: $color-primary;
+    }
+  }
+}
+
+.site-menu-contacts {
+  margin-top: auto;
+  padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  > a:not(.button) {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 44px;
+    color: $black;
+    font-size: 16px;
+    text-decoration: none;
+
+    svg {
+      width: 18px;
+      height: 18px;
+      color: $gold-button;
+    }
+
+    &:hover {
+      color: $gold-dark;
+    }
+  }
+}
+
+.site-menu-cta {
+  margin-top: 12px;
+  width: 100%;
 }
 
 .form-wrapper {

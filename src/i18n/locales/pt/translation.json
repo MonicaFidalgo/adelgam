@@ -7,7 +7,11 @@
     "home": "Home",
     "projects": "Empreendimentos",
     "about": "A Adelgam",
-    "contact": "Contacte-nos"
+    "contact": "Contacte-nos",
+    "label": "Menu",
+    "open": "Abrir menu",
+    "close": "Fechar menu",
+    "language": "Língua"
   },
   "plans": {
     "ground_floor": "Planta R/C",

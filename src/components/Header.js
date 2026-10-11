@@ -2,9 +2,11 @@ import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 import logo from "../adelgam-logo.svg";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import LanguageDropdown from "./LanguageDropdown";
 
-const Header = ({ onMenuClick }) => {
+const Header = ({ onMenuClick, isMenuOpen }) => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -37,9 +39,13 @@ const Header = ({ onMenuClick }) => {
             </div>
 
             <button
+              type="button"
               onClick={onMenuClick}
               className="header-menu p-2 rounded-lg"
-              aria-label="Menu"
+              aria-label={t("menu.open")}
+              aria-expanded={isMenuOpen}
+              aria-controls="site-menu"
+              aria-haspopup="dialog"
             >
               <Menu className="w-8 h-8" />
             </button>

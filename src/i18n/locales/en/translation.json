@@ -7,7 +7,11 @@
     "home": "Home",
     "projects": "Developments",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "label": "Menu",
+    "open": "Open menu",
+    "close": "Close menu",
+    "language": "Language"
   },
   "plans": {
     "ground_floor": "Ground floor plan",
