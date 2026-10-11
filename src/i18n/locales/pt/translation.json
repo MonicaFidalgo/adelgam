@@ -27,16 +27,16 @@
     "banner.button": "Ver disponibilidade e preços",
     "adelgam.why": "PORQUÊ A ADELGAM",
     "adelgam.subtitle": "Construímos com rigor, do projeto à entrega das chaves",
-    "adelgam.paragraph_1": "Ao longo dos anos, a Adelgam acompanhou as técnicas de construção e os estudos dos novos materiais a colocar, com o intuito de efetuar sempre um trabalho de referência.",
-    "adelgam.paragraph_2": "Procuramos sempre diferenciar-nos na qualidade e inovação durante toda a construção assegurando acabamentos requintados e diferenciadores.",
+    "adelgam.paragraph_1": "Ao longo dos anos, a Adelgam acompanhou a evolução das técnicas e dos materiais de construção. O objetivo mantém-se: construir bem e para durar.",
+    "adelgam.paragraph_2": "Acompanhamos cada obra do início ao fim, com atenção à qualidade da construção e dos acabamentos.",
     "adelgam.know": "Conheça a Adelgam",
-    "projects.subtitle": "Espaços de conforto e harmonia",
+    "projects.subtitle": "O que está à venda e o que já entregámos",
     "projects.description": "Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos proprietários satisfeitos. Cada projeto que realizamos reflete o nosso compromisso com a qualidade, a inovação e o bem-estar das famílias.",
-    "highlight.description": "No Lux Terrace, em Alcochete, a poucos minutos de Lisboa. Uma penthouse <strong>T4 duplex</strong> com <strong>4 master suites</strong>, <strong>elevador privativo</strong>, <strong>terraço com piscina e jacuzzi</strong> e <strong>2 boxes para 4 carros</strong>.",
+    "highlight.description": "Penthouse <strong>T4 duplex</strong> no Lux Terrace, em Alcochete. Tem <strong>4 master suites</strong>, <strong>elevador privativo</strong>, <strong>terraço com piscina e jacuzzi</strong> e <strong>2 boxes para 4 carros</strong>.",
     "highlight.title": "Penthouse Lux Terrace",
     "highlight.button": "Ver a Penthouse",
     "highlight.alt": "Penthouse Lux Terrace, Alcochete",
-    "highlight.label": "PROJETO EM DESTAQUE"
+    "highlight.label": "EM DESTAQUE"
   },
   "details": {
     "title_1": "Mais de 25 anos de experiência",
@@ -44,7 +44,7 @@
     "title_2": "Acabamentos requintados",
     "description_2": "Damos atenção aos pormenores e escolhemos acabamentos que duram.",
     "title_3": "Compromisso contínuo",
-    "description_3": "Acreditamos que estar atentos ao feedback dos nossos clientes ao longo do tempo é fundamental para o nosso sucesso.",
+    "description_3": "Ouvimos os nossos clientes antes e depois da entrega das chaves.",
     "title_4": "Localização única",
     "description_4": "Escolhemos a localização dos nossos empreendimentos com o máximo cuidado de forma a proporcionar uma melhor qualidade de vida."
   },
@@ -105,7 +105,7 @@
     "localization_project": "Conheça onde fica o projeto",
     "moradia": "Moradia",
     "more_details": "Mais informações",
-    "projects": "Projetos",
+    "projects": "Empreendimentos",
     "tipologias": "Tipologias",
     "apartments": "Apartamentos",
     "moradias": "Moradias",
@@ -194,7 +194,7 @@
       "typology": "T4 Duplex, 4 master suites",
       "highlights": "Terraço com piscina e jacuzzi, elevador privativo",
       "parking": "2 boxes para 4 carros",
-      "button": "Ver disponibilidade e preços"
+      "button": "Ver a Penthouse"
     },
     "editorial": {
       "for_sale_intro": "Apartamentos disponíveis no Montijo e em Alcochete. Os preços e a disponibilidade estão na página de cada empreendimento.",
