@@ -10,6 +10,7 @@ import ProjectSimpleTable from "../components/ProjectSimpleTable";
 import DetailsIcons from "../components/DetailsIcons";
 import ImageGallery from "../components/ImageZoom";
 import GoogleMap from "../components/Map";
+import { PENTHOUSE_URL } from "../data/externalLinks";
 
 const ProjectParent = () => {
   const { t } = useTranslation();
@@ -109,11 +110,16 @@ const ProjectParent = () => {
     state,
     typology,
     hasMap,
+    hideUnitTables,
+    lastPenthouse,
   } = projectData;
 
-  const hasNewStructure = projectGroups && projectGroups.length > 0;
-  const hasOldStructure = projects && projects.length > 0;
-  const hasPenthousesOld = penthouses && penthouses.length > 0;
+  // hideUnitTables: obra entregue, sem tabelas de fracoes nem precos.
+  const hasNewStructure =
+    !hideUnitTables && projectGroups && projectGroups.length > 0;
+  const hasOldStructure = !hideUnitTables && projects && projects.length > 0;
+  const hasPenthousesOld =
+    !hideUnitTables && penthouses && penthouses.length > 0;
 
   return (
     <div className="container pt-200">
@@ -170,6 +176,21 @@ const ProjectParent = () => {
         </>
       ) : (
         <h4 className="text-center">🚧 Página em construção 🚧</h4>
+      )}
+
+      {/* Lux Terrace: a ultima penthouse tem pagina propria (link externo) */}
+      {lastPenthouse && (
+        <div className="banner-heading my-60">
+          <h3 className="heading-secondary mb-3">
+            {t("projects.lux_terrace.last_penthouse.title")}
+          </h3>
+          <p className="mb-4">
+            {t("projects.lux_terrace.last_penthouse.description")}
+          </p>
+          <a href={PENTHOUSE_URL} className="button button-primary">
+            {t("projects.lux_terrace.last_penthouse.button")}
+          </a>
+        </div>
       )}
 
       {/* ONLY FOR MORADIAS*/}

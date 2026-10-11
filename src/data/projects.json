@@ -11,11 +11,13 @@
       "lux-terrace-alcochete-T4-penthouse.webp",
       "lux-terrace-alcochete-T4-penthouse-2.webp"
     ],
-    "badge": "projects_list.lux_terrace.badge",
-    "badgeClass": "badge-green",
+    "badge": "common.sold",
+    "badgeClass": "badge-red",
     "location": "Alcochete",
     "typology": "T1 a T4 Penthouse",
-    "state": "common.ready",
+    "state": "projects.lux_terrace.state",
+    "hideUnitTables": true,
+    "lastPenthouse": true,
     "projects": [
       {
         "label": "Lux Terrace Alcochete",

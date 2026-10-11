@@ -246,6 +246,12 @@
         "paragraph_1": "On the <strong>third floor</strong>, you will be welcomed by four majestic suites, each designed to offer maximum comfort and privacy. The spacious walk-in closets allow for impeccable organization, while the ceramic-lined bathrooms invite moments of relaxation and rejuvenation. In addition, on this floor, you will also find an office and a laundry room, providing practicality and functionality for your daily life.",
         "paragraph_2": "The master suite stands out, where a hotel-style shower, enclosed in glass, provides a unique sensory experience, overlooking the bedroom and a luxurious bathtub. Furthermore, three suites enjoy private balconies, connecting you to the stunning landscape around.",
         "paragraph_3": "On the <strong>fourth floor</strong>, luxury continues with a refined dining room, perfect for memorable meals, and two living rooms, one of which is open space with the kitchen, creating a cozy and contemporary environment. In addition, enjoy a stunning terrace with a jacuzzi and outdoor kitchen for leisure and entertainment outdoors. Accompanying the luxury, a spacious garage for four cars provides convenience and security."
+      },
+      "state": "Completed",
+      "last_penthouse": {
+        "title": "The last penthouse",
+        "description": "T4 duplex penthouse with private lift and terrace with pool and jacuzzi. It has its own page, with photos, floor plans and price.",
+        "button": "Penthouse available"
       }
     },
     "varandas_do_montijo": {
