@@ -16,12 +16,10 @@ import ProjectParent from "./pages/ProjectParent";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import usePageTracking from "./hooks/usePageTracking";
 
 // 🎯 NOVO: Componente que fica DENTRO do Router
 function AppContent() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  usePageTracking(); // ✅ Agora está dentro do Router!
 
   return (
     <>
