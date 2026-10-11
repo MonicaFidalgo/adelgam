@@ -17,6 +17,8 @@ $gold-dark: #8a6a3c;
 $gold-dark-hover: #745830;
 // texto dourado sobre os fundos com tinta dourada (cabecalhos de tabela/cartao)
 $gold-on-tint: #7d5f35;
+// fundo dos botoes: meio-termo pedido pelo dono (o #8a6a3c ficava escuro demais); branco 3,6:1
+$gold-button: #a3814c;
 
 // secondary colors
 $green: #00db23;
@@ -181,11 +183,11 @@ textarea {
 }
 
 .button-primary {
-  background-color: $gold-dark;
+  background-color: $gold-button;
   color: $white;
 
   &:hover {
-    background-color: $gold-dark-hover;
+    background-color: $gold-dark;
   }
 }
 
