@@ -27,18 +27,18 @@
     "adelgam.paragraph_2": "Procuramos sempre diferenciar-nos na qualidade e inovação durante toda a construção assegurando acabamentos requintados e diferenciadores.",
     "adelgam.know": "Conheça a Adelgam",
     "projects.subtitle": "Espaços de conforto e harmonia",
-    "projects.description": "Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos proprietários satisfeitos. Cada projecto que realizamos reflecte o nosso compromisso com a qualidade, a inovação e o bem-estar das famílias.",
+    "projects.description": "Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos proprietários satisfeitos. Cada projeto que realizamos reflete o nosso compromisso com a qualidade, a inovação e o bem-estar das famílias.",
     "highlight.description": "No Lux Terrace, em Alcochete, a poucos minutos de Lisboa. Uma penthouse <strong>T4 duplex</strong> com <strong>4 master suites</strong>, <strong>elevador privativo</strong>, <strong>terraço com piscina e jacuzzi</strong> e <strong>2 boxes para 4 carros</strong>.",
     "highlight.title": "Penthouse Lux Terrace",
     "highlight.button": "Ver a Penthouse",
     "highlight.alt": "Penthouse Lux Terrace, Alcochete",
-    "highlight.label": "PROJECTO EM DESTAQUE"
+    "highlight.label": "PROJETO EM DESTAQUE"
   },
   "details": {
     "title_1": "Mais de 25 anos de experiência",
-    "description_1": "Com uma larga experiência no sector Imobiliário, continuamos a focar os nossos recursos na melhoria contínua dos nossos projetos.",
+    "description_1": "Com uma larga experiência no setor Imobiliário, continuamos a focar os nossos recursos na melhoria contínua dos nossos projetos.",
     "title_2": "Acabamentos requintados",
-    "description_2": "Conhecidos pelos detalhes excepcionais, é essa a nossa missão, continuar a garantir acabamentos de topo e intemporais.",
+    "description_2": "Conhecidos pelos detalhes excecionais, é essa a nossa missão, continuar a garantir acabamentos de topo e intemporais.",
     "title_3": "Compromisso contínuo",
     "description_3": "Acreditamos que estar atentos ao feedback dos nossos clientes ao longo do tempo é fundamental para o nosso sucesso.",
     "title_4": "Localização única",
@@ -102,10 +102,10 @@
     "building": "Empreendimento",
     "buildings": "Empreendimentos",
     "localization_portas": "Localização do Portas do Tejo",
-    "localization_project": "Conheça onde fica o projecto",
+    "localization_project": "Conheça onde fica o projeto",
     "moradia": "Moradia",
     "more_details": "Mais informações",
-    "projects": "Projectos",
+    "projects": "Projetos",
     "tipologias": "Tipologias",
     "apartments": "Apartamentos",
     "moradias": "Moradias",
@@ -142,7 +142,7 @@
     "phase_for_sale": "Fase à venda",
     "expected_delivery": "Entrega prevista",
     "highlights": "Destaques",
-    "view_project": "Ver o projecto",
+    "view_project": "Ver o projeto",
     "image_unavailable": "Imagem não disponível"
   },
   "form": {
@@ -244,7 +244,7 @@
     "lux_terrace": {
       "label": "Elegância e Luxo",
       "title": "Lux Terrace - Alcochete",
-      "description": "Situado na zona nova de Alcochete, este empreendimento composto por cinco prédios, oferece requintados apartamentos com tipologias de T1 a T4 Penthouse. Numa arquitectura de linhas contemporâneas, pensada para as famílias modernas, as suas áreas generosas proporcionam o máximo conforto e são adequadas a qualquer estilo de vida.",
+      "description": "Situado na zona nova de Alcochete, este empreendimento composto por cinco prédios, oferece requintados apartamentos com tipologias de T1 a T4 Penthouse. Numa arquitetura de linhas contemporâneas, pensada para as famílias modernas, as suas áreas generosas proporcionam o máximo conforto e são adequadas a qualquer estilo de vida.",
       "apartment_t1": {
         "name": "Apartamento T1",
         "description": "Situado no rés do chão, sendo um primeiro piso no lado da sala e cozinha, este apartamento é composto por uma cozinha open space, Suite com 18 m² e uma casa de banho social."
