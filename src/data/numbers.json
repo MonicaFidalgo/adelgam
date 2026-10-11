@@ -5,18 +5,8 @@
     "description": "numbers.description_1"
   },
   {
-    "id": 2,
-    "label": "numbers.label_2",
-    "description": "numbers.description_2"
-  },
-  {
     "id": 3,
     "label": "numbers.label_3",
     "description": "numbers.description_3"
-  },
-  {
-    "id": 4,
-    "label": "numbers.label_4",
-    "description": "numbers.description_4"
   }
 ]
