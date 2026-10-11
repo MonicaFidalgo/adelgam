@@ -4,32 +4,81 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="theme-color" content="#202020" />
 
-    <title>
-      Adelgam - Construção Civil e Imobiliário em Montijo e Alcochete | 25 Anos
-      de Experiência
-    </title>
+    <title>Adelgam · Promoção imobiliária no Montijo e em Alcochete</title>
 
     <!-- Meta Description -->
     <meta
       name="description"
-      content="Adelgam Promoção Imobiliária: 25 anos a construir apartamentos T1, T2, T3, T4 e moradias em Montijo e Alcochete. Qualidade, inovação e acabamentos requintados. Descubra os nossos empreendimentos."
+      content="Promotora imobiliária com mais de 25 anos no Montijo e em Alcochete. À venda: Portas do Tejo, T3 e T3 Duplex no Montijo, e a Penthouse do Lux Terrace. Veja as obras entregues."
     />
 
     <!-- Keywords -->
     <meta
       name="keywords"
-      content="construção civil Montijo, imobiliário Alcochete, apartamentos Alcochete, apartamentos Montijo, moradias Alcochete, T1 T2 T3 T4 Montijo, construção Portugal, Adelgam, Lux Terrace Alcochete, Varandas do Montijo, São Francisco, promotor imobiliário"
+      content="Adelgam, promotora imobiliária Montijo, promotora imobiliária Alcochete, Portas do Tejo Montijo, apartamentos T3 Montijo, penthouse Alcochete, Lux Terrace Alcochete, Varandas do Montijo, Moradias São Francisco"
     />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_PT" />
     <meta property="og:site_name" content="Adelgam Promoção Imobiliária" />
+    <meta property="og:title" content="Adelgam · Promoção imobiliária no Montijo e em Alcochete" />
+    <meta property="og:description" content="Mais de 25 anos a construir no Montijo e em Alcochete. À venda: Portas do Tejo e a Penthouse do Lux Terrace." />
+    <meta property="og:image" content="https://www.adelgam.pt/og-adelgam.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://www.adelgam.pt/og-adelgam.jpg" />
+
+    <!-- Dados estruturados (11/10/2026): a empresa, o site e os empreendimentos a venda -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.adelgam.pt/#adelgam",
+            "name": "Adelgam - Promoção Imobiliária, Lda.",
+            "alternateName": "Adelgam",
+            "url": "https://www.adelgam.pt/",
+            "logo": "https://www.adelgam.pt/logo512.png",
+            "image": "https://www.adelgam.pt/og-adelgam.jpg",
+            "description": "Promotora imobiliária com mais de 25 anos no Montijo e em Alcochete.",
+            "telephone": "+351913815379",
+            "email": "adelgam@adelgam.pt",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Rua de Maputo",
+              "postalCode": "2870-437",
+              "addressLocality": "Montijo",
+              "addressCountry": "PT"
+            },
+            "areaServed": ["Montijo", "Alcochete"],
+            "sameAs": ["https://www.instagram.com/adelgamlda/"]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.adelgam.pt/#site",
+            "url": "https://www.adelgam.pt/",
+            "name": "Adelgam",
+            "inLanguage": "pt-PT",
+            "publisher": { "@id": "https://www.adelgam.pt/#adelgam" }
+          },
+          {
+            "@type": "ItemList",
+            "name": "Empreendimentos à venda",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Portas do Tejo, Montijo", "url": "https://portasdotejo.adelgam.pt/" },
+              { "@type": "ListItem", "position": 2, "name": "Penthouse Lux Terrace, Alcochete", "url": "https://penthouse.adelgam.pt/" }
+            ]
+          }
+        ]
+      }
+    </script>
 
     <!-- Geo tags for localization -->
     <meta name="geo.region" content="PT-15" />
