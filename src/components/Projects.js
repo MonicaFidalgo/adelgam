@@ -64,7 +64,7 @@ const deliveredProjects = [
     link: "varandas-do-montijo",
     badge: "common.sold",
     badgeClass: "badge-red",
-    button: "common.more_details",
+    button: "common.view_project",
     facts: [
       { label: "common.location", value: "Montijo", raw: true },
       {
@@ -88,7 +88,7 @@ const deliveredProjects = [
     link: "moradias",
     badge: "common.sold",
     badgeClass: "badge-red",
-    button: "common.more_details",
+    button: "common.view_project",
     facts: [
       { label: "common.location", value: "São Francisco", raw: true },
       {
@@ -112,7 +112,7 @@ const deliveredProjects = [
     link: "lux-terrace",
     badge: "common.sold",
     badgeClass: "badge-red",
-    button: "common.more_details",
+    button: "common.view_project",
     facts: [
       { label: "common.location", value: "Alcochete", raw: true },
       {

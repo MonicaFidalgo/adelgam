@@ -121,7 +121,8 @@
     "see_availability": "See availability and prices",
     "phase_for_sale": "Phase for sale",
     "expected_delivery": "Expected delivery",
-    "highlights": "Highlights"
+    "highlights": "Highlights",
+    "view_project": "View project"
   },
   "form": {
     "first_name": "First Name",
