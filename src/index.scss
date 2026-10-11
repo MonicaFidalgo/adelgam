@@ -411,6 +411,70 @@ textarea {
   .copyright p {
     color: $gray;
   }
+
+  // Linha legal: politica de privacidade, Livro de Reclamacoes e frase RAL
+  .footer-legal-link {
+    text-decoration: underline;
+  }
+
+  .livro-reclamacoes {
+    display: inline-flex;
+    align-items: center;
+    height: 46px;
+    padding: 8px 14px;
+    border-radius: 4px;
+    background-color: #a30000;
+
+    img {
+      height: 30px;
+      width: auto;
+    }
+  }
+
+  .footer-ral,
+  .footer-ral a {
+    font-size: 12px;
+    line-height: 20px;
+    color: $gray;
+  }
+
+  .footer-ral {
+    margin: 24px 0 0;
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Pagina da politica de privacidade
+.privacy-policy a {
+  color: $text-color;
+  text-decoration: underline;
+}
+
+// Caixa de consentimento do formulario de contacto
+.consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: $text-color;
+  line-height: 24px;
+  cursor: pointer;
+
+  input[type="checkbox"] {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    margin-top: 3px;
+    padding: 0;
+    accent-color: $color-secondary;
+  }
+
+  a {
+    color: $text-color;
+    text-decoration: underline;
+  }
 }
 
 /* HEADER*/

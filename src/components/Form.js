@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
 import { Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Form = () => {
   const { t } = useTranslation();
@@ -19,6 +20,9 @@ const Form = () => {
   const [formState, setFormState] = useState(initialFormState);
   const [submitting, setSubmitting] = useState(false);
   const [formStatus, setFormStatus] = useState("");
+  // Consentimento RGPD: comeca sempre desmarcado
+  const [consent, setConsent] = useState(false);
+  const [consentError, setConsentError] = useState(false);
 
   const handleChange = (event) => {
     const { name, value } = event.target;
@@ -30,6 +34,10 @@ const Form = () => {
 
   const submitForm = async (event) => {
     event.preventDefault();
+    if (!consent) {
+      setConsentError(true);
+      return;
+    }
     setSubmitting(true);
     setFormStatus("");
     await postSubmission();
@@ -39,12 +47,17 @@ const Form = () => {
   const postSubmission = async () => {
     const payload = {
       ...formState,
+      consentimento: "sim",
+      consentimento_data: new Date().toLocaleString("pt-PT", {
+        timeZone: "Europe/Lisbon",
+      }),
     };
 
     try {
       await axios.post(formSparkUrl, payload);
       setFormStatus("success");
       setFormState(initialFormState);
+      setConsent(false);
     } catch (error) {
       console.log(error);
       setFormStatus("error");
@@ -137,7 +150,32 @@ const Form = () => {
             </Col>
           </Row>
           <Row>
-            <Col lg={6}></Col>
+            <Col lg={6} className="mb-4 mb-lg-0">
+              <label className="consent" htmlFor="consent">
+                <input
+                  type="checkbox"
+                  id="consent"
+                  name="consent"
+                  required
+                  checked={consent}
+                  onChange={(e) => {
+                    setConsent(e.target.checked);
+                    if (e.target.checked) setConsentError(false);
+                  }}
+                  onInvalid={() => setConsentError(true)}
+                />
+                <span>
+                  {t("form.consent_before")}
+                  <Link to="/politica-de-privacidade">
+                    {t("form.consent_link")}
+                  </Link>
+                  {t("form.consent_after")}
+                </span>
+              </label>
+              {consentError && (
+                <p className="error mt-2 mb-0">{t("form.consent_error")}</p>
+              )}
+            </Col>
 
             <Col lg={6} className="text-end">
               <button

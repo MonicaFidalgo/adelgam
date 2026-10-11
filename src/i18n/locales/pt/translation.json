@@ -130,7 +130,11 @@
     "phone": "Telefone (opcional)",
     "message": "Escreva a sua mensagem",
     "sent.success": "Obrigado pelo seu contacto. Iremos responder assim que possível.",
-    "sent.failed": "Não foi possivel submeter a sua questão. Por favor tente de novo ou envie-nos um email. Obrigado"
+    "sent.failed": "Não foi possivel submeter a sua questão. Por favor tente de novo ou envie-nos um email. Obrigado",
+    "consent_before": "Li a ",
+    "consent_link": "Política de privacidade",
+    "consent_after": " e autorizo o uso destes dados para responder ao meu pedido. *",
+    "consent_error": "Para enviar, marque a caixa de consentimento."
   },
   "projects_list": {
     "portas_do_tejo": {
@@ -330,5 +334,31 @@
         "description": "Duplex com <b>terraços de grandes dimensões</b>, pensados para uma vivência exterior de excelência. Combina exclusividade, conforto e um layout flexível."
       }
     }
+  },
+  "privacy": {
+    "label": "Informação legal",
+    "title": "Política de privacidade",
+    "page_title": "Política de privacidade | Adelgam",
+    "updated": "Última atualização: outubro de 2026",
+    "s1_title": "1. Quem é o responsável",
+    "s1_text": "A Adelgam - Promoção Imobiliária, Lda. (NIPC 504658069), com escritório na Rua de Maputo, 2870-437 Montijo, é a responsável pelos dados pessoais recolhidos neste site. Para qualquer questão sobre os seus dados, escreva para <a href=\"mailto:adelgam@adelgam.pt\">adelgam@adelgam.pt</a>.",
+    "s2_title": "2. Que dados recolhemos",
+    "s2_text": "Os dados que nos dá no formulário de contacto: nome, apelido, email, telefone (opcional) e a mensagem. E os dados que nos envia por email, telefone ou WhatsApp.",
+    "s3_title": "3. Para que servem",
+    "s3_text": "Usamos estes dados só para responder ao seu pedido e acompanhar o contacto que iniciou, por exemplo para marcar uma visita. Não os usamos para enviar publicidade e não os vendemos nem cedemos a terceiros. Fundamento: o seu consentimento e as diligências pré-contratuais feitas a seu pedido (artigo 6.º, n.º 1, alíneas a) e b), do RGPD).",
+    "s4_title": "4. Quem tem acesso",
+    "s4_text": "A equipa da Adelgam e os prestadores que fazem funcionar o site, o envio do formulário e o email. Estes prestadores só usam os dados para esse fim.",
+    "s5_title": "5. Durante quanto tempo os guardamos",
+    "s5_text": "Até 2 anos após o último contacto. Se o contacto der origem a um contrato, guardamos os dados durante o prazo que a lei obriga, por exemplo 10 anos para documentos fiscais e contabilísticos.",
+    "s6_title": "6. Os seus direitos",
+    "s6_text": "Pode pedir a qualquer momento o acesso aos seus dados, a retificação, o apagamento, a limitação do tratamento e a portabilidade. Pode também opor-se ao tratamento e retirar o consentimento, sem afetar o que foi feito antes. Basta escrever para <a href=\"mailto:adelgam@adelgam.pt\">adelgam@adelgam.pt</a>. Respondemos no prazo máximo de um mês.",
+    "s7_title": "7. Reclamações",
+    "s7_text": "Se achar que os seus dados não foram bem tratados, pode apresentar reclamação à Comissão Nacional de Proteção de Dados (CNPD), em <a href=\"https://www.cnpd.pt\" target=\"_blank\" rel=\"noopener noreferrer\">www.cnpd.pt</a>.",
+    "s8_title": "8. Cookies e serviços de terceiros",
+    "s8_text": "Este site usa ferramentas da Google (Google Tag Manager e Google Ads) para medir as visitas e a eficácia dos anúncios, um mapa do Google Maps na página de contactos e visitas virtuais (youriguide.com) nas páginas de alguns apartamentos. Estas ferramentas podem guardar cookies no seu dispositivo. Pode apagá-los ou bloqueá-los nas definições do navegador."
+  },
+  "footer": {
+    "privacy_policy": "Política de privacidade",
+    "ral": "Em caso de litígio, o consumidor pode recorrer a uma Entidade de Resolução Alternativa de Litígios de Consumo. Mais informações em"
   }
 }

@@ -130,7 +130,11 @@
     "phone": "Telephone (optional)",
     "message": "Leave your message",
     "sent.success": "Thank you for your contact. We will reply as soon as possible.",
-    "sent.failed": "It was not possible to submit your question. Please try again or send us an email. Thank you."
+    "sent.failed": "It was not possible to submit your question. Please try again or send us an email. Thank you.",
+    "consent_before": "I have read the ",
+    "consent_link": "Privacy policy",
+    "consent_after": " and agree to the use of this data to answer my request. *",
+    "consent_error": "To send, please tick the consent box."
   },
   "projects_list": {
     "portas_do_tejo": {
@@ -330,5 +334,31 @@
         "description": "Duplex with large terraces, designed for excellent outdoor living. Combines exclusivity, comfort and a flexible layout."
       }
     }
+  },
+  "privacy": {
+    "label": "Legal information",
+    "title": "Privacy policy",
+    "page_title": "Privacy policy | Adelgam",
+    "updated": "Last updated: October 2026",
+    "s1_title": "1. Who is responsible",
+    "s1_text": "Adelgam - Promoção Imobiliária, Lda. (company no. 504658069), with offices at Rua de Maputo, 2870-437 Montijo, Portugal, is responsible for the personal data collected on this website. For any question about your data, write to <a href=\"mailto:adelgam@adelgam.pt\">adelgam@adelgam.pt</a>.",
+    "s2_title": "2. What data we collect",
+    "s2_text": "The data you give us in the contact form: first name, last name, email, phone (optional) and your message. And the data you send us by email, phone or WhatsApp.",
+    "s3_title": "3. What we use it for",
+    "s3_text": "We use this data only to answer your request and follow up the contact you started, for example to book a visit. We do not use it to send advertising and we do not sell or share it with third parties. Legal basis: your consent and pre-contractual steps taken at your request (Article 6(1)(a) and (b) GDPR).",
+    "s4_title": "4. Who has access",
+    "s4_text": "The Adelgam team and the providers that run the website, the contact form and email. These providers use the data only for that purpose.",
+    "s5_title": "5. How long we keep it",
+    "s5_text": "Up to 2 years after the last contact. If the contact leads to a contract, we keep the data for the period required by law, for example 10 years for tax and accounting records.",
+    "s6_title": "6. Your rights",
+    "s6_text": "You may at any time ask for access to your data, rectification, erasure, restriction of processing and portability. You may also object to processing and withdraw your consent, without affecting what was done before. Just write to <a href=\"mailto:adelgam@adelgam.pt\">adelgam@adelgam.pt</a>. We reply within one month at most.",
+    "s7_title": "7. Complaints",
+    "s7_text": "If you think your data was not handled properly, you can lodge a complaint with the Portuguese Data Protection Authority (CNPD), at <a href=\"https://www.cnpd.pt\" target=\"_blank\" rel=\"noopener noreferrer\">www.cnpd.pt</a>.",
+    "s8_title": "8. Cookies and third-party services",
+    "s8_text": "This website uses Google tools (Google Tag Manager and Google Ads) to measure visits and ad performance, a Google Maps map on the contact page and virtual tours (youriguide.com) on some apartment pages. These tools may store cookies on your device. You can delete or block them in your browser settings."
+  },
+  "footer": {
+    "privacy_policy": "Privacy policy",
+    "ral": "In case of dispute, consumers may use an Alternative Consumer Dispute Resolution Entity. More information at"
   }
 }

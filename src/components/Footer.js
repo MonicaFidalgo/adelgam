@@ -1,6 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Row, Col, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import livroReclamacoes from "../assets/livro-reclamacoes.png";
 import { ReactComponent as Instagram } from "../icons/instagram-icon.svg";
 import { ReactComponent as Whatsapp } from "../icons/whatsapp-icon.svg";
 import { ReactComponent as Phone } from "../icons/phone-icon.svg";
@@ -67,9 +69,35 @@ const Footer = () => {
         </Row>
         <hr />
         <Row className="py-60">
-          <div className="copyright">
-            <p>© Copyright 2026 - Adelgam Promoção Imobiliária</p>
+          <div className="copyright d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center gap-3">
+            <p className="mb-0">
+              © Copyright 2026 - Adelgam Promoção Imobiliária
+            </p>
+            <div className="d-flex align-items-center gap-4">
+              <Link to="/politica-de-privacidade" className="footer-legal-link">
+                {t("footer.privacy_policy")}
+              </Link>
+              <a
+                href="https://www.livroreclamacoes.pt/Inicio/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="livro-reclamacoes"
+              >
+                <img src={livroReclamacoes} alt="Livro de Reclamações" />
+              </a>
+            </div>
           </div>
+          <p className="footer-ral">
+            {t("footer.ral")}{" "}
+            <a
+              href="https://www.consumidor.gov.pt"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              www.consumidor.gov.pt
+            </a>
+            .
+          </p>
         </Row>
       </Container>
     </div>

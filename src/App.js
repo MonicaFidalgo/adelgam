@@ -13,6 +13,7 @@ import Contacts from "./pages/Contacts";
 import About from "./pages/About";
 import ProjectDetail from "./pages/ProjectDetail";
 import ProjectParent from "./pages/ProjectParent";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import usePageTracking from "./hooks/usePageTracking";
@@ -32,6 +33,7 @@ function AppContent() {
         <Route path="/empreendimentos" exact element={<Projects />} />
         <Route path="/contactos" exact element={<Contacts />} />
         <Route path="/sobre" exact element={<About />} />
+        <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
         <Route
           path="/empreendimentos/:projectTitle"
           element={<ProjectParent />}
