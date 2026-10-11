@@ -25,6 +25,24 @@ const savePosition = (key, y) => {
   }
 };
 
+// Flags de uma so leitura deixadas por outras paginas. Sem sessionStorage
+// (modo privado bloqueado, etc.) le-se como ausente e nada rebenta.
+const readFlag = (key) => {
+  try {
+    return sessionStorage.getItem(key);
+  } catch (e) {
+    return null;
+  }
+};
+
+const clearFlag = (key) => {
+  try {
+    sessionStorage.removeItem(key);
+  } catch (e) {
+    // sem sessionStorage: nada a limpar
+  }
+};
+
 // Sem animacao: o Bootstrap liga scroll-behavior: smooth no :root.
 const scrollInstant = (y) => {
   window.scrollTo({ top: y, left: 0, behavior: "instant" });
@@ -47,13 +65,14 @@ const restorePosition = (y) => {
   const stop = () => {
     cancelled = true;
   };
-  window.addEventListener("wheel", stop, { once: true, passive: true });
-  window.addEventListener("touchstart", stop, { once: true, passive: true });
+  const stopEvents = ["wheel", "touchstart", "keydown", "pointerdown"];
+  stopEvents.forEach((name) =>
+    window.addEventListener(name, stop, { once: true, passive: true }),
+  );
   return () => {
     cancelled = true;
     timers.forEach(clearTimeout);
-    window.removeEventListener("wheel", stop);
-    window.removeEventListener("touchstart", stop);
+    stopEvents.forEach((name) => window.removeEventListener(name, stop));
   };
 };
 
@@ -85,13 +104,13 @@ const ScrollToTop = () => {
     currentKey.current = entryKey;
     const isFirstRender = firstRender.current;
     firstRender.current = false;
-    if (sessionStorage.getItem("adelgam_navigating_forward")) {
-      sessionStorage.removeItem("adelgam_navigating_forward");
+    if (readFlag("adelgam_navigating_forward")) {
+      clearFlag("adelgam_navigating_forward");
       scrollInstant(0);
       return undefined;
     }
     // A pagina do empreendimento repoe ela propria a fracao aberta.
-    if (sessionStorage.getItem("adelgam_scroll_restore")) return undefined;
+    if (readFlag("adelgam_scroll_restore")) return undefined;
 
     if (isFirstRender) {
       scrollInstant(0);
