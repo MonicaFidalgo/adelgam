@@ -4,7 +4,7 @@
     "description": "Promotora imobiliária com mais de 25 anos no Montijo e em Alcochete. À venda: Portas do Tejo, T2, T3 e T3 Duplex no Montijo, e a Penthouse do Lux Terrace."
   },
   "menu": {
-    "home": "Home",
+    "home": "Início",
     "projects": "Empreendimentos",
     "about": "A Adelgam",
     "contact": "Contacte-nos",
@@ -142,7 +142,7 @@
     "available_now": "Disponível",
     "expected_delivery": "Entrega prevista",
     "highlights": "Destaques",
-    "view_project": "Ver o projeto",
+    "view_project": "Ver o empreendimento",
     "image_unavailable": "Imagem não disponível"
   },
   "form": {

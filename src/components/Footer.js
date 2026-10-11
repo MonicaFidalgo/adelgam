@@ -75,7 +75,7 @@ const Footer = () => {
         <Row className="py-60">
           <div className="copyright d-flex flex-column flex-lg-row justify-content-lg-between align-items-lg-center gap-3">
             <p className="mb-0">
-              © Copyright 2026 - Adelgam Promoção Imobiliária
+              © 2026 Adelgam - Promoção Imobiliária, Lda.
             </p>
             <div className="d-flex align-items-center gap-4">
               <Link to="/politica-de-privacidade" className="footer-legal-link">
