@@ -23,6 +23,7 @@ const forSaleProjects = [
     location: "Montijo",
     image: imagePortasDoTejo,
     url: PORTAS_DO_TEJO_URL,
+    button: "common.see_availability",
     facts: [
       {
         label: "common.available_now",
@@ -40,6 +41,7 @@ const forSaleProjects = [
     location: "Alcochete",
     image: imagePenthouse,
     url: PENTHOUSE_URL,
+    button: "projects_list.penthouse.button",
     facts: [
       { label: "common.typology", value: "projects_list.penthouse.typology" },
       {
@@ -113,7 +115,7 @@ const ShowcaseCard = ({ project, reverse }) => {
               ))}
             </ul>
             <a href={project.url} className="button button-primary">
-              {t("common.see_availability")}
+              {t(project.button)}
             </a>
           </div>
         </Col>

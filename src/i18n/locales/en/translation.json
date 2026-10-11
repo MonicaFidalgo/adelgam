@@ -23,16 +23,16 @@
   },
   "home": {
     "banner.label": "Block B for sale — delivery expected in February 2028",
-    "banner.description": "Just minutes from Lisbon, Portas do Tejo combines comfort, modernity, and a prime location.",
+    "banner.description": "3-bedroom apartments and duplexes with garage box, in Montijo. 10 minutes from the Vasco da Gama Bridge.",
     "banner.button": "See availability and prices",
     "adelgam.why": "WHY ADELGAM",
     "adelgam.subtitle": "We build with rigour, from design to handover",
-    "adelgam.paragraph_1": "Over the years, Adelgam has followed construction techniques and studies of new materials to be placed, with the aim of always carrying out reference work.",
-    "adelgam.paragraph_2": "We always seek to differentiate ourselves in quality and innovation throughout the construction, ensuring refined and distinctive finishes.",
+    "adelgam.paragraph_1": "Over the years, Adelgam has kept up with new construction techniques and materials. The aim is the same: to build well and to last.",
+    "adelgam.paragraph_2": "We follow every project from start to finish, with close attention to build quality and finishes.",
     "adelgam.know": "Meet Adelgam",
-    "projects.subtitle": "Spaces of comfort and harmony",
-    "projects.description": "At Adelgam, we are proud to have delivered countless keys to satisfied new owners. Each project we undertake reflects our commitment to quality, innovation and family well-being.",
-    "highlight.description": "At Lux Terrace, in Alcochete, just minutes from Lisbon. A <strong>4-bedroom duplex</strong> penthouse with <strong>4 master suites</strong>, a <strong>private lift</strong>, a <strong>terrace with pool and jacuzzi</strong> and <strong>2 garage boxes for 4 cars</strong>.",
+    "projects.subtitle": "What is for sale and what we have delivered",
+    "projects.description": "We have been building homes in Montijo and Alcochete for over 25 years. Below are the developments for sale and the ones already completed.",
+    "highlight.description": "<strong>4-bedroom duplex</strong> penthouse at Lux Terrace, Alcochete, with <strong>4 master suites</strong>, a <strong>private lift</strong>, a <strong>terrace with pool and jacuzzi</strong>, and <strong>2 garage boxes for 4 cars</strong>.",
     "highlight.title": "Penthouse Lux Terrace",
     "highlight.button": "See the Penthouse",
     "highlight.alt": "Penthouse Lux Terrace, Alcochete",
@@ -40,13 +40,13 @@
   },
   "details": {
     "title_1": "Over 25 years of experience",
-    "description_1": "With extensive experience in the real estate sector, we continue to focus our resources on continuously improving our projects.",
+    "description_1": "We have been building and selling homes in Montijo and Alcochete for over 25 years.",
     "title_2": "Refined finishes",
     "description_2": "We pay attention to detail and choose finishes that last.",
     "title_3": "Continuous commitment",
-    "description_3": "We believe that listening to customer feedback over time is key to our success.",
-    "title_4": "Unique location",
-    "description_4": "We carefully select the location of our developments to provide a better quality of life."
+    "description_3": "We listen to our clients before and after handover.",
+    "title_4": "Carefully chosen locations",
+    "description_4": "We choose carefully where to build: close to Lisbon, with services, schools and shops nearby."
   },
   "numbers": {
     "label_1": "25+",
@@ -72,8 +72,8 @@
     "section_label": "About Us",
     "section_heading": "Our history and commitment",
     "paragraph_1": "<strong>Adelgam Real Estate Development</strong> is a company that focuses its activity in the area of Civil Construction and Real Estate Development, operating in the market for over 25 years.",
-    "paragraph_2": "We always seek to differentiate ourselves in quality and innovation throughout the construction, ensuring refined and distinctive finishes.",
-    "paragraph_3": "Over the years, Adelgam has followed construction techniques and studies of new materials to be placed, with the aim of always carrying out reference work.",
+    "paragraph_2": "We follow every project from start to finish, with close attention to build quality and finishes.",
+    "paragraph_3": "Over the years, Adelgam has kept up with new construction techniques and materials. The aim is the same: to build well and to last.",
     "paragraph_4": "We always count on the help of good professionals, making Adelgam a credible and recognized company in the market."
   },
   "common": {
@@ -105,8 +105,8 @@
     "localization_project": "Discover where the project is located",
     "moradia": "Villa",
     "more_details": "More details",
-    "projects": "Projects",
-    "tipologias": "Typologies",
+    "projects": "Developments",
+    "tipologias": "Unit types",
     "apartments": "Apartments",
     "moradias": "Houses",
     "location": "Location",
@@ -119,7 +119,7 @@
     "first_phase_construction": "First phase under construction",
     "yes": "Yes",
     "area": "Area",
-    "typology": "Typology",
+    "typology": "Unit type",
     "price": "Price",
     "details": "Details",
     "floor": "Floor",
@@ -142,7 +142,7 @@
     "available_now": "Available",
     "expected_delivery": "Expected delivery",
     "highlights": "Highlights",
-    "view_project": "View project",
+    "view_project": "View development",
     "image_unavailable": "Image not available"
   },
   "form": {
@@ -163,7 +163,7 @@
       "typologies": "T1 to T3 Duplex",
       "parking": "Box",
       "badge": "2 available",
-      "available": "T2 in Block A, T3 and T3 Duplex in Block B, with garage box",
+      "available": "2-bedroom in Block A, 3-bedroom apartments and duplexes in Block B, with garage box",
       "delivery": "Block A in September 2027 and Block B in February 2028"
     },
     "moradias_sao_francisco": {
@@ -193,7 +193,8 @@
     "penthouse": {
       "typology": "4-bedroom duplex, 4 master suites",
       "highlights": "Terrace with pool and jacuzzi, private lift",
-      "parking": "2 garage boxes for 4 cars"
+      "parking": "2 garage boxes for 4 cars",
+      "button": "See the Penthouse"
     },
     "editorial": {
       "for_sale_intro": "Apartments available in Montijo and Alcochete. See each development's page for prices and availability.",

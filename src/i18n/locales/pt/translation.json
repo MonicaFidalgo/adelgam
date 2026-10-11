@@ -23,7 +23,7 @@
   },
   "home": {
     "banner.label": "Bloco B à venda — entrega prevista em fevereiro de 2028",
-    "banner.description": "A poucos minutos de Lisboa, o Portas do Tejo combina conforto, modernidade e uma localização privilegiada.",
+    "banner.description": "Apartamentos T3 e T3 duplex com box, no Montijo. A 10 minutos da Ponte Vasco da Gama.",
     "banner.button": "Ver disponibilidade e preços",
     "adelgam.why": "PORQUÊ A ADELGAM",
     "adelgam.subtitle": "Construímos com rigor, do projeto à entrega das chaves",
@@ -193,7 +193,8 @@
     "penthouse": {
       "typology": "T4 Duplex, 4 master suites",
       "highlights": "Terraço com piscina e jacuzzi, elevador privativo",
-      "parking": "2 boxes para 4 carros"
+      "parking": "2 boxes para 4 carros",
+      "button": "Ver disponibilidade e preços"
     },
     "editorial": {
       "for_sale_intro": "Apartamentos disponíveis no Montijo e em Alcochete. Os preços e a disponibilidade estão na página de cada empreendimento.",
