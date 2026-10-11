@@ -6,6 +6,7 @@ import image2 from "../assets/project2.png";
 import image3 from "../assets/project3.png";
 import image4 from "../assets/project4.png";
 import imagePenthouse from "../assets/penthouse-lux-terrace-exterior.webp";
+import imageLuxTerraceWide from "../assets/apartment-t1/Lux-Terrace-Alcochete-Exterior-Frente-1920w.webp";
 import { Link } from "react-router-dom";
 import { PORTAS_DO_TEJO_URL, PENTHOUSE_URL } from "../data/externalLinks";
 
@@ -109,6 +110,9 @@ const deliveredProjects = [
     id: 3,
     name: "Lux Terrace Alcochete",
     image: image1,
+    // cartao largo no computador (ocupa as duas colunas), com fotografia exterior
+    wide: true,
+    wideImage: imageLuxTerraceWide,
     link: "lux-terrace",
     badge: "common.sold",
     badgeClass: "badge-red",
@@ -143,50 +147,95 @@ const ProjectLink = ({ project, className, children }) =>
     </Link>
   );
 
-const ProjectCard = ({ project }) => {
+const ProjectInfo = ({ project }) => {
   const { t } = useTranslation();
   return (
-    <Col lg={6}>
-      <div className="project">
-        <ProjectLink project={project}>
-          <img src={project.image} alt={project.name} />
-        </ProjectLink>
-
-        <div>
-          {" "}
-          <h5>{project.name}</h5>
-          <label className={`badge ${project.badgeClass}`}>
-            <span className="badge-circle"></span>
-            {t(project.badge)}
-          </label>
-          <ul>
-            {project.facts.map((fact) => (
-              <li key={fact.label}>
-                <span>{t(fact.label)}:</span>
-                <strong>{fact.raw ? fact.value : t(fact.value)}</strong>
-              </li>
-            ))}
-          </ul>
-          <ProjectLink project={project} className="button button-primary">
-            {t(project.button)}
-          </ProjectLink>
-        </div>
-      </div>
-    </Col>
+    <>
+      <h5>{project.name}</h5>
+      <label className={`badge ${project.badgeClass}`}>
+        <span className="badge-circle"></span>
+        {t(project.badge)}
+      </label>
+      <ul>
+        {project.facts.map((fact) => (
+          <li key={fact.label}>
+            <span>{t(fact.label)}:</span>
+            <strong>{fact.raw ? fact.value : t(fact.value)}</strong>
+          </li>
+        ))}
+      </ul>
+      <ProjectLink project={project} className="button button-primary">
+        {t(project.button)}
+      </ProjectLink>
+    </>
   );
 };
 
-// Cartoes em linhas de dois, como antes.
+// Cartao largo: fotografia a esquerda (7/12) e texto a direita no computador,
+// empilhado no telemovel como os outros.
+const WideProjectCard = ({ project }) => (
+  <Col lg={12}>
+    <div className="project project-wide">
+      <Row>
+        <Col lg={7}>
+          <ProjectLink project={project}>
+            <img
+              src={project.wideImage}
+              alt={project.name}
+              className="project-wide-image"
+            />
+          </ProjectLink>
+        </Col>
+        <Col lg={5} className="align-self-center ps-lg-5">
+          <ProjectInfo project={project} />
+        </Col>
+      </Row>
+    </div>
+  </Col>
+);
+
+const ProjectCard = ({ project }) => (
+  <Col lg={6}>
+    <div className="project">
+      <ProjectLink project={project}>
+        <img src={project.image} alt={project.name} />
+      </ProjectLink>
+
+      <div>
+        <ProjectInfo project={project} />
+      </div>
+    </div>
+  </Col>
+);
+
+// Cartoes em linhas de dois, como antes; um cartao largo ocupa a linha toda.
+// A primeira linha fica mais perto do subtitulo do grupo.
 const ProjectRows = ({ projects }) => {
   const rows = [];
-  for (let i = 0; i < projects.length; i += 2) {
-    rows.push(projects.slice(i, i + 2));
-  }
-  return rows.map((row) => (
-    <Row className="my-60" key={row[0].id}>
-      {row.map((project) => (
-        <ProjectCard project={project} key={project.id} />
-      ))}
+  let pair = [];
+  projects.forEach((project) => {
+    if (project.wide) {
+      if (pair.length) rows.push(pair);
+      rows.push([project]);
+      pair = [];
+    } else {
+      pair.push(project);
+      if (pair.length === 2) {
+        rows.push(pair);
+        pair = [];
+      }
+    }
+  });
+  if (pair.length) rows.push(pair);
+  return rows.map((row, index) => (
+    <Row className={index === 0 ? "mt-4 mb-60" : "my-60"} key={row[0].id}>
+      {row.map((project) =>
+        project.wide ? (
+          <WideProjectCard project={project} key={project.id} />
+        ) : (
+          <ProjectCard project={project} key={project.id} />
+        ),
+      )}
     </Row>
   ));
 };
@@ -195,24 +244,14 @@ const Projects = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="projects-heading">
-        <label className="label mb-3">
-          {t("projects_list.groups.for_sale_label")}
-        </label>
-        <h2 className="heading mb-3">
-          {t("projects_list.groups.for_sale_title")}
-        </h2>
-      </div>
+      <h3 className="projects-group-heading">
+        {t("projects_list.groups.for_sale_title")}
+      </h3>
       <ProjectRows projects={forSaleProjects} />
 
-      <div className="projects-heading">
-        <label className="label mb-3">
-          {t("projects_list.groups.delivered_label")}
-        </label>
-        <h2 className="heading mb-3">
-          {t("projects_list.groups.delivered_title")}
-        </h2>
-      </div>
+      <h3 className="projects-group-heading">
+        {t("projects_list.groups.delivered_title")}
+      </h3>
       <ProjectRows projects={deliveredProjects} />
     </>
   );

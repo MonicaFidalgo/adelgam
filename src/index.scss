@@ -447,6 +447,36 @@ textarea {
   }
 }
 
+// Subtitulos dos grupos de empreendimentos (A venda / Entregues):
+// secundarios ao titulo da pagina, sem etiqueta
+.projects-group-heading {
+  font-family: "Roboto Serif", serif;
+  font-weight: 500;
+  font-size: 22px;
+  color: $black;
+  text-align: center;
+  margin: 24px 0 0;
+
+  @media screen and (min-width: 900px) {
+    font-size: 28px;
+  }
+}
+
+// Cartao largo (Lux Terrace nas obras entregues)
+.project.project-wide {
+  .project-wide-image {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  @media screen and (min-width: 992px) {
+    h5 {
+      padding-top: 0;
+    }
+  }
+}
+
 // Pagina da politica de privacidade
 .privacy-policy a {
   color: $text-color;
