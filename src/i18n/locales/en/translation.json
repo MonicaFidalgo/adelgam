@@ -139,7 +139,7 @@
     "all_sold": "100% sold",
     "for_sale": "For sale",
     "see_availability": "See availability and prices",
-    "phase_for_sale": "Phase for sale",
+    "available_now": "Available",
     "expected_delivery": "Expected delivery",
     "highlights": "Highlights",
     "view_project": "View project",
@@ -163,9 +163,8 @@
       "typologies": "T1 to T3 Duplex",
       "parking": "Box",
       "badge": "2 available",
-      "phase": "Block B",
-      "typologies_for_sale": "T3 and T3 Duplex, with garage box",
-      "delivery": "February 2028"
+      "available": "T2 in Block A, T3 and T3 Duplex in Block B, with garage box",
+      "delivery": "Block A in September 2027 and Block B in February 2028"
     },
     "moradias_sao_francisco": {
       "apartments": "Semi-detached Villas",

@@ -139,7 +139,7 @@
     "all_sold": "100% vendido",
     "for_sale": "À venda",
     "see_availability": "Ver disponibilidade e preços",
-    "phase_for_sale": "Fase à venda",
+    "available_now": "Disponível",
     "expected_delivery": "Entrega prevista",
     "highlights": "Destaques",
     "view_project": "Ver o projeto",
@@ -163,9 +163,8 @@
       "typologies": "T1 a T3 Duplex",
       "parking": "Box",
       "badge": "1 disponível",
-      "phase": "Bloco B",
-      "typologies_for_sale": "T3 e T3 Duplex, com box",
-      "delivery": "Fevereiro de 2028"
+      "available": "T2 no Bloco A, T3 e T3 Duplex no Bloco B, com box",
+      "delivery": "Bloco A em setembro de 2027 e Bloco B em fevereiro de 2028"
     },
     "moradias_sao_francisco": {
       "apartments": "Moradias Geminadas",

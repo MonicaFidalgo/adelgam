@@ -25,13 +25,8 @@ const forSaleProjects = [
     url: PORTAS_DO_TEJO_URL,
     facts: [
       {
-        label: "common.phase_for_sale",
-        value: "projects_list.portas_do_tejo.phase",
-        hideOnMobile: true,
-      },
-      {
-        label: "common.tipologias",
-        value: "projects_list.portas_do_tejo.typologies_for_sale",
+        label: "common.available_now",
+        value: "projects_list.portas_do_tejo.available",
       },
       {
         label: "common.expected_delivery",
