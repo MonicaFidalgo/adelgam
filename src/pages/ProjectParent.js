@@ -72,7 +72,7 @@ const ProjectParent = () => {
     const available = total - sold;
 
     if (sold === total) {
-      return { text: "100% vendido", class: "badge-red" };
+      return { text: t("common.all_sold"), class: "badge-red" };
     } else if (available === 1) {
       return { text: `1 ${t("common.available")}`, class: "badge-green" };
     } else {

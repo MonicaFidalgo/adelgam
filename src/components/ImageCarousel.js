@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
@@ -8,6 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 const ImageCarousel = ({ images, onImageClick }) => {
+  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
   const swiperRef = useRef(null);
 
@@ -82,7 +84,7 @@ const ImageCarousel = ({ images, onImageClick }) => {
                       ) : (
                         <div className="w-100 h-100 d-flex align-items-center justify-content-center bg-secondary bg-opacity-10">
                           <span className="text-muted">
-                            Imagem não disponível
+                            {t("common.image_unavailable")}
                           </span>
                         </div>
                       )}
@@ -187,7 +189,7 @@ const ImageCarousel = ({ images, onImageClick }) => {
                     ) : (
                       <div className="w-100 h-100 d-flex align-items-center justify-content-center bg-secondary bg-opacity-10">
                         <span className="text-muted">
-                          Imagem não disponível
+                          {t("common.image_unavailable")}
                         </span>
                       </div>
                     )}

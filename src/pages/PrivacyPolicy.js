@@ -7,14 +7,14 @@ const SECTIONS = [1, 2, 3, 4, 5, 6, 7, 8];
 const PrivacyPolicy = () => {
   const { t, i18n } = useTranslation();
 
-  // Titulo do separador; repoe o anterior ao sair da pagina.
+  // Titulo do separador; ao sair da pagina repoe o titulo geral, na lingua
+  // em que o site estiver nesse momento.
   useEffect(() => {
-    const previous = document.title;
     document.title = t("privacy.page_title");
     return () => {
-      document.title = previous;
+      document.title = i18n.t("meta.title");
     };
-  }, [t, i18n.language]);
+  }, [t, i18n]);
 
   return (
     <div>

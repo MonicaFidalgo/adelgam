@@ -1,15 +1,15 @@
 import { X } from "lucide-react";
 import { Link } from "react-router-dom";
-// import { useTranslation } from "../contexts/TranslationContext";
+import { useTranslation } from "react-i18next";
 
 export default function Sidebar({ isOpen, onClose }) {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
 
   const menuItems = [
-    { label: "Home", to: "/" },
-    { label: "Empreendimentos", to: "/empreendimentos" },
-    { label: "A Adelgam", to: "/sobre" },
-    { label: "Contacte-nos", to: "/contactos" },
+    { label: t("menu.home"), to: "/" },
+    { label: t("menu.projects"), to: "/empreendimentos" },
+    { label: t("menu.about"), to: "/sobre" },
+    { label: t("menu.contact"), to: "/contactos" },
   ];
 
   return (

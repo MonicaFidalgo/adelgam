@@ -90,7 +90,7 @@ const Home = () => {
             className="align-self-center"
           >
             <div>
-              <label className="label mb-3">PROJECTO EM DESTAQUE</label>
+              <label className="label mb-3">{t("home.highlight.label")}</label>
               <h2 className="heading mb-3">{t("home.highlight.title")}</h2>
               <p
                 dangerouslySetInnerHTML={{

@@ -27,7 +27,7 @@ const Higlights = ({ typology, state, location }) => {
         <div className="hightlights">
           <Home />
           <label>{t("common.tipologias")}</label>
-          <span>{typology}</span>
+          <span>{t(typology)}</span>
         </div>
       </Col>
     </Row>

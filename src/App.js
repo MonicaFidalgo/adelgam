@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useLayoutEffect } from "react";
+import { useTranslation } from "react-i18next";
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,9 +18,23 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
+// Lingua do documento, titulo e descricao para o Google na lingua escolhida.
+// useLayoutEffect corre antes dos useEffect das paginas, que podem por o seu
+// proprio titulo por cima (ex.: politica de privacidade).
+function useDocumentLanguage() {
+  const { t, i18n } = useTranslation();
+  useLayoutEffect(() => {
+    document.documentElement.lang = i18n.language === "en" ? "en" : "pt-PT";
+    document.title = t("meta.title");
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", t("meta.description"));
+  }, [t, i18n.language]);
+}
+
 // 🎯 NOVO: Componente que fica DENTRO do Router
 function AppContent() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  useDocumentLanguage();
 
   return (
     <>

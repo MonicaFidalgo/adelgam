@@ -14,7 +14,7 @@
     "badge": "common.delivered",
     "badgeClass": "badge-neutral",
     "location": "Alcochete",
-    "typology": "T1 a T4 Penthouse",
+    "typology": "projects_list.lux_terrace.typologies",
     "state": "projects.lux_terrace.state",
     "hideUnitTables": true,
     "lastPenthouse": true,
@@ -53,11 +53,11 @@
           "plants": [
             {
               "image": "apartment-t1/plantas/planta-piso1.webp",
-              "text": "Planta Piso 1"
+              "text": "plans.floor_1"
             },
             {
               "image": "apartment-t1/plantas/planta-garagem.webp",
-              "text": "Planta Garagem"
+              "text": "plans.garage"
             }
           ]
         }
@@ -96,11 +96,11 @@
           "plants": [
             {
               "image": "apartment-t2/plantas/planta-piso1.webp",
-              "text": "Planta Piso 1"
+              "text": "plans.floor_1"
             },
             {
               "image": "apartment-t2/plantas/planta-garagem.webp",
-              "text": "Planta Garagem"
+              "text": "plans.garage"
             }
           ]
         }
@@ -138,11 +138,11 @@
           "plants": [
             {
               "image": "apartment-t3/plantas/planta-piso1.webp",
-              "text": "Planta Piso 1"
+              "text": "plans.floor_1"
             },
             {
               "image": "apartment-t3/plantas/planta-garagem.webp",
-              "text": "Planta Garagem"
+              "text": "plans.garage"
             }
           ]
         }
@@ -183,11 +183,11 @@
           "plants": [
             {
               "image": "penthouse-t3/plantas/planta-piso3.webp",
-              "text": "Planta Piso 3"
+              "text": "plans.floor_3"
             },
             {
               "image": "penthouse-t3/plantas/planta-piso4.webp",
-              "text": "Planta Piso 4"
+              "text": "plans.floor_4"
             }
           ]
         }
@@ -226,11 +226,11 @@
           "plants": [
             {
               "image": "penthouse-t4/plantas/planta-piso3.webp",
-              "text": "Planta Piso 3"
+              "text": "plans.floor_3"
             },
             {
               "image": "penthouse-t4/plantas/planta-piso4.webp",
-              "text": "Planta Piso 4"
+              "text": "plans.floor_4"
             }
           ]
         }
@@ -270,11 +270,11 @@
           "plants": [
             {
               "image": "penthouse-t4-2/plantas/planta-piso3.webp",
-              "text": "Planta Piso 3"
+              "text": "plans.floor_3"
             },
             {
               "image": "penthouse-t4-2/plantas/planta-piso4.webp",
-              "text": "Planta Piso 4"
+              "text": "plans.floor_4"
             }
           ]
         }
@@ -322,11 +322,11 @@
           "plants": [
             {
               "image": "penthouse-deluxe/plantas/Penthouse+-+Piso+3-1920w.webp",
-              "text": "Planta Piso 3"
+              "text": "plans.floor_3"
             },
             {
               "image": "penthouse-deluxe/plantas/Penthouse+-+Piso+4-1920w.webp",
-              "text": "Planta Piso 4"
+              "text": "plans.floor_4"
             },
             {
               "image": "penthouse-deluxe/plantas/Penthouse-Garagem.webp",
@@ -351,7 +351,7 @@
     "badge": "common.delivered",
     "badgeClass": "badge-neutral",
     "location": "Montijo",
-    "typology": "T2 a T4",
+    "typology": "projects_list.varandas_do_montijo.typologies",
     "state": "projects.lux_terrace.state",
     "projectGroups": [],
     "hasMap": false
@@ -383,15 +383,15 @@
     "detailsPlants": [
       {
         "image": "moradias/plantas/moradia-sao-francisco-piso1.jpeg",
-        "text": "Planta R/C"
+        "text": "plans.ground_floor"
       },
       {
         "image": "moradias/plantas/moradia-sao-francisco-piso2.jpeg",
-        "text": "Planta Piso 1"
+        "text": "plans.floor_1"
       },
       {
         "image": "moradias/plantas/moradia-sao-francisco-piso3.jpeg",
-        "text": "Planta Piso 2"
+        "text": "plans.floor_2"
       },
       {
         "image": "moradias/plantas/moradia-sao-francisco-garagem.jpeg",
@@ -454,7 +454,7 @@
     "badgeClass": "badge-neutral",
     "price": "",
     "location": "São Francisco",
-    "typology": "Moradias",
+    "typology": "projects.moradias_sao_francisco.typology",
     "state": "projects.lux_terrace.state",
     "projectGroups": [],
     "hasMap": false
@@ -474,7 +474,7 @@
     "badge": "projects_list.portas_do_tejo.badge",
     "badgeClass": "badge-green",
     "location": "Montijo",
-    "typology": "T1 a T3 Duplex",
+    "typology": "projects_list.portas_do_tejo.typologies",
     "state": "common.first_phase_construction",
     "projectGroups": [
       {
