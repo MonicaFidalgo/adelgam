@@ -1,8 +1,8 @@
 {
   "home": {
-    "banner.label": "Primeira fase em construção",
+    "banner.label": "Bloco B à venda — entrega prevista em fevereiro de 2028",
     "banner.description": "A poucos minutos de Lisboa, o Portas do Tejo combina conforto, modernidade e uma localização privilegiada.",
-    "banner.button": "Mais informações",
+    "banner.button": "Ver disponibilidade e preços",
     "adelgam.why": "PORQUÊ A ADELGAM",
     "adelgam.subtitle": "Oferecemos o mais alto nível de especialização, serviço e integridade",
     "adelgam.paragraph_1": "Ao longo dos anos, a Adelgam acompanhou as técnicas de construção e os estudos dos novos materiais a colocar, com o intuito de efetuar sempre um trabalho de referência.",
@@ -10,7 +10,10 @@
     "adelgam.know": "Conheça a Adelgam",
     "projects.subtitle": "Espaços de conforto e harmonia",
     "projects.description": "Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos proprietários satisfeitos. Cada projecto que realizamos reflecte o nosso compromisso com a qualidade, a inovação e o bem-estar das famílias.",
-    "highlight.description": "Inserida na tranquila zona de São Francisco, no Concelho de Alcochete e a poucos minutos de Lisboa, esta moradia distingue-se pelo seu caráter exclusivo e contemporâneo. Dispõe de <strong>4 suites</strong>, <strong>piscina privativa</strong>, <strong>sala de cinema</strong>, <strong>vista sobre Lisboa</strong> e <strong>garagem para 3 viaturas</strong>, oferecendo conforto, privacidade e um estilo de vida premium."
+    "highlight.description": "No Lux Terrace, em Alcochete, a poucos minutos de Lisboa. Uma penthouse <strong>T4 duplex</strong> com <strong>4 master suites</strong>, <strong>elevador privativo</strong>, <strong>terraço com piscina e jacuzzi</strong> e <strong>2 boxes para 4 carros</strong>.",
+    "highlight.title": "Penthouse Lux Terrace",
+    "highlight.button": "Ver a penthouse",
+    "highlight.alt": "Penthouse Lux Terrace, Alcochete"
   },
   "details": {
     "title_1": "Mais de 25 anos de experiência",
@@ -113,7 +116,12 @@
     "bedrooms_3": "3 quartos",
     "parking_1": "1 lugar",
     "parking_2": "2 lugares",
-    "all_sold": "100% vendido"
+    "all_sold": "100% vendido",
+    "for_sale": "À venda",
+    "see_availability": "Ver disponibilidade e preços",
+    "phase_for_sale": "Fase à venda",
+    "expected_delivery": "Entrega prevista",
+    "highlights": "Destaques"
   },
   "form": {
     "first_name": "Primeiro Nome",
@@ -128,7 +136,10 @@
       "apartments": "39 apartamentos",
       "typologies": "T1 a T3 Duplex",
       "parking": "Box",
-      "badge": "1 disponível"
+      "badge": "1 disponível",
+      "phase": "Bloco B",
+      "typologies_for_sale": "T3 e T3 Duplex, com box",
+      "delivery": "Fevereiro de 2028"
     },
     "moradias_sao_francisco": {
       "apartments": "Moradias Geminadas",
@@ -147,6 +158,17 @@
       "typologies": "T2 a T4",
       "parking": "Box",
       "badge": "100% vendido"
+    },
+    "groups": {
+      "for_sale_label": "À venda",
+      "for_sale_title": "Empreendimentos à venda",
+      "delivered_label": "Entregues",
+      "delivered_title": "Obras entregues"
+    },
+    "penthouse": {
+      "typology": "T4 Duplex, 4 master suites",
+      "highlights": "Terraço com piscina e jacuzzi, elevador privativo",
+      "parking": "2 boxes para 4 carros"
     }
   },
   "features": {

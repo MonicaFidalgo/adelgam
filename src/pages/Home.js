@@ -5,9 +5,10 @@ import Projects from "../components/Projects";
 import bannerImage from "../assets/adelgam-real-state.webp";
 import details from "../data/details.json";
 import image1 from "../assets/image-1.png";
-import image2 from "../assets/image-3.png";
+import image2 from "../assets/penthouse-lux-terrace-exterior.webp";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
+import { PORTAS_DO_TEJO_URL, PENTHOUSE_URL } from "../data/externalLinks";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -25,12 +26,9 @@ const Home = () => {
               <h2 className="banner-subtitle mb-3">
                 {t("home.banner.description")}
               </h2>
-              <Link
-                className="button button-primary"
-                to="/empreendimentos/portas-do-tejo"
-              >
+              <a className="button button-primary" href={PORTAS_DO_TEJO_URL}>
                 {t("home.banner.button")}
-              </Link>
+              </a>
             </div>
           </Col>
           <Col lg={6} className="px-0">
@@ -48,12 +46,9 @@ const Home = () => {
             {t("home.banner.description")}
           </h2>
 
-          <Link
-            className="button button-primary"
-            to="/empreendimentos/portas-do-tejo"
-          >
+          <a className="button button-primary" href={PORTAS_DO_TEJO_URL}>
             {t("home.banner.button")}
-          </Link>
+          </a>
         </div>
       </div>
 
@@ -96,19 +91,19 @@ const Home = () => {
           >
             <div>
               <label className="label mb-3">PROJECTO EM DESTAQUE</label>
-              <h2 className="heading mb-3">{t("common.moradia")}</h2>
+              <h2 className="heading mb-3">{t("home.highlight.title")}</h2>
               <p
                 dangerouslySetInnerHTML={{
                   __html: t("home.highlight.description"),
                 }}
               />
 
-              <Link
+              <a
                 className="button button-primary margin-top-4"
-                to="/empreendimentos/moradias"
+                href={PENTHOUSE_URL}
               >
-                {t("common.more_details")}
-              </Link>
+                {t("home.highlight.button")}
+              </a>
             </div>
           </Col>
           <Col
@@ -118,7 +113,7 @@ const Home = () => {
           >
             <img
               src={image2}
-              alt="sala e cozinha"
+              alt={t("home.highlight.alt")}
               width="100%"
               className="margin-top-4 mt-lg-0"
             />

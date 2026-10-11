@@ -1,8 +1,8 @@
 {
   "home": {
-    "banner.label": "First phase under construction",
+    "banner.label": "Block B for sale — delivery expected in February 2028",
     "banner.description": "Just minutes from Lisbon, Portas do Tejo combines comfort, modernity, and a prime location.",
-    "banner.button": "More information",
+    "banner.button": "See availability and prices",
     "adelgam.why": "WHY ADELGAM",
     "adelgam.subtitle": "We offer the highest level of expertise, service and integrity",
     "adelgam.paragraph_1": "Over the years, Adelgam has followed construction techniques and studies of new materials to be placed, with the aim of always carrying out reference work.",
@@ -10,7 +10,10 @@
     "adelgam.know": "Meet Adelgam",
     "projects.subtitle": "Spaces of comfort and harmony",
     "projects.description": "At Adelgam, we are proud to have delivered countless keys to satisfied new owners. Each project we undertake reflects our commitment to quality, innovation and family well-being.",
-    "highlight.description": "Located in the quiet area of São Francisco, in the Municipality of Alcochete and just minutes from Lisbon, this villa stands out for its exclusive and contemporary character. It features <strong>4 suites</strong>, <strong>private pool</strong>, <strong>cinema room</strong>, <strong>views over Lisbon</strong> and <strong>garage for 3 cars</strong>, offering comfort, privacy and a premium lifestyle."
+    "highlight.description": "At Lux Terrace, in Alcochete, just minutes from Lisbon. A <strong>4-bedroom duplex</strong> penthouse with <strong>4 master suites</strong>, a <strong>private lift</strong>, a <strong>terrace with pool and jacuzzi</strong> and <strong>2 garage boxes for 4 cars</strong>.",
+    "highlight.title": "Penthouse Lux Terrace",
+    "highlight.button": "See the penthouse",
+    "highlight.alt": "Penthouse Lux Terrace, Alcochete"
   },
   "details": {
     "title_1": "Over 25 years of experience",
@@ -113,7 +116,12 @@
     "bedrooms_3": "3 bedrooms",
     "parking_1": "1 spot",
     "parking_2": "2 spots",
-    "all_sold": "100% sold"
+    "all_sold": "100% sold",
+    "for_sale": "For sale",
+    "see_availability": "See availability and prices",
+    "phase_for_sale": "Phase for sale",
+    "expected_delivery": "Expected delivery",
+    "highlights": "Highlights"
   },
   "form": {
     "first_name": "First Name",
@@ -128,7 +136,10 @@
       "apartments": "39 apartments",
       "typologies": "T1 to T3 Duplex",
       "parking": "Box",
-      "badge": "2 available"
+      "badge": "2 available",
+      "phase": "Block B",
+      "typologies_for_sale": "T3 and T3 Duplex, with garage box",
+      "delivery": "February 2028"
     },
     "moradias_sao_francisco": {
       "apartments": "Semi-detached Villas",
@@ -147,6 +158,17 @@
       "typologies": "T2 to T4",
       "parking": "Box",
       "badge": "100% sold"
+    },
+    "groups": {
+      "for_sale_label": "For sale",
+      "for_sale_title": "Developments for sale",
+      "delivered_label": "Delivered",
+      "delivered_title": "Completed projects"
+    },
+    "penthouse": {
+      "typology": "4-bedroom duplex, 4 master suites",
+      "highlights": "Terrace with pool and jacuzzi, private lift",
+      "parking": "2 garage boxes for 4 cars"
     }
   },
   "features": {
