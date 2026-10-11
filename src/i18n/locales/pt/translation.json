@@ -42,6 +42,18 @@
       "lux_terrace_t3": {
         "title": "Lux Terrace · Apartamento T3 (vendido) · Adelgam",
         "description": "Apartamento T3 do Lux Terrace, em Alcochete. Vendido."
+      },
+      "lux_terrace_ph_t3": {
+        "title": "Lux Terrace · Penthouse T3 (vendida) · Adelgam",
+        "description": "Penthouse T3 do Lux Terrace, em Alcochete. Vendida."
+      },
+      "lux_terrace_ph_t4": {
+        "title": "Lux Terrace · Penthouse T4 (vendida) · Adelgam",
+        "description": "Penthouse T4 do Lux Terrace, em Alcochete. Vendida."
+      },
+      "lux_terrace_ph_t4_ii": {
+        "title": "Lux Terrace · Penthouse T4 II (vendida) · Adelgam",
+        "description": "Penthouse T4 II do Lux Terrace, em Alcochete. Vendida."
       }
     }
   },

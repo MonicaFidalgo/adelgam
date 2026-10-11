@@ -42,6 +42,18 @@
       "lux_terrace_t3": {
         "title": "Lux Terrace · 3-bedroom apartment (sold) · Adelgam",
         "description": "3-bedroom apartment at Lux Terrace, Alcochete. Sold."
+      },
+      "lux_terrace_ph_t3": {
+        "title": "Lux Terrace · 3-bedroom penthouse (sold) · Adelgam",
+        "description": "3-bedroom penthouse at Lux Terrace, Alcochete. Sold."
+      },
+      "lux_terrace_ph_t4": {
+        "title": "Lux Terrace · 4-bedroom penthouse (sold) · Adelgam",
+        "description": "4-bedroom penthouse at Lux Terrace, Alcochete. Sold."
+      },
+      "lux_terrace_ph_t4_ii": {
+        "title": "Lux Terrace · 4-bedroom penthouse II (sold) · Adelgam",
+        "description": "4-bedroom penthouse II at Lux Terrace, Alcochete. Sold."
       }
     }
   },

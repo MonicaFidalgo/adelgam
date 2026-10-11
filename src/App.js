@@ -34,16 +34,15 @@ function useDocumentLanguage() {
     document.title = t(`${prefix}title`);
     const meta = document.querySelector('meta[name="description"]');
     if (meta) meta.setAttribute("content", t(`${prefix}description`));
-    if (!route) return;
+    // Endereco fora da lista (o HTML inicial e o da raiz, com o canonical da
+    // pagina inicial): noindex e sem canonical, como as fichas vendidas.
+    const noindex = !route || Boolean(route.noindex);
     const robots = document.querySelector('meta[name="robots"]');
     if (robots) {
-      robots.setAttribute(
-        "content",
-        route.noindex ? seo.robotsNoindex : seo.robots,
-      );
+      robots.setAttribute("content", noindex ? seo.robotsNoindex : seo.robots);
     }
     let canonical = document.querySelector('link[rel="canonical"]');
-    if (route.noindex) {
+    if (noindex) {
       if (canonical) canonical.remove();
     } else {
       if (!canonical) {

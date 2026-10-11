@@ -13,6 +13,9 @@
     { "path": "/empreendimentos/moradias", "key": "moradias" },
     { "path": "/empreendimentos/lux-terrace/apartment-t1", "key": "lux_terrace_t1", "noindex": true },
     { "path": "/empreendimentos/lux-terrace/apartment-t2", "key": "lux_terrace_t2", "noindex": true },
-    { "path": "/empreendimentos/lux-terrace/apartment-t3", "key": "lux_terrace_t3", "noindex": true }
+    { "path": "/empreendimentos/lux-terrace/apartment-t3", "key": "lux_terrace_t3", "noindex": true },
+    { "path": "/empreendimentos/lux-terrace/penthouse-t3", "key": "lux_terrace_ph_t3", "noindex": true },
+    { "path": "/empreendimentos/lux-terrace/penthouse-t4", "key": "lux_terrace_ph_t4", "noindex": true },
+    { "path": "/empreendimentos/lux-terrace/penthouse-t4-II", "key": "lux_terrace_ph_t4_ii", "noindex": true }
   ]
 }
