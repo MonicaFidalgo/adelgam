@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Adelgam · Promoção imobiliária no Montijo e em Alcochete",
+    "title": "Adelgam · Construção civil e promoção imobiliária",
     "description": "A Adelgam é uma empresa de construção civil e promoção imobiliária, a atuar no mercado há mais de 25 anos. À venda: Portas do Tejo e Penthouse Lux Terrace."
   },
   "menu": {
@@ -71,7 +71,7 @@
     "banner_heading": "Há mais de 25 anos, a construir com qualidade e inovação",
     "section_label": "Sobre Nós",
     "section_heading": "A nossa história e compromisso",
-    "paragraph_1": "A <strong>Adelgam</strong> é uma empresa de construção civil e promoção imobiliária, a atuar no mercado há mais de 25 anos.",
+    "paragraph_1": "Mais de 25 anos a construir casas pensadas ao pormenor.",
     "paragraph_2": "Procuramos sempre diferenciar-nos na qualidade e inovação durante toda a construção assegurando acabamentos requintados e diferenciadores.",
     "paragraph_3": "Ao longo dos anos, a Adelgam acompanhou as técnicas de construção e os estudos dos novos materiais a colocar, com o intuito de efetuar sempre um trabalho de referência.",
     "paragraph_4": "Contamos sempre com a ajuda de bons profissionais tornando a Adelgam uma empresa credível e reconhecida no mercado."
@@ -197,9 +197,9 @@
       "button": "Ver a Penthouse"
     },
     "editorial": {
-      "for_sale_intro": "Apartamentos disponíveis no Montijo e em Alcochete. Os preços e a disponibilidade estão na página de cada empreendimento.",
+      "for_sale_intro": "Apartamentos à venda. Os preços e a disponibilidade estão na página de cada empreendimento.",
       "delivered_label": "Portfólio",
-      "delivered_intro": "Empreendimentos que já construímos e entregámos no Montijo e em Alcochete."
+      "delivered_intro": "Empreendimentos que já construímos e entregámos."
     }
   },
   "features": {

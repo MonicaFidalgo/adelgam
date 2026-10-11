@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Adelgam · Real estate developer in Montijo and Alcochete",
+    "title": "Adelgam · Construction and real estate development",
     "description": "Adelgam is a construction and real estate development company, active in the market for over 25 years. For sale: Portas do Tejo and Penthouse Lux Terrace."
   },
   "menu": {
@@ -31,7 +31,7 @@
     "adelgam.paragraph_2": "We follow every project from start to finish, with close attention to build quality and finishes.",
     "adelgam.know": "Meet Adelgam",
     "projects.subtitle": "What is for sale and what we have delivered",
-    "projects.description": "We have been building homes in Montijo and Alcochete for over 25 years. Below are the developments for sale and the ones already completed.",
+    "projects.description": "We have been building homes for over 25 years. Below are the developments for sale and the ones already completed.",
     "highlight.description": "<strong>4-bedroom duplex</strong> penthouse at Lux Terrace, Alcochete, with <strong>4 master suites</strong>, a <strong>private lift</strong>, a <strong>terrace with pool and jacuzzi</strong>, and <strong>2 garage boxes for 4 cars</strong>.",
     "highlight.title": "Penthouse Lux Terrace",
     "highlight.button": "See the Penthouse",
@@ -40,7 +40,7 @@
   },
   "details": {
     "title_1": "Over 25 years of experience",
-    "description_1": "We have been building and selling homes in Montijo and Alcochete for over 25 years.",
+    "description_1": "We have been building and selling homes for over 25 years.",
     "title_2": "Refined finishes",
     "description_2": "We pay attention to detail and choose finishes that last.",
     "title_3": "Continuous commitment",
@@ -68,10 +68,10 @@
   },
   "about": {
     "banner_label": "Meet Adelgam",
-    "banner_heading": "Building in Montijo and Alcochete for over 25 years",
+    "banner_heading": "Building for over 25 years",
     "section_label": "About Us",
     "section_heading": "Our history and commitment",
-    "paragraph_1": "<strong>Adelgam</strong> is a construction and real estate development company, active in the market for over 25 years.",
+    "paragraph_1": "Over 25 years building homes designed down to the last detail.",
     "paragraph_2": "We follow every project from start to finish, with close attention to build quality and finishes.",
     "paragraph_3": "Over the years, Adelgam has kept up with new construction techniques and materials. The aim is the same: to build well and to last.",
     "paragraph_4": "We work with good professionals at every stage of the build."
@@ -197,9 +197,9 @@
       "button": "See the Penthouse"
     },
     "editorial": {
-      "for_sale_intro": "Apartments available in Montijo and Alcochete. See each development's page for prices and availability.",
+      "for_sale_intro": "Apartments for sale. See each development's page for prices and availability.",
       "delivered_label": "Portfolio",
-      "delivered_intro": "Developments we have built and handed over in Montijo and Alcochete."
+      "delivered_intro": "Developments we have built and handed over."
     }
   },
   "features": {
