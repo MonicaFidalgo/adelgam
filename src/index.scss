@@ -412,21 +412,37 @@ textarea {
     color: $gray;
   }
 
+  // Contactos e morada: icone ao centro da linha, espacamento igual
+  .footer-contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    p,
+    a,
+    span,
+    address {
+      line-height: 24px;
+      margin: 0;
+    }
+
+    svg {
+      flex: 0 0 auto;
+    }
+  }
+
   // Linha legal: politica de privacidade, Livro de Reclamacoes e frase RAL
   .footer-legal-link {
     text-decoration: underline;
   }
 
+  // Logotipo do Livro de Reclamacoes em branco, sem caixa, discreto
   .livro-reclamacoes {
     display: inline-flex;
     align-items: center;
-    height: 46px;
-    padding: 8px 14px;
-    border-radius: 4px;
-    background-color: #a30000;
 
     img {
-      height: 30px;
+      height: 24px;
       width: auto;
     }
   }

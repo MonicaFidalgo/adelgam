@@ -37,33 +37,37 @@ const Footer = () => {
           </Col>
           <Col lg={3} className="margin-top-4 mt-lg-0">
             <h6>{t("contacts.more_info")}?</h6>
-            <p>{t("contacts.contact_us")}.</p>
-            <div className="d-flex gap-3 mt-3">
-              <Email />
-              <a
-                href="mailto:adelgam@adelgam.pt"
-                target="_blank"
-                rel="noreferrer"
-              >
-                adelgam@adelgam.pt
-              </a>
-            </div>
-            <div className="d-flex gap-3 mt-3">
-              <Phone />
-              <span>+351 91 38 153 79</span>
+            <div className="footer-contact-list">
+              <p>{t("contacts.contact_us")}.</p>
+              <div className="d-flex align-items-center gap-3">
+                <Email />
+                <a
+                  href="mailto:adelgam@adelgam.pt"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  adelgam@adelgam.pt
+                </a>
+              </div>
+              <div className="d-flex align-items-center gap-3">
+                <Phone />
+                <a href="tel:+351913815379">+351 913 815 379</a>
+              </div>
             </div>
           </Col>
           <Col lg={3} className="margin-top-4 mt-lg-0">
             <h6>{t("contacts.location")}</h6>
-            <div className="d-flex gap-2">
-              <Location />
-              <address>
-                Rua de Maputo
-                <br />
-                2870-437 Montijo
-                <br />
-                Portugal
-              </address>
+            <div className="footer-contact-list">
+              <div className="d-flex align-items-start gap-3">
+                <Location />
+                <address>
+                  Rua de Maputo
+                  <br />
+                  2870-437 Montijo
+                  <br />
+                  Portugal
+                </address>
+              </div>
             </div>
           </Col>
         </Row>

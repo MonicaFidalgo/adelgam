@@ -17,7 +17,7 @@ const ContactsSection = () => {
           </div>
           <div className="d-flex gap-2">
             <Phone />
-            <a href="tel:+351 91 38 153 79">+351 91 38 153 79</a>
+            <a href="tel:+351913815379">+351 913 815 379</a>
           </div>
         </Col>
         <Col lg={6}>
