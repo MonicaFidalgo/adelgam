@@ -92,6 +92,7 @@
     "moradias": "Houses",
     "location": "Location",
     "sold": "Sold",
+    "delivered": "Completed",
     "submit": "Submit",
     "apartments_t1_t3": "Apartments T1 - T3",
     "estado": "Status",
@@ -174,6 +175,11 @@
       "typology": "4-bedroom duplex, 4 master suites",
       "highlights": "Terrace with pool and jacuzzi, private lift",
       "parking": "2 garage boxes for 4 cars"
+    },
+    "editorial": {
+      "for_sale_intro": "Apartments available in Montijo and Alcochete. See each development's page for prices and availability.",
+      "delivered_label": "Portfolio",
+      "delivered_intro": "Developments we have built and handed over in Montijo and Alcochete."
     }
   },
   "features": {

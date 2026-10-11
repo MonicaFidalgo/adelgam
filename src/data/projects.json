@@ -11,8 +11,8 @@
       "lux-terrace-alcochete-T4-penthouse.webp",
       "lux-terrace-alcochete-T4-penthouse-2.webp"
     ],
-    "badge": "common.sold",
-    "badgeClass": "badge-red",
+    "badge": "common.delivered",
+    "badgeClass": "badge-neutral",
     "location": "Alcochete",
     "typology": "T1 a T4 Penthouse",
     "state": "projects.lux_terrace.state",
@@ -348,8 +348,8 @@
       "varandas-montijo-wc.jpg",
       "varandas-montijo-cozinha.jpg"
     ],
-    "badge": "projects_list.varandas_do_montijo.badge",
-    "badgeClass": "badge-red",
+    "badge": "common.delivered",
+    "badgeClass": "badge-neutral",
     "location": "Montijo",
     "typology": "T2 a T4",
     "state": "common.sold",
@@ -450,8 +450,8 @@
         "description": "1"
       }
     ],
-    "badge": "common.sold",
-    "badgeClass": "badge-red",
+    "badge": "common.delivered",
+    "badgeClass": "badge-neutral",
     "price": "",
     "location": "São Francisco",
     "typology": "Moradias",

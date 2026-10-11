@@ -92,6 +92,7 @@
     "moradias": "Moradias",
     "location": "Localização",
     "sold": "Vendido",
+    "delivered": "Entregue",
     "submit": "Submeter",
     "apartments_t1_t3": "Apartamentos T1 - T3",
     "estado": "Estado",
@@ -174,6 +175,11 @@
       "typology": "T4 Duplex, 4 master suites",
       "highlights": "Terraço com piscina e jacuzzi, elevador privativo",
       "parking": "2 boxes para 4 carros"
+    },
+    "editorial": {
+      "for_sale_intro": "Apartamentos disponíveis no Montijo e em Alcochete. Os preços e a disponibilidade estão na página de cada empreendimento.",
+      "delivered_label": "Portfólio",
+      "delivered_intro": "Empreendimentos que já construímos e entregámos no Montijo e em Alcochete."
     }
   },
   "features": {

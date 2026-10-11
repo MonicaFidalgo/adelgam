@@ -125,8 +125,8 @@ const Home = () => {
           <h2 className="heading mb-3">{t("home.projects.subtitle")}</h2>
           <p>{t("home.projects.description")}</p>
         </div>
-        <Projects />
       </Container>
+      <Projects />
     </main>
   );
 };
