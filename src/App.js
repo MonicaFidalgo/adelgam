@@ -5,6 +5,7 @@ import {
   Routes,
   Route,
   Navigate,
+  useLocation,
 } from "react-router-dom";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
@@ -17,18 +18,42 @@ import ProjectParent from "./pages/ProjectParent";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import seo from "./data/seoRoutes.json";
 
-// Lingua do documento, titulo e descricao para o Google na lingua escolhida.
-// useLayoutEffect corre antes dos useEffect das paginas, que podem por o seu
-// proprio titulo por cima (ex.: politica de privacidade).
+// Lingua do documento e, por rota, titulo, descricao, canonical e robots na
+// lingua escolhida. As rotas e os textos sao os mesmos que o passo pos-build
+// (scripts/prerender-meta.js) escreve no HTML inicial de cada rota, em PT.
 function useDocumentLanguage() {
   const { t, i18n } = useTranslation();
+  const { pathname } = useLocation();
   useLayoutEffect(() => {
+    const path = pathname.replace(/\/+$/, "") || "/";
+    const route = seo.routes.find((r) => r.path === path);
+    const prefix = route && route.key ? `meta.pages.${route.key}.` : "meta.";
     document.documentElement.lang = i18n.language === "en" ? "en" : "pt-PT";
-    document.title = t("meta.title");
+    document.title = t(`${prefix}title`);
     const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", t("meta.description"));
-  }, [t, i18n.language]);
+    if (meta) meta.setAttribute("content", t(`${prefix}description`));
+    if (!route) return;
+    const robots = document.querySelector('meta[name="robots"]');
+    if (robots) {
+      robots.setAttribute(
+        "content",
+        route.noindex ? seo.robotsNoindex : seo.robots,
+      );
+    }
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (route.noindex) {
+      if (canonical) canonical.remove();
+    } else {
+      if (!canonical) {
+        canonical = document.createElement("link");
+        canonical.setAttribute("rel", "canonical");
+        document.head.appendChild(canonical);
+      }
+      canonical.setAttribute("href", seo.siteUrl + route.path);
+    }
+  }, [t, i18n.language, pathname]);
 }
 
 // 🎯 NOVO: Componente que fica DENTRO do Router

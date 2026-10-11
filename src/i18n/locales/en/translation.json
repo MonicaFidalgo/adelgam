@@ -1,7 +1,49 @@
 {
   "meta": {
     "title": "Adelgam · Construction and real estate development",
-    "description": "Adelgam is a construction and real estate development company, active in the market for over 25 years. For sale: Portas do Tejo and Penthouse Lux Terrace."
+    "description": "Adelgam is a construction and real estate development company, active in the market for over 25 years. For sale: Portas do Tejo and Penthouse Lux Terrace.",
+    "pages": {
+      "projects": {
+        "title": "Developments for sale and completed projects · Adelgam",
+        "description": "Portas do Tejo in Montijo: 2-bed, 3-bed and 3-bed duplex flats with garage. The last Lux Terrace penthouse in Alcochete. And our completed projects."
+      },
+      "about": {
+        "title": "About Adelgam · Over 25 years of building",
+        "description": "Adelgam is a construction and real estate development company, active in the market for over 25 years. Learn about our history and our commitment."
+      },
+      "contacts": {
+        "title": "Contact · Adelgam",
+        "description": "Talk to Adelgam by phone, email or through the form. Office at Rua de Maputo, 2870-437 Montijo, Portugal."
+      },
+      "privacy": {
+        "title": "Privacy policy | Adelgam",
+        "description": "How Adelgam handles the personal data sent through this website: what data it collects, what it is used for, how long it is kept and your rights."
+      },
+      "lux_terrace": {
+        "title": "Lux Terrace, Alcochete · Completed · Adelgam",
+        "description": "Lux Terrace, in the new part of Alcochete: five buildings with 37 apartments and 5 penthouses, 1 to 4 bedrooms. Completed, one penthouse left for sale."
+      },
+      "varandas": {
+        "title": "Varandas do Montijo · Completed · Adelgam",
+        "description": "Varandas do Montijo: 4 plots with 40 apartments of 2 to 4 bedrooms, with garage, built by Adelgam in 2020. Completed and 100% sold."
+      },
+      "moradias": {
+        "title": "Moradias São Francisco · Completed · Adelgam",
+        "description": "Semi-detached 4-bedroom houses in São Francisco, Alcochete, with four suites, pool, cinema room and a garage for four cars. Completed by Adelgam."
+      },
+      "lux_terrace_t1": {
+        "title": "Lux Terrace · 1-bedroom apartment (sold) · Adelgam",
+        "description": "1-bedroom apartment at Lux Terrace, Alcochete. Sold."
+      },
+      "lux_terrace_t2": {
+        "title": "Lux Terrace · 2-bedroom apartment (sold) · Adelgam",
+        "description": "2-bedroom apartment at Lux Terrace, Alcochete. Sold."
+      },
+      "lux_terrace_t3": {
+        "title": "Lux Terrace · 3-bedroom apartment (sold) · Adelgam",
+        "description": "3-bedroom apartment at Lux Terrace, Alcochete. Sold."
+      }
+    }
   },
   "menu": {
     "home": "Home",
@@ -365,7 +407,6 @@
   "privacy": {
     "label": "Legal information",
     "title": "Privacy policy",
-    "page_title": "Privacy policy | Adelgam",
     "updated": "Last updated: October 2026",
     "s1_title": "1. Who is responsible",
     "s1_text": "Adelgam - Promoção Imobiliária, Lda. (company no. 504658069), with offices at Rua de Maputo, 2870-437 Montijo, Portugal, is responsible for the personal data collected on this website. For any question about your data, write to <a href=\"mailto:adelgam@adelgam.pt\">adelgam@adelgam.pt</a>.",

@@ -1,7 +1,49 @@
 {
   "meta": {
     "title": "Adelgam · Construção civil e promoção imobiliária",
-    "description": "A Adelgam é uma empresa de construção civil e promoção imobiliária, a atuar no mercado há mais de 25 anos. À venda: Portas do Tejo e Penthouse Lux Terrace."
+    "description": "A Adelgam é uma empresa de construção civil e promoção imobiliária, a atuar no mercado há mais de 25 anos. À venda: Portas do Tejo e Penthouse Lux Terrace.",
+    "pages": {
+      "projects": {
+        "title": "Empreendimentos à venda e obras entregues · Adelgam",
+        "description": "Portas do Tejo, no Montijo: T2, T3 e T3 Duplex com box. A última penthouse do Lux Terrace, em Alcochete. E as obras que a Adelgam já entregou."
+      },
+      "about": {
+        "title": "Sobre a Adelgam · Mais de 25 anos a construir",
+        "description": "A Adelgam é uma empresa de construção civil e promoção imobiliária, a atuar no mercado há mais de 25 anos. Conheça a nossa história e o nosso compromisso."
+      },
+      "contacts": {
+        "title": "Contactos · Adelgam",
+        "description": "Fale com a Adelgam por telefone, email ou pelo formulário. Escritório na Rua de Maputo, 2870-437 Montijo."
+      },
+      "privacy": {
+        "title": "Política de privacidade | Adelgam",
+        "description": "Como a Adelgam trata os dados pessoais enviados pelo site: que dados recolhe, para que servem, durante quanto tempo os guarda e os seus direitos."
+      },
+      "lux_terrace": {
+        "title": "Lux Terrace, Alcochete · Obra entregue · Adelgam",
+        "description": "O Lux Terrace fica na zona nova de Alcochete: cinco prédios com 37 apartamentos e 5 penthouses, de T1 a T4. Obra entregue, resta uma penthouse à venda."
+      },
+      "varandas": {
+        "title": "Varandas do Montijo · Obra entregue · Adelgam",
+        "description": "Urbanização Varandas do Montijo: 4 lotes com 40 apartamentos de T2 a T4, com box, construída pela Adelgam em 2020. Obra entregue e 100% vendida."
+      },
+      "moradias": {
+        "title": "Moradias São Francisco · Obra entregue · Adelgam",
+        "description": "Moradias geminadas T4 em São Francisco, Alcochete, com quatro suites, piscina, sala de cinema e garagem para quatro carros. Obra entregue pela Adelgam."
+      },
+      "lux_terrace_t1": {
+        "title": "Lux Terrace · Apartamento T1 (vendido) · Adelgam",
+        "description": "Apartamento T1 do Lux Terrace, em Alcochete. Vendido."
+      },
+      "lux_terrace_t2": {
+        "title": "Lux Terrace · Apartamento T2 (vendido) · Adelgam",
+        "description": "Apartamento T2 do Lux Terrace, em Alcochete. Vendido."
+      },
+      "lux_terrace_t3": {
+        "title": "Lux Terrace · Apartamento T3 (vendido) · Adelgam",
+        "description": "Apartamento T3 do Lux Terrace, em Alcochete. Vendido."
+      }
+    }
   },
   "menu": {
     "home": "Início",
@@ -365,7 +407,6 @@
   "privacy": {
     "label": "Informação legal",
     "title": "Política de privacidade",
-    "page_title": "Política de privacidade | Adelgam",
     "updated": "Última atualização: outubro de 2026",
     "s1_title": "1. Quem é o responsável",
     "s1_text": "A Adelgam - Promoção Imobiliária, Lda. (NIPC 504658069), com escritório na Rua de Maputo, 2870-437 Montijo, é a responsável pelos dados pessoais recolhidos neste site. Para qualquer questão sobre os seus dados, escreva para <a href=\"mailto:adelgam@adelgam.pt\">adelgam@adelgam.pt</a>.",

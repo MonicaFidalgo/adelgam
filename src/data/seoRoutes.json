@@ -1,0 +1,18 @@
+{
+  "siteUrl": "https://www.adelgam.pt",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "robotsNoindex": "noindex, follow",
+  "routes": [
+    { "path": "/", "key": null },
+    { "path": "/empreendimentos", "key": "projects" },
+    { "path": "/sobre", "key": "about" },
+    { "path": "/contactos", "key": "contacts" },
+    { "path": "/politica-de-privacidade", "key": "privacy" },
+    { "path": "/empreendimentos/lux-terrace", "key": "lux_terrace" },
+    { "path": "/empreendimentos/varandas-do-montijo", "key": "varandas" },
+    { "path": "/empreendimentos/moradias", "key": "moradias" },
+    { "path": "/empreendimentos/lux-terrace/apartment-t1", "key": "lux_terrace_t1", "noindex": true },
+    { "path": "/empreendimentos/lux-terrace/apartment-t2", "key": "lux_terrace_t2", "noindex": true },
+    { "path": "/empreendimentos/lux-terrace/apartment-t3", "key": "lux_terrace_t3", "noindex": true }
+  ]
+}
