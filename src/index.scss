@@ -11,6 +11,12 @@ $color-secondary: #bd9a68;
 $black: #202020;
 $gray: #797978;
 $white: #fff;
+// dourado escuro para texto e fundos de botao sobre claro (AA 4,5:1);
+// o $color-secondary fica para linhas, icones e texto sobre escuro
+$gold-dark: #8a6a3c;
+$gold-dark-hover: #745830;
+// texto dourado sobre os fundos com tinta dourada (cabecalhos de tabela/cartao)
+$gold-on-tint: #7d5f35;
 
 // secondary colors
 $green: #00db23;
@@ -104,7 +110,7 @@ textarea {
 }
 
 .heading-secondary {
-  color: $color-secondary;
+  color: $gold-dark;
 }
 
 /* PADDINGS & MARGINS */
@@ -175,11 +181,11 @@ textarea {
 }
 
 .button-primary {
-  background-color: $color-secondary;
+  background-color: $gold-dark;
   color: $white;
 
   &:hover {
-    background-color: #794f13;
+    background-color: $gold-dark-hover;
   }
 }
 
@@ -193,7 +199,7 @@ textarea {
   font-size: 12px;
   padding: 2px 10px;
   text-transform: uppercase;
-  color: $color-secondary;
+  color: $gold-dark;
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid $color-secondary;
@@ -308,6 +314,10 @@ textarea {
 
   .banner-subtitle {
     color: $white;
+  }
+
+  .label {
+    color: $color-secondary;
   }
 
   .banner-content {
@@ -582,7 +592,7 @@ textarea {
     padding-top: 14px;
   }
   span {
-    color: $color-secondary;
+    color: $gold-dark;
     font-weight: 600;
     margin-top: 10px;
   }
@@ -594,7 +604,7 @@ textarea {
 
   thead th {
     font-size: 14px;
-    color: $color-secondary;
+    color: $gold-on-tint;
     background-color: rgba($color-secondary, 0.2);
     padding: 20px 40px;
     text-transform: uppercase;
@@ -652,7 +662,7 @@ textarea {
 .project-details-list-title {
   font-weight: 700;
   text-transform: uppercase;
-  color: $color-secondary;
+  color: $gold-on-tint;
   background-color: rgba($color-secondary, 0.2);
   margin-bottom: 10px;
 }
@@ -719,7 +729,7 @@ textarea {
   font-family: "Roboto Serif", serif;
   font-weight: 500;
   font-size: 24px;
-  color: $color-secondary;
+  color: $gold-dark;
 }
 
 .iframe-container {
@@ -739,14 +749,14 @@ textarea {
 
 .card-component-header {
   font-size: 14px;
-  color: $color-secondary;
+  color: $gold-on-tint;
   background-color: rgba($color-secondary, 0.2);
   padding: 20px 40px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 
   span {
-    color: $color-secondary;
+    color: $gold-on-tint;
     font-weight: 500;
   }
 }
@@ -769,7 +779,7 @@ textarea {
   justify-content: center;
   margin-top: 60px;
   span {
-    color: $color-secondary;
+    color: $gold-dark;
     font-weight: 700;
   }
 }
@@ -798,7 +808,7 @@ textarea {
 }
 
 .carousel-pagination-text {
-  color: $color-secondary;
+  color: $gold-dark;
 }
 
 /* EMPREENDIMENTOS: montra a venda + faixa escura das obras entregues */
@@ -890,7 +900,7 @@ textarea {
     line-height: 20px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: $color-secondary;
+    color: $gold-dark;
     font-weight: 500;
   }
 

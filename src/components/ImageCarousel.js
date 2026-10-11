@@ -224,7 +224,7 @@ const ImageCarousel = ({ images, onImageClick }) => {
 
         .swiper-button-prev-custom:hover,
         .swiper-button-next-custom:hover {
-          background: #bd9a68 !important;
+          background: #8a6a3c !important;
           color: white;
         }
 

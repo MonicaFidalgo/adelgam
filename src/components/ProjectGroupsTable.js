@@ -61,7 +61,7 @@ const ProjectGroupsTable = ({
                       >
                         <div className="collapse-header">
                           <strong
-                            style={{ color: "#bd9a68", fontSize: "16px" }}
+                            style={{ color: "#7d5f35", fontSize: "16px" }}
                           >
                             {t(group.typology)}
                           </strong>
@@ -73,7 +73,7 @@ const ProjectGroupsTable = ({
                             {dynamicBadge.text}
                           </label>
                         </div>
-                        <span style={{ fontSize: "20px", color: "#bd9a68" }}>
+                        <span style={{ fontSize: "20px", color: "#7d5f35" }}>
                           {openDropdowns[sectionName]?.[groupIndex] ? "−" : "+"}
                         </span>
                       </button>

@@ -240,7 +240,7 @@ const ImageModal = ({
         }
 
         .btn-light:hover:not(:disabled) {
-          background-color: #bd9a68 !important;
+          background-color: #8a6a3c !important;
           color: white !important;
           transition: all 0.3s ease;
         }
