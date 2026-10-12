@@ -8,10 +8,10 @@ import image1 from "../assets/image-1.png";
 import image2 from "../assets/penthouse-lux-terrace-exterior.webp";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { PORTAS_DO_TEJO_URL, PENTHOUSE_URL } from "../data/externalLinks";
+import { PORTAS_DO_TEJO_URL, PENTHOUSE_URL, linkNaLingua } from "../data/externalLinks";
 
 const Home = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   return (
     <main>
       <Container fluid>
@@ -26,7 +26,7 @@ const Home = () => {
               <h2 className="banner-subtitle mb-3">
                 {t("home.banner.description")}
               </h2>
-              <a className="button button-primary" href={PORTAS_DO_TEJO_URL}>
+              <a className="button button-primary" href={linkNaLingua(PORTAS_DO_TEJO_URL, i18n.language)}>
                 {t("home.banner.button")}
               </a>
             </div>
@@ -46,7 +46,7 @@ const Home = () => {
             {t("home.banner.description")}
           </h2>
 
-          <a className="button button-primary" href={PORTAS_DO_TEJO_URL}>
+          <a className="button button-primary" href={linkNaLingua(PORTAS_DO_TEJO_URL, i18n.language)}>
             {t("home.banner.button")}
           </a>
         </div>
@@ -100,7 +100,7 @@ const Home = () => {
 
               <a
                 className="button button-primary margin-top-4"
-                href={PENTHOUSE_URL}
+                href={linkNaLingua(PENTHOUSE_URL, i18n.language)}
               >
                 {t("home.highlight.button")}
               </a>

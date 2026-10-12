@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { X, Phone, Mail, ArrowUpRight } from "lucide-react";
 import logo from "../adelgam-logo.svg";
-import { PORTAS_DO_TEJO_URL, PENTHOUSE_URL } from "../data/externalLinks";
+import { PORTAS_DO_TEJO_URL, PENTHOUSE_URL, linkNaLingua } from "../data/externalLinks";
 
 // Menu do site (o mesmo em todos os tamanhos de ecra): painel creme que entra
 // pela direita, com logotipo, links, atalhos para os empreendimentos a venda,
@@ -148,13 +148,13 @@ export default function Sidebar({ isOpen, onClose }) {
                   {item.shortcuts && (
                     <ul className="site-menu-sub">
                       <li>
-                        <a href={PORTAS_DO_TEJO_URL}>
+                        <a href={linkNaLingua(PORTAS_DO_TEJO_URL, i18n.language)}>
                           Portas do Tejo
                           <ArrowUpRight aria-hidden="true" />
                         </a>
                       </li>
                       <li>
-                        <a href={PENTHOUSE_URL}>
+                        <a href={linkNaLingua(PENTHOUSE_URL, i18n.language)}>
                           Penthouse Lux Terrace
                           <ArrowUpRight aria-hidden="true" />
                         </a>

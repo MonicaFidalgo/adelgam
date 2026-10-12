@@ -7,7 +7,7 @@ import imagePenthouse from "../assets/empreendimentos/penthouse-lux-terrace.webp
 import imageVarandas from "../assets/empreendimentos/varandas-do-montijo.webp";
 import imageMoradias from "../assets/empreendimentos/moradias-sao-francisco.webp";
 import imageLuxTerrace from "../assets/empreendimentos/lux-terrace-alcochete.webp";
-import { PORTAS_DO_TEJO_URL, PENTHOUSE_URL } from "../data/externalLinks";
+import { PORTAS_DO_TEJO_URL, PENTHOUSE_URL, linkNaLingua } from "../data/externalLinks";
 
 // Empreendimentos: a venda como montra (cartoes horizontais largos, foto de um
 // lado e ficha com botao do outro); obras entregues numa faixa escura a toda a
@@ -86,12 +86,12 @@ const deliveredProjects = [
 ];
 
 const ShowcaseCard = ({ project, reverse }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   return (
     <article className={`showcase${reverse ? " showcase-reverse" : ""}`}>
       <Row className="g-0 align-items-center">
         <Col lg={{ span: 7, order: reverse ? 2 : 1 }}>
-          <a href={project.url} className="showcase-image">
+          <a href={linkNaLingua(project.url, i18n.language)} className="showcase-image">
             <img src={project.image} alt={project.name} />
           </a>
         </Col>
@@ -114,7 +114,7 @@ const ShowcaseCard = ({ project, reverse }) => {
                 </li>
               ))}
             </ul>
-            <a href={project.url} className="button button-primary">
+            <a href={linkNaLingua(project.url, i18n.language)} className="button button-primary">
               {t(project.button)}
             </a>
           </div>

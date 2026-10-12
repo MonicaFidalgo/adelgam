@@ -10,10 +10,10 @@ import ProjectSimpleTable from "../components/ProjectSimpleTable";
 import DetailsIcons from "../components/DetailsIcons";
 import ImageGallery from "../components/ImageZoom";
 import GoogleMap from "../components/Map";
-import { PENTHOUSE_URL } from "../data/externalLinks";
+import { PENTHOUSE_URL, linkNaLingua } from "../data/externalLinks";
 
 const ProjectParent = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { projectTitle } = useParams();
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
   const [openDropdowns, setOpenDropdowns] = useState({});
@@ -187,7 +187,7 @@ const ProjectParent = () => {
           <p className="mb-4">
             {t("projects.lux_terrace.last_penthouse.description")}
           </p>
-          <a href={PENTHOUSE_URL} className="button button-primary">
+          <a href={linkNaLingua(PENTHOUSE_URL, i18n.language)} className="button button-primary">
             {t("projects.lux_terrace.last_penthouse.button")}
           </a>
         </div>
