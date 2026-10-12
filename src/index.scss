@@ -935,6 +935,135 @@ textarea {
   }
 }
 
+// Pontos chave + plantas (components/KeyPoints.js): titulo dentro do bloco,
+// grelha de pontos com icone de linha dourado e plantas com legenda por baixo
+.key-points {
+  margin-top: 60px;
+  padding: 48px 56px 52px;
+  background-color: rgba($color-secondary, 0.08);
+  border-top: 2px solid $color-secondary;
+  border-radius: 4px;
+
+  @media screen and (max-width: 767px) {
+    padding: 32px 20px 36px;
+  }
+
+  .key-points-title {
+    font-family: "Roboto Serif", serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.25;
+    color: $black;
+    margin: 0;
+
+    @media screen and (min-width: 900px) {
+      font-size: 32px;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 48px;
+      height: 2px;
+      margin-top: 16px;
+      background-color: $color-secondary;
+    }
+  }
+
+  .key-points-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 56px;
+    margin-top: 24px;
+
+    @media screen and (min-width: 768px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin: 0;
+      padding: 16px 0;
+      border-bottom: 1px solid rgba($color-secondary, 0.35);
+      color: $black;
+      font-size: 16px;
+      line-height: 1.5;
+
+      // o ul span global (min-width 150px, cinzento) nao se aplica aqui
+      > span {
+        min-width: 0;
+        margin-right: 0;
+        color: $black;
+      }
+
+      > .key-points-icon {
+        flex: 0 0 22px;
+        line-height: 0;
+        color: $color-secondary;
+      }
+    }
+  }
+
+  .key-points-plans {
+    margin-top: 48px;
+
+    @media screen and (max-width: 767px) {
+      margin-top: 36px;
+    }
+  }
+
+  .key-points-subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $gold-on-tint;
+    margin: 0 0 20px;
+  }
+
+  .key-points-title ~ .project-details-list-images {
+    margin-top: 32px;
+  }
+
+  .project-details-list-images {
+    justify-content: flex-start;
+    background-color: transparent;
+    padding: 0;
+    gap: 24px;
+
+    @media screen and (max-width: 767px) {
+      gap: 14px;
+    }
+
+    > div {
+      flex: 0 1 350px;
+      min-width: 0;
+    }
+
+    .project-details-list-image {
+      height: auto;
+      margin-bottom: 0;
+      background-color: $white;
+      border: 1px solid rgba($color-secondary, 0.3);
+      border-radius: 4px;
+      transition: box-shadow 0.2s;
+
+      &:hover {
+        box-shadow: 0 6px 20px rgba($black, 0.1);
+      }
+    }
+
+    span {
+      margin-top: 10px;
+      font-size: 14px;
+      color: $black;
+    }
+  }
+}
+
 .pswp__img {
   object-fit: contain;
   background-color: $color-primary;

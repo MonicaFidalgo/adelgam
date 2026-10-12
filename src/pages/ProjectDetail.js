@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import ImageCarousel from "../components/ImageCarousel";
 import ImageModal from "../components/ImageModal";
 import DetailsIcons from "../components/DetailsIcons";
-import ImageGallery from "../components/ImageZoom";
+import KeyPoints from "../components/KeyPoints";
 import projectsData from "../data/projects.json";
 import projectDetails from "../data/penthouse-details.json";
 import projectDetails2 from "../data/penthouse-details2.json";
@@ -201,14 +201,9 @@ const ProjectDetail = () => {
             </div>
           )}
 
-          {/* Plantas em Desktop - APENAS para Portas do Tejo */}
+          {/* Portas do Tejo: so plantas, logo a seguir as caracteristicas */}
           {hasPlants && isPortasDoTejo && (
-            <div className="project-details-list-images-wrapper d-none d-md-block mt-60">
-              <div className="project-details-list-title">
-                {t("common.plants")}
-              </div>
-              <ImageGallery images={project.details.plants} />
-            </div>
+            <KeyPoints plants={project.details.plants} />
           )}
 
           {isDeluxePenthouse && (
@@ -265,37 +260,12 @@ const ProjectDetail = () => {
             </>
           )}
 
-          {/* Pontos Chave - Só aparece se houver description */}
-          {hasDescription && (
-            <div className="acabamentos project-details-list">
-              <div className="project-details-list-title">
-                {t("common.key_points")}
-              </div>
-              <div className="project-details-list-description">
-                <ul className="bullet-list">
-                  {project.details.description.map((item, index) => (
-                    <li key={index}>{t(item)}</li>
-                  ))}
-                </ul>
-
-                {/* Plantas em Desktop - Para projetos COM Pontos Chave (Lux Terrace, etc) */}
-                {hasPlants && !isPortasDoTejo && (
-                  <div className="project-details-list-images-wrapper d-none d-md-flex">
-                    <ImageGallery images={project.details.plants} />
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
-
-          {/* Plantas em Mobile - Separado */}
-          {hasPlants && (
-            <div className="plantas project-details-list d-md-none">
-              <div className="project-details-list-title">
-                {t("common.plants")}
-              </div>
-              <ImageGallery images={project.details.plants} />
-            </div>
+          {/* Pontos chave e plantas (Lux Terrace e restantes) */}
+          {!isPortasDoTejo && (
+            <KeyPoints
+              items={hasDescription ? project.details.description : null}
+              plants={hasPlants ? project.details.plants : null}
+            />
           )}
         </>
       )}

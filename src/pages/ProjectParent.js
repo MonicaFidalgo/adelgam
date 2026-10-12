@@ -8,7 +8,7 @@ import ImageModal from "../components/ImageModal";
 import ProjectGroupsTable from "../components/ProjectGroupsTable";
 import ProjectSimpleTable from "../components/ProjectSimpleTable";
 import DetailsIcons from "../components/DetailsIcons";
-import ImageGallery from "../components/ImageZoom";
+import KeyPoints from "../components/KeyPoints";
 import GoogleMap from "../components/Map";
 import { PENTHOUSE_URL, linkNaLingua } from "../data/externalLinks";
 
@@ -205,33 +205,10 @@ const ProjectParent = () => {
 
       {!!projectData?.details2 && <DetailsIcons data={projectData.details2} />}
 
-      {projectData?.detailsDescription && (
-        <div className="acabamentos project-details-list">
-          <div className="project-details-list-title">
-            {t("common.key_points")}
-          </div>
-          <div className="project-details-list-description">
-            <ul className="bullet-list">
-              {projectData?.detailsDescription.map((item, index) => (
-                <li key={index}>{t(item)}</li>
-              ))}
-            </ul>
-            {!!projectData?.detailsPlants && (
-              <div className="project-details-list-images-wrapper d-none d-md-flex">
-                <ImageGallery images={projectData?.detailsPlants} />
-              </div>
-            )}
-          </div>
-        </div>
-      )}
-
-      {!!projectData?.detailsPlants && (
-        <div className="plantas project-details-list d-md-none">
-          <div className="project-details-list-title">{t("common.plants")}</div>
-
-          <ImageGallery images={projectData?.detailsPlants} />
-        </div>
-      )}
+      <KeyPoints
+        items={projectData?.detailsDescription}
+        plants={projectData?.detailsPlants}
+      />
 
       {/* END OF ONLY FOR MORADIAS*/}
 
