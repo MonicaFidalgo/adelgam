@@ -1,0 +1,8 @@
+# Cloudflare Pages: enderecos antigos -> paginas actuais, com 301 verdadeiro.
+# Sem isto o servidor devolvia 200 com o HTML da pagina inicial (fallback SPA) e o
+# React reencaminhava depois: o Google via "Soft 404" (Search Console, 15/10/2026).
+/empreendimentos/moradias-sao-francisco  /empreendimentos/moradias  301
+/moradias-de-sao-francisco  /empreendimentos/moradias  301
+/luxterrace-alcochete  /empreendimentos/lux-terrace  301
+/varandas-montijo  /empreendimentos/varandas-do-montijo  301
+/lux-terrace-apartamento-t2  /empreendimentos/lux-terrace/apartment-t2  301
