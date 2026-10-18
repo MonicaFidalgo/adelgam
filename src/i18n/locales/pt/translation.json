@@ -86,7 +86,7 @@
     "adelgam.paragraph_2": "Acompanhamos cada obra do início ao fim, com atenção à qualidade da construção e dos acabamentos.",
     "adelgam.know": "Conheça a Adelgam",
     "projects.subtitle": "O que está à venda e o que já entregámos",
-    "projects.description": "Na Adelgam, temos o orgulho de ter entregue inúmeras chaves a novos proprietários satisfeitos. Cada projeto que realizamos reflete o nosso compromisso com a qualidade, a inovação e o bem-estar das famílias.",
+    "projects.description": "Do terreno às chaves, cada empreendimento é pensado e construído por nós.",
     "highlight.description": "Penthouse <strong>T4 duplex</strong> no Lux Terrace, em Alcochete. Tem <strong>4 master suites</strong>, <strong>elevador privativo</strong>, <strong>terraço com piscina e jacuzzi</strong> e <strong>2 boxes para 4 carros</strong>.",
     "highlight.title": "Penthouse Lux Terrace",
     "highlight.button": "Ver a Penthouse",
@@ -299,7 +299,7 @@
     "lux_terrace": {
       "label": "Elegância e Luxo",
       "title": "Lux Terrace - Alcochete",
-      "description": "O Lux Terrace fica na zona nova de Alcochete. São cinco prédios com 37 apartamentos e 5 penthouses, de T1 a T4. A obra está entregue e resta uma penthouse à venda.",
+      "description": "O Lux Terrace são cinco prédios na zona nova de Alcochete, com 37 apartamentos e 5 penthouses, de T1 a T4. Os apartamentos têm áreas generosas e terraços amplos, alguns com mais de 50 m². No topo, as penthouses abrem-se para grandes terraços com vista. A obra está entregue e resta uma penthouse à venda.",
       "apartment_t1": {
         "name": "Apartamento T1",
         "description": "Situado no rés do chão, sendo um primeiro piso no lado da sala e cozinha, este apartamento é composto por uma cozinha open space, Suite com 18 m² e uma casa de banho social."
@@ -348,7 +348,7 @@
       "label": "A vossa moradia perfeita",
       "title": "Moradias São Francisco",
       "typology": "Moradias",
-      "description": "Localizado na tranquila e renovada zona de São Francisco, este exclusivo empreendimento de moradias geminadas combina elegância, conforto e funcionalidade. Com uma arquitetura moderna e espaços amplos, estas moradias foram concebidas para proporcionar um estilo de vida sofisticado e equilibrado, ideal para famílias que valorizam privacidade e qualidade de vida.",
+      "description": "As Moradias São Francisco são moradias geminadas T4, numa zona calma de São Francisco, em Alcochete. Foram pensadas para a vida em família: quatro suites, uma sala ampla em open space e um exterior com piscina e churrasqueira. A sala de cinema, a garrafeira e a garagem para quatro carros completam a casa.",
       "description2": "<p>Descubra o equilíbrio perfeito entre sofisticação e conforto nesta elegante moradia geminada em São Francisco. Com quatro suítes espaçosas, esta residência oferece um ambiente requintado e funcional, pensado ao detalhe para garantir bem-estar e privacidade.</p><p>A área social destaca-se por uma ampla sala de estar e jantar em open space, criando uma atmosfera harmoniosa e convidativa. A cozinha moderna, totalmente equipada, alia design contemporâneo e eficiência, tornando cada refeição uma experiência única.</p><p> Para momentos de lazer exclusivos, a moradia dispõe de uma sofisticada sala de cinema, perfeita para entretenimento em família ou entre amigos. Além disso, uma lavandaria completa proporciona máxima conveniência para o dia a dia.</p><p>No exterior há piscina e churrasqueira. A garagem privativa leva 4 carros.</p>"
     },
     "portas_do_tejo": {
