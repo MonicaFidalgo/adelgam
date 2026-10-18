@@ -1030,6 +1030,7 @@ textarea {
 
   .project-details-list-images {
     justify-content: flex-start;
+    flex-wrap: wrap;  // todas as plantas a' vista (a da garagem das Moradias e' a 4.a)
     background-color: transparent;
     padding: 0;
     gap: 24px;
@@ -1039,8 +1040,14 @@ textarea {
     }
 
     > div {
-      flex: 0 1 350px;
+      flex: 1 1 0;  // as plantas numa linha (4 nas Moradias), cada uma ate' 350px
+      max-width: 350px;
       min-width: 0;
+
+      @media screen and (max-width: 767px) {
+        flex: 1 1 calc(50% - 7px);
+        max-width: calc(50% - 7px);
+      }
     }
 
     .project-details-list-image {

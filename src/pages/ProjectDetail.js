@@ -157,7 +157,7 @@ const ProjectDetail = () => {
                   )}
                   {project.details.bathrooms && (
                     <li>
-                      <span>WC:</span>
+                      <span>{t("common.bathrooms")}:</span>
                       <strong>{project.details.bathrooms}</strong>
                     </li>
                   )}

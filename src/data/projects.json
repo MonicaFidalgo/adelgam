@@ -330,7 +330,7 @@
             },
             {
               "image": "penthouse-deluxe/plantas/Penthouse-Garagem.webp",
-              "text": "Garagem"
+              "text": "plans.boxes"
             }
           ]
         }
@@ -372,7 +372,6 @@
     ],
     "detailsDescription": [
       "features.4_suites",
-      "common.pool",
       "features.kitchen_siemens_60",
       "features.wine_cellar",
       "features.laundry_washing_drying",
@@ -395,7 +394,7 @@
       },
       {
         "image": "moradias/plantas/moradia-sao-francisco-garagem.jpeg",
-        "text": "Garagem"
+        "text": "plans.garage"
       }
     ],
     "details": [
@@ -403,25 +402,25 @@
         "id": 1,
         "icon": "house",
         "title": "common.area_habitable",
-        "description": "300m²"
+        "description": "300 m²"
       },
       {
         "id": 2,
         "icon": "outside",
         "title": "common.area_exterior",
-        "description": "106m²"
+        "description": "106 m²"
       },
       {
         "id": 3,
         "icon": "parking",
         "title": "common.area_garage",
-        "description": "110m²"
+        "description": "110 m²"
       },
       {
         "id": 4,
         "icon": "total-area",
         "title": "common.area_total",
-        "description": "516m²"
+        "description": "516 m²"
       }
     ],
     "details2": [
@@ -453,7 +452,7 @@
     "badge": "common.delivered",
     "badgeClass": "badge-neutral",
     "price": "",
-    "location": "São Francisco",
+    "location": "São Francisco, Alcochete",
     "typology": "projects.moradias_sao_francisco.typology",
     "state": "projects.lux_terrace.state",
     "projectGroups": [],
@@ -509,13 +508,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "52,98m²"
+                "description": "52,98 m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
                 "title": "common.area_terrace",
-                "description": "53,98m²"
+                "description": "53,98 m²"
               },
               {
                 "id": 3,
@@ -569,13 +568,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "86,60m²"
+                "description": "86,60 m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
                 "title": "common.area_terrace",
-                "description": "56,87m²"
+                "description": "56,87 m²"
               },
               {
                 "id": 3,
@@ -625,13 +624,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "91,30m²"
+                "description": "91,30 m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
                 "title": "common.balconies",
-                "description": "38,56m²"
+                "description": "38,56 m²"
               },
               {
                 "id": 3,
@@ -680,13 +679,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "90,51m²"
+                "description": "90,51 m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
                 "title": "common.area_terrace",
-                "description": "103,48m²"
+                "description": "103,48 m²"
               },
               {
                 "id": 3,
@@ -760,13 +759,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "90,51m²"
+                "description": "90,51 m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
                 "title": "common.balconies",
-                "description": "15,00m²"
+                "description": "15,00 m²"
               },
               {
                 "id": 3,
@@ -840,13 +839,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "90,51m²"
+                "description": "90,51 m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
                 "title": "common.balconies",
-                "description": "15,00m²"
+                "description": "15,00 m²"
               },
               {
                 "id": 3,
@@ -899,13 +898,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "135,56m²"
+                "description": "135,56 m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
                 "title": "common.balconies",
-                "description": "21,95m²"
+                "description": "21,95 m²"
               },
               {
                 "id": 3,
@@ -957,13 +956,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "135,56m²"
+                "description": "135,56 m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
                 "title": "common.balconies",
-                "description": "21,95m²"
+                "description": "21,95 m²"
               },
               {
                 "id": 3,
@@ -1013,13 +1012,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "135,56m²"
+                "description": "135,56 m²"
               },
               {
                 "id": 2,
                 "icon": "balcony",
                 "title": "common.balconies",
-                "description": "21,95m²"
+                "description": "21,95 m²"
               },
               {
                 "id": 3,
@@ -1079,13 +1078,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "201,36m²"
+                "description": "201,36 m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
                 "title": "common.area_terrace",
-                "description": "65,53m²"
+                "description": "65,53 m²"
               },
               {
                 "id": 3,
@@ -1144,13 +1143,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "109,40m²"
+                "description": "109,40 m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
                 "title": "common.area_terrace",
-                "description": "54,41m²"
+                "description": "54,41 m²"
               },
               {
                 "id": 3,
@@ -1207,13 +1206,13 @@
                 "id": 1,
                 "icon": "house",
                 "title": "common.area_habitable",
-                "description": "127,44m²"
+                "description": "127,44 m²"
               },
               {
                 "id": 2,
                 "icon": "outside",
                 "title": "common.area_terrace",
-                "description": "83,30m²"
+                "description": "83,30 m²"
               },
               {
                 "id": 3,

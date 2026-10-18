@@ -73,7 +73,8 @@
     "floor_2": "Planta Piso 2",
     "floor_3": "Planta Piso 3",
     "floor_4": "Planta Piso 4",
-    "garage": "Planta Garagem"
+    "garage": "Planta da garagem",
+    "boxes": "Planta das boxes"
   },
   "home": {
     "banner.label": "Blocos A e B à venda — entrega set. 2027 e fev. 2028",
@@ -115,9 +116,9 @@
     "contact_us.2": "Contacte-nos",
     "talk_to_us": "Fale connosco",
     "visit_us": "Venha visitar-nos",
-    "description": "Estamos aqui para ajudar. Entre em contacto connosco.",
+    "description": "Escreva-nos pelo formulário ou por email, ou ligue-nos.",
     "form.title": "Precisa de mais informações?",
-    "form.description": "Preencha o formulário abaixo e a nossa equipa entrará em contacto para fornecer os detalhes necessários.",
+    "form.description": "Preencha o formulário e entramos em contacto consigo.",
     "location": "Onde estamos?"
   },
   "about": {
@@ -131,15 +132,15 @@
     "paragraph_4": "Contamos sempre com a ajuda de bons profissionais tornando a Adelgam uma empresa credível e reconhecida no mercado."
   },
   "common": {
-    "area_habitable": "Área Habitável (m²)",
-    "area_terrace": "Terraço (m²)",
-    "area_balconies": "Varandas (m²)",
-    "area_exterior": "Área Exterior (m²)",
-    "area_garage": "Área de Garagem (m²)",
-    "area_total": "Área Total (m²)",
-    "area_boxes": "Área Boxes (m²)",
+    "area_habitable": "Área habitável",
+    "area_terrace": "Terraço",
+    "area_balconies": "Varandas",
+    "area_exterior": "Área exterior",
+    "area_garage": "Área de garagem",
+    "area_total": "Área total",
+    "area_boxes": "Área das boxes",
     "bedrooms": "Quartos",
-    "bathrooms": "Casa de banho",
+    "bathrooms": "Casas de banho",
     "suites": "Suites",
     "rooms": "Salas",
     "pool": "Piscina",
@@ -204,7 +205,7 @@
     "last_name": "Apelido",
     "phone": "Telefone (opcional)",
     "message": "Escreva a sua mensagem",
-    "sent.success": "Obrigado pelo seu contacto. Iremos responder assim que possível.",
+    "sent.success": "Obrigado pelo contacto. Respondemos assim que possível.",
     "sent.failed": "Não foi possível enviar a mensagem. Tente de novo ou escreva para adelgam@adelgam.pt.",
     "consent_before": "Li a ",
     "consent_link": "Política de privacidade",
@@ -274,8 +275,8 @@
     "radiant_floor": "Piso Radiante",
     "radiant_floor_all": "Piso radiante em todas as áreas",
     "parking_spot": "Parqueamento",
-    "certification_a_plus": "Certificação energética A +",
-    "wine_cellar": "Cave de Vinho da Liebherr",
+    "certification_a_plus": "Certificação energética A+",
+    "wine_cellar": "Garrafeira Liebherr",
     "laundry_washing_drying": "Lavandaria com máquina de lavar e máquina de secar",
     "laundry_complete": "Quarto de lavandaria completa",
     "master_suite_37": "Espaçosa Master Suite de 37 m²",
@@ -287,7 +288,7 @@
     "box_2_cars": "Uma Box para dois carros",
     "outdoor_space_bbq_pool": "Espaço exterior com churrasqueira e piscina",
     "cinema_room_equipped": "Sala de cinema totalmente equipada",
-    "garage_4_cars_110": "Garagem para 4 carros com 110m2",
+    "garage_4_cars_110": "Garagem para 4 carros, com 110 m²",
     "4_suites": "4 Suites",
     "virtual_tour.penthouse": "Tour Virtual: Explore a Elegância da Penthouse de Luxo",
     "virtual_tour": "Virtual Tour",
@@ -326,10 +327,10 @@
       "penthouse_deluxe": {
         "name": "Deluxe Penthouse",
         "badge": "1 disponível",
-        "description": "Descubra o auge do luxo nesta penthouse exclusiva em Alcochete, oferecendo uma vista deslumbrante de Lisboa. Com um interior elegantemente projetado e acabamentos de alta qualidade, este apartamento redefine o conforto e o estilo de vida sofisticado. Desfrute de momentos relaxantes no espaçoso terraço com jacuzzi, e convide amigos para churrascos memoráveis. Com uma acesso privativo de elevador ao piso 3 e 4, garagem privativa, esta penthouse oferece conveniência e segurança. Seja bem-vindo ao seu refúgio de luxo.",
+        "description": "Descubra o auge do luxo nesta penthouse exclusiva em Alcochete, oferecendo uma vista deslumbrante de Lisboa. Com um interior elegantemente projetado e acabamentos de alta qualidade, este apartamento redefine o conforto e o estilo de vida sofisticado. Desfrute de momentos relaxantes no espaçoso terraço com jacuzzi, e convide amigos para churrascos memoráveis. Tem acesso privativo por elevador aos pisos 3 e 4 e duas boxes. Seja bem-vindo ao seu refúgio de luxo.",
         "paragraph_1": "No <strong>terceiro piso</strong>, será recebido por quatro suítes majestosas, cada uma desenhada para oferecer o máximo em conforto e privacidade. Os espaçosos walk-in closets permitem uma organização impecável, enquanto as casas de banho revestidas de cerâmica convidam a momentos de relaxamento e rejuvenescimento. Além disso, neste piso, encontrará também um escritório e uma lavandaria, proporcionando praticidade e funcionalidade ao seu dia a dia.",
-        "paragraph_2": "Destaca-se a suite principal, onde um duche estilo hotel, envolto em vidro, proporciona uma experiência sensorial única, com vista para o quarto e uma luxuosa banheira. Além disso, três suítes desfrutam de varandas privativas, conectando-te à paisagem deslumbrante ao redor.",
-        "paragraph_3": "No <strong>quarto piso</strong>, o luxo prossegue com uma sala de jantar requintada, perfeita para refeições memoráveis, e duas salas, uma das quais em open space com a cozinha, criando um ambiente acolhedor e contemporâneo. Além disso, desfruta de um terraço deslumbrante com um jacuzzi e cozinha exterior para momentos de lazer e entretenimento ao ar livre. Acompanhando o luxo, uma garagem espaçosa para quatro carros proporciona conveniência e segurança."
+        "paragraph_2": "Destaca-se a suite principal, onde um duche estilo hotel, envolto em vidro, proporciona uma experiência sensorial única, com vista para o quarto e uma luxuosa banheira. Além disso, três suítes desfrutam de varandas privativas, com vista para a paisagem em redor.",
+        "paragraph_3": "No <strong>quarto piso</strong>, o luxo prossegue com uma sala de jantar requintada, perfeita para refeições memoráveis, e duas salas, uma das quais em open space com a cozinha, criando um ambiente acolhedor e contemporâneo. Além disso, desfruta de um terraço deslumbrante com um jacuzzi e cozinha exterior para momentos de lazer e entretenimento ao ar livre."
       },
       "state": "Obra entregue",
       "last_penthouse": {
@@ -348,10 +349,10 @@
       "title": "Moradias São Francisco",
       "typology": "Moradias",
       "description": "Localizado na tranquila e renovada zona de São Francisco, este exclusivo empreendimento de moradias geminadas combina elegância, conforto e funcionalidade. Com uma arquitetura moderna e espaços amplos, estas moradias foram concebidas para proporcionar um estilo de vida sofisticado e equilibrado, ideal para famílias que valorizam privacidade e qualidade de vida.",
-      "description2": "<p>Descubra o equilíbrio perfeito entre sofisticação e conforto nesta elegante moradia geminada em São Francisco. Com quatro suítes espaçosas, esta residência oferece um ambiente requintado e funcional, pensado ao detalhe para garantir bem-estar e privacidade.</p><p>A área social destaca-se por uma ampla sala de estar e jantar em open space, criando uma atmosfera harmoniosa e convidativa. A cozinha moderna, totalmente equipada, alia design contemporâneo e eficiência, tornando cada refeição uma experiência única.</p><p> Para momentos de lazer exclusivos, a moradia dispõe de uma sofisticada sala de cinema, perfeita para entretenimento em família ou entre amigos. Além disso, uma lavandaria completa proporciona máxima conveniência para o dia a dia.</p><p> A garagem privativa, com capacidade para quatro carros, garante total comodidade e segurança. Viva com requinte e conforto nesta moradia que redefine o conceito de habitação moderna em São Francisco.</p>"
+      "description2": "<p>Descubra o equilíbrio perfeito entre sofisticação e conforto nesta elegante moradia geminada em São Francisco. Com quatro suítes espaçosas, esta residência oferece um ambiente requintado e funcional, pensado ao detalhe para garantir bem-estar e privacidade.</p><p>A área social destaca-se por uma ampla sala de estar e jantar em open space, criando uma atmosfera harmoniosa e convidativa. A cozinha moderna, totalmente equipada, alia design contemporâneo e eficiência, tornando cada refeição uma experiência única.</p><p> Para momentos de lazer exclusivos, a moradia dispõe de uma sofisticada sala de cinema, perfeita para entretenimento em família ou entre amigos. Além disso, uma lavandaria completa proporciona máxima conveniência para o dia a dia.</p><p>No exterior há piscina e churrasqueira. A garagem privativa leva 4 carros.</p>"
     },
     "portas_do_tejo": {
-      "label": "A vossa moradia perfeita",
+      "label": "",
       "title": "Portas do Tejo",
       "description": "A poucos minutos de Lisboa, o Portas do Tejo combina conforto, modernidade e uma localização privilegiada. Apartamentos T1 a T3 Duplex com acabamentos de excelência, amplas varandas e garagem privativa.",
       "apartment_t1": {

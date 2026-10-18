@@ -24,7 +24,7 @@ const ProjectSimpleTable = ({ items, projectTitle, isPenthouse = false }) => {
               <th>{t("common.typology")}</th>
               <th>{t("common.area")}</th>
               <th>{t("common.bedrooms")}</th>
-              <th>WC</th>
+              <th>{t("common.bathrooms")}</th>
               <th>{isPenthouse ? "BOXES" : t("common.parking")}</th>
               <th>{t("common.price")}</th>
               <th></th>
@@ -117,7 +117,7 @@ const ProjectSimpleTable = ({ items, projectTitle, isPenthouse = false }) => {
                     </strong>
                   </div>
                   <div className="col-6 mb-2">
-                    <span style={{ color: "#797978" }}>WC:</span>
+                    <span style={{ color: "#797978" }}>{t("common.bathrooms")}:</span>
                     <strong className="ms-1">
                       {item.details.bathrooms || "N/A"}
                     </strong>

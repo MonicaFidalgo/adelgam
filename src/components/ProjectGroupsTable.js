@@ -219,7 +219,7 @@ const ProjectGroupsTable = ({
                           </strong>
                         </div>
                         <div className="col-6 mb-2">
-                          <span style={{ color: "#797978" }}>WC:</span>
+                          <span style={{ color: "#797978" }}>{t("common.bathrooms")}:</span>
                           <strong className="ms-1">
                             {item.details.bathrooms || "N/A"}
                           </strong>

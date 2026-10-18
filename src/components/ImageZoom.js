@@ -6,7 +6,7 @@ export default function ImageGallery({ images }) {
   return (
     <Gallery>
       <div className="project-details-list-images">
-        {images.slice(0, 2).map((item, index) => {
+        {images.map((item, index) => {
           const projectImagePath = require(`../assets/${item.image}`);
 
           return (
@@ -35,21 +35,6 @@ export default function ImageGallery({ images }) {
         })}
       </div>
 
-      {/* The third image is also included in the Gallery */}
-      {images.slice(2).map((item, index) => {
-        const projectImagePath = require(`../assets/${item.image}`);
-        return (
-          <Item
-            key={index + 2}
-            original={projectImagePath}
-            thumbnail={projectImagePath}
-            width={item?.width ?? "1600"}
-            height={item?.height ?? "1600"}
-          >
-            {({ ref }) => <div ref={ref} style={{ display: "none" }} />}
-          </Item>
-        );
-      })}
     </Gallery>
   );
 }
